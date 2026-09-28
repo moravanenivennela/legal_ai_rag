@@ -1,0 +1,57 @@
+{
+  "llama3.2:1b": {
+    "accuracy": 86.66666666666667,
+    "precision": 69.97112827901647,
+    "recall": 79.63615925195714,
+    "f1": 74.38974318693111,
+    "groundedness": 39.09000015258789,
+    "avg_time": 22.31834329764048,
+    "n_completed": 30,
+    "n_failed": 0,
+    "failed_questions": []
+  },
+  "gemma2:2b": {
+    "accuracy": 96.66666666666667,
+    "precision": 69.61253791617231,
+    "recall": 82.67203183341992,
+    "f1": 75.32054782074276,
+    "groundedness": 58.986671447753906,
+    "avg_time": 43.900460704167685,
+    "n_completed": 30,
+    "n_failed": 0,
+    "failed_questions": []
+  },
+  "gemma3:4b": {
+    "accuracy": 96.66666666666667,
+    "precision": 71.238130514735,
+    "recall": 80.93625282606442,
+    "f1": 75.55200883484314,
+    "groundedness": 50.99999237060547,
+    "avg_time": 65.82654186089833,
+    "n_completed": 30,
+    "n_failed": 0,
+    "failed_questions": []
+  },
+  "llama3.2:3b": {
+    "accuracy": 96.66666666666667,
+    "precision": 70.45991485582788,
+    "recall": 80.96423998693467,
+    "f1": 75.13743870713742,
+    "groundedness": 40.29666519165039,
+    "avg_time": 75.27086849212647,
+    "n_completed": 30,
+    "n_failed": 0,
+    "failed_questions": []
+  },
+  "legal-ai-finetuned": {
+    "accuracy": 83.33333333333333,
+    "precision": 67.74961226409559,
+    "recall": 77.60424119658877,
+    "f1": 71.91019518297385,
+    "groundedness": 42.32999801635742,
+    "avg_time": 41.25453988711039,
+    "n_completed": 30,
+    "n_failed": 0,
+    "failed_questions": []
+  }
+}

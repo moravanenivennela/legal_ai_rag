@@ -1,0 +1,13 @@
+venv/
+venv_stable/
+__pycache__/
+*.pyc
+.env
+*.env
+*.log
+.streamlit/secrets.toml
+chroma_db/
+models/
+*.bin
+*.gguf
+*.safetensors

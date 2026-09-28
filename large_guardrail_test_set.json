@@ -1,0 +1,602 @@
+[
+  {
+    "question": "What does Article 21 of the Constitution protect?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "Explain the writ jurisdiction under Article 32.",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "How does Article 246 distribute legislative powers?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What are the Directive Principles of State Policy?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the significance of the Preamble?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 14 about equality before law?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What powers does the President have under the Constitution?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What are Fundamental Rights under Part III?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "Explain the concept of judicial review under the Constitution.",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What fundamental duties does a citizen have?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "How is the Union List different from the State List?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 19 and what freedoms does it protect?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "How is the Supreme Court's jurisdiction defined?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the procedure to amend the Constitution?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the difference between Article 32 and Article 226?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "Explain the federal structure created by the Constitution.",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the role of the Governor under the Constitution?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 15 about prohibition of discrimination?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 17 about abolition of untouchability?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the significance of Article 44 (Uniform Civil Code)?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the composition of the Council of Ministers?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the role of the Election Commission under the Constitution?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 356 (President's Rule) about?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What are the qualifications to become a Member of Parliament?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the procedure for impeachment of the President?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 51A about fundamental duties?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "How are High Court judges appointed?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the significance of the 42nd Amendment?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 370 and its historical significance?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the concept of basic structure doctrine?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 300A about the right to property?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "How does the Constitution define citizenship?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the role of the Attorney General of India?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 124 about the Supreme Court?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What are the emergency provisions under the Constitution?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the significance of Schedule 7?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is Article 39 about principles of policy?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "How does the Constitution protect minority rights?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the process of forming a new state?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What is the significance of the 73rd Amendment (Panchayati Raj)?",
+    "label": "constitution",
+    "expected": 1
+  },
+  {
+    "question": "What are the six consumer rights under the Consumer Protection Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the pecuniary jurisdiction of the District Commission?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is Product Liability under the 2019 Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is an unfair trade practice under consumer law?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is a misleading advertisement?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What are the powers of the State Commission?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What remedies are available to a consumer?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is meant by deficiency in service?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the role of the Central Consumer Protection Authority?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the jurisdiction of the National Commission?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "How does the Act define a defect in goods?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the procedure for filing a consumer complaint?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What penalties exist for false advertising?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "Who can file a complaint under the Consumer Protection Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the composition of the State Council?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is e-commerce liability under the Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is a product liability action?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is mediation under the Consumer Protection Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the time limit for filing a consumer complaint?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the definition of 'consumer' under the Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the definition of 'service' under the Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What powers does the District Commission have to grant relief?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the appeal process from District to State Commission?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the appeal process from State to National Commission?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is a class action complaint under the Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the penalty for non-compliance with a Commission order?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the role of consumer protection councils?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is meant by 'spurious goods' under the Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the liability of an e-commerce entity for a defective product?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the concept of 'unfair contract' under the 2019 Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What disclosures must e-commerce platforms make to consumers?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the penalty for misleading advertisement by an endorser?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the composition of the National Commission?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is a 'complainant' under the Consumer Protection Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the significance of the Consumer Protection (E-Commerce) Rules?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the process for mediation settlement under the Act?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the role of the Director General under CCPA?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is 'restrictive trade practice' under consumer law?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the punishment for manufacturing defective products causing injury?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is a 'design defect' under Product Liability?",
+    "label": "consumer_protection",
+    "expected": 1
+  },
+  {
+    "question": "What is the statutory penalty for driving without a license?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "How do I file an income tax return?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the punishment for theft under the IPC?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What are the visa requirements for traveling to the US?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "How do I register a trademark in India?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the process for divorce under the Hindu Marriage Act?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the weather like today?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "How do I apply for a passport?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the GST rate on electronics?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "Explain the rules of cricket.",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the best programming language to learn?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "How do I cook biryani?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the penalty for cheque bounce under the Negotiable Instruments Act?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What are the eligibility criteria for a home loan?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "How is company registration done under the Companies Act?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the punishment for murder under the IPC?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the procedure for bail under CrPC?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What are the grounds for anticipatory bail?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the Right to Information Act about?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What does the Motor Vehicles Act say about drunk driving?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the minimum wage law in India?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What are the labor laws for maternity leave?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the Arbitration and Conciliation Act?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is cyberbullying law in India?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the Environmental Protection Act about?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What are the rules under the Juvenile Justice Act?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the Prevention of Corruption Act?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "How does copyright law protect authors?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the Insolvency and Bankruptcy Code?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the Real Estate Regulation Act (RERA)?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What rights do I have if arrested by police?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "Can my landlord evict me without notice?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the legal age for marriage in India?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the punishment for cybercrime?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "Is triple talaq illegal in India?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the SEBI Act about?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the Foreign Exchange Management Act (FEMA)?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the procedure for filing an FIR?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the Right to Education Act about?",
+    "label": "out_of_domain",
+    "expected": 0
+  },
+  {
+    "question": "What is the National Food Security Act?",
+    "label": "out_of_domain",
+    "expected": 0
+  }
+]

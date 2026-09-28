@@ -1,0 +1,67 @@
+======================================================================
+A) QUERY DOMAIN CLASSIFIER — Precision / Recall / F1 / Accuracy
+======================================================================
+
+Accuracy:  0.867
+Precision (macro): 0.866
+Recall (macro):    0.867
+F1-score (macro):  0.866
+
+Per-class report:
+                     precision    recall  f1-score   support
+
+       constitution       0.88      0.93      0.90        15
+consumer_protection       0.86      0.80      0.83        15
+      out_of_domain       0.87      0.87      0.87        15
+
+           accuracy                           0.87        45
+          macro avg       0.87      0.87      0.87        45
+       weighted avg       0.87      0.87      0.87        45
+
+Confusion Matrix (rows=true, cols=predicted):
+Labels order: [np.str_('constitution'), np.str_('consumer_protection'), np.str_('out_of_domain')]
+[[14  0  1]
+ [ 2 12  1]
+ [ 0  2 13]]
+
+======================================================================
+B) DOCUMENT IMAGE CLASSIFIER (CNN) — Precision / Recall / F1 / Accuracy
+======================================================================
+
+Accuracy:  0.859
+Precision (macro): 0.879
+Recall (macro):    0.887
+F1-score (macro):  0.858
+
+Per-class report:
+                     precision    recall  f1-score   support
+
+   contract_signing       0.68      1.00      0.81        13
+          courtroom       1.00      0.55      0.71        20
+government_building       1.00      1.00      1.00        16
+  shopping_consumer       0.83      1.00      0.91        15
+
+           accuracy                           0.86        64
+          macro avg       0.88      0.89      0.86        64
+       weighted avg       0.90      0.86      0.85        64
+
+
+======================================================================
+C) RETRIEVAL GUARDRAIL — In-domain vs Out-of-domain Decision
+======================================================================
+
+Accuracy:  1.000
+Precision: 1.000
+Recall:    1.000
+F1-score:  1.000
+
+1 = in-domain (should answer), 0 = out-of-domain (should reject)
+               precision    recall  f1-score   support
+
+out_of_domain       1.00      1.00      1.00         8
+    in_domain       1.00      1.00      1.00         8
+
+     accuracy                           1.00        16
+    macro avg       1.00      1.00      1.00        16
+ weighted avg       1.00      1.00      1.00        16
+

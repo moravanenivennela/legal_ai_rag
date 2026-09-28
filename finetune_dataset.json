@@ -1,0 +1,1582 @@
+[
+  {
+    "instruction": "Who is the Secretary to the Government of India mentioned in the preface?",
+    "output": "Dr. Rajiv Mani",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of the foot notes mentioned in the preface?",
+    "output": "To indicate the Constitution Amendment Acts by which amendments have been made.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What are the provisions related to the formation of new States and alteration of areas, boundaries or names of existing States?",
+    "output": "Article 3 of the Constitution of India deals with the formation of new States and alteration of areas, boundaries or names of existing States.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can a person voluntarily acquire citizenship of a foreign State, and if so, what are the consequences?",
+    "output": "No, according to Article 9 of the Constitution, a person cannot voluntarily acquire citizenship of a foreign State.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the right to freedom of religion protected under the Constitution of India?",
+    "output": "The right to freedom of conscience and free profession, practice, and propagation of religion is protected under Article 25.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can a minority be forced to acquire property or attend religious instruction in certain educational institutions?",
+    "output": "No, as per Article 27, there is freedom as to payment of taxes for promotion of any particular religion, and Article 28, there is freedom as to attendance at religious instruction or religious worship in certain educational institutions.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of the 40th article, \"Organisation of village panchayats\",?",
+    "output": "The 40th article outlines the organisation of village panchayats.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the responsibility of the State towards the citizens regarding public health, as mentioned in the 47th article?",
+    "output": "The State is duty-bound to raise the level of nutrition and the standard of living, and to improve public health.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the role of the Vice-President of India in the Council of States?",
+    "output": "The Vice-President of India is the ex officio Chairman of the Council of States.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to the President's functions in the event of their absence or casual vacancy?",
+    "output": "The Vice-President can act as President or discharge his functions during such times.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the power of the Deputy Chairman or other person to perform the duties of the office of Chairman or act as Chairman?",
+    "output": "Under article 91, the Deputy Chairman or other person can perform the duties of the office of Chairman or act as Chairman.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the condition for the Speaker or Deputy Speaker to preside over a session of the House of the People?",
+    "output": "According to article 96, the Speaker or Deputy Speaker should not preside while a resolution for their removal from office is under consideration.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of Article 105, \"Powers, privileges, etc., of the Houses of Parliament and of the members and committees thereof\"?",
+    "output": "The purpose of Article 105 is to outline the powers, privileges, and rights of the Houses of Parliament and its members, as well as their respective committees.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the definition of \"Money Bills\" according to Article 110?",
+    "output": "According to Article 110, a \"Money Bill\" is defined as a Bill that deals with taxation, revenue, or expenditure of the government.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the focus of Article 134 of the Constitution of India?",
+    "output": "The focus of Article 134 is on the appellate jurisdiction of the Supreme Court in appeals from High Courts in certain cases.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of Article 144A of the Constitution of India?",
+    "output": "The purpose of Article 144A is to make special provisions for the disposal of cases involving the Supreme Court.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Who aids and advises the Governor in the State Council of Ministers?",
+    "output": "The Council of Ministers.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the composition of the Legislative Assembly in a State?",
+    "output": "The composition is not specified in the given text, however, typically it consists of elected members.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to the office of Speaker when the Speaker or Deputy Speaker resigns or is removed?",
+    "output": "The office of Speaker becomes vacant.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can the Chairman or Deputy Chairman preside over a session while a resolution for their removal from office is under consideration?",
+    "output": "No, the Chairman or Deputy Chairman is not allowed to preside while a resolution for their removal from office is under consideration.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of the provisions as to introduction and passing of Bills?",
+    "output": "The provisions regulate the process of introducing and passing Bills in the Legislature.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the role of the Governor in relation to the Legislature?",
+    "output": "The Governor has the power to promulgate Ordinances during the recess of the Legislature.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Who can appoint additional and acting Judges?",
+    "output": "The Supreme Court of India can appoint additional and acting Judges.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the jurisdiction of existing High Courts?",
+    "output": "The jurisdiction of existing High Courts extends to all matters.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of Article 243A in the Constitution of India?",
+    "output": "Article 243A deals with the Gram Sabha, which is the village-level assembly that represents the rural area.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of Article 243K in the Constitution of India?",
+    "output": "Article 243K deals with the elections to the Panchayats, which are local self-government bodies at the village and block levels.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of Article 243Z, regarding the supersession and suspension of the board and interim management?",
+    "output": "There is no specific purpose mentioned for Article 243Z. It only mentions the supersession and suspension of the board and interim management.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the scope of Article 243ZS, regarding the application of the Co-operative Societies Act to Union territories?",
+    "output": "The Co-operative Societies Act applies to Union territories, as per Article 243ZS.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the basis for legislation to be adopted by more than one State?",
+    "output": "By consent and adoption of such legislation by any other State.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What type of provision can the Union confer powers, etc., on States in certain cases?",
+    "output": "The Union's power to confer powers, etc., on States in certain cases.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the role of the Union in distributing taxes with the States?",
+    "output": "The Union and the States share taxes levied and distributed between them.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Under what conditions does the President require prior recommendation for Bills affecting taxation in which States are interested?",
+    "output": "Prior recommendation of the President is required for Bills affecting taxation in which States are interested.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of Chapter II, which deals with Borrowing, in the Constitution of India?",
+    "output": "The purpose of Chapter II is to outline the procedures for borrowing by the Government of India and by States.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to things of value within territorial waters or continental shelf and resources of the exclusive economic zone?",
+    "output": "They vest in the Union.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of Articles 301 to 304 in the Constitution of India?",
+    "output": "The specific purpose of Articles 301 to 304 is not explicitly stated in the provided text, but it can be inferred that they relate to the services under the Union and the States, which is discussed in Chapter I.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Who has the power to vary or revoke conditions of service of officers of certain services?",
+    "output": "The Parliament has the power to vary or revoke the conditions of service of officers of certain services, as stated in Article 312A.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the basis of elections to the House of the People and to the Legislative Assemblies of States?",
+    "output": "Elections to the House of the People and to the Legislative Assemblies of States are to be based on adult suffrage.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of the reservation of seats for Scheduled Castes and Scheduled Tribes in the House of the People?",
+    "output": "The purpose of the reservation of seats for Scheduled Castes and Scheduled Tribes in the House of the People is to provide representation to these communities.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of the Commission for Backward Classes as mentioned in the Constitution of India?",
+    "output": "The purpose is to investigate the conditions of backward classes.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the provision regarding the official language of the Union as mentioned in the Constitution of India?",
+    "output": "The official language of the Union is to be determined.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to the exercise of legislative powers under a Proclamation issued under Article 356 during an emergency?",
+    "output": "The exercise of legislative powers under a Proclamation issued under Article 356 during an emergency is governed by the provisions of Part XIX of the Constitution.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to the enforcement of the rights conferred by Part III during emergencies?",
+    "output": "The enforcement of the rights conferred by Part III is suspended during emergencies.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What special provisions does Article 371C make with respect to the State of Manipur?",
+    "output": "There is no mention of the State of Manipur in the provided text.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What special provisions does Article 378A make regarding Public Service Commissions?",
+    "output": "There is no direct information provided in the given text about Public Service Commissions, but it mentions provisions as to Public Service Commissions, so this would need more information to answer accurately.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the relevance of the article 390 in the context of the Constitution of India?",
+    "output": "The article 390 deals with the accounting for money received or raised or expenditure incurred between the commencement of the Constitution and the 31st day of March, 1950.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the main purpose of article 393 in the Constitution of India?",
+    "output": "The main purpose of article 393 is to declare the Short title of the Constitution of India.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the main purpose of the various Schedules in the Constitution of India?",
+    "output": "The various Schedules in the Constitution of India outline specific provisions, allocations, and rules that govern different aspects of the country's governance, administration, and policies.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of the Eighth Schedule in the Constitution of India?",
+    "output": "The Eighth Schedule in the Constitution of India lists languages that are recognized as official languages of India.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the date when the Constitution of India was adopted?",
+    "output": "November 26, 1949 (as per the Constitution)",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the condition for introducing a Bill in either House of Parliament?",
+    "output": "The Bill shall be introduced on the recommendation of the President and unless the proposal contained in the Bill affects the area, boundaries, or name of any of the States.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can a Union territory be referred to the Legislature of a State for expressing its views on a Bill?",
+    "output": "No, a Union territory cannot be referred to the Legislature of a State for expressing its views on a Bill.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can Parliament make laws that are not amendments to the Constitution, but still affect the Constitution?",
+    "output": "Yes, Parliament may make laws that give effect to provisions of the law and may also contain supplemental, incidental, and consequential provisions.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the condition for a law to be deemed an amendment to the Constitution?",
+    "output": "None, as stated in article 368, a law that makes provisions for representation in Parliament and state legislatures is not deemed an amendment to the Constitution.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the condition for a person to be considered a citizen of India at the commencement of the Constitution?",
+    "output": "The person must have been born in India, or one of his parents or grandparents was born in India, or he has been ordinarily resident in the territory of India since his migration before July 19, 1948, or has been registered as a citizen of India after July 19, 1948.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the requirement for a person to be registered as a citizen of India after migrating to Pakistan?",
+    "output": "The person must have been resident in the territory of India for at least six months immediately preceding the date of his application.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the condition for a person of Indian origin to be deemed a citizen of India?",
+    "output": "The person must have been registered as a citizen of India by the diplomatic or consular representative of India in the country where they are residing, in accordance with the Government of India Act, 1935.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the effect of being registered as a citizen of India by the diplomatic or consular representative?",
+    "output": "The person is deemed to be a citizen of India, regardless of their residence outside India, as long as they have made an application for registration and meet the prescribed requirements.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to the citizenship of a person who is deemed to be a citizen of India under any of the provisions of Part III of the Constitution?",
+    "output": "Such person shall continue to be a citizen of India, subject to the provisions of any law made by Parliament.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the power of Parliament in relation to the acquisition and termination of citizenship, as per Part III of the Constitution?",
+    "output": "Parliament has the power to make any provision with respect to the acquisition and termination of citizenship and all other matters relating to citizenship.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the meaning of \"laws in force\" in the context of the Constitution of India?",
+    "output": "Laws passed or made by a Legislature or other competent authority in the territory of India before the commencement of this Constitution and not previously repealed.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the condition that no citizen shall be subject to any disability, liability, restriction or condition on grounds of religion, race, caste, sex, or place of birth?",
+    "output": "No citizen shall, on grounds only of religion, race, caste, sex, place of birth or any of them, be subject to any disability, liability, restriction or condition.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can the State make special provisions for women and children?",
+    "output": "No, the State cannot make any special provisions for women and children as per Article 21.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can the State make special provisions for socially and educationally backward classes of citizens?",
+    "output": "Yes, the State can make special provisions for the advancement of socially and educationally backward classes of citizens, as well as for the Scheduled Castes and the Scheduled Tribes, as per Articles 21 and 29.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the maximum percentage of total seats in each category that can be reserved under article 30?",
+    "output": "Ten percent.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What does the term \"economically weaker sections\" refer to in the context of article 30?",
+    "output": "The economically weaker sections are those that may be notified by the State from time to time based on family income and other indicators of economic disadvantage.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of the reservation of appointments or posts in favor of backward classes of citizens?",
+    "output": "The purpose is to provide adequate representation of backward classes of citizens in the services under the State.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can the State prevent the reservation of promotion posts in favor of Scheduled Castes and Scheduled Tribes?",
+    "output": "No, the State cannot prevent the reservation of promotion posts in favor of Scheduled Castes and Scheduled Tribes, provided they are not adequately represented in the services under the State.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can a person holding an office of profit or trust under the State accept any present, emolument, or office of any kind from or under any foreign State without the consent of the President?",
+    "output": "No, a person holding an office of profit or trust under the State shall not accept any present, emolument, or office of any kind from or under any foreign State without the consent of the President.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the right of a citizen to do in any part of the territory of India, as per the Constitution?",
+    "output": "A citizen has the right to reside and settle in any part of the territory of India.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of the restrictions mentioned in sub-clauses (b), (c), (d) and (e) of the said clause?",
+    "output": "The purpose of the restrictions is to impose reasonable limitations on the exercise of the right conferred by the said sub-clauses in the interests of sovereignty and integrity of India, public order, morality, the general public, and the protection of the interests of Scheduled Tribes.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What exception does the Constitution provide for the operation of existing laws under sub-clauses (b), (c), (d) and (e)?",
+    "output": "The Constitution provides that existing laws imposing restrictions shall continue to operate, and the State shall be able to make new laws imposing restrictions, as long as they are reasonable and in the interests of sovereignty and integrity of India, public order, morality, the general public, or the protection of Scheduled Tribes.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What exception is made for the exercise of the right conferred by the Fundamental Rights clause in the Constitution of India?",
+    "output": "The operation of any existing law that imposes or prevents the State from making laws that impose reasonable restrictions on the exercise of the right.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What are two specific areas where the operation of the Fundamental Rights clause is not affected by any law made under this clause?",
+    "output": "The professional or technical qualifications necessary for practicing any profession or carrying on any occupation, trade or business, and the carrying on by the State, or by a corporation owned or controlled by the State, of any trade, business, industry or service.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the fundamental right regarding the protection of life and personal liberty in the Constitution of India?",
+    "output": "No person shall be deprived of his life or personal liberty except according to procedure established by law.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the requirement for a person arrested and detained in custody to be produced before the nearest magistrate?",
+    "output": "He must be produced before the nearest magistrate within a period of twenty-four hours of such arrest, excluding the time necessary for the journey from the place of arrest to the court of the magistrate.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the maximum duration of preventive detention without an Advisory Board's report?",
+    "output": "Three months",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the requirement for a person detained under preventive detention to be informed about their detention?",
+    "output": "The authority making the order shall, as soon as may be, communicate to such person the grounds of their detention and the law under which the order was made.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the maximum period allowed for a person to be detained beyond which their detention is void?",
+    "output": "Nothing in this sub-clause shall authorise the detention of any person beyond the maximum period prescribed by any law made by Parliament under sub-clause (b) of clause (7); or",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What circumstances can Parliament prescribe for a person to be detained for a period longer than three months under preventive detention?",
+    "output": "The circumstances under which a person may be detained for a period longer than three months under any law providing for preventive detention.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of the Advisory Board in an inquiry under sub-clause (a) of clause (4)?",
+    "output": "To follow a specified procedure, as prescribed by Parliament, in an inquiry under sub-clause (a) of clause (4).",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What are the fundamental rights protected under Article 25 of the Constitution of India?",
+    "output": "The right to freedom of conscience and the right freely to profess, practice and propagate religion.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can the State regulate or restrict economic, financial, political, or other secular activities associated with religious practice?",
+    "output": "Yes, the State can regulate or restrict such activities, but not to affect the operation of any existing law.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the right that every religious denomination or section thereof shall have according to the Constitution of India?",
+    "output": "The right to establish and maintain institutions for religious and charitable purposes.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "In what circumstances is a person not compelled to pay taxes for the promotion of a particular religion?",
+    "output": "When the taxes are specifically appropriated for the promotion or maintenance of a particular religion or religious denomination.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the right granted to citizens from minority communities residing in India?",
+    "output": "The right to conserve the distinct language, script, or culture of their own.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can a citizen be denied admission into a State-maintained educational institution based on their religion, caste, or language?",
+    "output": "No, a citizen shall not be denied admission on grounds of religion, race, caste, language, or any of them.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What are some exceptions that the Constitution leaves out in terms of laws regarding property rights and corporate management?",
+    "output": "The acquisition by the State of any estate or of any rights therein, the taking over of the management of any property by the State for a limited period, the amalgamation of two or more corporations, and the extinguishment or modification of rights of certain corporate officials and shareholders.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What type of law is specifically excluded by the Constitution regarding the rights of corporate officials and shareholders?",
+    "output": "The extinguishment or modification of any rights of managing agents, secretaries and treasurers, managing directors, directors or managers of corporations, or of any voting rights of shareholders thereof.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What does Article 300 of the Constitution of India state regarding the relationship with Articles 14 and 19?",
+    "output": "It states that it is inconsistent with, or takes away or abridges any of the rights conferred by Articles 14 or 19.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the exception for the application of Article 300 to laws made by the Legislature of a State?",
+    "output": "The provisions of Article 300 shall not apply to such laws unless the law has been reserved for the consideration of the President and has received his assent.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What does the Constitution of India define as \"rights\" in relation to an estate?",
+    "output": "The expression \"rights\" in relation to an estate shall include any rights vesting in a proprietor, sub-proprietor, under-proprietor, tenure-holder, rajyat, under-raiyat, or other intermediary and any rights or privileges in respect of land revenue.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What does article 31B validate, without prejudice to the generality of the provisions contained in article 31A?",
+    "output": "None of the Acts and Regulations specified in the Ninth Schedule.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of Section 31C of the Constitution of India?",
+    "output": "The purpose of Section 31C is to save laws that give effect to certain directive principles of state policy.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Under what conditions does Section 31C not apply to laws made by the Legislature of a State?",
+    "output": "Section 31C does not apply to laws made by the Legislature of a State unless the law has been reserved for the consideration of the President and has received his assent.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the scope of the Supreme Court's power to issue directions or orders for the enforcement of rights under the Constitution?",
+    "output": "The Supreme Court has the power to issue directions or orders or writs, including writs in the nature of habeas corpus, mandamus, prohibition, quo warranto and certiorari, for the enforcement of any of the rights conferred by this Part.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can Parliament empower any other court to exercise powers exercisable by the Supreme Court?",
+    "output": "No, Parliament can empower any other court to exercise all or any of the powers exercisable by the Supreme Court within the local limits of its jurisdiction, subject to the powers conferred by clauses (1) and (2).",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What specific groups can have their rights restricted under the Constitution of India?",
+    "output": "The members of the Armed Forces, the members of the Forces charged with the maintenance of public order, persons employed in any bureau or other organisation established by the State, and persons employed in, or in connection with, the telecommunication systems set up for the purposes of any Force, bureau or organisation.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Under which conditions can the rights conferred by Part III of the Constitution be restricted?",
+    "output": "The rights conferred by this Part can be restricted so as to ensure the proper discharge of their duties and the maintenance of discipline among them, while martial law is in force in any area.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the power of Parliament in relation to making laws under Part XX of the Constitution?",
+    "output": "Parliament has the power to make laws with respect to matters that may be provided for by law made by Parliament, as per clause (3) of Article 16, clause (3) of Article 32, Article 33, and Article 34.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can the Legislature of a State make laws that are not allowed under Part XX of the Constitution?",
+    "output": "No, the Legislature of a State does not have the power to make laws with respect to matters that may be provided for by law made by Parliament, as per clause (a)(i) of Article 40.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the relationship between the principles contained in Part XXI of the Constitution and the governance of the country?",
+    "output": "The principles contained in Part XXI of the Constitution are fundamental but not enforceable by court, and the State must apply these principles in making laws.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the primary goal of the State in promoting social order and welfare of the people?",
+    "output": "The primary goal of the State is to promote a social order that informs all institutions of national life, with a focus on justice, equality, and promoting the welfare of the people.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What principle does the Constitution of India aim to promote for the development of children?",
+    "output": "The principle of giving children opportunities and facilities to develop in a healthy manner and in conditions of freedom and dignity.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the state's responsibility regarding legal aid?",
+    "output": "The state shall secure that the operation of the legal system promotes justice, on a basis of equal opportunity, and provide free legal aid to ensure that opportunities for securing justice are not denied to any citizen by reason of economic or other disabilities.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What provisions does the State have to make for workers regarding their working conditions and maternity relief?",
+    "output": "The State shall make provision for securing just and humane conditions of work and for maternity relief.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the State's goal for promoting the working conditions of workers in terms of a living wage and social and cultural opportunities?",
+    "output": "The State shall endeavour to secure, by suitable legislation or economic organisation or in any other way, to all workers, agricultural, industrial or otherwise, work, a living wage, conditions of work ensuring a decent standard of life and full enjoyment of leisure and social and cultural opportunities.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the main objective of promoting the educational and economic interests of Scheduled Castes, Scheduled Tribes, and other weaker sections?",
+    "output": "The State shall promote with special care the educational and economic interests of the weaker sections of the people, and, in particular, of the Scheduled Castes and the Scheduled Tribes.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is one of the primary duties of the State regarding public health?",
+    "output": "The State shall endeavour to bring about prohibition of the consumption except for medicinal purposes of intoxicating drinks and of drugs which are injurious to health.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the primary obligation of the State regarding the protection of monuments and places of national importance?",
+    "output": "The State shall protect every monument or place or object of artistic or historic interest from spoliation, disfigurement, destruction, removal, disposal, or export.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What steps should the State take to separate the judiciary from the executive in the public services of the State?",
+    "output": "The State shall take steps to separate the judiciary from the executive in the public services of the State.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What are some of the fundamental duties that citizens of India are required to perform?",
+    "output": "The duties mentioned include defending the country, promoting national harmony, protecting the environment, developing scientific temper, and striving for excellence in all spheres of activity.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the age range for parents or guardians to provide education to their child?",
+    "output": "Parents or guardians are required to provide opportunities for education to their child between the age of six and fourteen years.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the supreme command of the Defence Forces of the Union?",
+    "output": "The supreme command of the Defence Forces of the Union is vested in the President.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Who can confer functions on authorities other than the President?",
+    "output": "Parliament can confer functions on authorities other than the President by law.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the method of calculating the number of votes for each member of the Assembly?",
+    "output": "The number of votes for each member of the Assembly is calculated by dividing the population of the State by the total number of the elected members of the Assembly, and then taking the quotient and remainder.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "How are the votes assigned to members of the Legislative Assemblies of the States and members of Parliament related?",
+    "output": "The votes assigned to members of the Legislative Assemblies of the States and members of Parliament are related in the proportion of the total number of votes assigned to the members of the Legislative Assemblies of the States, as calculated by dividing the total number of votes by the total number of elected members of both Houses of Parliament.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the term of office for the President of India?",
+    "output": "The President shall hold office for a term of five years from the date on which he enters upon his office.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Under what circumstances can the President resign from office?",
+    "output": "The President may, by writing under his hand addressed to the Vice-President, resign his office.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the condition for a person to be eligible for election as President?",
+    "output": "A person shall not be eligible for election as President if he holds any office of profit under the Government of India or the Government of any State.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the implication if a member of either House of Parliament or of a House of the Legislature of any State is elected President?",
+    "output": "If a member of either House of Parliament or of a House of the Legislature of any State is elected President, he shall be deemed to have vacated his seat in that House on the date on which he enters upon his office as President.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to the President's term of office?",
+    "output": "The President's term of office cannot be diminished.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What oath or affirmation must the President make before entering office?",
+    "output": "The President must make and subscribe an oath or affirmation in the form: \"I, A.B., do swear in the name of God that I will faithfully execute the office solemnly affirm of President (or discharge the functions of the President) of India and will to the best of my ability preserve, protect and defend the Constitution and the law and that I will devote myself to the service and well-being of the people of India.\"",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the requirement for a resolution to be passed in the House of Parliament to declare a charge against the President?",
+    "output": "A resolution must be passed by a majority of not less than two-thirds of the total membership of the House.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to the President if a resolution is passed by a majority of not less than two-thirds of the total membership of the House, declaring that the charge preferred against the President has been sustained?",
+    "output": "The resolution has the effect of removing the President from his office as from the date on which the resolution is so passed.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the term of office for a person holding the office of President/Chairman of the Council of States?",
+    "output": "The term of office is five years from the date on which they enter upon their office.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Under what circumstances is the Vice-President not entitled to any salary or allowance payable to the Chairman of the Council of States?",
+    "output": "The Vice-President is not entitled to any salary or allowance payable to the Chairman of the Council of States when they act as President or discharge the functions of the President under Article 65.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What powers and immunities does the Vice-President have while acting as President?",
+    "output": "The Vice-President has all the powers and immunities of the President.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "How is the Vice-President elected, and what is the condition if a member of Parliament or state legislature is elected Vice-President?",
+    "output": "The Vice-President is elected by the members of an electoral college in accordance with the system of proportional representation by means of the single transferable vote, and if a member of Parliament or state legislature is elected Vice-President, they shall be deemed to have vacated their seat on the date of assuming the office of Vice-President.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What disqualifies a person from being eligible for election as Vice-President?",
+    "output": "A person shall not be eligible if he holds any office of profit under the Government of India or the Government of any State or under any local or other authority subject to the control of any of the said Governments.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "How long does a Vice-President hold office?",
+    "output": "The Vice-President shall hold office for a term of five years from the date on which he enters upon his office.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "How long does an election to fill a vacancy in the office of Vice-President take to be completed?",
+    "output": "An election to fill a vacancy in the office of Vice-President shall be completed before the expiration of the term.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the duration of office for a person elected to fill a vacancy in the office of Vice-President?",
+    "output": "The person elected to fill the vacancy shall be entitled to hold office for the full term of five years from the date on which he enters upon his office.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens when doubts and disputes arise out of or in connection with the election of a President or Vice-President?",
+    "output": "All doubts and disputes arising out of or in connection with the election of a President or Vice-President shall be inquired into and decided by the Supreme Court.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to acts done by a person elected as President or Vice-President if their election is declared void by the Supreme Court?",
+    "output": "Acts done by him in the exercise and performance of the powers and duties of the office of President or Vice-President, as the case may be, on or before the date of the decision of the Supreme Court shall not be invalidated by reason of that declaration.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the basis for the exercise of executive power by the Union in certain cases?",
+    "output": "The executive power of the Union extends to matters with respect to which Parliament has power to make laws.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Who has the power to commute or suspend a sentence of death?",
+    "output": "The Governor of a State, under any law for the time being in force, has the power to suspend, remit or commute a sentence of death.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can a State make laws on matters that the Parliament has the power to make laws for, as per the Constitution of India?",
+    "output": "No, until otherwise provided by Parliament, a State and its authorities may exercise certain executive powers or functions that Parliament has power to make laws for.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What happens to the executive powers or functions of a State that Parliament has power to make laws for, until otherwise provided by Parliament?",
+    "output": "The State and its authorities may continue to exercise such powers or functions, notwithstanding anything in this article, until Parliament provides otherwise.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Who appoints the Prime Minister and other Ministers?",
+    "output": "The Prime Minister is appointed by the President, and the other Ministers are appointed by the President on the advice of the Prime Minister.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the maximum number of Ministers that can be appointed in the Council of Ministers?",
+    "output": "The total number of Ministers, including the Prime Minister, in the Council of Ministers shall not exceed fifteen percent of the total number of members of the House of the People.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the condition for a Minister to cease being a Minister?",
+    "output": "A Minister who is not a member of either House of Parliament for a period of six consecutive months shall cease to be a Minister.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the duty of the Attorney-General for India?",
+    "output": "The Attorney-General for India is to give advice to the Government of India upon legal matters and to perform such other duties of a legal character as may be referred or assigned to him by the President, as well as discharge functions conferred on him by or under the Constitution or any other law.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can the President's orders and instruments be questioned for not being made or executed by the President?",
+    "output": "No, the validity of an order or instrument so authenticated shall not be called in question.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "Can the President make rules for the more convenient transaction of the business of the Government of India?",
+    "output": "Yes, the President shall make rules for this purpose.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the composition of the Council of States?",
+    "output": "The Council of States shall consist of twelve members nominated by the President and not more than two hundred and thirty-eight representatives of the States and Union territories.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of allocating seats in the Council of States to be filled by representatives of the States and Union territories?",
+    "output": "The allocation of seats in the Council of States to be filled by representatives of the States and Union territories shall be in accordance with the provisions in the Fourth Schedule.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "How are the representatives of each State in the Council of States elected?",
+    "output": "The representatives of each State in the Council of States shall be elected by the elected members of the Legislative Assembly of the State in accordance with the system of proportional representation by means of the single transferable vote.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the method by which the representatives of the Union territories in the Council of States are chosen?",
+    "output": "The representatives of the Union territories in the Council of States shall be chosen in such manner as Parliament may by law prescribe.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What amendment replaced \"States specified in Part C of First Schedule\" with \"States specified in Part A or Part B of the First Schedule\"?",
+    "output": "The words and letters \"specified in Part A or Part B of the First Schedule\" omitted by the Constitution (Seventh Amendment) Act, 1956, s. 3 (w.e.f. 1-11-1956).",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "When was the words and figure \"and para. 4 of the Tenth Schedule\" omitted by the Constitution (Thirty-sixth Amendment) Act, 1975?",
+    "output": "The words and figure \"and para. 4 of the Tenth Schedule\" omitted by the Constitution (Thirty-sixth Amendment) Act, 1975, s. 5 (w.e.f. 26-4-1975).",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the purpose of readjusting the allocation of seats in the House of the People after each census?",
+    "output": "The purpose of readjusting the allocation of seats in the House of the People after each census is to determine the number of seats to be allocated to the States and to divide each State into territorial constituencies as Parliament may by law determine.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the exception for readjustment, as per the Constitution?",
+    "output": "The exception for readjustment is that until the relevant figures for the first census taken after the year 2026 have been published, it shall not be necessary to readjust, and any election to the House may be held on the basis of the existing territorial constituencies.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the basis for the allocation of seats in the House of the People to the States?",
+    "output": "The allocation of seats in the House of the People to the States is based on the 1971 census.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "How long does the House of the People continue to function after its first meeting?",
+    "output": "The House of the People continues to function for five years from the date appointed for its first meeting.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What are the basic age requirements for a person to be eligible for a seat in Parliament?",
+    "output": "A person must be at least 30 years old for a seat in the Council of States and at least 25 years old for a seat in the House of the People.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the additional requirement for a person to be eligible for a seat in Parliament?",
+    "output": "A person must possess such other qualifications as may be prescribed by or under any law made by Parliament.",
+    "source": "Constitution of India"
+  },
+  {
+    "instruction": "What is the title of the Consumer Protection Act 2019?",
+    "output": "The Consumer Protection Act, 2019.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Which state is excluded from the application of the Consumer Protection Act 2019?",
+    "output": "The State of Jammu and Kashmir.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What does the term \"advertisement\" mean under the Consumer Protection Act 2019?",
+    "output": "Any audio or visual publicity, representation, endorsement or pronouncement made by means of light, sound, smoke, gas, print, electronic media, internet or website, including notices, circulars, labels, wrappers, invoices, and other documents.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What constitutes an \"appropriate laboratory\" under the Consumer Protection Act 2019?",
+    "output": "An appropriate laboratory is a laboratory or organisation recognised by the Central Government, a State Government, or established under any law for the time being in force, maintained, financed, or aided by the Central Government or a State Government.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who is considered a \"complainant\" under the Consumer Protection Act 2019?",
+    "output": "A consumer, a voluntary consumer association, the Central Government, a State Government, the Central Authority, one or more consumers, the legal heir or legal representative of a deceased consumer, or the parent or legal guardian of a minor consumer.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What constitutes a \"complaint\" under the Consumer Protection Act 2019?",
+    "output": "An allegation in writing made by a complainant for obtaining relief, including allegations of unfair contracts, trade practices, defective goods, deficient services, or excessive prices.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the grounds on which a trader can be held liable for selling hazardous goods to the public?",
+    "output": "A trader can be held liable for selling hazardous goods to the public if the goods are sold in contravention of safety standards, or if the trader knows the goods are unsafe for the public.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who is considered a \"consumer\" under the Consumer Protection Act 2019?",
+    "output": "A consumer is defined as any person who buys goods or uses goods under a system of deferred payment, with the approval of the person who buys the goods for consideration paid or promised, but excludes a person who uses goods without the approval of the buyer.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What does the term \"commercial purpose\" exclude in the context of the Consumer Protection Act 2019?",
+    "output": "Using goods bought exclusively for earning a livelihood through self-employment.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How is the term \"buys any goods\" and \"hires or avails any services\" defined in the Consumer Protection Act 2019?",
+    "output": "It includes offline or online transactions through electronic means or by teleshopping or direct selling or multi-level marketing.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the core consumer rights under the Consumer Protection Act 2019?",
+    "output": "The core consumer rights under the Consumer Protection Act 2019 include the right to be heard, to seek redressal against unfair trade practices, and to be assured that consumer interests receive due consideration.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What do the terms \"defect\" and \"deficiency\" imply under the Consumer Protection Act 2019?",
+    "output": "Under the Consumer Protection Act 2019, \"defect\" refers to any fault or shortcoming in the quality or standard of a product, while \"deficiency\" refers to any fault or shortcoming in the quality, nature, or performance of a service.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What does \"e-commerce\" refer to in the Consumer Protection Act 2019?",
+    "output": "Buying or selling of goods or services including digital products over digital or electronic network.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is meant by \"endorsement\" in relation to an advertisement under the Consumer Protection Act 2019?",
+    "output": "It refers to any message, verbal statement, demonstration, depiction of the name, signature, likeness or other identifiable personal characteristics of an individual, or depiction of the name or seal of any institution or organisation, which makes the consumer believe it reflects the opinion, finding or experience of the person.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the meaning of \"goods\" as defined under the Consumer Protection Act 2019?",
+    "output": "Goods mean every kind of movable property, including \"food\" as defined in clause (j) of sub-section (1) of section 3 of the Food Safety and Standards Act, 2006.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What does the term \"harm\" refer to under the Consumer Protection Act 2019?",
+    "output": "Harm, in relation to a product liability, includes damage to property, personal injury, illness or death, mental agony or emotional distress attendant to personal injury or illness or damage to property, and any loss of consortium or services or other loss resulting from the aforementioned harms, but excludes harm caused to the product itself or certain commercial or economic losses.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the definition of a mediator in the Consumer Protection Act 2019?",
+    "output": "A mediator is a mediator referred to in section 75.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is considered a misleading advertisement under the Consumer Protection Act 2019?",
+    "output": "A misleading advertisement is one that falsely describes a product or service, gives a false guarantee, conveys a false representation, or deliberately conceals important information.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What does the term \"product\" mean under the Consumer Protection Act 2019?",
+    "output": "Any article or goods or substance or raw material or any extended cycle of such product, which may be in gaseous, liquid, or solid state possessing intrinsic value.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is included in the definition of a product under the Consumer Protection Act 2019?",
+    "output": "Human tissues, blood, blood products, and organs are excluded from the definition of a product.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who is considered a person involved in placing a product for a commercial purpose under the Consumer Protection Act 2019?",
+    "output": "A person who imports, sells, distributes, leases, installs, prepares, packages, labels, markets, repairs, maintains, or otherwise is involved in placing such product for a commercial purpose, including a manufacturer, service provider, and others specified in the Act.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What type of professional services are excluded from being a service provider under the Consumer Protection Act 2019?",
+    "output": "Professional services in which the sale or use of a product is only incidental to the transaction, and the furnishing of opinion, skill, or services is the essence of the transaction.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What does \"restrictive trade practice\" mean under the Consumer Protection Act 2019?",
+    "output": "A trade practice which tends to bring about manipulation of price or its conditions of delivery or to affect flow of supplies in the market relating to goods or services in such a manner as to impose on the consumers unjustified costs or restrictions.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is excluded from the definition of \"service\" under the Consumer Protection Act 2019?",
+    "output": "The rendering of any service free of charge.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What does the term \"unfair contract\" mean under the Consumer Protection Act 2019?",
+    "output": "A contract between a manufacturer, trader, or service provider and a consumer that has terms causing significant change in the consumer's rights.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are some examples of unfair contract terms?",
+    "output": "Excessive security deposits, penalties disproportionate to the loss, refusal to accept early repayment of debts, unilateral contract termination, assignment of contracts without consent, and unreasonable charges, obligations, or conditions.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What types of representations can be considered false or misleading under the Consumer Protection Act 2019?",
+    "output": "Representations that falsely represent the standard, quality, quantity, grade, composition, style, model, sponsorship, approval, performance, characteristics, accessories, uses, or benefits of goods or services.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the burden of proof in cases where a warranty or guarantee is raised, and the defence is based on adequate or proper testing?",
+    "output": "The burden of proof lies on the person raising such defence.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What constitutes a false or misleading warranty or guarantee under the Consumer Protection Act 2019?",
+    "output": "A warranty or guarantee is considered false or misleading if it is materially misleading, materially misleads the public concerning the price at which a product is sold, or gives false or misleading facts disparaging the goods or services of another person.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is considered a misleading representation of price under the Consumer Protection Act 2019?",
+    "output": "A representation of price is considered misleading if it refers to the price at which the product or services has been or are, ordinarily sold or provided, unless it is clearly specified to be the price at which the product has been sold or services have been provided by the person making the representation.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What conditions are in place for a person to make a statement that can be repeated?",
+    "output": "The statement must be made by the person who caused it to be made or contained.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What conditions are in place for an advertisement to be considered a \"bargain price\" advertisement?",
+    "output": "An advertisement is a \"bargain price\" advertisement if it is stated to be a bargain price or if a reasonable person would understand it to be a bargain price, having regard to the prices at which similar products are ordinarily sold.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the situations in which a business cannot claim exemption from the provisions of the Consumer Protection Act 2019?",
+    "output": "Contest, lottery, game of chance or skill as may be prescribed.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Under what circumstances can a business be held liable for not providing information about the final results of a scheme?",
+    "output": "Where the results are within a reasonable time published, but not prominently in the same newspaper in which the scheme was originally advertised.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the requirement for a trader to refund consideration paid by a consumer if the goods or services are defective?",
+    "output": "The trader must refund the consideration within the period stipulated in the bill or cash memo or receipt, or within a period of thirty days if no stipulation is made.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the purpose of the Central Consumer Protection Council established under the Consumer Protection Act 2019?",
+    "output": "The Central Consumer Protection Council is an advisory council that provides advice and guidelines to traders and other stakeholders on consumer protection and dispute resolution.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the main object of the Central Council under the Consumer Protection Act 2019?",
+    "output": "The main object of the Central Council is to render advice on promotion and protection of the consumers' rights under this Act.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the requirement for the State Council to meet, as per the Act?",
+    "output": "The State Council shall meet at least two meetings every year.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who shall be the Chairperson of the District Council?",
+    "output": "The Collector of the district, by whatever name called, shall be the Chairperson.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How often shall the District Council meet?",
+    "output": "The District Council shall meet at such time and place within the district as the Chairperson may think fit, but not less than two meetings shall be held every year.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Where is the headquarters of the Central Consumer Protection Authority located?",
+    "output": "The headquarters of the Central Authority shall be at such place in the National Capital Region of Delhi.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What authority does the Central Government have to make rules for the Central Authority?",
+    "output": "The Central Government may, by notification, make rules to provide for the qualifications for appointment, method of recruitment, procedure for appointment, term of office, salaries and allowances, resignation, removal and other terms and conditions of the service of the Chief Commissioner and Commissioners of the Central Authority.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the responsibility of the Central Authority in terms of engaging experts and professionals?",
+    "output": "The Central Authority may engage experts and professionals of integrity and ability, as specified by regulations, to assist in the discharge of its functions under the Consumer Protection Act 2019.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the powers of the Chief Commissioner in relation to the Central Authority?",
+    "output": "The Chief Commissioner has the powers of general superintendence, direction, and control in respect of all administrative matters of the Central Authority, but may delegate certain powers to Commissioners or other officers.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the condition for the exercise of powers by Additional Director-General, Director, Joint Director, Deputy Director, and Assistant Director?",
+    "output": "They shall exercise their powers and discharge their functions subject to the general control, supervision, and direction of the Director-General.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can the Director-General delegate his powers to others?",
+    "output": "Yes, the Director-General may delegate all or any of his powers to the Additional Director-General, Director, Joint Director, Deputy Director, or Assistant Director, as the case may be, while conducting inquiries or investigations under this Act.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the authorities that can receive complaints or information about misleading or misleading advertisements from consumers?",
+    "output": "The District Collector, the Commissioner of regional office, or the Central Authority.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the role of the Central Authority in relation to consumer protection and enforcement of consumer rights?",
+    "output": "The Central Authority is responsible for protecting, promoting, and enforcing the rights of consumers as a class, preventing unfair trade practices, and ensuring that no false or misleading advertisements are made.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are some of the powers and functions of the District Collector under the Consumer Protection Act 2019?",
+    "output": "The District Collector has the power to issue safety notices to alert consumers against dangerous or hazardous or unsafe goods or services, and to advise the Ministries and Departments of various aspects related to consumer rights.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What type of research is recommended to be undertaken in the field of consumer rights?",
+    "output": "The Consumer Protection Act 2019 recommends undertaking and promoting research in the field of consumer rights.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the process for investigating a complaint of misleading advertisement under the Consumer Protection Act 2019?",
+    "output": "The process involves the Director-General or District Collector initiating an investigation if there is a prima facie case, and the Central Authority may refer the matter to a Regulator if the opinion is that the matter should be dealt with by another law.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What powers do the authorities have to compel a person to produce documents or records during an investigation?",
+    "output": "The Central Authority, Director-General, or District Collector may call upon a person to produce documents or records in their possession during an investigation.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What action can the Central Authority take against a trader or manufacturer for a false or misleading advertisement?",
+    "output": "The Central Authority can issue directions to the concerned trader or manufacturer to discontinue the advertisement or modify it within a specified time.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can the Central Authority impose a penalty on a manufacturer or endorser for a false or misleading advertisement?",
+    "output": "Yes, the Central Authority can impose a penalty on a manufacturer or endorser, which may extend to ten lakh rupees, and may increase the penalty for subsequent contraventions to fifty lakh rupees.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the maximum period for which an endorser can be prohibited from making endorsements due to a contravention?",
+    "output": "Three years.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the maximum penalty that can be imposed on a person who publishes a misleading advertisement?",
+    "output": "Ten lakh rupees.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can the Director-General or any other officer authorised by him enter any premises for the purpose of an investigation?",
+    "output": "Yes, they can enter any premises at a reasonable time for the purpose of an investigation.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How does the provisions of the Code of Criminal Procedure, 1973, relate to search and seizure under the Consumer Protection Act, 2019?",
+    "output": "The provisions of the Code of Criminal Procedure, 1973, apply as far as possible for search and seizure under the Consumer Protection Act, 2019.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the power of the Director-General or an officer in relation to disposing of articles?",
+    "output": "The Director-General or such other officer may dispose of the article in such manner as may be prescribed.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who may designate any statutory authority or body to exercise the powers and perform the functions of the Central Authority?",
+    "output": "The Central Government may, if it considers necessary, by notification, designate any statutory authority or body to exercise the powers and perform the functions of the Central Authority referred to in section 10.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the responsibility of the Central Authority in relation to the Comptroller and Auditor-General of India?",
+    "output": "The Central Authority shall be liable for any specified expenditure incurred in connection with the audit of its accounts, and shall pay such expenditure to the Comptroller and Auditor-General of India.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What information is the Central Authority required to provide to the Central Government annually?",
+    "output": "The Central Authority is required to prepare an annual report, giving full account of its activities, which shall be forwarded to the Central Government, along with the audit report, and laid before each House of Parliament.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the purpose of establishing a District Consumer Disputes Redressal Commission under the Consumer Protection Act 2019?",
+    "output": "The purpose is to provide a platform for consumers to resolve disputes related to consumer goods and services.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who has the authority to make rules for the qualifications, method of recruitment, procedure for appointment, term of office, resignation, and removal of the President and members of the District Commission?",
+    "output": "The Central Government has the authority to make such rules by notification.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can the State Government temporarily transfer jurisdiction to another District Commission in case of a vacancy?",
+    "output": "Yes, the State Government may direct any other District Commission to exercise the jurisdiction in respect of a particular district by notification.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who is responsible for the general supervision of the officers and employees of the District Commission?",
+    "output": "The officers and other employees of the District Commission shall discharge their functions under the general superintendence of the President of the District Commission.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who can be made a party to a complaint under the Consumer Protection Act 2019?",
+    "output": "Each of the opposite parties, where there are more than one, at the time of the institution of the complaint.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Under what conditions can more than one opposite party be made a party to a complaint?",
+    "output": "Provided that in such case the permission of the District Commission is given.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the purpose of filing a complaint under sub-section (1) of the Consumer Protection Act 2019?",
+    "output": "To file a complaint regarding unfair trade practice in respect of goods or services.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who can file a complaint under sub-section (1) of the Consumer Protection Act 2019?",
+    "output": "The Central Government, the Central Authority, the State Government, recognised consumer associations, or one or more consumers (with permission of the District Commission) can file a complaint.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What happens when the District Commission receives a complaint under section 35?",
+    "output": "The District Commission may admit the complaint for proceeding with or reject it, subject to giving the complainant an opportunity to be heard.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How long does the District Commission have to decide the admissibility of a complaint?",
+    "output": "The District Commission shall ordinarily decide the admissibility of a complaint within twenty-one days from the date on which the complaint was filed.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What happens to a complaint after it is admitted by the District Commission?",
+    "output": "The District Commission proceeds with the complaint and refers a copy of the admitted complaint to the opposite party, who is given a period to respond within 30 days.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What happens if the opposite party fails to respond or denies/disputes the allegations in the complaint?",
+    "output": "The District Commission proceeds to settle the consumer dispute in the manner specified in clauses (c) to (g), assuming the complaint alleges a defect in the goods that cannot be determined without proper analysis or test of the goods.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the timeline for the District Commission to report its findings to the complainant?",
+    "output": "The District Commission must report its findings to the complainant within 45 days of receiving the reference or within an extended period granted by it.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What conditions must be met before a sample of goods is referred to an appropriate laboratory?",
+    "output": "The complainant must deposit fees to be specified by the Commission for payment to the laboratory for carrying out necessary analysis or test in relation to the goods in question.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What happens if the opposite party fails to respond to a complaint within the given time frame?",
+    "output": "The District Commission will proceed to settle the consumer dispute on the basis of evidence brought to its notice.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What happens if the opposite party denies or disputes the allegations contained in the complaint?",
+    "output": "The District Commission will proceed to settle the consumer dispute either on the basis of evidence brought to its notice by the complainant and the opposite party, or ex parte.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the District Commission required to do to obtain information, documents, or records from an electronic service provider?",
+    "output": "The District Commission may, by order, require an electronic service provider to provide such information, documents or records, as may be specified in that order.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How long is the District Commission expected to decide a complaint?",
+    "output": "The District Commission is expected to decide a complaint within three months from the date of receipt of notice by the opposite party if the complaint does not require analysis or testing of commodities, and within five months if it does.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the responsibility of the District Commission in recording reasons for disposing of a complaint?",
+    "output": "The District Commission shall record in writing the reasons for disposing of a complaint at the time of disposing of the same.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What powers does the District Commission have while trying a suit under the Consumer Protection Act?",
+    "output": "The District Commission has the same powers as a civil court under the Code of Civil Procedure, 1908, specifically in matters related to summoning witnesses, requiring the production of documents, receiving evidence on affidavits, and issuing commissions for witness examination.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What modifications apply when applying the provisions of Order I Rule 8 of the Code of Civil Procedure, 1908, in the context of a consumer complaint?",
+    "output": "Every reference to a suit or decree shall be construed as a reference to a complaint or the order of the District Commission.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How do the provisions of Order XXII of the Code of Civil Procedure, 1908, apply in the event of a complaint being filed against a deceased consumer or opposite party?",
+    "output": "The provisions of Order XXII shall apply, with references to the plaintiff and defendant construed as references to a complainant or opposite party, as the case may be.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the consumer's entitlements under the Consumer Protection Act 2019?",
+    "output": "The consumer is entitled to receive goods free from defects, receive a refund or compensation, and have the opposite party liable for any loss or injury suffered.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the role of the District Commission in relation to consumer complaints?",
+    "output": "The District Commission has the power to grant punitive damages, award compensation in product liability actions, and make decisions on the amount of compensation to be paid to the consumer in certain circumstances.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the authority granted to the District Commission to issue corrective advertisements to neutralize the effect of misleading advertisements?",
+    "output": "The District Commission is authorized to issue corrective advertisements to neutralize the effect of misleading advertisements at the cost of the opposite party responsible for issuing such misleading advertisement.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What happens to the amount obtained by the District Commission under sub-section (1), and how is it utilized?",
+    "output": "Any amount obtained under sub-section (1) is credited to a fund and utilized in such manner as may be prescribed by law.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the timeframe for filing an appeal against an order made by the District Commission to the State Commission?",
+    "output": "Within a period of forty-five days from the date of the order.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can an appeal be entertained by the State Commission after the expiry of the forty-five day period if there is sufficient cause for not filing it within that period?",
+    "output": "Yes, the State Commission may entertain an appeal after the expiry of the said period of forty-five days if it is satisfied that there was sufficient cause for not filing it within that period.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the regional benches of the State Commission established by the State Government?",
+    "output": "The regional benches of the State Commission are established by the State Government by notification, at places deemed fit by the State Government.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What rules can be made by the Central Government and the State Government regarding the State Commission?",
+    "output": "The Central Government and the State Government can make rules regarding the qualification for appointment, method of recruitment, procedure of appointment, term of office, resignation, and removal of the President and members of the State Commission.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the superintendence of the President over the officers and other employees of the State Commission?",
+    "output": "The officers and other employees of the State Commission discharge their functions under the general superintendence of the President.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the value threshold for complaints that the State Commission can entertain, as per the Consumer Protection Act 2019?",
+    "output": "The State Commission can entertain complaints where the value of the goods or services paid as consideration exceeds rupees one crore, but does not exceed rupees ten crore.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the procedure for the senior-most member of a Bench to preside over a meeting?",
+    "output": "The senior-most member shall preside over the Bench as deemed fit by the President.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How are points of disagreement among Bench members to be decided?",
+    "output": "The points shall be decided according to the opinion of the majority, if there is a majority, but if the members are equally divided, they shall state the point or points on which they differ and make a reference to the President.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who can institute a complaint under the Consumer Protection Act 2019?",
+    "output": "An institution, ordinarily residing or carrying on business, or having a branch office or personally working for gain.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can the State Commission transfer a complaint to another District Commission if the interest of justice so requires?",
+    "output": "Yes, on the application of the complainant or of its own motion, the State Commission may transfer a complaint to another District Commission.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the time frame within which a person can prefer an appeal against an order made by the State Commission to the National Commission?",
+    "output": "A person can prefer an appeal within a period of thirty days from the date of the order.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Under what condition will the National Commission entertain an appeal that is filed after the expiry of the thirty-day period?",
+    "output": "The National Commission will entertain the appeal only if it is satisfied that there was sufficient cause for not filing it within that period.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can an appeal be made to the National Commission under this section from an order passed ex parte by the State Commission?",
+    "output": "Yes, an appeal may lie to the National Commission under this section from an order passed ex parte by the State Commission.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How long is the State Commission expected to dispose of an appeal within?",
+    "output": "Every endeavour shall be made to dispose of the appeal within a period of ninety days from the date of its admission.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the purpose of the National Commission as per the Consumer Protection Act 2019?",
+    "output": "The National Commission is established to provide for qualifications, appointment, term of office, salaries and allowances, resignation, removal and other terms and conditions of service of its President and members.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Where shall the National Commission function, according to the Act?",
+    "output": "The National Commission shall ordinarily function at the National Capital Region, and may also perform its functions at other places as notified by the Central Government in the Official Gazette.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the maximum age limit for the President of India and other members of the National Commission?",
+    "output": "The President shall not exceed seventy years of age, while any other member shall not exceed sixty-seven years of age.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What provision shall be made by the Central Government for the National Commission in terms of section 57 of the Act?",
+    "output": "The Central Government shall provide, in consultation with the President of the National Commission, such number of officers and other employees as it may think fit to assist the National Commission in the discharge of its functions.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the value threshold for the Central Government to preside over complaints under the Act?",
+    "output": "The value threshold is rupees ten crore, provided that the Central Government may prescribe a different value as it deems fit.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can the senior-most member of a Bench constituted by the President preside over the Bench?",
+    "output": "Yes, the senior-most member of the Bench shall preside over the Bench.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the procedure for the President to decide on a point or points referred by the National Commission?",
+    "output": "The President shall either hear the point or points himself or refer the case for hearing on such point or points by one or more of the other members, and such point or points shall be decided according to the opinion of the majority of the members who have heard the case.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can the National Commission declare any terms of a contract that is unfair to a consumer to be null and void?",
+    "output": "Yes, the National Commission may also declare any terms of a contract, which is unfair to any consumer, to be null and void, without prejudice to the provisions relating to complaints under sections 35, 36, 37, 38 and 39.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the process for setting aside an order made by the District Commission?",
+    "output": "The aggrieved party may make an application to the Commission for setting aside such order.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Under what circumstances can a complaint be transferred from one District Commission to another or from one State Commission to another?",
+    "output": "On the application of the complainant or of its own motion, the National Commission may transfer any complaint pending before the District Commission of one State to a District Commission of another State or before one State Commission to another State Commission.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What methods are approved for transmitting documents under the Consumer Protection Act 2019?",
+    "output": "By speed post or by such courier service, approved by the District Commission, the State Commission or the National Commission, as the case may be, or by any other mode of transmission of documents including electronic means.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How can a notice be served on an electronic service provider?",
+    "output": "The notice required by this Act may be served on an electronic service provider at the address provided by it on the electronic platform from where it provides its services, and the electronic service provider shall designate a nodal officer to accept and process such notices.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the threshold for a declaration to be made under the Consumer Protection Act 2019 despite the acknowledgment being lost or misplaced?",
+    "output": "Thirty days from the date of issue of notice.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How will a notice be deemed sufficiently served?",
+    "output": "If it is addressed to the place where the opposite party carries on business or profession, or to the place where the complainant actually and voluntarily resides.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the time frame within which a person can appeal against an order made by the National Commission to the Supreme Court?",
+    "output": "A person can appeal against an order made by the National Commission to the Supreme Court within a period of thirty days from the date of the order.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Under what conditions will the Supreme Court entertain an appeal after the expiry of the thirty-day period?",
+    "output": "The Supreme Court may entertain an appeal after the expiry of the thirty-day period if it is satisfied that there was sufficient cause for not filing it within that period.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can a complaint be entertained if the consumer fails to file it within the specified period?",
+    "output": "No, a complaint cannot be entertained unless the District Commission or the State Commission or the National Commission, as the case may be, records its reasons for condoning such delay.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What authority does the National Commission have in relation to State Commissions?",
+    "output": "The National Commission has administrative control over all State Commissions in matters such as monitoring performance, investigating allegations, and issuing instructions regarding uniform procedure in hearing matters.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the purpose of the monitoring cell constituted by the President of the National Commission?",
+    "output": "The purpose of the monitoring cell is to oversee the functioning of the State Commissions from an administrative point of view.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who has administrative control over the District Commissions within their jurisdiction?",
+    "output": "The State Commission has administrative control over all the District Commissions within its jurisdiction in all matters referred to in sub-section (1).",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the punishment for failing to comply with an order made by a District Commission or a State Commission or a National Commission?",
+    "output": "Imprisonment for a term not less than one month, but which may extend to three years, or with fine, which shall not be less than twenty-five thousand rupees, but which may extend to one lakh rupees, or with both.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the power of a District Commission, a State Commission, or a National Commission in relation to the trial of offences under section (1) of the Act?",
+    "output": "Notwithstanding anything contained in the Code of Criminal Procedure, 1973, the District Commission, the State Commission or the National Commission shall have the power of a Judicial Magistrate of first class for the trial of offences under sub-section (1).",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the time frame for filing an appeal against an order of a District Commission, State Commission, or the National Commission?",
+    "output": "The appeal must be preferred within a period of thirty days from the date of the order.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Under what circumstances can a State Commission or the National Commission entertain an appeal after the expiry of the thirty-day period?",
+    "output": "The Commission may entertain an appeal if it is satisfied that the appellant had sufficient cause for not preferring the appeal within the thirty-day period.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What information shall every consumer mediation cell maintain?",
+    "output": "A list of empanelled mediators, a list of cases handled by the cell, a record of proceeding, and any other information as may be specified by regulations.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "How often shall a consumer mediation cell submit a quarterly report to the District Commission, State Commission, or the National Commission to which it is attached?",
+    "output": "In the manner specified by regulations.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the process for nominating mediators, as per the Consumer Protection Act 2019?",
+    "output": "The National Commission shall consider a mediator's suitability for resolving consumer disputes while nominating them from the panel of mediators.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the duty of a mediator in disclosing certain facts to the National Commission or other authorities?",
+    "output": "A mediator is required to disclose any personal, professional, or financial interest in the outcome of the consumer dispute, as well as circumstances that may raise doubts about their independence or impartiality.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the primary responsibility of the mediator in a consumer dispute?",
+    "output": "The mediator is responsible for conducting mediation within a specified time and manner, guided by the principles of natural justice.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What happens to the terms of an agreement reached between the parties after mediation?",
+    "output": "The terms of the agreement are reduced to writing and signed by the parties or their authorised representatives.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What happens to a consumer dispute that cannot be settled through mediation?",
+    "output": "The District Commission or the State Commission or the National Commission shall continue to hear all the issues involved in such consumer dispute.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What type of action can be brought against a product manufacturer or service provider for harm caused by a defective product?",
+    "output": "A product liability action may be brought by a complainant against a product manufacturer or a product service provider or a product seller for any harm caused to them on account of a defective product.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the grounds for a product service provider to be liable in a product liability action?",
+    "output": "The service provider shall be liable if the service was faulty, there was an act of omission or commission, negligence, or conscious withholding of information that caused harm, or if adequate instructions or warnings were not issued to prevent harm.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who can be liable in a product liability action for altering or modifying a product?",
+    "output": "A product seller who has exercised substantial control over the designing, testing, manufacturing, packaging, or labelling of a product can be liable in a product liability action if such alteration or modification was the substantial factor in causing the harm.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the circumstances under which a product liability action cannot be brought against the product seller?",
+    "output": "A product liability action cannot be brought against the product seller if, at the time of harm, the product was misused, altered, or modified.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Under what conditions is the product manufacturer not liable for failure to provide adequate warnings or instructions?",
+    "output": "The product manufacturer shall not be liable if the product was purchased by an employer for use at the workplace and the product manufacturer had provided warnings or instructions to such employer.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the conditions under which a product manufacturer can avoid liability for failure to instruct or warn about a danger?",
+    "output": "The product manufacturer shall not be liable for failure to instruct or warn about a danger if it is obvious or commonly known to the user or consumer of such product, or if the user or consumer ought to have known, taking into account the characteristics of such product.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the penalty for failing to comply with directions of the Central Authority, as specified in sections 20 and 21?",
+    "output": "Whoever fails to comply with any direction of the Central Authority under sections 20 and 21 shall be punished with imprisonment for a term which may extend to six months or with fine which may extend to twenty lakh rupees, or with both.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the maximum punishment for manufacturing a product containing an adulterant for sale or distribution?",
+    "output": "Imprisonment for a term which may extend to seven years and with fine which may extend to five lakh rupees.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the punishment for causing the death of a consumer due to adulterated product?",
+    "output": "Imprisonment for a term which shall not be less than seven years, but which may extend to imprisonment for life and with fine which shall not be less than ten lakh rupees.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is considered an \"adulterant\" under the Consumer Protection Act 2019?",
+    "output": "Any material including extraneous matter that is employed or used for making a product unsafe.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the punishment for causing injury resulting in \"grievous hurt\" to a consumer?",
+    "output": "Imprisonment for a term which may extend to seven years, along with fine.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the punishment for searching or causing to be searched any premises without reasonable grounds?",
+    "output": "Imprisonment for a term which may extend to one year, or with fine which may extend to ten thousand rupees or with both.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the consequence for the second or subsequent conviction of a licence suspension or cancellation?",
+    "output": "Cancel the licence.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Who are deemed to be public servants under the Consumer Protection Act 2019?",
+    "output": "The Additional Director General, the Director, the Joint Director, the Deputy Director and the Assistant Director and all other officers and employees of the Central Authority and other persons performing any duty under this Act.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Under what conditions can an offence punishable under sections 88 and 89 be compounded?",
+    "output": "An offence punishable under sections 88 and 89 may be compounded either before or after the institution of the prosecution, on payment of such amount as may be prescribed, provided no compounding is made without the leave of the court before which a complaint has been filed under section 92.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What happens if an offender commits a second or subsequent offence after a period of three years from the date of the previous offence, where the previous offence was compounded?",
+    "output": "The second or subsequent offence shall be deemed to be a first offence.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can a proceeding be taken against an offender who has had an offence compounded, or is the acceptance of a sum of money for compounding considered an acquittal?",
+    "output": "No proceeding can be taken against the offender, and the acceptance of the sum of money for compounding is deemed to be an acquittal.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the procedure for the Central Government to give directions to the Central Authority under the Consumer Protection Act 2019?",
+    "output": "The Central Authority shall be given an opportunity to express its views before any direction is given under this sub-section.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What is the finality of the Central Government's decision regarding whether a question is one of policy or not?",
+    "output": "The decision of the Central Government is final.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the qualifications for appointment, method of recruitment, and other terms and conditions of service of the Chief Commissioner and other Commissioners of the Central Authority under section 11?",
+    "output": "The qualifications for appointment, method of recruitment, procedure of appointment, term of office, salaries and allowances, resignation, removal and other terms and conditions of service of the Chief Commissioner and other Commissioners of the Central Authority under section 11.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What are the qualifications for appointment of Director General, Additional Director General, Director, Joint Director, Deputy Director and Assistant Director and the manner of appointment under sub-section (2) of section 15?",
+    "output": "The qualifications for appointment of Director General, Additional Director General, Director, Joint Director, Deputy Director and Assistant Director and the manner of appointment under sub-section (2) of section 15.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What specific matters are covered under the Central Authority's annual report preparations under Section 27?",
+    "output": "The time within which an annual report, other reports and returns may be prepared by the Central Authority.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What matters are covered under the appointment and removal of President and members of the District Commission under Section 29?",
+    "output": "The qualifications for appointment, method of recruitment, procedure for appointment, term of office, resignation and removal of President and members of the District Commission.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What type of goods and services have jurisdiction over the State Commission under the proviso to sub-clause (i) of clause (a) of sub-section (1) of section 47?",
+    "output": "Other value of goods and services.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "What type of goods and services have jurisdiction over the National Commission under the proviso to sub-clause (i) of clause (a) of sub-section (1) of section 58?",
+    "output": "Other value of goods and services.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can State Governments make rules under the Consumer Protection Act 2019 without Central Government approval?",
+    "output": "No, the Central Government can frame model rules in respect of matters to which the State Government may make rules, and these model rules shall apply to the State until the State Government makes its own rules.",
+    "source": "Consumer Protection Act 2019"
+  },
+  {
+    "instruction": "Can State Governments make rules that deviate from model rules framed by the Central Government?",
+    "output": "No, while making any rules, State Governments shall, so far as is practicable, conform to model rules. This means that State Governments must follow the principles and guidelines set by the Central Government.",
+    "source": "Consumer Protection Act 2019"
+  }
+]
