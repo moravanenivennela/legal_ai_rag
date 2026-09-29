@@ -46,6 +46,121 @@ class LegalRAGEngine:
         for doc, meta, dist in zip(results["documents"][0], results["metadatas"][0], results["distances"][0]):
             dense_hits.append({"text": doc, "metadata": meta, "distance": dist})
         return dense_hits, min_distance
+    def extract_legal_reference(self, query: str):
+        """Detect explicit Article/Section references in the query."""
+        article_match = re.search(
+            r'\bArticle\s+([0-9]+[A-Za-z]?)\b',
+            query,
+            re.IGNORECASE
+        )
+
+        if article_match:
+            return "article", article_match.group(1)
+
+        section_match = re.search(
+            r'\bSection\s+([0-9]+[A-Za-z]?)\b',
+            query,
+            re.IGNORECASE
+        )
+
+        if section_match:
+            return "section", section_match.group(1)
+
+        return None, None
+
+
+    def exact_provision_search(
+        self,
+        reference_type: str,
+        reference_number: str,
+        predicted_class: str
+    ) -> List[Dict[str, Any]]:
+        """Find an explicitly referenced legal provision in the corpus."""
+
+        exact_hits = []
+
+        for text, metadata in zip(
+            self.bm25_docs,
+            self.bm25_metadatas
+        ):
+            text_lower = text.lower()
+            source = metadata.get("source", "").lower()
+
+            # Constitution Article
+            if (
+                reference_type == "article"
+                and predicted_class == "constitution"
+                and source == "constitution_of_india.pdf"
+            ):
+                first_part = text_lower[:500]
+
+                excluded = (
+                    "contents" in first_part
+                    or "seventh schedule" in first_part
+                    or "eighth schedule" in first_part
+                    or "ninth schedule" in first_part
+                    or "tenth schedule" in first_part
+                    or "eleventh schedule" in first_part
+                    or "twelfth schedule" in first_part
+                    or "appendix" in first_part
+                )
+
+                if excluded:
+                    continue
+
+                pattern = (
+                    rf"(?m)^\s*{re.escape(reference_number)}\.\s+[A-Za-z]"
+                )
+
+                if re.search(pattern, text):
+                    # Extract ONLY the requested Article from the larger
+                    # page/chunk so neighbouring Articles cannot confuse
+                    # the generation model.
+                    start_match = re.search(
+                        rf"(?m)^\s*{re.escape(reference_number)}\.\s+[A-Za-z]",
+                        text
+                    )
+
+                    if start_match:
+                        start = start_match.start()
+
+                        # Find the next numbered constitutional provision.
+                        next_match = re.search(
+                            r"(?m)^\s*(?:\d+|\d+[A-Za-z])\.\s+[A-Za-z]",
+                            text[start + 1:]
+                        )
+
+                        if next_match:
+                            end = start + 1 + next_match.start()
+                            provision_text = text[start:end].strip()
+                        else:
+                            provision_text = text[start:].strip()
+
+                        exact_hits.append({
+                            "text": provision_text,
+                            "metadata": metadata,
+                            "exact_provision_match": True
+                        })
+
+            # Consumer Protection Act Section
+            elif (
+                reference_type == "section"
+                and predicted_class == "consumer_protection"
+                and source == "consumer_protection_act_2019.pdf"
+            ):
+                pattern = (
+                    rf"(?m)^\s*{re.escape(reference_number)}\.\s+[A-Za-z]"
+                )
+
+                if re.search(pattern, text):
+                    exact_hits.append({
+                        "text": text,
+                        "metadata": metadata,
+                        "exact_provision_match": True
+                    })
+
+        return exact_hits
+
 
     def sparse_search(self, query: str, k: int = 10) -> List[Dict[str, Any]]:
         tokenized_query = re.findall(r'\w+', query.lower())
@@ -82,10 +197,145 @@ class LegalRAGEngine:
         reranked = sorted(candidates, key=lambda x: x["rerank_score"], reverse=True)
         return reranked[:top_n]
 
+    def classify_query_domain(self, query: str, query_vector):
+        """
+        Hybrid legal-domain routing.
+
+        The trained classifier remains the primary decision mechanism.
+        High-precision rules handle:
+        1. Explicit references to legal domains outside the indexed corpus.
+        2. Strong Constitution / Consumer Protection indicators that may be
+           underrepresented in the small classifier training set.
+        """
+
+        q = re.sub(r"\s+", " ", query.lower().strip())
+
+        # ---------------------------------------------------------
+        # 1. Explicitly named external legal domains
+        # ---------------------------------------------------------
+        external_domain_patterns = [
+            r"\bright to information act\b",
+            r"\brti act\b",
+            r"\bsebi act\b",
+            r"\bsecurities and exchange board\b",
+            r"\barbitration and conciliation act\b",
+            r"\benvironmental protection act\b",
+            r"\bprevention of corruption act\b",
+            r"\binsolvency and bankruptcy code\b",
+            r"\bnational food security act\b",
+            r"\bright to education act\b",
+            r"\bforeign exchange management act\b",
+            r"\bfema\b",
+            r"\bminimum wage law\b",
+            r"\bcyberbullying law\b",
+            r"\bcopyright law\b",
+            r"\bindian contract act\b",
+            r"\bcontract act\b",
+            r"\binformation technology act\b",
+            r"\bit act\b",
+            r"\bindustrial disputes\b",
+            r"\bindustrial dispute act\b",
+            r"\bsecurities markets?\b",
+            r"\bsebi\b",
+            r"\bsecurities and exchange board\b",
+        ]
+
+        if any(re.search(pattern, q) for pattern in external_domain_patterns):
+            return "out_of_domain"
+
+        # ---------------------------------------------------------
+        # 2. Strong Constitution indicators
+        # ---------------------------------------------------------
+        constitution_patterns = [
+            r"\bconstitution of india\b",
+            r"\bconstitutional\b",
+            r"\bpreamble\b",
+            r"\bfundamental rights?\b",
+            r"\bfundamental duties?\b",
+            r"\bdirective principles?\b",
+            r"\bunion list\b",
+            r"\bstate list\b",
+            r"\bconcurrent list\b",
+            r"\bseventh schedule\b",
+            r"\bschedule\s*7\b",
+            r"\bforming a new state\b",
+            r"\bnew state\b.*\bconstitution\b",
+            r"\bpresident's rule\b",
+            r"\bpresident rule\b",
+            r"\bparliament\b.*\bconstitution\b",
+            r"\bhigh court\b.*\bconstitution\b",
+            r"\bsupreme court\b.*\bconstitution\b",
+            r"\barticle\s+\d+[a-z]?\b",
+        ]
+
+        constitution_hit = any(
+            re.search(pattern, q) for pattern in constitution_patterns
+        )
+
+        # ---------------------------------------------------------
+        # 3. Strong Consumer Protection indicators
+        # ---------------------------------------------------------
+        consumer_patterns = [
+            r"\bconsumer protection\b",
+            r"\bconsumer complaint\b",
+            r"\bconsumer rights?\b",
+            r"\bconsumer commission\b",
+            r"\bdistrict commission\b",
+            r"\bstate commission\b",
+            r"\bnational commission\b",
+            r"\bcentral consumer protection authority\b",
+            r"\bccpa\b",
+            r"\bmisleading advertisement\b",
+            r"\bunfair trade practice\b",
+            r"\brestrictive trade practice\b",
+            r"\bproduct liability\b",
+            r"\bdeficiency in service\b",
+            r"\bdefect in goods\b",
+            r"\bspurious goods\b",
+            r"\bunfair contract\b",
+            r"\be-commerce liability\b",
+            r"\bconsumer mediation\b",
+            r"\bmediation settlement\b",
+            r"\bconsumer law\b",
+            r"\bcomplainant\b.*\bconsumer\b",
+        ]
+
+        consumer_hit = any(
+            re.search(pattern, q) for pattern in consumer_patterns
+        )
+
+        # Explicit Article queries belong to the Constitution corpus.
+        if re.search(r"\barticle\s+\d+[a-z]?\b", q):
+            return "constitution"
+
+        if constitution_hit and not consumer_hit:
+            return "constitution"
+
+        if consumer_hit and not constitution_hit:
+            return "consumer_protection"
+
+        # If both domains appear, retain the trained classifier's decision.
+        predicted = self.query_classifier.predict([query_vector])[0]
+
+        # ---------------------------------------------------------
+        # 4. Fallback to the trained classifier
+        # ---------------------------------------------------------
+        return predicted
+
     def retrieve(self, query: str) -> Tuple[List[Dict[str, Any]], bool, float, str]:
         query_vector = self.embedding_fn.embed_query(query)
 
-        predicted_class = self.query_classifier.predict([query_vector])[0]
+        predicted_class = self.classify_query_domain(query, query_vector)
+        reference_type, reference_number = self.extract_legal_reference(query)
+
+        exact_hits = []
+
+        if reference_type and reference_number:
+            exact_hits = self.exact_provision_search(
+                reference_type,
+                reference_number,
+                predicted_class
+            )
         if predicted_class == "out_of_domain":
             dense_hits, min_distance = self.dense_search(query, k=10)
             return [], False, min_distance, predicted_class
@@ -98,7 +348,21 @@ class LegalRAGEngine:
 
         fused_contexts = self.reciprocal_rank_fusion(dense_hits, sparse_hits, top_n=8)
         reranked_contexts = self.rerank(query, fused_contexts, top_n=4)
-        return reranked_contexts, True, min_distance, predicted_class
+
+        # Explicit legal references are resolved deterministically.
+        # Put the exact provision first, then retain the best
+        # hybrid-retrieval contexts.
+        if exact_hits:
+            exact_texts = {h["text"] for h in exact_hits}
+
+            remaining = [
+                h for h in reranked_contexts
+                if h["text"] not in exact_texts
+            ]
+
+            reranked_contexts = exact_hits + remaining
+
+        return reranked_contexts[:4], True, min_distance, predicted_class
 
     def get_topic_image(self, predicted_domain: str, shown_images: set) -> str:
         import json
