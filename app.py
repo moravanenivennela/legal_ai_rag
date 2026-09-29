@@ -98,7 +98,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.sidebar.header("⚙️ System Configuration")
-selected_model = st.sidebar.selectbox("Local LLM Engine (Ollama):", ["llama3.2:1b", "llama3.2:3b"], index=0)
+selected_model = st.sidebar.selectbox(
+    "Local LLM Engine (Ollama):",
+    ["legal-ai-finetuned", "llama3.2:1b", "llama3.2:3b"],
+    index=0
+)
 selected_language = st.sidebar.selectbox("🌐 Answer Language:", ["English", "Hindi"], index=0)
 
 st.sidebar.markdown("---")

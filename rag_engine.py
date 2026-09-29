@@ -16,7 +16,7 @@ DISTANCE_GUARDRAIL_THRESHOLD = 1.35
 
 
 class LegalRAGEngine:
-    def __init__(self, model_name: str = "gemma2:9b"):
+    def __init__(self, model_name: str = "legal-ai-finetuned:latest"):
         self.model_name = model_name
         self.embedding_fn = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL_NAME)
         self.chroma_client = chromadb.PersistentClient(path=CHROMA_DIR)
