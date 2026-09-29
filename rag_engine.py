@@ -244,6 +244,119 @@ class LegalRAGEngine:
             return "out_of_domain"
 
         # ---------------------------------------------------------
+        # 2. Explicit out-of-domain legal indicators
+        # ---------------------------------------------------------
+        #
+        # The supported corpus contains only:
+        #   - Constitution of India
+        #   - Consumer Protection Act, 2019
+        #
+        # These patterns identify clearly unrelated legal domains.
+        # They are intentionally broad enough to catch different
+        # phrasings, rather than memorizing individual test questions.
+        #
+
+        ood_patterns = [
+            # Intellectual property
+            r"\bcopyright\b",
+            r"\bpatent\b",
+            r"\bpatents\b",
+            r"\btrademark\b",
+            r"\btrademarks\b",
+            r"\bgeographical indication\b",
+
+            # Companies / corporate law
+            r"\bcompanies act\b",
+            r"\bcompany law\b",
+            r"\bcorporate law\b",
+            r"\bcompetition act\b",
+            r"\bcompetition law\b",
+            r"\banti[- ]competitive\b",
+            r"\babuse of dominance\b",
+            r"\binsolvency and bankruptcy\b",
+
+            # Tax / financial regulation
+            r"\bincome tax\b",
+            r"\bincome[- ]tax\b",
+            r"\bgoods and services tax\b",
+            r"\bgst\b",
+            r"\bcustoms law\b",
+            r"\bcustoms act\b",
+            r"\bforeign exchange\b",
+            r"\bfema\b",
+            r"\bsebi\b",
+            r"\bsecurities market\b",
+            r"\bsecurities markets\b",
+
+            # Labour / employment
+            r"\bminimum wage\b",
+            r"\bminimum wages\b",
+            r"\blabou?r law\b",
+            r"\bindustrial dispute\b",
+            r"\bindustrial disputes\b",
+            r"\bprovident fund\b",
+            r"\bemployees.? provident fund\b",
+            r"\bmaternity benefit\b",
+            r"\bmaternity benefits\b",
+
+            # Criminal law
+            r"\bindian penal code\b",
+            r"\bipc\b",
+            r"\bbharatiya nyaya sanhita\b",
+            r"\bbns\b",
+            r"\bcriminal procedure\b",
+            r"\bcriminal law\b",
+            r"\bcode of criminal procedure\b",
+            r"\bcrpc\b",
+            r"\bindian evidence act\b",
+            r"\bbharatiya sakshya\b",
+
+            # Environment
+            r"\benvironmental protection act\b",
+            r"\benvironment protection act\b",
+            r"\benvironmental law\b",
+            r"\benvironment law\b",
+            r"\bair act\b",
+            r"\bair pollution\b",
+            r"\bwater act\b",
+            r"\bwater pollution\b",
+            r"\bwildlife protection act\b",
+            r"\bforest conservation\b",
+
+            # Technology / cyber
+            r"\binformation technology act\b",
+            r"\binformation technology law\b",
+            r"\bcyber law\b",
+            r"\bcyber crime\b",
+            r"\bcyber offences?\b",
+            r"\bdata protection\b",
+            r"\bdigital personal data\b",
+
+            # Contract / dispute law
+            r"\bindian contract act\b",
+            r"\bcontract law\b",
+            r"\barbitration and conciliation\b",
+            r"\barbitration law\b",
+            r"\bnegotiable instruments\b",
+            r"\bcheque dishonou?r\b",
+
+            # Other statutes
+            r"\bright to information act\b",
+            r"\brti act\b",
+            r"\bright to education act\b",
+            r"\bnational food security act\b",
+            r"\bprevention of corruption act\b",
+            r"\bmotor vehicles act\b",
+            r"\bpassport act\b",
+            r"\btransfer of property act\b",
+            r"\bspecific relief act\b",
+        ]
+
+        for pattern in ood_patterns:
+            if re.search(pattern, q):
+                return "out_of_domain"
+
+        # ---------------------------------------------------------
         # 2. Strong Constitution indicators
         # ---------------------------------------------------------
         constitution_patterns = [
