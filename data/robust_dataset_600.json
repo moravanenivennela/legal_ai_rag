@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "constitution_1",
+    "query": "What are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_187",
+    "query": "What are the exact guidelines when what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_238",
+    "query": "Is it true that what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_233",
+    "query": "Please clarify: what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_32",
+    "query": "Please clarify: what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_8",
+    "query": "Please clarify: can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_77",
+    "query": "What constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_169",
+    "query": "Please clarify: what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_54",
+    "query": "Under Indian law, what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_221",
+    "query": "According to legal provisions, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_75",
+    "query": "According to legal provisions, what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_42",
+    "query": "Please clarify: what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_40",
+    "query": "Please clarify: what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_37",
+    "query": "Please clarify: how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_132",
+    "query": "What are the exact guidelines when is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_162",
+    "query": "According to legal provisions, is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_61",
+    "query": "Is it true that can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_199",
+    "query": "Is it true that how does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_74",
+    "query": "Can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_217",
+    "query": "How does the law handle what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_214",
+    "query": "What are the exact guidelines when explain equality before law guaranteed under Article 14  when resolving a dispute?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_221",
+    "query": "What are the exact guidelines when what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_37",
+    "query": "What is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_17",
+    "query": "Please clarify: what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_10",
+    "query": "Please clarify: how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_118",
+    "query": "Under Indian law, what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_160",
+    "query": "What are the exact guidelines when is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_170",
+    "query": "Under Indian law, what action can be taken against misleading advertisements and false claims?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_134",
+    "query": "Under Indian law, what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_92",
+    "query": "How does the law handle can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_204",
+    "query": "What are the exact guidelines when how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_6",
+    "query": "Under Indian law, how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_143",
+    "query": "Is it true that can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_53",
+    "query": "Can someone explain if how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_232",
+    "query": "Please clarify: what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_39",
+    "query": "Can someone explain if does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_33",
+    "query": "Under Indian law, is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_72",
+    "query": "Is it true that what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_188",
+    "query": "Under Indian law, can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_81",
+    "query": "Under Indian law, how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_66",
+    "query": "Is it true that how is gratuity calculated for employees completing five years of service?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_113",
+    "query": "In India, can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_34",
+    "query": "Please clarify: what documents are required to register a Private Limited Company?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_182",
+    "query": "How does the law handle what are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_10",
+    "query": "What are the exact guidelines when how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_106",
+    "query": "In India, under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_243",
+    "query": "Is it true that what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_210",
+    "query": "Is it true that what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_99",
+    "query": "Can someone explain if what is the penalty for driving without a valid driving license under the Motor Vehicles Act?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_3",
+    "query": "Can someone explain if what documents are required to register a Private Limited Company?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_129",
+    "query": "In India, what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_98",
+    "query": "Is it true that what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_88",
+    "query": "How to report an online financial fraud complaint with the cyber crime police?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_239",
+    "query": "What are the exact guidelines when what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_111",
+    "query": "Is it true that explain equality before law guaranteed under Article 14  when resolving a dispute?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_185",
+    "query": "What are the exact guidelines when does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_206",
+    "query": "Please clarify: what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_38",
+    "query": "According to legal provisions, explain equality before law guaranteed under Article 14  under applicable regulations?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_81",
+    "query": "In India, what is the penalty for driving without a valid driving license under the Motor Vehicles Act?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_191",
+    "query": "Can someone explain if what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_42",
+    "query": "What documents are required to register a Private Limited Company?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_147",
+    "query": "In India, how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_21",
+    "query": "How does the law handle what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_19",
+    "query": "How does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_115",
+    "query": "Can someone explain if what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_167",
+    "query": "Can someone explain if what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_156",
+    "query": "Please clarify: how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_73",
+    "query": "How does the law handle what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_224",
+    "query": "According to legal provisions, how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_22",
+    "query": "Under Indian law, under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_181",
+    "query": "What are the exact guidelines when explain equality before law guaranteed under Article 14  according to statutory provisions?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_93",
+    "query": "Can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_160",
+    "query": "Please clarify: what are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_16",
+    "query": "Can someone explain if can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_98",
+    "query": "Is it true that what are the tenant rights regarding rent increase under local rent control acts?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_179",
+    "query": "Under Indian law, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_96",
+    "query": "According to legal provisions, what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_120",
+    "query": "Explain equality before law guaranteed under Article 14  in current judicial practice?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_164",
+    "query": "What constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_88",
+    "query": "How does the law handle what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_139",
+    "query": "Please clarify: can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_175",
+    "query": "Please clarify: what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_196",
+    "query": "Under Indian law, how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_92",
+    "query": "Can someone explain if is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_1",
+    "query": "Under Indian law, is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_81",
+    "query": "What are the exact guidelines when how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_250",
+    "query": "In India, how does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_210",
+    "query": "What is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_94",
+    "query": "According to legal provisions, what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_52",
+    "query": "According to legal provisions, how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_136",
+    "query": "What are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_123",
+    "query": "How does the law handle what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_80",
+    "query": "In India, what documents are required to register a Private Limited Company?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_9",
+    "query": "In India, what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_64",
+    "query": "Is it true that what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_58",
+    "query": "Is it true that does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_120",
+    "query": "Is it true that can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_207",
+    "query": "What are the exact guidelines when what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_215",
+    "query": "Please clarify: can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_207",
+    "query": "Can someone explain if can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_46",
+    "query": "According to legal provisions, what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_134",
+    "query": "What are the exact guidelines when what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_43",
+    "query": "In India, how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_148",
+    "query": "According to legal provisions, what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_26",
+    "query": "According to legal provisions, how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_24",
+    "query": "According to legal provisions, what is the deadline for filing income tax returns for salaried individuals?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_69",
+    "query": "What are the exact guidelines when what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_13",
+    "query": "How does the law handle how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_145",
+    "query": "What constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_59",
+    "query": "In India, how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_67",
+    "query": "Is it true that what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_74",
+    "query": "Can someone explain if what are the tenant rights regarding rent increase under local rent control acts?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_75",
+    "query": "In India, what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_51",
+    "query": "What are the exact guidelines when how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_44",
+    "query": "Please clarify: can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_22",
+    "query": "According to legal provisions, what are the tenant rights regarding rent increase under local rent control acts?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_75",
+    "query": "According to legal provisions, what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_163",
+    "query": "How does the law handle can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_70",
+    "query": "Is it true that what documents are required to register a Private Limited Company?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_158",
+    "query": "How does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_110",
+    "query": "Please clarify: can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_8",
+    "query": "Can someone explain if under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_34",
+    "query": "According to legal provisions, can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_133",
+    "query": "Can someone explain if how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_125",
+    "query": "Please clarify: what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_97",
+    "query": "Under Indian law, what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_60",
+    "query": "Can someone explain if what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_166",
+    "query": "Please clarify: how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_144",
+    "query": "According to legal provisions, what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_246",
+    "query": "Under Indian law, how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_64",
+    "query": "In India, what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_121",
+    "query": "According to legal provisions, what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_8",
+    "query": "What are the exact guidelines when what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_142",
+    "query": "Please clarify: what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_91",
+    "query": "Under Indian law, how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_32",
+    "query": "How many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_246",
+    "query": "Under Indian law, what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_34",
+    "query": "Is it true that can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_235",
+    "query": "How does the law handle what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_139",
+    "query": "Under Indian law, what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_35",
+    "query": "Please clarify: can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_225",
+    "query": "Can someone explain if can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_155",
+    "query": "According to legal provisions, what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_129",
+    "query": "Is it true that what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_82",
+    "query": "How does the law handle how is gratuity calculated for employees completing five years of service?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_249",
+    "query": "Is it true that can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_46",
+    "query": "Under Indian law, what is the deadline for filing income tax returns for salaried individuals?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_117",
+    "query": "What are the exact guidelines when can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_211",
+    "query": "Can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_122",
+    "query": "According to legal provisions, does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_226",
+    "query": "Under Indian law, explain equality before law guaranteed under Article 14  as per recent legal precedent?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_161",
+    "query": "What are the exact guidelines when what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_157",
+    "query": "What are the exact guidelines when how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_137",
+    "query": "Please clarify: what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_68",
+    "query": "Please clarify: what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_79",
+    "query": "Can someone explain if how is gratuity calculated for employees completing five years of service?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_193",
+    "query": "Under Indian law, can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_175",
+    "query": "In India, what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_77",
+    "query": "How is gratuity calculated for employees completing five years of service?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_240",
+    "query": "Please clarify: what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_108",
+    "query": "How is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_131",
+    "query": "How does the law handle what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_5",
+    "query": "Is it true that how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_126",
+    "query": "What are the exact guidelines when what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_208",
+    "query": "How does the law handle how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_17",
+    "query": "What are the exact guidelines when does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_66",
+    "query": "How does the law handle what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_36",
+    "query": "Please clarify: can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_94",
+    "query": "According to legal provisions, how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_94",
+    "query": "Can someone explain if what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_154",
+    "query": "Please clarify: can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_232",
+    "query": "In India, how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_151",
+    "query": "What are the exact guidelines when can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_101",
+    "query": "What are the exact guidelines when how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_17",
+    "query": "According to legal provisions, can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_39",
+    "query": "According to legal provisions, how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_4",
+    "query": "Under Indian law, explain equality before law guaranteed under Article 14  in current judicial practice?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_16",
+    "query": "Please clarify: how to report an online financial fraud complaint with the cyber crime police?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_182",
+    "query": "What are the exact guidelines when can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_231",
+    "query": "How does the law handle what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_194",
+    "query": "According to legal provisions, what are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_128",
+    "query": "Can someone explain if how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_150",
+    "query": "Under Indian law, how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_28",
+    "query": "How does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_185",
+    "query": "Can someone explain if what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_133",
+    "query": "Under Indian law, what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_228",
+    "query": "Please clarify: can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_26",
+    "query": "How does the law handle what are the tenant rights regarding rent increase under local rent control acts?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_73",
+    "query": "According to legal provisions, how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_138",
+    "query": "According to legal provisions, is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_215",
+    "query": "Can someone explain if what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_56",
+    "query": "According to legal provisions, what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_67",
+    "query": "In India, what action can be taken against misleading advertisements and false claims?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_132",
+    "query": "Can someone explain if explain equality before law guaranteed under Article 14  when resolving a dispute?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_58",
+    "query": "How does the law handle how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_163",
+    "query": "Please clarify: is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_186",
+    "query": "What are the exact guidelines when how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_35",
+    "query": "How does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_110",
+    "query": "According to legal provisions, what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_219",
+    "query": "According to legal provisions, does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_150",
+    "query": "According to legal provisions, what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_82",
+    "query": "How does the law handle what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_127",
+    "query": "What are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_91",
+    "query": "Under Indian law, what is the deadline for filing income tax returns for salaried individuals?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_25",
+    "query": "How does the law handle how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_51",
+    "query": "How does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_72",
+    "query": "Please clarify: how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_11",
+    "query": "Please clarify: what are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_229",
+    "query": "According to legal provisions, what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_87",
+    "query": "Is it true that is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_84",
+    "query": "How does the law handle what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_122",
+    "query": "What are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_90",
+    "query": "Can someone explain if what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_248",
+    "query": "Under Indian law, can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_211",
+    "query": "Is it true that under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_205",
+    "query": "Under Indian law, how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_10",
+    "query": "Please clarify: can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_141",
+    "query": "According to legal provisions, under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_187",
+    "query": "In India, how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_48",
+    "query": "How does the law handle how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_231",
+    "query": "Can someone explain if can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_196",
+    "query": "In India, what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_4",
+    "query": "In India, what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_49",
+    "query": "In India, what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_195",
+    "query": "Is it true that what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_105",
+    "query": "How does the law handle what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_90",
+    "query": "Is it true that can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_84",
+    "query": "Can someone explain if how does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_82",
+    "query": "Is it true that what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_142",
+    "query": "What are the exact guidelines when under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_49",
+    "query": "Under Indian law, what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_99",
+    "query": "Under Indian law, can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_200",
+    "query": "Under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_143",
+    "query": "What are the exact guidelines when what are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_93",
+    "query": "Please clarify: under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_135",
+    "query": "Under Indian law, how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_68",
+    "query": "How does the law handle how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_158",
+    "query": "How does the law handle what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_31",
+    "query": "How does the law handle what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_7",
+    "query": "Please clarify: can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_191",
+    "query": "In India, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_11",
+    "query": "In India, how to report an online financial fraud complaint with the cyber crime police?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_76",
+    "query": "Is it true that what is the penalty for driving without a valid driving license under the Motor Vehicles Act?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_49",
+    "query": "In India, what are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_237",
+    "query": "Can someone explain if what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_140",
+    "query": "Under Indian law, how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_63",
+    "query": "Please clarify: what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_53",
+    "query": "What is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_140",
+    "query": "Can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_100",
+    "query": "How can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_30",
+    "query": "Can someone explain if how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_152",
+    "query": "Under Indian law, what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_107",
+    "query": "In India, explain equality before law guaranteed under Article 14  in a formal court setting?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_123",
+    "query": "Is it true that what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_171",
+    "query": "What are the exact guidelines when what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_95",
+    "query": "How does the law handle how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_236",
+    "query": "What is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_235",
+    "query": "How does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_96",
+    "query": "How to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_70",
+    "query": "Under Indian law, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_48",
+    "query": "What are the exact guidelines when what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_37",
+    "query": "Is it true that what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_28",
+    "query": "Please clarify: what documents are required to register a Private Limited Company?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_184",
+    "query": "Is it true that under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_55",
+    "query": "In India, can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_106",
+    "query": "According to legal provisions, how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_7",
+    "query": "What are the exact guidelines when what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_22",
+    "query": "Can someone explain if what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_161",
+    "query": "How does the law handle what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_117",
+    "query": "Is it true that what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_198",
+    "query": "In India, what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_188",
+    "query": "What are the exact guidelines when what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_20",
+    "query": "According to legal provisions, what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_76",
+    "query": "According to legal provisions, can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_54",
+    "query": "In India, how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_59",
+    "query": "How to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_89",
+    "query": "Can someone explain if can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_41",
+    "query": "Under Indian law, what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_4",
+    "query": "Can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_38",
+    "query": "How does the law handle what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_212",
+    "query": "Is it true that what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_55",
+    "query": "Is it true that what are the tenant rights regarding rent increase under local rent control acts?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_39",
+    "query": "How does the law handle what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_236",
+    "query": "How does the law handle can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_84",
+    "query": "Is it true that what action can be taken against misleading advertisements and false claims?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_83",
+    "query": "According to legal provisions, what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_146",
+    "query": "What are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_16",
+    "query": "Is it true that what are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_131",
+    "query": "Under Indian law, what action can be taken against misleading advertisements and false claims?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_114",
+    "query": "According to legal provisions, how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_144",
+    "query": "What are the exact guidelines when what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_125",
+    "query": "Under Indian law, how does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_65",
+    "query": "Can someone explain if what is the deadline for filing income tax returns for salaried individuals?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_18",
+    "query": "According to legal provisions, what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_230",
+    "query": "According to legal provisions, what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_130",
+    "query": "How does the law handle what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_247",
+    "query": "Can someone explain if is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_76",
+    "query": "What are the exact guidelines when does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_201",
+    "query": "What are the exact guidelines when what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_47",
+    "query": "Is it true that can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_242",
+    "query": "In India, what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_89",
+    "query": "Under Indian law, what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_149",
+    "query": "In India, how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_2",
+    "query": "Is it true that how to report an online financial fraud complaint with the cyber crime police?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_89",
+    "query": "Under Indian law, what is the penalty for driving without a valid driving license under the Motor Vehicles Act?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_208",
+    "query": "According to legal provisions, does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_111",
+    "query": "Please clarify: what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_105",
+    "query": "What are the exact guidelines when what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_69",
+    "query": "What are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_65",
+    "query": "How does the law handle explain equality before law guaranteed under Article 14  in current judicial practice?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_148",
+    "query": "Can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_119",
+    "query": "What are the exact guidelines when what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_80",
+    "query": "Under Indian law, how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_55",
+    "query": "In India, what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_15",
+    "query": "What are the exact guidelines when how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_66",
+    "query": "Please clarify: does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_127",
+    "query": "Please clarify: what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_124",
+    "query": "Is it true that can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_229",
+    "query": "What are the exact guidelines when what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_2",
+    "query": "In India, how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_186",
+    "query": "Under Indian law, can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_61",
+    "query": "Please clarify: what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_118",
+    "query": "What are the exact guidelines when can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_6",
+    "query": "According to legal provisions, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_103",
+    "query": "What are the exact guidelines when is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_58",
+    "query": "Under Indian law, what is the penalty for driving without a valid driving license under the Motor Vehicles Act?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_42",
+    "query": "Please clarify: what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_197",
+    "query": "Under Indian law, what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_101",
+    "query": "Under Indian law, how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_95",
+    "query": "According to legal provisions, can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_56",
+    "query": "Is it true that how is gratuity calculated for employees completing five years of service?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_245",
+    "query": "According to legal provisions, can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_40",
+    "query": "Under Indian law, does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_205",
+    "query": "Can someone explain if what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_190",
+    "query": "Is it true that can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_46",
+    "query": "In India, what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_14",
+    "query": "How does the law handle can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_71",
+    "query": "Is it true that how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_61",
+    "query": "Is it true that what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_83",
+    "query": "How does the law handle what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_50",
+    "query": "Can someone explain if what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_74",
+    "query": "What remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_12",
+    "query": "How does the law handle how to report an online financial fraud complaint with the cyber crime police?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_52",
+    "query": "Under Indian law, is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_192",
+    "query": "What are the exact guidelines when what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_19",
+    "query": "How do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_78",
+    "query": "What are the exact guidelines when what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_38",
+    "query": "Under Indian law, what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_184",
+    "query": "What are the exact guidelines when what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_168",
+    "query": "Please clarify: does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_159",
+    "query": "According to legal provisions, how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_88",
+    "query": "Please clarify: can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_56",
+    "query": "Under Indian law, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_183",
+    "query": "In India, can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_244",
+    "query": "Please clarify: can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_26",
+    "query": "What are the exact guidelines when can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_29",
+    "query": "How does the law handle what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_45",
+    "query": "How does the law handle what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_116",
+    "query": "What are the exact guidelines when what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_41",
+    "query": "What are the exact guidelines when how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_20",
+    "query": "Can someone explain if can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_153",
+    "query": "What are the exact guidelines when how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_108",
+    "query": "What is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_151",
+    "query": "What are the exact guidelines when what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_214",
+    "query": "Is it true that how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_183",
+    "query": "According to legal provisions, what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_29",
+    "query": "Under Indian law, what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_24",
+    "query": "How does the law handle how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_128",
+    "query": "What are the exact guidelines when how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_25",
+    "query": "Can someone explain if what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_99",
+    "query": "Can someone explain if does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_87",
+    "query": "What are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_6",
+    "query": "According to legal provisions, what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_121",
+    "query": "Can someone explain if what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_168",
+    "query": "According to legal provisions, what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_20",
+    "query": "In India, what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_19",
+    "query": "Please clarify: what action can be taken against misleading advertisements and false claims?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_213",
+    "query": "Please clarify: how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_153",
+    "query": "According to legal provisions, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_189",
+    "query": "What are the exact guidelines when how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_83",
+    "query": "According to legal provisions, what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_87",
+    "query": "What are the exact guidelines when what are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_5",
+    "query": "In India, can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_240",
+    "query": "What are the exact guidelines when what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_223",
+    "query": "In India, what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_78",
+    "query": "Can someone explain if what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_96",
+    "query": "Is it true that what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_57",
+    "query": "Please clarify: how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_113",
+    "query": "How does the law handle what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_224",
+    "query": "Under Indian law, what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_30",
+    "query": "In India, what action can be taken against misleading advertisements and false claims?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_102",
+    "query": "Please clarify: how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_5",
+    "query": "How does the law handle what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_60",
+    "query": "According to legal provisions, what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_218",
+    "query": "How does the law handle can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_102",
+    "query": "How does the law handle what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_40",
+    "query": "Can someone explain if can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_233",
+    "query": "What are the exact guidelines when can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_27",
+    "query": "Please clarify: can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_70",
+    "query": "In India, explain equality before law guaranteed under Article 14  in current judicial practice?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_247",
+    "query": "Is it true that what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_12",
+    "query": "How does the law handle how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_226",
+    "query": "What are the exact guidelines when what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_241",
+    "query": "How does the law handle is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_57",
+    "query": "Under Indian law, can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_9",
+    "query": "Under Indian law, what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_244",
+    "query": "What are the exact guidelines when can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_201",
+    "query": "Please clarify: what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_192",
+    "query": "Please clarify: what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_13",
+    "query": "According to legal provisions, is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_124",
+    "query": "How does the law handle what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_173",
+    "query": "Is it true that does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_177",
+    "query": "Is it true that under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_62",
+    "query": "How does the law handle what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_195",
+    "query": "How does the law handle what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_147",
+    "query": "Can someone explain if what action can be taken against misleading advertisements and false claims?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_178",
+    "query": "How does the law handle what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_167",
+    "query": "Is it true that what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_3",
+    "query": "In India, can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_33",
+    "query": "According to legal provisions, what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_63",
+    "query": "Can someone explain if what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_23",
+    "query": "Under Indian law, how is gratuity calculated for employees completing five years of service?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_3",
+    "query": "Under Indian law, what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_230",
+    "query": "How does the law handle what action can be taken against misleading advertisements and false claims?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_181",
+    "query": "What are the exact guidelines when how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_45",
+    "query": "Is it true that what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_225",
+    "query": "Is it true that what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_209",
+    "query": "Is it true that what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_248",
+    "query": "Can someone explain if what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_203",
+    "query": "According to legal provisions, can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_60",
+    "query": "How does the law handle how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_203",
+    "query": "In India, can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_114",
+    "query": "Please clarify: does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_238",
+    "query": "What are the exact guidelines when what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_65",
+    "query": "Under Indian law, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_109",
+    "query": "Under Indian law, can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_202",
+    "query": "How does the law handle can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_180",
+    "query": "According to legal provisions, what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_159",
+    "query": "What are the exact guidelines when what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_25",
+    "query": "In India, what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_31",
+    "query": "Is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_202",
+    "query": "What constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_15",
+    "query": "Can someone explain if what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_172",
+    "query": "In India, what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_77",
+    "query": "How does the law handle how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_59",
+    "query": "According to legal provisions, can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_152",
+    "query": "How does the law handle can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_177",
+    "query": "In India, what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_198",
+    "query": "Is it true that how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_98",
+    "query": "What is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_62",
+    "query": "In India, can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_135",
+    "query": "In India, what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_216",
+    "query": "What is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_24",
+    "query": "What are the exact guidelines when what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_155",
+    "query": "What are the exact guidelines when what are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_115",
+    "query": "Please clarify: what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_97",
+    "query": "What are the exact guidelines when how does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_29",
+    "query": "What are the exact guidelines when what is the deadline for filing income tax returns for salaried individuals?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_97",
+    "query": "Is it true that how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_86",
+    "query": "Please clarify: how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_145",
+    "query": "How does the law handle can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_204",
+    "query": "What are the exact guidelines when what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_189",
+    "query": "Is it true that how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_178",
+    "query": "Can someone explain if can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_173",
+    "query": "In India, can fundamental rights be suspended during a state emergency?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_48",
+    "query": "According to legal provisions, how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_172",
+    "query": "Under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_223",
+    "query": "Is it true that how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_170",
+    "query": "Is it true that explain equality before law guaranteed under Article 14  according to statutory provisions?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_109",
+    "query": "According to legal provisions, what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_51",
+    "query": "Is it true that how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_112",
+    "query": "In India, what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_156",
+    "query": "Under Indian law, what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_100",
+    "query": "What are the exact guidelines when what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_174",
+    "query": "Is it true that what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_43",
+    "query": "Is it true that how to report an online financial fraud complaint with the cyber crime police?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_220",
+    "query": "Is it true that explain equality before law guaranteed under Article 14  in current judicial practice?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_14",
+    "query": "What are the exact guidelines when how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_21",
+    "query": "According to legal provisions, can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_141",
+    "query": "In India, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_199",
+    "query": "In India, can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_126",
+    "query": "In India, can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_245",
+    "query": "How does the law handle how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_165",
+    "query": "Can someone explain if what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_171",
+    "query": "Please clarify: how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_30",
+    "query": "Is it true that what are the tenant rights regarding rent increase under local rent control acts?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_242",
+    "query": "Can someone explain if is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_15",
+    "query": "Can someone explain if how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_35",
+    "query": "How to report an online financial fraud complaint with the cyber crime police?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_71",
+    "query": "What are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_112",
+    "query": "What are the exact guidelines when what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_54",
+    "query": "In India, how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_100",
+    "query": "According to legal provisions, how does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_138",
+    "query": "Is it true that explain equality before law guaranteed under Article 14  according to statutory provisions?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_165",
+    "query": "In India, can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_206",
+    "query": "Please clarify: what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_86",
+    "query": "Is it true that how do I apply for EPF withdrawal online after leaving a job?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_57",
+    "query": "Please clarify: how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_32",
+    "query": "Please clarify: what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_157",
+    "query": "In India, how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_31",
+    "query": "Please clarify: what documents are required to register a Private Limited Company?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_36",
+    "query": "Is it true that what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_149",
+    "query": "How does the law handle is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_63",
+    "query": "Under Indian law, what are the tenant rights regarding rent increase under local rent control acts?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_176",
+    "query": "According to legal provisions, what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_23",
+    "query": "How does the law handle what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_45",
+    "query": "What are the exact guidelines when what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_227",
+    "query": "How does the law handle can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_222",
+    "query": "Please clarify: what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_41",
+    "query": "Under Indian law, how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_176",
+    "query": "Please clarify: can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_71",
+    "query": "Under Indian law, is a manufacturer liable for manufacturing defects causing personal injury?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_249",
+    "query": "Can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_36",
+    "query": "What are the exact guidelines when can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_193",
+    "query": "Does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_11",
+    "query": "Is it true that how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_68",
+    "query": "Under Indian law, what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_27",
+    "query": "Under Indian law, how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_130",
+    "query": "According to legal provisions, what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_234",
+    "query": "Please clarify: can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_239",
+    "query": "How does the law handle can a service provider be sued for deficiency of service in medical care?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_222",
+    "query": "What are consumer rights under Section 2(9) of the Consumer Protection Act?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_78",
+    "query": "What is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_250",
+    "query": "What are the exact guidelines when can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_47",
+    "query": "How does the law handle what are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_216",
+    "query": "In India, what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_154",
+    "query": "Under Indian law, how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_44",
+    "query": "How to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_2",
+    "query": "Can someone explain if can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_18",
+    "query": "Is it true that what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_23",
+    "query": "Is it true that how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_91",
+    "query": "What is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_92",
+    "query": "According to legal provisions, what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_79",
+    "query": "Is it true that what are the discretionary powers of a State Governor?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_243",
+    "query": "Can someone explain if can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_146",
+    "query": "What are the exact guidelines when can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_44",
+    "query": "What are the exact guidelines when can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_50",
+    "query": "According to legal provisions, what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_213",
+    "query": "Can someone explain if how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_217",
+    "query": "Under Indian law, can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_69",
+    "query": "Please clarify: what are the tenant rights regarding rent increase under local rent control acts?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_80",
+    "query": "How does the law handle what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_179",
+    "query": "What are the exact guidelines when under what circumstances can the President's rule be imposed under Article 356?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_13",
+    "query": "How does the law handle what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_166",
+    "query": "According to legal provisions, how does Article 19 safeguard freedom of speech and expression?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_85",
+    "query": "Can someone explain if what constitutes unfair trade practice in online retail sales?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_18",
+    "query": "According to legal provisions, how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_47",
+    "query": "Is it true that what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_220",
+    "query": "Please clarify: how to appeal an order passed by the State Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_90",
+    "query": "Is it true that what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_53",
+    "query": "What are the exact guidelines when what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_86",
+    "query": "According to legal provisions, how is the Preamble interpreted in assessing constitutional validity?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_197",
+    "query": "What are the exact guidelines when what constitutes a violation of freedom of religion under Article 25?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_174",
+    "query": "Can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_21",
+    "query": "According to legal provisions, what is the deadline for filing income tax returns for salaried individuals?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_72",
+    "query": "Is it true that how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_14",
+    "query": "What are the exact guidelines when what are the tenant rights regarding rent increase under local rent control acts?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_119",
+    "query": "According to legal provisions, what is the interplay between Directive Principles and Fundamental Rights?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_228",
+    "query": "What are the exact guidelines when how can a consumer seek replacement or compensation for damaged goods?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_9",
+    "query": "In India, how to report an online financial fraud complaint with the cyber crime police?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_43",
+    "query": "In India, can a citizen file a writ petition under Article 226 in the High Court?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_162",
+    "query": "How does the law handle what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_107",
+    "query": "Please clarify: what action can be taken against misleading advertisements and false claims?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_234",
+    "query": "Is it true that does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_62",
+    "query": "How does the law handle what are the current GST rates for software development services?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_33",
+    "query": "Please clarify: what remedies exist for enforcement of Fundamental Rights under Article 32?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_93",
+    "query": "In India, what documents are required to register a Private Limited Company?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_194",
+    "query": "What are the exact guidelines when how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_180",
+    "query": "How does the law handle what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_200",
+    "query": "According to legal provisions, can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_85",
+    "query": "In India, how does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_219",
+    "query": "Please clarify: what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_136",
+    "query": "Can someone explain if how many days do I have to request a refund for a faulty product?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_169",
+    "query": "What are the exact guidelines when how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_79",
+    "query": "What are the exact guidelines when what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_164",
+    "query": "How does the law handle does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_95",
+    "query": "In India, what are the ground rules for declaring a national emergency under Article 352?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_28",
+    "query": "Does CPA 2019 cover unfair contracts imposed by builders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_52",
+    "query": "Can someone explain if what is the penalty for driving without a valid driving license under the Motor Vehicles Act?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_227",
+    "query": "Is it true that what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_212",
+    "query": "What are the exact guidelines when what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_241",
+    "query": "How does the Basic Structure doctrine restrict constitutional amendments?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_209",
+    "query": "According to legal provisions, how do I file a formal complaint against an e-commerce platform for defective items?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_12",
+    "query": "Can someone explain if can I claim product liability damages from a seller under CPA 2019?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "out_of_domain_27",
+    "query": "How does the law handle what documents are required to register a Private Limited Company?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_73",
+    "query": "Please clarify: how is gratuity calculated for employees completing five years of service?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_103",
+    "query": "According to legal provisions, what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_218",
+    "query": "Can someone explain if what protection does Article 21 grant regarding personal liberty?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_85",
+    "query": "According to legal provisions, how is gratuity calculated for employees completing five years of service?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "out_of_domain_1",
+    "query": "What are the exact guidelines when how to file a patent application for a software invention in India?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "constitution_190",
+    "query": "What are the exact guidelines when explain equality before law guaranteed under Article 14  in current judicial practice?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_67",
+    "query": "How does the law handle what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "constitution_50",
+    "query": "Is it true that what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "consumer_protection_237",
+    "query": "What are the exact guidelines when what is the role of the Central Consumer Protection Authority (CCPA)?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_104",
+    "query": "Please clarify: what legal protections exist against double jeopardy under Article 20?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  },
+  {
+    "id": "out_of_domain_7",
+    "query": "What are the compliance requirements under Section 138 of Negotiable Instruments Act for check bounce?",
+    "domain": "out_of_domain",
+    "expected_source": "Out-of-Domain"
+  },
+  {
+    "id": "consumer_protection_104",
+    "query": "What are the exact guidelines when what are the penalties for non-compliance with Consumer Forum orders?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_116",
+    "query": "According to legal provisions, can a class action suit be filed on behalf of multiple affected consumers?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "consumer_protection_64",
+    "query": "Is it true that what is the pecuniary jurisdiction of the District Consumer Disputes Redressal Commission?",
+    "domain": "consumer_protection",
+    "expected_source": "Consumer Protection Act, 2019"
+  },
+  {
+    "id": "constitution_137",
+    "query": "In India, what is the procedure for amending the Constitution under Article 368?",
+    "domain": "constitution",
+    "expected_source": "Constitution of India"
+  }
+]
