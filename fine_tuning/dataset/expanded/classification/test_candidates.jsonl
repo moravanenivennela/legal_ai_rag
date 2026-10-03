@@ -1,0 +1,156 @@
+{"text": "What is the punishment for seizing any record, register, or document in relation to unfair trade practices?", "label": "consumer_protection", "source": "consumer_protection", "page": 34, "split": "test", "review_status": "pending"}
+{"text": "Who are deemed to be public servants under this Act?", "label": "consumer_protection", "source": "consumer_protection", "page": 34, "split": "test", "review_status": "pending"}
+{"text": "What is the power of the National Commission mentioned in the passage?", "label": "consumer_protection", "source": "consumer_protection", "page": 25, "split": "test", "review_status": "pending"}
+{"text": "What is the maximum time limit for disposing of an appeal filed before the State Commission or the National Commission?", "label": "consumer_protection", "source": "consumer_protection", "page": 25, "split": "test", "review_status": "pending"}
+{"text": "What are the qualifications for appointment of the President and members of the District Commission?", "label": "consumer_protection", "source": "consumer_protection", "page": 36, "split": "test", "review_status": "pending"}
+{"text": "What is the manner of authentication of goods sampled by the National Commission?", "label": "consumer_protection", "source": "consumer_protection", "page": 36, "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of robotics.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does robotics work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of robotics?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of robotics.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in robotics?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of travel.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does travel work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of travel?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of travel.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in travel?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of biology.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does biology work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of biology?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of biology.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in biology?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of geography.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does geography work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of geography?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of geography.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in geography?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of history.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does history work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of history?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of history.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in history?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of ocean science.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does ocean science work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of ocean science?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of ocean science.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in ocean science?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of gaming.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does gaming work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of gaming?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of gaming.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in gaming?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of space exploration.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does space exploration work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of space exploration?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of space exploration.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in space exploration?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of astronomy.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does astronomy work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of astronomy?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of astronomy.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in astronomy?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of physics.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does physics work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of physics?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of physics.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in physics?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of computer hardware.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does computer hardware work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of computer hardware?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of computer hardware.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in computer hardware?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of programming.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does programming work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of programming?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of programming.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in programming?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of chemistry.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does chemistry work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of chemistry?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of chemistry.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in chemistry?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of statistics.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does statistics work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of statistics?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of statistics.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in statistics?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of cooking.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does cooking work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of cooking?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of cooking.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in cooking?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of animal behaviour.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does animal behaviour work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of animal behaviour?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of animal behaviour.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in animal behaviour?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of transportation.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does transportation work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of transportation?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of transportation.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in transportation?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of photography.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does photography work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of photography?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of photography.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in photography?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of mathematics.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does mathematics work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of mathematics?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of mathematics.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in mathematics?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of renewable energy.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does renewable energy work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of renewable energy?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of renewable energy.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in renewable energy?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of nutrition.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does nutrition work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of nutrition?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of nutrition.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in nutrition?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of literature.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does literature work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of literature?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of literature.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in literature?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of language learning.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does language learning work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of language learning?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of language learning.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in language learning?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of cinema.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does cinema work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of cinema?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of cinema.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in cinema?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of cricket.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does cricket work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of cricket?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of cricket.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in cricket?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of weather.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does weather work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of weather?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of weather.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in weather?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of music.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does music work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of music?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of music.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in music?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of architecture.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does architecture work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of architecture?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of architecture.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in architecture?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of sports.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does sports work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of sports?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of sports.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in sports?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Explain the basic principles of gardening.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "How does gardening work?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are common applications of gardening?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "Give a beginner overview of gardening.", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}
+{"text": "What are the main concepts in gardening?", "label": "out_of_domain", "source": "synthetic_ood", "page": "", "split": "test", "review_status": "pending"}

@@ -3,9 +3,9 @@ RAG ANSWER / GROUNDEDNESS EVALUATION
 Questions: 30
 Successful answers: 30/30
 Source match: 100.00%
-Average groundedness: 45.02%
-Groundedness >= 70%: 26.67%
-Average latency: 14.73s
+Average groundedness: 50.68%
+Groundedness >= 70%: 36.67%
+Average latency: 12.75s
 
 QUESTION RESULTS
 ============================================================
@@ -13,314 +13,268 @@ QUESTION RESULTS
 Question: What does Article 14 guarantee?
 Groundedness: 0.3%
 Source match: True
-Latency: 6.28s
-Answer: Article 14 guarantees the right to life and liberty of every person.
+Latency: 8.28s
+Answer: Article 14 guarantees the right to privacy.
 
 Question: What does Article 21 protect?
 Groundedness: 0.1%
 Source match: True
-Latency: 4.18s
-Answer: Article 21 in the Indian Constitution protects fundamental rights. These are basic human rights that cannot be taken away by any law, regardless of who is enforcing it. The right to life and liberty is one such fundamental right protected under Article 21 of the Constitution.
+Latency: 5.43s
+Answer: Article 21 of the Indian Constitution protects fundamental rights, including life, personal liberty, property, and education. These rights are essential for a functioning democracy and ensure that individuals enjoy certain freedoms in exchange for protection against arbitrary infringement by the state or other actors. Article 21 is designed to guarantee these basic liberties without any discrimination based on race, gender, religion, language, occupation, citizenship, or other characteristics.
 
 Question: What does Article 32 provide?
-Groundedness: 0.0%
+Groundedness: 1.8%
 Source match: True
-Latency: 3.60s
-Answer: Article 32 of the Constitution provides that no law shall be enacted which violates any fundamental right, except where such a violation is directly and substantially justified by a clear and present danger to life or limb.
+Latency: 8.95s
+Answer: Article 32 of the Constitution provides a comprehensive framework for the governance and administration of India. It outlines the principles, institutions, and structures that govern the country's government, including:
+
+1. The President as the Commander-in-Chief of the Armed Forces.
+2. The Cabinet Secretariat with various departments, including Finance, Law, Information, and Personnel.
+3. The Union Council of Ministers to oversee the implementation of policies and decisions made by the Government.
+4. The Chief Justice of India who is the Supreme Court Judge.
+
+The Article also establishes mechanisms for the representation of different communities in government institutions and ensures that laws are passed with public participation and consultation.
+
+It also provides provisions for ensuring that all citizens have access to justice, including the right to a fair trial, the right to appeal against judgments, and guarantees for the rights of women and minorities.
 
 Question: What does Article 43 provide?
-Groundedness: 0.2%
+Groundedness: 0.0%
 Source match: True
-Latency: 2.75s
-Answer: Article 43 of the Constitution provides that the President, Vice-President, and Members of the Senate are elected by the National Assembly.
+Latency: 3.75s
+Answer: Article 43 of the Indian Constitution provides that a person who, in the course of any criminal or civil proceedings instituted by the state or by a citizen under the authority of an authorized officer appointed by it, has done such act as to be punishable shall be punished with death.
 
 Question: What does Article 44 provide?
-Groundedness: 0.1%
+Groundedness: 0.6%
 Source match: True
-Latency: 2.33s
-Answer: Article 44 of the Indian Constitution provides for the prohibition of torture.
+Latency: 2.41s
+Answer: Article 44 of the Constitution of India provides for the right to a fair trial under criminal procedure.
 
 Question: What are Fundamental Duties?
-Groundedness: 21.0%
+Groundedness: 97.1%
 Source match: True
-Latency: 31.11s
-Answer: Fundamental Duties—It shall be the duty of every citizen of India—
-
-1. To abide by the Constitution and respect its ideals and institutions,
-2. To cherish and follow the noble ideals which inspired our national struggle for freedom, 
-3. To uphold and protect the sovereignty, unity and integrity of India; 
-4. To defend the country and render national service when called upon to do so;
-5. To promote harmony and the spirit of common brotherhood among all people of India transcending religious, linguistic, regional or sectional diversities; 
-6. To renounce practices derogatory to the dignity of women;
-
-7. To value and preserve the rich heritage of our composite culture;
-
-8. To protect and improve the natural environment including forests, lakes, rivers and wild life;
-9. To develop the scientific temper, humanism and spirit of international peace and security; 
-
-10. The State shall regard the raising of the level of nutrition and the standard of living of its people and the improvement of public health as among its primary duties;
-
-11. The State shall endeavour to bring about prohibition of the consumption except for medicinal purposes of intoxicating drinks and of drugs which are injurious to health; 
-
-12. The State shall take steps for preserving and improving the breeds, prohibiting slaughter of cows and calves and other milch and draught cattle.
-
-These fundamental duties are enshrined in Article 51A of the Constitution.
+Latency: 7.16s
+Answer: Fundamental Duties are outlined in Article 51A of the Constitution.
 
 Question: What are the Directive Principles?
-Groundedness: 76.1%
+Groundedness: 53.6%
 Source match: True
-Latency: 14.05s
-Answer: The Directive Principles of State Policy, as defined in Article 38 of the Constitution of India, include:
+Latency: 18.81s
+Answer: Directive Principles of State Policy, as defined in Part IV of the Constitution of India, are fundamental principles that guide the governance of the country. These principles include:
 
-1. The State shall strive to promote the welfare of the people by securing and protecting as effectively a social order in which justice, social, economic, and political principles are informed.
-2. The State shall secure that the operation of the legal system promotes justice on an equal opportunity basis and provide free legal aid to ensure opportunities for securing justice are not denied to any citizen due to economic or other disabilities.
+1. Equal justice and free legal aid.
+2. Promotion of welfare for the people by securing social order and promoting justice through equal opportunity and protection against exploitation and material abandonment.
+3. Protection of monuments and places of national importance.
+4. Separation of judiciary from executive functions in public services.
+5. Promotion of international peace and security, including efforts to maintain just relations between nations, foster respect for international law and treaties, encourage arbitration, and promote settlement of disputes through international means.
 
-These principles are fundamental in governance and the State is mandated to apply them in making laws.
+These principles are essential for the functioning of a democratic state and serve as a framework for governance, ensuring that justice is upheld, social order is promoted, and the welfare of citizens is protected.
 
 Question: What is the Seventh Schedule?
-Groundedness: 63.4%
+Groundedness: 96.5%
 Source match: True
-Latency: 14.21s
-Answer: The Seventh Schedule, also known as Chapter 70 or Section 319 in the Constitution of India, is a detailed list of provisions that govern various aspects of Indian society. It includes items related to agriculture, education, health, and many other fields.
-
-This document outlines numerous specific laws, regulations, and administrative actions designed to enhance economic development, social welfare, and governance at both national and state levels within the country's framework.
+Latency: 9.10s
+Answer: The seventh schedule contains a detailed list of provisions, including production, supply, distribution, markets and fairs, money-lending, theatres, dramatic performances, cinemas, betting, gambling, works, lands and buildings vested in or in the possession of the State.
 
 Question: What is the Concurrent List?
-Groundedness: 41.6%
+Groundedness: 47.8%
 Source match: True
-Latency: 22.36s
-Answer: The Concurrent List is a list of matters that can be dealt with under the Indian Constitution. It includes criminal law, including all matters in the Code of Criminal Procedure at its commencement, as well as preventive detention for security reasons and removal from one State to another or from one State to another State of prisoners, accused persons, and persons subjected to preventive detention for specified reasons.
-
-The Concurrent List is an integral part of the Constitution of India. It was introduced by Article 142 of the Constitution of India, which was enacted on February 3, 1950. The list includes a broad spectrum of matters that can be regulated through laws, including criminal law, preventive detention for security reasons, removal from one State to another State or from one State to another State of prisoners, accused persons, and persons subjected to preventive detention for specified reasons.
-
-The Concurrent List is designed to provide a comprehensive framework for the regulation of various aspects of criminal justice and public order in India. It ensures that laws are enacted that align with the principles of law, morality, and social welfare while respecting individual rights and freedoms.
+Latency: 12.08s
+Answer: The Concurrent List is a list of matters specified in the Indian Penal Code and Code of Criminal Procedure. It includes criminal law, including offences against laws related to cotton and wool textiles, raw cotton (including ginned cotton and unginned cotton or kapas), cotton seed, paper (including newsprint), food-stuffs (including edible oilseeds and oil), cattle fodder (including oil-cakes and other concentrates), coal (including coke and derivatives of coal), iron, steel, and mica.
 
 Question: What is President's Rule?
-Groundedness: 19.2%
+Groundedness: 32.9%
 Source match: True
-Latency: 18.59s
-Answer: President's Rule, as provided in Article 118, is a rule that affects the conduct and procedures of the Union Government. According to this rule:
-
-(2) Until rules are made under clause (1), the rules of procedure and standing orders in force immediately before the commencement of this Constitution with respect to the Legislature of the Dominion of India shall have effect in relation to Parliament subject to such modifications and adaptations as may be made therein by the Chairman of the Council of States or the Speaker of the House of the People, as the case may be.
-
-This rule is designed to ensure that the rules of procedure and standing orders are consistent with the Constitution and the laws of the Dominion of India. It provides a framework for maintaining consistency in the administration of justice and ensures that the Union Government operates within legal boundaries.
+Latency: 18.63s
+Answer: Under Article 118 of the Constitution, the President has the power to make rules governing the procedure and standing orders in relation to Parliament. These rules may be made without Parliament's prior approval but shall have effect subject to any modifications or adaptations as provided by law. The President can also make rules regarding joint sittings and communications between the two Houses of Parliament.
+In Article 207, it is mentioned that before the expiration of a period of thirty days, a resolution approving the Proclamation has been passed by the House of the People. During this time, the executive authority of the Union extends to giving directions to any State to observe financial propriety and other directions as the President deems necessary or adequate for the purpose.
+It is important to note that while these rules are subject to Parliament's approval, they may be made without such approval by the President himself.
 
 Question: What are the powers of the Supreme Court?
-Groundedness: 69.5%
+Groundedness: 63.4%
 Source match: True
-Latency: 62.69s
-Answer: The Supreme Court possesses the following powers:
-
-1. Jurisdiction and powers to be exercisable by the Supreme Court:
-- The Supreme Court has jurisdiction over any matter in the Union List as conferred upon it by Parliament.
-- It also has power to issue directions, orders, or writs for any purpose other than those mentioned in clause (2) of article 32.
-
-2. Special leave to appeal by the Supreme Court:
-- The Supreme Court may grant special leave to appeal by a person who desires to appeal against a judgment or order of the Supreme Court.
-
-3. Review of judgments or orders by the Supreme Court:
-- The Supreme Court has the power to review and reconsider any judgment or order issued by it, except where such an appeal is filed with the President for removal of the judge as provided in article 139A.
-
-4. Conferment on the Supreme Court of powers to issue certain writs:
-- Parliament may confer additional powers on the Supreme Court under section 139.
-
-5. Transfer of certain cases:
-- The Supreme Court has power to transfer certain cases, including those related to habeas corpus, mandamus, prohibition, quo warranto, and certiorari, or any of them, for purposes other than those mentioned in clause (2) of article 32.
-
-6. Law declared by the Supreme Court to be binding on all courts:
-- The Supreme Court has power to declare certain laws as binding on all courts under section 145.
-
-7. Enforcement of decrees and orders of the Supreme Court and orders as to discovery, etc.
-- The Supreme Court can order the enforcement of decrees and orders and may also require disclosure or other measures for purposes such as discovery, etc., as provided in article 139A.
-
-8. Power of the President to consult the Supreme Court:
-- The President has the power to consult the Supreme Court when it is satisfied that there are circumstances that render its exercise of powers by the Supreme Court questionable.
-
-These powers and limitations outlined in the Constitution provide the Supreme Court with the necessary authority to interpret, apply, and enforce laws within its jurisdiction.
+Latency: 21.88s
+Answer: 1. The Supreme Court has jurisdiction and powers with respect to any matter in the Union List as provided for in Article 32.
+2. The Supreme Court has additional jurisdiction and powers with respect to any matter as provided for in Articles 38, 40, and 41 of the Constitution.
+3. The Supreme Court may confer powers on the President to issue directions, orders, or writs, including habeas corpus, mandamus, prohibition, quo warranto, certiorari, or any of them, for any purpose other than those mentioned in Article 32.
+4. The Supreme Court has power to transfer certain cases and can grant additional powers by special agreement with the Government of India or a State if Parliament provides for such exercise.
+5. The President may promulgate Ordinances during recess of Parliament and have all the powers of a court, including the power to punish for contempt of itself.
+6. The Supreme Court is to be a court of record and has original jurisdiction in disputes between the Government of India and one or more States or other States on one side and one or more States on the other.
 
 Question: What is the constitutional position of the Election Commission?
-Groundedness: 37.2%
+Groundedness: 56.5%
 Source match: True
-Latency: 21.90s
-Answer: The Constitution vests the superintendence, direction, and control of elections in an Election Commission. Specifically, Article 186 states that:
+Latency: 26.08s
+Answer: The Constitutional Position of the Election Commission is as follows:
 
-"THE CONSTITUTION OF INDIA (PART XV—ELECTIONS)
-Provided further that any other Election Commissioner or a Regional Commissioner shall not be removed from office except on the recommendation of the Chief Election Commissioner."
-
-Article 187 further specifies the eligibility for inclusion in electoral rolls. It states that no person to be ineligible for inclusion in, or claiming to be included in a special electoral roll due to religion, race, caste, or sex may be eligible for any special electoral roll.
-
-The Constitution also provides that when an Election Commissioner is appointed, the Chief Election Commissioner shall act as the Chairman of the Election Commission. Additionally, Article 187 specifies that the President has the authority to appoint Regional Commissioners who may assist the Election Commission in fulfilling its functions under Clause (1).
-
-These provisions ensure a high degree of independence and efficiency in the electoral process by ensuring that all elections are conducted with integrity and fairness.
+1. The superintendence, direction and control of elections to be vested in an Election Commission.
+2. The Election Commission shall consist of the Chief Election Commissioner and such number of other Election Commissioners as the President may from time to time fix and appoint.
+3. When any other Election Commissioner is so appointed, the Chief Election Commissioner and other Election Commissioners shall be appointed by the President, subject to the provisions of any law made in that behalf by Parliament.
+4. The President, or the Governor of a State, shall, when so requested by the Election Commission, make available to the Election Commission or to a Regional Commissioner such staff as may be necessary for the discharge of the functions conferred on the Election Commission by clause (1).
+5. No person to be ineligible for inclusion in, or to claim to be included in a special electoral roll on grounds of religion, race, caste or sex.
+6. The President, or the Governor of a State, shall, when so requested by the Election Commission, make available to the Election Commission or to a Regional Commissioner such staff as may be necessary for the discharge of the functions conferred on the Election Commission by clause (1).
+7. When any other Election Commissioner is so appointed, the Chief Election Commissioner and other Election Commissioners shall be appointed by the President, subject to the provisions of any law made in that behalf by Parliament.
+8. The conditions of service and tenure of office of the Election Commissioners and the Regional Commissioners shall be such as the President may by rule determine:
 
 Question: What is the Finance Commission?
-Groundedness: 36.5%
+Groundedness: 29.4%
 Source match: True
-Latency: 12.12s
-Answer: The Finance Commission in the Indian Constitution is a body composed of four members appointed by the President. It is empowered to make recommendations to Parliament and determine their procedures, as well as grant powers for actions on recommendations made by it. The Commission also has the power to lay down recommendations before each House of Parliament and may cause these recommendations to be laid before Parliament.
+Latency: 11.87s
+Answer: The Finance Commission is a financial body in India, constituted under Article 280 of the Constitution. It was established to oversee and regulate finances within the country, ensuring that taxes are levied or collected only by law. The commission also oversees consolidated funds and public accounts for the Government of India and other states, providing guidelines on taxation and budgetary management.
 
 Question: What is the procedure for constitutional amendment?
-Groundedness: 39.4%
+Groundedness: 37.7%
 Source match: True
-Latency: 14.20s
-Answer: 2. An amendment of this Constitution may be initiated only by the introduction of a Bill for the purpose in either House of Parliament, and when the Bill is passed in each House by a majority of the total membership of that House and by a majority of not less than two-thirds of the members of that House present and voting, 4[it shall be presented to the President who shall give his assent to the Bill and thereupon] the Constitution shall stand amended in accordance with the terms of the Bill:
-Provided that if such amendment seeks to make any change in—
+Latency: 42.71s
+Answer: The procedure for constitutional amendment in India follows a set of detailed steps outlined in Article 54. This article provides the framework for amending the Constitution and specifies the conditions under which such amendments can be initiated. Here's a summary:
 
----
+1. **Procedure for Constitutional Amendment**:
+   - The process involves two stages: introduction by Parliament and presentation to the President.
+   - Parliament may amend the Constitution only through bills introduced in both Houses of Parliament.
 
-The information is not available in the provided legal context.
+2. **Amendment by Bills**:
+   - When a bill is passed by either House with at least a majority vote (50% or more), it must be presented to the President for approval.
+   - The President can grant assent to the Bill if it passes through both Houses without amendments.
+   - In some cases, amendments may seek to make changes in articles 162, 241, or Part V of Part VI, or any part of the List in Part XI.
+
+3. **Limitations on Constitutional Amendment**:
+   - Amendments made under Article 54 (including provisions of Part III) are not subject to judicial review.
+   - The President can make adaptations and modifications to laws that have been passed by Parliament, including repeal or amendment, as long as they meet the constitutional requirements.
+
+4. **Regulations**:
+   - The Constitution provides for certain detailed procedures in Article 13 regarding amendments of this Constitution, which are considered amendments under the amended article.
+   - These regulations may be subject to judicial review if deemed necessary or expedient by Parliament.
+
+In summary, the procedure for constitutional amendment is outlined through a series of steps involving bills introduced by both Houses and their presentation to the President. The President has the authority to grant assent if the bill passes, and any modifications made are subject to judicial review.
 
 Question: What are the constitutional emergency provisions?
-Groundedness: 97.8%
+Groundedness: 98.2%
 Source match: True
-Latency: 10.72s
-Answer: The constitutional emergency provisions include:
-
-(a) Any law which does not contain a recital to the effect that such law is in relation to the proclamation of emergency when it is made.
-(b) Any executive action taken otherwise than under a law containing such a recital.
+Latency: 9.51s
+Answer: (a) To any law which does not contain a recital to the effect that such law is in relation to the Proclamation of Emergency in operation when it is made; or  
+(b) To any executive action taken otherwise than under a law containing such a recital.
 
 Question: What is a consumer under the Consumer Protection Act, 2019?
-Groundedness: 6.4%
+Groundedness: 10.2%
 Source match: True
-Latency: 10.75s
-Answer: A consumer is defined in the Consumer Protection Act, 2019 as follows:
-
-"consumer" means any person who comes into existence to obtain goods or services and enjoys those goods or services for their personal use. Consumers include individuals, businesses, and organizations engaging in commerce, including but not limited to retailers, wholesalers, manufacturers, sellers of services, and others engaged in the provision of goods or services."
+Latency: 14.43s
+Answer: A consumer in the context of the Consumer Protection Act, 2019 refers to individuals or groups who are members of a group that has interests directly related to the rights and welfare of consumers. It includes people such as:
+- Individuals
+- Groups (such as associations or unions)
+- Corporations
+- Individuals or groups with vested interests in consumer matters
+The act also recognizes that these interests can be derived from various sources, including business dealings, trade practices, unfair competition, etc.
+It's important to note that the term "consumer" is not defined by this Act. The context does not provide a definitive definition of what constitutes a consumer under the Consumer Protection Act.
 
 Question: What is a defect in goods?
-Groundedness: 73.8%
+Groundedness: 89.9%
 Source match: True
-Latency: 11.85s
-Answer: A defect in goods means any fault, imperfection, shortcoming or inadequacy in the quality, quantity, potency, purity or standard which is required to be maintained by or under any law for the time being in force or has been undertaken to be performed by a person in pursuance of a contract or otherwise in relation to any service and includes—  
-(i) any act of negligence or omission or commission by such person which causes loss or injury to the consumer; 
-(ii) deliberate withholding of relevant information by such person to the consumer.
+Latency: 9.04s
+Answer: A defect in goods refers to any fault, imperfection, shortcoming, or inadequacy that is required to be maintained by or under any law for the time being in force or has been undertaken to be performed by a person in pursuance of a contract or otherwise.
 
 Question: What is deficiency in service?
-Groundedness: 91.6%
+Groundedness: 97.3%
 Source match: True
-Latency: 10.27s
-Answer: Deficiency in service means any fault, imperfection, shortcoming or inadequacy in the quality, quantity, potency, purity or standard which is required to be maintained by or under any law for the time being in force or under any contract, express or implied or as is claimed by the trader in any manner whatsoever in relation to any service and the expression "deficiency" shall be construed accordingly.
+Latency: 9.36s
+Answer: Deficiency in services means a fault, imperfection, shortcoming or inadequacy that is required to be maintained by or under any law for the time being in force or under any contract, express or implied or as claimed by the trader in relation to any goods or product and the expression "defective" shall be construed accordingly.
 
 Question: What is an unfair trade practice?
-Groundedness: 96.6%
+Groundedness: 98.6%
 Source match: True
-Latency: 15.48s
-Answer: An unfair trade practice is a trade practice that, for the purpose of promoting the sale, use or supply of any goods or for the provision of any service, adopts any unfair method or unfair or deceptive practice, including any of the following practices:
-
-(i) Making any statement, whether orally or in writing or by visible representation, which falsely represents that the goods are of a particular standard, quality, quantity, grade, composition, style or model;
-(ii) Falsely representing that the services are of a particular standard, quality or grade;
-(iii) Falsely representing any re-built, second-hand, renovated, reconditioned or old goods as new goods;
-(iv) Representing that the goods or services have sponsorship, approval, performance, characteristics, accessories, uses or benefits which such goods or services do not possess; and
-(v) Charging for the goods or for the services mentioned in the complaint, a price in excess of the price fixed by or under any law for the time being in force.
+Latency: 12.41s
+Answer: An unfair trade practice refers to a trade practice that, for the purpose of promoting the sale, use or supply of any goods or for the provision of any service, adopts any unfair method or unfair or deceptive practice. This includes practices such as making statements falsely representing that goods are of a particular standard, quality, quantity, grade, composition, style or model; making false representations about re-built, second-hand, renovated, rebuilt, renovated, old goods as new ones; making representations that the goods have sponsorship, approval, performance, characteristics, accessories, uses or benefits which such goods do not have.
 
 Question: What is a restrictive trade practice?
 Groundedness: 99.0%
 Source match: True
-Latency: 8.32s
+Latency: 8.04s
 Answer: A restrictive trade practice refers to a trade practice that tends to bring about manipulation of price or its conditions of delivery or affects the flow of supplies in the market relating to goods or services.
 
 Question: What is product liability?
-Groundedness: 87.6%
+Groundedness: 96.6%
 Source match: True
-Latency: 9.70s
-Answer: Product liability is the responsibility of a product manufacturer or service provider to compensate for any harm caused by a defective product, as defined in Article 34. It applies to both human tissues and blood products, but does not include organs.
+Latency: 7.70s
+Answer: Product liability is the responsibility of a product manufacturer or service provider to compensate for any harm caused by defective products manufactured, sold, or used.
 
 Question: What is an unfair contract?
-Groundedness: 50.1%
+Groundedness: 72.6%
 Source match: True
-Latency: 14.40s
-Answer: An unfair contract is a trade practice that adopts unfair methods or practices, including any of the following:
+Latency: 14.96s
+Answer: An unfair contract refers to a trade practice that adopts any unfair method or unfair or deceptive practice, including:
 
-(i) Making any statement falsely representing that the goods are of a particular standard, quality, quantity, grade, composition, style, or model.
-(ii) Falsely representing that the services are of a particular standard, quality or grade.
-(iii) Making any false representation of any re-built, second-hand, renovated, reconditioned, or old goods as new goods.
-(iv) Representing that the goods or services have sponsorship, approval, performance, characteristics, accessories, uses or benefits which such services do not possess.
-
-These practices put consumers to disadvantage.
+- Making any statement, whether orally or in writing, or by visible representation, which falsely represents that the goods are of a particular standard, quality, quantity, grade, composition, style, model, re-built, second-hand, renovated, reconditioned, or old goods as new goods.
+  
+- Representing that the goods have sponsorship, approval, performance, characteristics, accessories, uses, benefits, etc., which such goods do not actually possess.
+  
+- Making any statement that falsely represents the services provided by a trader or service provider is of a particular standard, quality, grade, composition, style, model, re-built, second-hand, renovated, reconditioned, or old goods as new goods.
 
 Question: What is the CCPA?
-Groundedness: 8.2%
+Groundedness: 1.7%
 Source match: True
-Latency: 15.09s
-Answer: The Consumer Protection Act (CPA) is an Indian legislation designed to provide protection for consumers. The CPA applies to all categories of consumer goods and services sold in India, including electronics, food, and other consumer products. The main objectives of the CPA are:
-
-1. To protect consumers' rights under consumer laws.
-2. To promote fair trade practices.
-3. To enforce the rights of consumers against unfair trade practices.
-
-The CPA also includes provisions for regulating violations of consumer rights, such as unfair trade practices and false or misleading advertisements that could harm the interests of consumers.
+Latency: 6.63s
+Answer: The Consumer Protection Act (2019) is the Central Consumer Protection Authority.
 
 Question: What is consumer mediation?
-Groundedness: 64.4%
+Groundedness: 3.9%
 Source match: True
-Latency: 11.09s
-Answer: Consumer mediation is a process used to resolve disputes between consumers. It involves a mediator who assists in reaching an agreement between parties involved in a dispute, based on principles of natural justice and fairness. The mediation process aims to facilitate understanding among the disputing parties and ensure that both sides are satisfied with the outcome.
+Latency: 11.12s
+Answer: Consumer mediation refers to the process by which a mediator, referred to in section 75, mediates disputes between consumers with other individuals. The mediation involves facilitating communication among parties involved in a consumer dispute without resorting to legal action or arbitration. This allows for the resolution of conflicts through dialogue and negotiation rather than litigation.
 
 Question: What is the role of the District Consumer Commission?
-Groundedness: 9.1%
+Groundedness: 1.9%
 Source match: True
-Latency: 8.52s
-Answer: The role of the District Consumer Commission is to function in the district headquarters, perform its functions at other places as required by the State Government, and be established by consultation with the Central Government.
+Latency: 14.00s
+Answer: The District Consumer Commission, established under Article 35 of the Consumer Protection Act, serves to facilitate the resolution of consumer disputes. It operates through a process that requires filing complaints and providing evidence or testimony from consumers. The commission can also provide guidance on fair trade practices and protect consumer rights, such as unfair trade practices and false advertisements.
+
+The Commission's role is to ensure that consumer rights are protected within each district by establishing District Consumer Disputes Redressal Commissions to handle disputes in specific areas like goods sold or delivered, services provided, or service agreed upon.
 
 Question: What is the role of the State Consumer Commission?
-Groundedness: 32.4%
+Groundedness: 4.5%
 Source match: True
-Latency: 10.55s
-Answer: The Role of the State Consumer Commission is to protect the rights and interests of consumers. It serves as an advisory body that enforces the consumer protection laws, provides relief for disputes between consumers, and coordinates efforts among various stakeholders to address consumer concerns effectively. The commission ensures that consumer needs are met by promoting transparency in business practices, providing guidance on ethical standards, and facilitating fair competition.
+Latency: 18.01s
+Answer: The State Consumer Commission plays a crucial role in ensuring consumer protection by overseeing and resolving consumer disputes within each state. Its primary responsibilities include:
+
+1. Establishing a District Consumer Disputes Redressal Commission to oversee each district.
+2. Controlling an appeals process for orders from the District Commission, with the ability to grant or deny these appeals under specific conditions.
+3. Managing the accounts and audits of all State Consumers' disputes redressal commissions, ensuring transparency and accountability in the resolution process.
+
+The Commission is responsible for enforcing consumer rights by providing a mechanism for resolving consumer issues within state borders. It serves as a centralized platform for addressing complaints from consumers across different states, fostering fair practices and protecting consumers' interests.
+
+In summary, the State Consumer Commission plays a vital role in safeguarding consumer rights and ensuring that consumer disputes are properly addressed at both federal and state levels.
 
 Question: What is the role of the National Consumer Commission?
-Groundedness: 9.4%
+Groundedness: 69.4%
 Source match: True
-Latency: 8.35s
-Answer: The National Consumer Commission (NCC) has jurisdiction to entertain, call for records and pass appropriate orders in consumer disputes that are pending before or have been decided by any State Commission where it appears that such State Commission has exercised a.
+Latency: 19.36s
+Answer: The role of the National Consumer Commission (NCPC) as per Article 177, Chapter 26, and Section 53 of the Consumer Protection Act, 2019 (CPA), is to have jurisdiction—
+- To entertain complaints where the value of goods or services paid as consideration exceeds rupees ten crore.
+- To call for the records and pass appropriate orders in any consumer dispute which is pending before or has been decided by any State Commission where it appears to the National Commission that such State Commission has exercised a power or authority conferred on it by law, either suo motu or on a complaint received or on directions from the Central Government.
+- To file complaints before the District Commission, the State Commission or the National Commission as the case may be, under this Act.
+- To intervene in any proceedings before the District Commission or the State Commission or the National Commission, as the case may be, in respect of any allegation of violation of consumer rights or unfair trade practices.
+
+These functions ensure that the NCPC can address consumer disputes and violations within its designated jurisdiction while maintaining its authority to exercise powers conferred by law.
 
 Question: What is product liability of a manufacturer?
-Groundedness: 97.3%
+Groundedness: 98.4%
 Source match: True
-Latency: 7.24s
-Answer: A product liability action is an action filed by a person before a District Commission or State Commission or National Commission, as the case may be, for claiming compensation for harm caused to him.
+Latency: 6.55s
+Answer: A product liability action is brought by a complainant for any harm caused to him on account of a defective product.
 
 Question: What is product liability of a seller?
-Groundedness: 57.5%
+Groundedness: 98.0%
 Source match: True
-Latency: 22.63s
-Answer: A product seller is liable for any harm caused by their defective products or services under the Consumer Protection Act, 2019. Specifically:
-
-86. A product seller who is not a product manufacturer shall be liable in a product liability action, if— 
-(a) he has exercised substantial control over the designing, testing, manufacturing, packaging or labelling of a product that caused harm; 
-(b) he has altered or modified the product and such alteration or modification was the substantial factor in causing the harm; 
-(c) he has made an express warranty of a product independent of any express warranty made by a manufacturer and such product failed to conform to the express warranty made by the product seller which caused the harm; 
-(d) the product has been sold by him and the identity of product manufacturer of such product is not known, or if known, the service of notice or process or warrant cannot be enforced against him; 
-(e) the product has been sold by him and the identity of product manufacturer of such product is not known, or if known, the service of notice or process or warrant cannot be enforced against him; 
-
-87. A product seller who is a product manufacturer shall be liable in a product liability action for any harm caused to him on account of defects in design, manufacture, packaging or labelling of the defective product.
-
-Therefore, a product seller is liable for all harm caused by their products under this act.
+Latency: 6.82s
+Answer: Product Liability of a Seller
 
 Question: What remedies can a consumer commission provide?
-Groundedness: 64.8%
+Groundedness: 62.6%
 Source match: True
-Latency: 36.71s
-Answer: A consumer commission can provide various remedies to consumers in different situations. These include:
+Latency: 17.46s
+Answer: A consumer commission can provide various remedies to consumers, including:
 
-1. Reviewing matters relating to, and factors inhibiting enjoyment of, consumer rights, including safeguards provided for the protection of consumers under any other law for the time being in force.
+1. Complaints for violation of consumer rights or unfair trade practices.
+2. Intervention in proceedings before District Commissions, State Commissions, and National Commission in respect of allegations of violations.
+3. Reviewing matters relating to, and factors inhibiting enjoyment of, consumer rights, including safeguards provided for protection against unfair trade practices.
+4. Recommendations on the adoption of international covenants or best international covenants.
+5. Recommendation to adopt or amend domestic covenants or best domestic covenants.
 
-2. Intervening in proceedings before the District Commission or the State Commission or the National Commission, as the case may be, in respect of any allegation of violation of consumer rights or unfair trade practices.
-
-3. Reviewing and recommending appropriate remedial measures for their effective implementation.
-
-4. Recommending adoption of international covenants and best international standards.
-
-5. Promoting the adoption of consumer protection laws and regulations by the Central Government.
-
-6. Granting punitive damages in cases where it deems fit.
-
-7. Paying compensation as an award to a consumer for any loss or injury suffered due to negligence of the opposite party.
-
-8. Discontinuing unfair trade practices or restrictive trade practices.
-
-9. Removing defects in goods or deficiencies in services in question.
-
-10. Dismissing hazardous goods from being offered for sale.
-
-In addition, the commission can also provide other remedies such as providing financial assistance, setting up consumer hotlines, and offering education programs to help consumers understand their rights better.
+These remedies are designed to address violations of consumer rights and ensure fair treatment in matters concerning goods, services, and products.

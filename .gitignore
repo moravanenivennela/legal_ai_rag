@@ -11,3 +11,14 @@ models/
 *.bin
 *.gguf
 *.safetensors
+
+# Local archives and temporary backups
+*.zip
+backups/
+rag_engine.py.bak*
+
+# Exclude nested llama.cpp repository metadata and vocabulary files
+tools/llama.cpp/.git/
+tools/llama.cpp/models/*.gguf
+
+tools/llama.cpp/

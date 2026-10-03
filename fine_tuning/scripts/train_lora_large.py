@@ -1,0 +1,253 @@
+import argparse
+import csv
+import inspect
+import json
+import math
+import os
+import random
+import time
+
+import torch
+from peft import LoraConfig, get_peft_model
+from torch.utils.data import Dataset
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    DataCollatorForSeq2Seq,
+    Trainer,
+    TrainingArguments,
+)
+
+SYSTEM_PROMPT = (
+    "You are a careful Indian legal assistant. Answer only from the given "
+    "passage. If the passage does not contain the answer, say it cannot be "
+    "verified from the available sources."
+)
+
+
+def pick(rec, keys):
+    for k in keys:
+        v = rec.get(k)
+        if v not in (None, ""):
+            return str(v).strip()
+    return ""
+
+
+def build_messages(question, passage):
+    if passage:
+        user = f"Passage:\n{passage}\n\nQuestion: {question}"
+    else:
+        user = f"Question: {question}"
+    return [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": user},
+    ]
+
+
+def load_jsonl(path):
+    rows = []
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                rows.append(json.loads(line))
+    return rows
+
+
+class QADataset(Dataset):
+    """Loss is computed on the ANSWER tokens only (prompt tokens masked)."""
+
+    def __init__(self, path, tok, max_len):
+        self.items = []
+        skipped = 0
+        rows = load_jsonl(path)
+        if rows:
+            print(f"[{os.path.basename(path)}] fields found: {list(rows[0].keys())}")
+        for r in rows:
+            raw_input = pick(r, ["input", "prompt"])
+            q = pick(r, ["question"])
+
+            # Extract only the question from inputs that contain evidence too.
+            if not q and raw_input:
+                if "Question:" in raw_input:
+                    q = raw_input.split("Question:", 1)[1]
+                    if "Legal evidence:" in q:
+                        q = q.split("Legal evidence:", 1)[0]
+                    q = q.strip()
+                else:
+                    q = raw_input
+
+            if not q:
+                q = pick(r, ["instruction"])
+            a = pick(r, ["answer", "output", "response", "completion"])
+            p = pick(r, ["supporting_passage", "evidence", "context", "passage", "source_text"])
+            if not q or not a:
+                skipped += 1
+                continue
+            enc = self.encode(tok, q, a, p, max_len)
+            if enc is None:
+                skipped += 1
+                continue
+            self.items.append(enc)
+        print(f"[{os.path.basename(path)}] usable examples: {len(self.items)} "
+              f"(skipped {skipped})")
+
+    @staticmethod
+    def encode(tok, q, a, p, max_len):
+        for _ in range(30):
+            prompt_text = tok.apply_chat_template(
+                build_messages(q, p), tokenize=False, add_generation_prompt=True
+            )
+            prompt_ids = tok(prompt_text, add_special_tokens=False)["input_ids"]
+            ans_ids = tok(a + tok.eos_token, add_special_tokens=False)["input_ids"]
+            if len(prompt_ids) + len(ans_ids) <= max_len:
+                ids = prompt_ids + ans_ids
+                labels = [-100] * len(prompt_ids) + ans_ids
+                return {
+                    "input_ids": ids,
+                    "attention_mask": [1] * len(ids),
+                    "labels": labels,
+                }
+            if not p:
+                return None
+            p = p[: int(len(p) * 0.85)]
+        return None
+
+    def __len__(self):
+        return len(self.items)
+
+    def __getitem__(self, i):
+        return self.items[i]
+
+
+def save_logs(log_history, out_dir, plot_path):
+    os.makedirs(out_dir, exist_ok=True)
+    with open(os.path.join(out_dir, "training_log.json"), "w", encoding="utf-8") as f:
+        json.dump(log_history, f, indent=2)
+
+    keys = sorted({k for row in log_history for k in row.keys()})
+    with open(os.path.join(out_dir, "training_log.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=keys)
+        w.writeheader()
+        for row in log_history:
+            w.writerow(row)
+
+    train_pts = [(r["step"], r["loss"]) for r in log_history if "loss" in r]
+    eval_pts = [(r["step"], r["eval_loss"]) for r in log_history if "eval_loss" in r]
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+
+        plt.figure(figsize=(8, 5))
+        if train_pts:
+            plt.plot(*zip(*train_pts), marker="o", label="Training loss")
+        if eval_pts:
+            plt.plot(*zip(*eval_pts), marker="s", label="Validation loss")
+        plt.xlabel("Optimizer step")
+        plt.ylabel("Loss")
+        plt.title("LoRA fine-tuning: training vs validation loss")
+        plt.grid(alpha=0.3)
+        plt.legend()
+        plt.tight_layout()
+        os.makedirs(os.path.dirname(plot_path) or ".", exist_ok=True)
+        plt.savefig(plot_path, dpi=200)
+        plt.close()
+        print(f"Saved loss graph: {plot_path}")
+    except Exception as e:
+        print("Could not draw graph:", e)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--train", required=True)
+    ap.add_argument("--val", required=True)
+    ap.add_argument("--out", required=True)
+    ap.add_argument("--model", default="Qwen/Qwen2.5-0.5B-Instruct")
+    ap.add_argument("--epochs", type=float, default=3)
+    ap.add_argument("--lr", type=float, default=2e-4)
+    ap.add_argument("--max_len", type=int, default=512)
+    ap.add_argument("--grad_accum", type=int, default=4)
+    ap.add_argument("--max_steps", type=int, default=-1)
+    ap.add_argument("--plot", default="outputs/07_loss_curves.png")
+    ap.add_argument("--seed", type=int, default=42)
+    args = ap.parse_args()
+
+    random.seed(args.seed)
+    torch.manual_seed(args.seed)
+    print("CUDA available:", torch.cuda.is_available())
+
+    tok = AutoTokenizer.from_pretrained(args.model)
+    if tok.pad_token is None:
+        tok.pad_token = tok.eos_token
+
+    train_ds = QADataset(args.train, tok, args.max_len)
+    val_ds = QADataset(args.val, tok, args.max_len)
+    print("\n--- SAMPLE TRAINING TEXT ---\n" + tok.decode(train_ds[0]["input_ids"]) + "\n--- END SAMPLE ---\n")
+    if len(train_ds) == 0 or len(val_ds) == 0:
+        raise SystemExit("Empty dataset - check the field names printed above.")
+
+    model = AutoModelForCausalLM.from_pretrained(args.model, torch_dtype=torch.float32)
+    model.config.use_cache = False
+    lora = LoraConfig(
+        r=16, lora_alpha=32, lora_dropout=0.05,
+        target_modules=["q_proj", "v_proj"],
+        task_type="CAUSAL_LM",
+    )
+    model = get_peft_model(model, lora)
+    model.print_trainable_parameters()
+
+    kw = dict(
+        output_dir=args.out,
+        num_train_epochs=args.epochs,
+        max_steps=args.max_steps,
+        per_device_train_batch_size=1,
+        per_device_eval_batch_size=1,
+        gradient_accumulation_steps=args.grad_accum,
+        learning_rate=args.lr,
+        lr_scheduler_type="cosine",
+        warmup_steps=max(1, int(0.05 * math.ceil(len(train_ds) / args.grad_accum) * args.epochs)),
+        logging_steps=5,
+        save_strategy="epoch",
+        save_total_limit=1,
+        load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        greater_is_better=False,
+        report_to="none",
+        dataloader_pin_memory=False,
+        remove_unused_columns=False,
+        seed=args.seed,
+    )
+    sig = inspect.signature(TrainingArguments.__init__).parameters
+    eval_key = "eval_strategy" if "eval_strategy" in sig else "evaluation_strategy"
+    kw[eval_key] = "epoch"
+    if args.max_steps > 0:
+        kw.update(save_strategy="no", load_best_model_at_end=False)
+        kw[eval_key] = "no"
+
+    trainer = Trainer(
+        model=model,
+        args=TrainingArguments(**kw),
+        train_dataset=train_ds,
+        eval_dataset=val_ds,
+        data_collator=DataCollatorForSeq2Seq(tok, padding=True, label_pad_token_id=-100),
+    )
+
+    t0 = time.time()
+    result = trainer.train()
+    mins = (time.time() - t0) / 60
+    print(f"\nTraining finished in {mins:.1f} minutes")
+    print("Train metrics:", result.metrics)
+
+    if args.max_steps <= 0:
+        final_eval = trainer.evaluate()
+        print("Final validation metrics:", final_eval)
+
+    trainer.save_model(args.out)
+    tok.save_pretrained(args.out)
+    save_logs(trainer.state.log_history, args.out, args.plot)
+    print(f"Adapter saved to: {args.out}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,14 @@
+{
+  "model_used_for_generation": "gemma2:2b",
+  "seed": 42,
+  "actual_examples": {
+    "train": 20,
+    "validation": 5,
+    "test": 5
+  },
+  "question_types": [
+    "factual",
+    "definition",
+    "provision"
+  ]
+}

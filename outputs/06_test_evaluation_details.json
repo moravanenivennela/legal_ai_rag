@@ -1,0 +1,233 @@
+[
+  {
+    "index": 1,
+    "source": "constitution",
+    "page": 290,
+    "question": "What year was the Goa, Daman and Diu Reorganisation Act, 1987 enacted?",
+    "supporting_passage": "1[6[24.] Goa The territories specified in section 3 of the Goa, Daman and Diu Reorganisation Act, 1987.]",
+    "expected": "The Goa, Daman and Diu Reorganisation Act, 1987 was enacted in 1987.",
+    "generated": "The Goa, Daman and Diu Reorganisation Act, 1987 was enacted on 1st January 1987.",
+    "exact_match": 0,
+    "token_f1": 0.8462
+  },
+  {
+    "index": 2,
+    "source": "constitution",
+    "page": 30,
+    "question": "What is the purpose of Article 392 in the Constitution?",
+    "supporting_passage": "392. Power of the President to remove difficulties.",
+    "expected": "Article 392 grants the President the power to remove difficulties.",
+    "generated": "The purpose of Article 392 in the Constitution is to provide for the removal of difficulties.",
+    "exact_match": 0,
+    "token_f1": 0.4615
+  },
+  {
+    "index": 3,
+    "source": "constitution",
+    "page": 116,
+    "question": "What are the conditions under which a person's seat in the Legislatures of two or more States becomes vacant?",
+    "supporting_passage": "No person shall be a member of the Legislatures of two or more States specified in the First Schedule and if a person is chosen a member of the Legislatures of two or more such States, then, at the expiration of such period as may be specified in rules 1 made by the President, that person's seat in the Legislatures of all such States shall become vacant, unless he has previously resigned his seat in the Legislatures of all but one of the States.",
+    "expected": "A person's seat in the Legislatures of two or more States specified in the First Schedule becomes vacant at the expiration of such period as may be specified in rules 1 made by the President, unless he has previously resigned his seat in the Legislatures of all but one of the States.",
+    "generated": "If a person is chosen a member of the Legislatures of two or more such States, then, at the expiration of such period as may be specified in rules 1 made by the President, that person's seat in the Legislatures of all such States shall become vacant, unless he has previously resigned his seat in the Legislatures of all but one of the States.",
+    "exact_match": 0,
+    "token_f1": 0.8103
+  },
+  {
+    "index": 4,
+    "source": "constitution",
+    "page": 61,
+    "question": "What amendment changed the phrase 'members of both Houses of Parliament assembled at a joint meeting'?",
+    "supporting_passage": "Subs. by the Constitution (Eleventh Amendment) Act, 1961, s. 2, for \"members of both Houses of Parliament assembled at a joint meeting\" (w.e.f. 19-12-1961).",
+    "expected": "The Constitution (Eleventh Amendment) Act, 1961",
+    "generated": "The Sub. by the Constitution (Eleventh Amendment) Act, 1961, s. 2, for \"members of both Houses of Parliament assembled at a joint meeting\" (w.e.f. 19-12-1961).",
+    "exact_match": 0,
+    "token_f1": 0.3871
+  },
+  {
+    "index": 5,
+    "source": "constitution",
+    "page": 319,
+    "question": "What is exempted from the paragraph mentioned in the passage?",
+    "supporting_passage": "(6) Nothing in this paragraph shall apply to the Bodoland Territorial Council constituted under the proviso to sub-paragraph (3) of paragraph 2 of this Schedule.",
+    "expected": "The Bodoland Territorial Council constituted under the proviso to sub-paragraph (3) of paragraph 2 of this Schedule.",
+    "generated": "Nothing in this paragraph shall apply to the Bodoland Territorial Council constituted under the proviso to sub-paragraph (3) of paragraph 2 of this Schedule.\nLegal evidence:",
+    "exact_match": 0,
+    "token_f1": 0.7907
+  },
+  {
+    "index": 6,
+    "source": "constitution",
+    "page": 56,
+    "question": "What is the duty of every citizen of India to uphold and protect?",
+    "supporting_passage": "It shall be the duty of every citizen of India— (a) to abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem; (b) to cherish and follow the noble ideals which inspired our national struggle for freedom; (c) to uphold and protect the sovereignty, unity and integrity of India;",
+    "expected": "The duty of every citizen of India is to uphold and protect the sovereignty, unity and integrity of India.",
+    "generated": "The duty of every citizen of India to uphold and protect is to respect its ideals and institutions, the National Flag and the National Anthem.",
+    "exact_match": 0,
+    "token_f1": 0.6364
+  },
+  {
+    "index": 7,
+    "source": "constitution",
+    "page": 47,
+    "question": "What must the State ensure when making a law for compulsory acquisition of an educational institution's property?",
+    "supporting_passage": "THE CONSTITUTION OF INDIA (Part III.—Fundamental Rights) 16 1[(1A) In making any law providing for the compulsory acquisition of any property of an educational institution established and administered by a minority, referred to in clause (1), the State shall ensure that the amount fixed by or determined under such law for the acquisition of such property is such as would not restrict or abrogate the right guaranteed under that clause.]",
+    "expected": "The State must ensure that the amount fixed by or determined under such law for the acquisition of such property is such as would not restrict or abrogate the right guaranteed under clause (1).",
+    "generated": "The State shall ensure that the amount fixed by or determined under such law for the acquisition of such property is such as would not restrict or abrogate the right guaranteed under that clause.",
+    "exact_match": 0,
+    "token_f1": 0.9412
+  },
+  {
+    "index": 8,
+    "source": "constitution",
+    "page": 162,
+    "question": "What are the powers granted to Municipalities regarding the preparation of plans for economic development and social justice?",
+    "supporting_passage": "rovisions for the devolution of powers and responsibilities upon Municipalities, subject to such conditions as may be specified therein, with respect to— (i) the preparation of plans for economic development and social justice;",
+    "expected": "Municipalities are granted the power to prepare plans for economic development and social justice, as specified in the passage.",
+    "generated": "The provisions provide that Municipalities shall have powers to prepare plans for economic development and social justice.",
+    "exact_match": 0,
+    "token_f1": 0.6111
+  },
+  {
+    "index": 9,
+    "source": "constitution",
+    "page": 384,
+    "question": "What are the articles and protocols mentioned in the passage?",
+    "supporting_passage": "THE CONSTITUTION OF INDIA (Appendix I) 353 THE FIRST SCHEDULE [See sections 2(a), 2(b) and 3] P A R T I The acquired territory in relation to Article 2 of the agreement dated the 16th day of May, 1974 and Article 3 (I) (b) (ii) (iii) (iv) (v) of the protocol dated the 6th day of September, 2011.",
+    "expected": "The passage mentions the agreement dated the 16th day of May, 1974 and the protocol dated the 6th day of September, 2011.",
+    "generated": "The first schedule mentions Articles 2 and 3 of the Constitution of India.",
+    "exact_match": 0,
+    "token_f1": 0.3429
+  },
+  {
+    "index": 10,
+    "source": "constitution",
+    "page": 99,
+    "question": "What is the purpose of the warrant issued by the President for appointing the Comptroller and Auditor-General of India?",
+    "supporting_passage": "There shall be a Comptroller and Auditor-General of India who shall be appointed by the President by warrant under his hand and seal and shall only be removed from office in like manner and on the like grounds as a Judge of the Supreme Court.",
+    "expected": "The warrant issued by the President under his hand and seal is used for appointing the Comptroller and Auditor-General of India.",
+    "generated": "The purpose of the warrant issued by the President for appointing the Comptroller and Auditor-General of India is to ensure that the appointment is made with due regard to the Constitution of India and the Constitution of the United States of America.",
+    "exact_match": 0,
+    "token_f1": 0.5079
+  },
+  {
+    "index": 11,
+    "source": "constitution",
+    "page": 387,
+    "question": "What is the date mentioned for the joint survey and agreement of the boundary in the Pakuria (Kushtia-Nadia) area?",
+    "supporting_passage": "THE CONSTITUTION OF INDIA (Appendix I) 356 (iii) Pakuria (Kushtia-Nadia) area The boundary shall be drawn from existing Boundary Pillar No. 151/1-S to Boundary Pillar No. 152/2-S to follow the edge of River Mathabanga as jointly surveyed and agreed in June, 2011.",
+    "expected": "The boundary in the Pakuria (Kushtia-Nadia) area shall be drawn following the edge of River Mathabanga as jointly surveyed and agreed in June, 2011.",
+    "generated": "The boundary shall be drawn from existing Boundary Pillar No. 151/1-S to Boundary Pillar No. 152/2-S to follow the edge of River Mathabanga as jointly surveyed and agreed in June, 2011.",
+    "exact_match": 0,
+    "token_f1": 0.6545
+  },
+  {
+    "index": 12,
+    "source": "constitution",
+    "page": 353,
+    "question": "What is the main topic covered by Article 17 of the Constitution?",
+    "supporting_passage": "17. Prevention of cruelty to animals.",
+    "expected": "Article 17 of the Constitution deals with the prevention of cruelty to animals.",
+    "generated": "Article 17 of the Constitution deals with prevention of cruelty to animals.",
+    "exact_match": 0,
+    "token_f1": 0.96
+  },
+  {
+    "index": 13,
+    "source": "constitution",
+    "page": 145,
+    "question": "Under what circumstances can the Lieutenant Governor take immediate action?",
+    "supporting_passage": "nding such decision it shall be competent for the Lieutenant Governor in any case where the matter, in his opinion, is so urgent that it is necessary for him to take immediate action, to take such action or to give such direction in the matter as he deems necessary.",
+    "expected": "The Lieutenant Governor can take immediate action if he deems it necessary for urgent matters, as stated in the passage: 'nding such decision it shall be competent for the Lieutenant Governor in any case where the matter, in his opinion, is so urgent that it is necessary for him to take immediate action, to take such action or to give such direction in the matter as he deems necessary.'",
+    "generated": "The Lieutenant Governor may take immediate action if the matter is so urgent that it is necessary for him to take such action or to give such direction in the matter as he deems necessary.",
+    "exact_match": 0,
+    "token_f1": 0.6538
+  },
+  {
+    "index": 14,
+    "source": "consumer_protection",
+    "page": 2,
+    "question": "What does a 'complainant' include under section 10?",
+    "supporting_passage": "or (ii) any voluntary consumer association registered under any law for the time being in force; or (iii) the Central Government or any State Government; or (iv) the Central Authority; or (v) one or more consumers, where there are numerous consumers having the same interest; or (vi) in case of death of a consumer, his legal heir or legal representative; or (vii) in case of a consumer being a minor, his parent or legal guardian;",
+    "expected": "A 'complainant' includes a consumer, a voluntary consumer association registered under any law for the time being in force, the Central Government or any State Government, the Central Authority, one or more consumers having the same interest, a consumer's legal heir or legal representative, or a consumer's parent or legal guardian.",
+    "generated": "A complainant includes any person who has made complaint to the concerned authority or body.",
+    "exact_match": 0,
+    "token_f1": 0.2121
+  },
+  {
+    "index": 15,
+    "source": "consumer_protection",
+    "page": 2,
+    "question": "Who can be considered a complainant under the Act?",
+    "supporting_passage": "or (ii) any voluntary consumer association registered under any law for the time being in force; or (iii) the Central Government or any State Government;",
+    "expected": "A complainant can be a consumer, a voluntary consumer association registered under any law for the time being in force, the Central Government or any State Government, the Central Authority, one or more consumers having the same interest, a consumer's legal heir or legal representative, or a consumer's parent or legal guardian.",
+    "generated": "any voluntary consumer association registered under any law for the time being in force",
+    "exact_match": 0,
+    "token_f1": 0.4242
+  },
+  {
+    "index": 16,
+    "source": "consumer_protection",
+    "page": 31,
+    "question": "What conditions must a product manufacturer meet to be liable in a product liability action?",
+    "supporting_passage": "A product manufacturer shall be liable in a product liability action, if— (a) the product contains a manufacturing defect; or (b) the product is defective in design; or (c) there is a deviation from manufacturing specifications; or (d) the product does not conform to the express warranty; or (e) the product fails to contain adequate instructions of correct usage to prevent any harm or any warning regarding improper or incorrect usage.",
+    "expected": "A product manufacturer shall be liable in a product liability action if the product contains a manufacturing defect; or if the product is defective in design; or if there is a deviation from manufacturing specifications; or if the product does not conform to the express warranty; or if the product fails to contain adequate instructions of correct usage to prevent any harm or any warning regarding improper or incorrect usage.",
+    "generated": "The product manufacturer shall be liable in a product liability action, if— (a) the product contains a manufacturing defect; or (b) the product is defective in design; or (c) there is a deviation from manufacturing specifications; or (d) the product does not conform to the express warranty; or (e) the product fails to contain adequate instructions of correct usage to prevent any harm or any warning regarding improper or incorrect usage.",
+    "exact_match": 0,
+    "token_f1": 0.922
+  },
+  {
+    "index": 17,
+    "source": "consumer_protection",
+    "page": 31,
+    "question": "What is the timeframe within which the District Commission or the State Commission or the National Commission must pass a suitable order after receiving the settlement report?",
+    "supporting_passage": "The District Commission or the State Commission or the National Commission, as the case may be, shall, within seven days of the receipt of the settlement report, pass suitable order recording such settlement of consumer dispute and dispose of the matter accordingly.",
+    "expected": "The District Commission or the State Commission or the National Commission, as the case may be, shall pass suitable order within seven days of the receipt of the settlement report.",
+    "generated": "Within seven days of the receipt of the settlement report",
+    "exact_match": 0,
+    "token_f1": 0.5
+  },
+  {
+    "index": 18,
+    "source": "consumer_protection",
+    "page": 31,
+    "question": "What are the conditions under which a product manufacturer can be held liable in a product liability action?",
+    "supporting_passage": "A product manufacturer shall be liable in a product liability action, if— (a) the product contains a manufacturing defect; or (b) the product is defective in design; or (c) there is a deviation from manufacturing specifications; or (d) the product does not conform to the express warranty; or (e) the product fails to contain adequate instructions of correct usage to prevent any harm or any warning regarding improper or incorrect usage.",
+    "expected": "A product manufacturer can be liable in a product liability action if the product contains a manufacturing defect; or if the product is defective in design; or if there is a deviation from manufacturing specifications; or if the product does not conform to the express warranty; or if the product fails to contain adequate instructions of correct usage to prevent any harm or any warning regarding improper or incorrect usage.",
+    "generated": "The product manufacturer shall be liable in a product liability action, if— (a) the product contains a manufacturing defect; or (b) the product is defective in design; or (c) there is a deviation from manufacturing specifications; or (d) the product does not conform to the express warranty; or (e) the product fails to contain adequate instructions of correct usage to prevent any harm or any warning regarding improper or incorrect usage.",
+    "exact_match": 0,
+    "token_f1": 0.9078
+  },
+  {
+    "index": 19,
+    "source": "consumer_protection",
+    "page": 14,
+    "question": "What is the purpose of the Central Authority's preliminary inquiry?",
+    "supporting_passage": "19. (1) The Central Authority may, after receiving any information or complaint or directions from the Central Government or of its own motion, conduct or cause to be conducted a preliminary inquiry as to whether there exists a prima facie case of violation of consumer rights or any unfair trade practice or any false or misleading advertisement, by any person, which is prejudicial to the public interest or to the interests of consumers and if it is satisfied that there exists a prima facie case, it shall cause investigation to be made by the Director- General or by the District Collector.",
+    "expected": "The Central Authority may conduct or cause to be conducted a preliminary inquiry as to whether there exists a prima facie case of violation of consumer rights or any unfair trade practice or any false or misleading advertisement, by any person which is prejudicial to the public interest or to the interests of consumers.",
+    "generated": "The purpose of the Central Authority's preliminary inquiry is to determine whether there exists a prima facie case of violation of consumer rights or any unfair trade practice or any false or misleading advertisement, by any person, which is prejudicial to the public interest or to the interests of consumers and if it is satisfied that there exists a prima facie case, it shall cause investigation to be made by the Director-General or by the District Collector.",
+    "exact_match": 0,
+    "token_f1": 0.7481
+  },
+  {
+    "index": 20,
+    "source": "consumer_protection",
+    "page": 14,
+    "question": "What is the maximum penalty that can be imposed on a manufacturer or endorser for a false or misleading advertisement?",
+    "supporting_passage": "Notwithstanding any order under sub-sections ( 1) and ( 2), where the Central Authority deems it necessary, it may, by order, prohibit the endorser of a false or misleading advertisement from making endorsement of any product or service for a period which may extend to one year: Power of Central Authority to refer matter for investigation or to other Regulator. Power of Central Authority to recall goods, etc. Power of Central Authority to issue directions and penalties against false",
+    "expected": "A penalty which may extend to fifty lakh rupees.",
+    "generated": "The maximum penalty that can be imposed on a manufacturer or endorser for a false or misleading advertisement is one year.",
+    "exact_match": 0,
+    "token_f1": 0.1333
+  },
+  {
+    "index": 21,
+    "source": "consumer_protection",
+    "page": 14,
+    "question": "What actions can the Central Authority take if it finds evidence of a violation of consumer rights?",
+    "supporting_passage": "Where the Central Authority is satisfied on the basis of investigation that there is sufficient evidence to show violation of consumer rights or unfair trade practice by a person, it may pass such order as may be necessary, including— (a) recalling of goods or withdrawal of services which are dangerous, hazardous or unsafe; (b) reimbursement of the prices of goods or services so recalled to purchasers of such goods or services; and (c) discontinuation of practices which are unfair and prejudicial to consumers' interest: Provided that the Central Authority shall give the person an opportunity of being heard before passing an order under this section.",
+    "expected": "The Central Authority can pass orders including recalling of goods or withdrawal of services which are dangerous, hazardous or unsafe (a), reimbursement of the prices of goods or services so recalled to purchasers of such goods or services (b), and discontinuation of practices which are unfair and prejudicial to consumers' interest (c).",
+    "generated": "The Central Authority may pass such order as may be necessary, including—(a) recalling of goods or withdrawal of services which are dangerous, hazardous or unsafe; (b) reimbursement of the prices of goods or services so recalled to purchasers of such goods or services; and (c) discontinuation of practices which are unfair and prejudicial to consumers' interest.\nIf the Central Authority finds evidence of a violation of consumer rights, it may pass such order as may be necessary, including—(a) recalling of goods or withdrawal of services which are dangerous, hazardous or unsafe; (b) reimbursement of the prices of goods or services so recalled to purchasers of such goods or services; and (c) discontinuation of practices which are unfair and prejudicial to consumers' interest.",
+    "exact_match": 0,
+    "token_f1": 0.5632
+  }
+]

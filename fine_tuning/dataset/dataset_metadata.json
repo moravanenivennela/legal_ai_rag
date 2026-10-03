@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "sources": {
+    "constitution": "D:\\Legal_AI_Projects\\legal_ai_rag\\data\\constitution_of_india.pdf",
+    "consumer_protection": "D:\\Legal_AI_Projects\\legal_ai_rag\\data\\consumer_protection_act_2019.pdf"
+  },
+  "total_passages": 853,
+  "train_passages": 682,
+  "validation_passages": 85,
+  "test_passages": 86,
+  "split": {
+    "train": "80%",
+    "validation": "10%",
+    "test": "10%"
+  }
+}

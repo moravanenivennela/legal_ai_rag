@@ -1,0 +1,18 @@
+Independent evaluation metrics
+
+1. Accuracy
+2. Per-class precision
+3. Per-class recall (sensitivity)
+4. Per-class F1-score
+5. Per-class specificity (one-versus-rest)
+6. Macro-average precision, recall, F1-score, and specificity
+
+Evaluation dataset:
+fine_tuning/dataset/independent_test/independent_questions.csv
+
+Results directory:
+outputs/independent_test/
+
+Important:
+Only questions verified against documented public sources and checked
+for overlap with previous test datasets will be used.

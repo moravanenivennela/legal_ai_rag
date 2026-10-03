@@ -1,0 +1,37 @@
+{
+  "model": "qwen2.5:3b",
+  "train_passage_counts_processed": {
+    "constitution": 200,
+    "consumer_protection": 75
+  },
+  "validation_passage_counts_processed": {
+    "constitution": 15,
+    "consumer_protection": 15
+  },
+  "test_passage_counts_processed": {
+    "constitution": 15,
+    "consumer_protection": 15
+  },
+  "classification_counts": {
+    "train": {
+      "constitution": 8,
+      "consumer_protection": 2,
+      "out_of_domain": 150
+    },
+    "validation": {
+      "constitution": 0,
+      "consumer_protection": 0,
+      "out_of_domain": 150
+    },
+    "test": {
+      "constitution": 0,
+      "consumer_protection": 6,
+      "out_of_domain": 150
+    }
+  },
+  "qa_counts": {
+    "train": 526,
+    "validation": 82
+  },
+  "note": "All generated records are candidates and require legal review. Test classification candidates must remain out of training. QA test data was not generated or changed."
+}

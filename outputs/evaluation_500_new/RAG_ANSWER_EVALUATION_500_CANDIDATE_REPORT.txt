@@ -1,0 +1,2 @@
+RAG ANSWER EVALUATION — 500 SYNTHETIC CANDIDATE QUESTIONS\nNot an independently verified benchmark; manual review required.\nTotal questions: 500\nRetrieval success: 500/500 (100.00%)\nSource match among successful retrievals: 100.00%
+Average automated groundedness: 29.97%\nAverage latency: 38.53s\nSource match is not answer correctness. Review answers against authoritative source passages.\n

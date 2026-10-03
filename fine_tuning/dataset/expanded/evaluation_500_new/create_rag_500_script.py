@@ -1,0 +1,360 @@
+from pathlib import Path
+
+out = Path("evaluate_rag_answers_500.py")
+
+if out.exists():
+    raise SystemExit(
+        f"STOP: {out} already exists. Existing file was not changed."
+    )
+
+constitution_topics = [
+    "Article 12 and the definition of the State",
+    "equality before the law under Article 14",
+    "prohibition of discrimination under Article 15",
+    "equality of opportunity in public employment under Article 16",
+    "abolition of untouchability under Article 17",
+    "abolition of titles under Article 18",
+    "freedom of speech and expression under Article 19",
+    "protection in respect of conviction for offences under Article 20",
+    "protection of life and personal liberty under Article 21",
+    "right to education under Article 21A",
+    "protection against arrest and detention under Article 22",
+    "prohibition of human trafficking under Article 23",
+    "prohibition of child labour under Article 24",
+    "freedom of conscience under Article 25",
+    "freedom to manage religious affairs under Article 26",
+    "freedom from certain taxes for religious promotion under Article 27",
+    "freedom from religious instruction in certain institutions under Article 28",
+    "protection of cultural rights under Article 29",
+    "minority educational institutions under Article 30",
+    "constitutional remedies under Article 32",
+    "abolition of titles and constitutional equality",
+    "Fundamental Duties under Article 51A",
+    "Directive Principles of State Policy",
+    "organisation of village panchayats under Article 40",
+    "uniform civil code under Article 44",
+    "protection of environment under Article 48A",
+    "separation of judiciary and executive under Article 50",
+    "definition and scope of the Union executive",
+    "constitutional position of the President of India",
+    "election of the President",
+    "powers and functions of the President",
+    "appointment and role of the Vice-President",
+    "appointment of the Prime Minister",
+    "collective responsibility of the Council of Ministers",
+    "composition of the Council of States",
+    "composition of the House of the People",
+    "qualification for membership of Parliament",
+    "duration of the Houses of Parliament",
+    "powers of the Speaker of the Lok Sabha",
+    "ordinary legislative procedure in Parliament",
+    "joint sitting of Parliament",
+    "money bills and their procedure",
+    "annual financial statement and the Union Budget",
+    "ordinance-making power of the President",
+    "Supreme Court original jurisdiction",
+    "Supreme Court appellate jurisdiction",
+    "advisory jurisdiction of the Supreme Court",
+    "writ jurisdiction of High Courts",
+    "independence of the judiciary",
+    "appointment of Supreme Court judges",
+    "appointment of High Court judges",
+    "judicial review under the Constitution",
+    "powers of the Governor",
+    "appointment of the Chief Minister",
+    "State Council of Ministers",
+    "composition of State Legislatures",
+    "legislative powers of States",
+    "distribution of legislative powers between Union and States",
+    "Union List in the Seventh Schedule",
+    "State List in the Seventh Schedule",
+    "Concurrent List in the Seventh Schedule",
+    "residuary legislative powers",
+    "administrative relations between Union and States",
+    "financial relations between Union and States",
+    "Finance Commission under Article 280",
+    "Election Commission under Article 324",
+    "Comptroller and Auditor General of India",
+    "Public Service Commissions",
+    "constitutional amendment procedure under Article 368",
+    "national emergency under Article 352",
+    "President's Rule under Article 356",
+    "financial emergency under Article 360",
+    "official language provisions",
+    "citizenship provisions in the Constitution",
+    "territory of India under Article 1",
+    "admission and establishment of new States",
+    "protection of property under Article 300A",
+    "constitutional protection for civil servants",
+    "reservation provisions in the Constitution",
+    "special provisions for certain States",
+    "scheduled areas and tribal areas",
+    "panchayats under Part IX",
+    "municipalities under Part IXA",
+    "co-operative societies under Part IXB",
+    "anti-defection provisions in the Tenth Schedule",
+    "disqualification of members of Parliament",
+    "constitutional privileges of Parliament",
+    "constitutional privileges of State Legislatures",
+    "provisions concerning elections",
+    "bar to court interference in electoral matters",
+    "tribunals under Articles 323A and 323B",
+    "official language of the Union",
+    "special provisions for linguistic minorities",
+    "constitutional duties of the Union",
+    "constitutional duties of States",
+    "preamble and its constitutional significance",
+    "basic structure doctrine",
+    "constitutional limits on legislative power",
+    "relationship between Fundamental Rights and Directive Principles",
+    "constitutional safeguards during emergencies",
+    "constitutional provisions governing public finance",
+    "constitutional provisions for scheduled castes and tribes",
+]
+
+consumer_topics = [
+    "definition of a consumer under Section 2",
+    "definition of a complaint under Section 2",
+    "meaning of a defect in goods",
+    "meaning of deficiency in services",
+    "meaning of an unfair trade practice",
+    "meaning of a restrictive trade practice",
+    "meaning of an unfair contract",
+    "definition of product liability",
+    "product liability of a manufacturer",
+    "product liability of a product seller",
+    "product liability of a product service provider",
+    "consumer rights recognised by the Act",
+    "scope and objectives of the Consumer Protection Act, 2019",
+    "Central Consumer Protection Authority",
+    "powers of the Central Consumer Protection Authority",
+    "investigation of consumer rights violations",
+    "recall of unsafe goods",
+    "discontinuation of unfair practices",
+    "orders concerning misleading advertisements",
+    "endorsements in advertisements",
+    "penalties relating to misleading advertisements",
+    "consumer dispute redressal commissions",
+    "jurisdiction of the District Commission",
+    "jurisdiction of the State Commission",
+    "jurisdiction of the National Commission",
+    "filing a consumer complaint",
+    "who may file a consumer complaint",
+    "electronic filing of consumer complaints",
+    "territorial jurisdiction for complaints",
+    "pecuniary jurisdiction of consumer commissions",
+    "limitation period for consumer complaints",
+    "admission of consumer complaints",
+    "procedure after admission of a complaint",
+    "laboratory testing of defective goods",
+    "complaints involving services",
+    "complaints involving unfair trade practices",
+    "complaints involving overcharging",
+    "complaints involving hazardous goods",
+    "complaints involving hazardous services",
+    "consumer mediation",
+    "referral of disputes to mediation",
+    "consumer mediation cells",
+    "settlement through mediation",
+    "orders available to consumer commissions",
+    "removal of defects in goods",
+    "replacement of defective goods",
+    "refund of the price paid",
+    "compensation for loss or injury",
+    "discontinuation of unfair trade practices",
+    "withdrawal of hazardous goods",
+    "corrective advertisements",
+    "costs awarded in consumer disputes",
+    "appeals from District Commission orders",
+    "appeals from State Commission orders",
+    "appeals to the National Commission",
+    "appeals to the Supreme Court",
+    "enforcement of consumer commission orders",
+    "penalties for failure to comply with orders",
+    "offences relating to adulterated products",
+    "offences relating to spurious goods",
+    "product liability actions",
+    "exceptions to product liability",
+    "responsibilities of product manufacturers",
+    "responsibilities of product sellers",
+    "responsibilities of product service providers",
+    "unfair contracts and consumer remedies",
+    "misleading representations about goods",
+    "false descriptions of services",
+    "false guarantees about products",
+    "e-commerce under the Consumer Protection Act",
+    "duties of e-commerce entities",
+    "consumer complaints against online marketplaces",
+    "consumer protection in online transactions",
+    "direct selling under consumer protection rules",
+    "consumer protection in electronic sales",
+    "consumer protection rules for online shopping",
+    "advertising claims and consumer rights",
+    "endorser liability for misleading advertisements",
+    "investigation powers of the CCPA",
+    "search and seizure powers under the Act",
+    "consumer awareness and education",
+    "consumer councils under the Act",
+    "Central Consumer Protection Council",
+    "State Consumer Protection Council",
+    "District Consumer Protection Council",
+    "consumer dispute resolution procedures",
+    "rights of consumers in defective-product cases",
+    "rights of consumers in deficient-service cases",
+    "relief available for unfair trade practices",
+    "complaints about excess prices",
+    "complaints about unsafe products",
+    "complaints about product liability",
+    "responsibility for misleading advertisements",
+    "consumer disputes involving warranties",
+    "consumer protection for digital purchases",
+    "consumer remedies for delayed delivery",
+    "consumer disputes involving online payments",
+    "consumer complaints involving service providers",
+    "consumer complaints involving manufacturers",
+    "consumer complaints involving retailers",
+    "review of consumer commission orders",
+    "appeal procedure under the Act",
+    "alternative dispute resolution in consumer matters",
+]
+
+# Each topic becomes one question. Additional topic-specific questions
+# will be added below, without duplicating existing questions.
+def constitution_question(topic):
+    return f"Explain {topic} with reference to the Constitution of India."
+
+def consumer_question(topic):
+    return f"Explain {topic} under the Consumer Protection Act, 2019."
+
+constitution_questions = [constitution_question(t) for t in constitution_topics]
+consumer_questions = [consumer_question(t) for t in consumer_topics]
+
+# Expand the question set using distinct question intents.
+constitution_intents = [
+    "What does {topic} provide?",
+    "Which constitutional provision governs {topic}?",
+    "How does {topic} operate under the Constitution?",
+    "Why is {topic} constitutionally significant?",
+    "What are the key features of {topic}?",
+]
+consumer_intents = [
+    "What does the Act provide about {topic}?",
+    "Which provision of the 2019 Act governs {topic}?",
+    "How is {topic} addressed under the Act?",
+    "What legal remedies relate to {topic}?",
+    "What are the key features of {topic} under the Act?",
+]
+
+def expand(topics, intents):
+    result = []
+    for topic in topics:
+        for template in intents:
+            result.append(template.format(topic=topic))
+    return result
+
+constitution_questions = list(dict.fromkeys(
+    constitution_questions + expand(constitution_topics, constitution_intents)
+))[:250]
+consumer_questions = list(dict.fromkeys(
+    consumer_questions + expand(consumer_topics, consumer_intents)
+))[:250]
+
+if len(constitution_questions) != 250 or len(consumer_questions) != 250:
+    raise SystemExit(
+        f"Could not produce 250 questions per source: "
+        f"constitution={len(constitution_questions)}, "
+        f"consumer={len(consumer_questions)}"
+    )
+
+tests = (
+    [(q, "constitution_of_india.pdf") for q in constitution_questions]
+    + [(q, "consumer_protection_act_2019.pdf") for q in consumer_questions]
+)
+
+lines = [
+    '"""Expanded RAG answer evaluation; preserves the original 30-question script.',
+    'Questions are synthetic candidates and require manual legal review.',
+    'Source matching and automated groundedness are not proof of answer correctness.',
+    '"""',
+    'import csv',
+    'import time',
+    'from pathlib import Path',
+    'from rag_engine import LegalRAGEngine',
+    '',
+    'TESTS = [',
+]
+for question, source in tests:
+    lines.append(f'    ({question!r}, {source!r}),')
+lines += [
+    ']',
+    '',
+    'def collect_answer(engine, question, contexts):',
+    '    chunks = []',
+    '    for token in engine.generate_stream(question, contexts, language="English", eli5=False):',
+    '        chunks.append(token)',
+    '    return "".join(chunks).strip()',
+    '',
+    'def main():',
+    '    print("=" * 70)',
+    '    print("RAG ANSWER / GROUNDEDNESS EVALUATION — 500 QUESTIONS")',
+    '    print("Candidate dataset: 250 Constitution + 250 Consumer Protection")',
+    '    print("Questions require independent review before research-paper claims.")',
+    '    print("=" * 70)',
+    '    engine = LegalRAGEngine()',
+    '    rows = []',
+    '    for i, (question, expected_source) in enumerate(TESTS, 1):',
+    '        print(f"\\\\n[{i:03d}/{len(TESTS)}] {question}")',
+    '        start = time.perf_counter()',
+    '        row = {"id": i, "question": question, "expected_source": expected_source,',
+    '               "predicted_domain": "", "retrieval_success": False, "source_match": False,',
+    '               "groundedness": "", "latency_seconds": "", "answer": "", "error": ""}',
+    '        try:',
+    '            contexts, retrieval_success, min_distance, predicted_domain = engine.retrieve(question)',
+    '            row["predicted_domain"] = predicted_domain',
+    '            row["retrieval_success"] = bool(retrieval_success and contexts)',
+    '            if retrieval_success and contexts:',
+    '                answer = collect_answer(engine, question, contexts)',
+    '                row["answer"] = answer',
+    '                row["groundedness"] = engine.check_groundedness(answer, contexts)',
+    '                sources = [c.get("metadata", {}).get("source", "") for c in contexts]',
+    '                row["source_match"] = expected_source in sources',
+    '            else:',
+    '                row["error"] = "Retrieval failed or returned no contexts"',
+    '        except Exception as exc:',
+    '            row["error"] = repr(exc)',
+    '        row["latency_seconds"] = round(time.perf_counter() - start, 2)',
+    '        rows.append(row)',
+    '        print("  retrieval={} source_match={} latency={}s".format(row["retrieval_success"], row["source_match"], row["latency_seconds"]))',
+    '    outdir = Path("outputs/evaluation_500_new")',
+    '    outdir.mkdir(parents=True, exist_ok=True)',
+    '    csv_path = outdir / "RAG_ANSWER_EVALUATION_500_CANDIDATE.csv"',
+    '    with csv_path.open("w", newline="", encoding="utf-8-sig") as f:',
+    '        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))',
+    '        writer.writeheader()',
+    '        writer.writerows(rows)',
+    '    successful = [r for r in rows if r["retrieval_success"]]',
+    '    report_path = outdir / "RAG_ANSWER_EVALUATION_500_CANDIDATE_REPORT.txt"',
+    '    with report_path.open("w", encoding="utf-8") as f:',
+    '        f.write("RAG ANSWER EVALUATION — 500 SYNTHETIC CANDIDATE QUESTIONS\\\\n")',
+    '        f.write("Not an independently verified benchmark; manual review required.\\\\n")',
+    '        f.write(f"Total questions: {len(rows)}\\\\n")',
+    '        f.write(f"Retrieval success: {len(successful)}/{len(rows)} ({100*len(successful)/len(rows):.2f}%)\\\\n")',
+    '        f.write("Source match among successful retrievals: {:.2f}%\\n".format(100 * sum(bool(r["source_match"]) for r in successful) / len(successful)) if successful else "Source match: not available\\n")',
+    '        grounded = [float(r["groundedness"]) for r in successful if r["groundedness"] != ""]',
+    '        f.write(f"Average automated groundedness: {sum(grounded)/len(grounded):.2f}%\\\\n" if grounded else "Average groundedness: not available\\\\n")',
+    '        latencies = [float(r["latency_seconds"]) for r in rows]',
+    '        f.write(f"Average latency: {sum(latencies)/len(latencies):.2f}s\\\\n")',
+    '        f.write("Source match is not answer correctness. Review answers against authoritative source passages.\\\\n")',
+    '    print("\\\\nSaved:", csv_path)',
+    '    print("Saved:", report_path)',
+    '',
+    'if __name__ == "__main__":',
+    '    main()',
+]
+
+out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+print("Created:", out)
+print("Questions:", len(tests))
+print("Constitution:", len(constitution_questions))
+print("Consumer Protection:", len(consumer_questions))
+print("Original evaluate_rag_answers.py was not changed.")

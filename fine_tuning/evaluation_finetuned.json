@@ -1,0 +1,32 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": "models\\legal_lora",
+  "test_examples": 5,
+  "results": [
+    {
+      "index": 1,
+      "expected": "The State shall endeavor to secure, by suitable legislation or economic organization or in any other way, to all workers, agricultural, industrial or otherwise, work, a living wage, conditions of work ensuring a decent standard of life and full enjoyment of leisure and social and cultural opportunities.",
+      "generated": "The State has the responsibility to secure a living wage, conditions of work that ensure a decent standard of life, and full enjoyment of leisure and social and cultural opportunities, as well as promoting cottage industries on an individual or co-operative basis in rural areas."
+    },
+    {
+      "index": 2,
+      "expected": "A Bill which is pending in the House of the People, or which having been passed by the House of the People is pending in the Council of States, shall, subject to the provisions of article 108, lapse on a dissolution of the House of the People.",
+      "generated": "If the House of the People is dissolved, a Bill pending in the House of the People or a Bill that has been passed by the House of the People and is pending in the Council of States will lapse on a dissolution of the House of the People."
+    },
+    {
+      "index": 3,
+      "expected": "The Governor may by order declare that any area within an autonomous district in the State of Assam or Meghalaya, or Tripura, or Mizoram, shall not form part of any constituency to fill a seat or seats in the Assembly reserved for any such district but shall form part of a constituency to fill a seat or seats in the Assembly not so reserved to be specified in the order.",
+      "generated": "The Governor has the authority to declare areas within autonomous districts within the State of Assam, Meghalaya, Tripura, or Mizoram as non-reserved constituencies for the Legislative Assembly of Assam, Meghalaya, Tripura, or Mizoram respectively."
+    },
+    {
+      "index": 4,
+      "expected": "276. Taxes on professions, trades, callings and employments. —(1) Notwithstanding anything in article 246, no law of the Legislature of a State relating to taxes for the benefit of the State or of a municipality, district board, local board or other local authority therein in respect of professions, trades, callings or employments shall be invalid on the ground that it relates to a tax on income.",
+      "generated": "Taxes on professions, trades, callings or employments are not invalid under article 246 because they relate to a tax on income."
+    },
+    {
+      "index": 5,
+      "expected": "The House of the People is composed of members elected by the people.",
+      "generated": "The House of the People has its composition outlined in Article VIII, Chapter II. Specifically, it states:\n\n\"CHAPTER II. PARLIAMENT\n\nGeneral\n\n79. Constitution of Parliament.\n\n80. Composition of the Council of States.\n\n81. Composition of the House of the People.\n\n82. Readjustment after each census.\n\n83. Duration of Houses of Parliament.\n\n84. Qualification for membership of Parliament.\n\n85. Sessions of Parliament, prorogation and dissolution.\n\n86. Right of President to address and send messages to Houses.\n\n87. Special address by the President.\n\n88. Rights of Ministers and Attorney-General as respects Houses.\n\nOfficers of Parliament\n\n89. The Chairman and Deputy Chairman of the Council of States.\n\n90. Vacation"
+    }
+  ]
+}

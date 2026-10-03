@@ -1,0 +1,88 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+============================================================
+FINE-TUNED LEGAL LLM EVALUATION
+============================================================
+Base model : Qwen/Qwen2.5-0.5B-Instruct
+Adapter    : models\legal_lora
+Test file  : fine_tuning\dataset\test.jsonl
+Test examples: 5
+
+Loading tokenizer...
+Loading base model...
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  34%|###4      | 99/290 [00:00<00:00, 968.00it/s]Loading weights:  80%|########  | 232/290 [00:00<00:00, 1176.87it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 1203.83it/s]
+Loading LoRA adapter...
+
+------------------------------------------------------------
+TEST 1
+Expected:
+The State shall endeavor to secure, by suitable legislation or economic organization or in any other way, to all workers, agricultural, industrial or otherwise, work, a living wage, conditions of work ensuring a decent standard of life and full enjoyment of leisure and social and cultural opportunities.
+
+Generated:
+The State has the responsibility to secure a living wage, conditions of work that ensure a decent standard of life, and full enjoyment of leisure and social and cultural opportunities, as well as promoting cottage industries on an individual or co-operative basis in rural areas.
+
+------------------------------------------------------------
+TEST 2
+Expected:
+A Bill which is pending in the House of the People, or which having been passed by the House of the People is pending in the Council of States, shall, subject to the provisions of article 108, lapse on a dissolution of the House of the People.
+
+Generated:
+If the House of the People is dissolved, a Bill pending in the House of the People or a Bill that has been passed by the House of the People and is pending in the Council of States will lapse on a dissolution of the House of the People.
+
+------------------------------------------------------------
+TEST 3
+Expected:
+The Governor may by order declare that any area within an autonomous district in the State of Assam or Meghalaya, or Tripura, or Mizoram, shall not form part of any constituency to fill a seat or seats in the Assembly reserved for any such district but shall form part of a constituency to fill a seat or seats in the Assembly not so reserved to be specified in the order.
+
+Generated:
+The Governor has the authority to declare areas within autonomous districts within the State of Assam, Meghalaya, Tripura, or Mizoram as non-reserved constituencies for the Legislative Assembly of Assam, Meghalaya, Tripura, or Mizoram respectively.
+
+------------------------------------------------------------
+TEST 4
+Expected:
+276. Taxes on professions, trades, callings and employments. —(1) Notwithstanding anything in article 246, no law of the Legislature of a State relating to taxes for the benefit of the State or of a municipality, district board, local board or other local authority therein in respect of professions, trades, callings or employments shall be invalid on the ground that it relates to a tax on income.
+
+Generated:
+Taxes on professions, trades, callings or employments are not invalid under article 246 because they relate to a tax on income.
+
+------------------------------------------------------------
+TEST 5
+Expected:
+The House of the People is composed of members elected by the people.
+
+Generated:
+The House of the People has its composition outlined in Article VIII, Chapter II. Specifically, it states:
+
+"CHAPTER II. PARLIAMENT
+
+General
+
+79. Constitution of Parliament.
+
+80. Composition of the Council of States.
+
+81. Composition of the House of the People.
+
+82. Readjustment after each census.
+
+83. Duration of Houses of Parliament.
+
+84. Qualification for membership of Parliament.
+
+85. Sessions of Parliament, prorogation and dissolution.
+
+86. Right of President to address and send messages to Houses.
+
+87. Special address by the President.
+
+88. Rights of Ministers and Attorney-General as respects Houses.
+
+Officers of Parliament
+
+89. The Chairman and Deputy Chairman of the Council of States.
+
+90. Vacation
+
+============================================================
+EVALUATION COMPLETE
+============================================================
+Results saved to: fine_tuning\evaluation_finetuned.json

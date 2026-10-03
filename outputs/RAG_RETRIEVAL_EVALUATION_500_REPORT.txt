@@ -1,0 +1,139 @@
+RAG RETRIEVAL EVALUATION REPORT (500 QUESTIONS)
+======================================================================
+Run ID:                 RUN_20261003_141128
+Timestamp:              2026-10-03T14:21:34.437089
+Dataset:                outputs/rag_evaluation_questions_500.csv
+Total Evaluated:        500
+Retrieval Success:      476/500 (95.20%)
+Hit@1:                  93.00%
+Hit@3:                  95.00%
+Hit@5:                  95.00%
+MRR:                    0.9393
+Average Latency:        1.0837s
+Median Latency:         1.0690s
+Errors:                 0
+
+PER-SOURCE BREAKDOWN
+----------------------------------------------------------------------
+Constitution of India (N=250):
+  Retrieval Success:    98.40%
+  Hit@1:                98.40%
+  Hit@3:                98.40%
+  Hit@5:                98.40%
+  MRR:                  0.9840
+
+Consumer Protection Act 2019 (N=250):
+  Retrieval Success:    92.00%
+  Hit@1:                87.60%
+  Hit@3:                91.60%
+  Hit@5:                91.60%
+  MRR:                  0.8947
+
+NOTE ON EVALUATION METHODOLOGY
+----------------------------------------------------------------------
+Source matching and retrieval success verify that the retrieval pipeline returned
+contexts originating from the ground-truth legal document. They do NOT by themselves
+prove substantive legal accuracy of downstream answers.
+
+RETRIEVAL MISSES (Top-5 Misses: 25)
+----------------------------------------------------------------------
+[Q216_CON] Rank= | Expected=constitution_of_india.pdf
+  Question:  How is a Money Bill different from an ordinary Bill?
+  Retrieved: 
+
+[Q217_CON] Rank= | Expected=constitution_of_india.pdf
+  Question:  What happens when there is a disagreement between the two Houses on an ordinary Bill?
+  Retrieved: 
+
+[Q238_CON] Rank= | Expected=constitution_of_india.pdf
+  Question:  On what grounds can a national emergency be proclaimed?
+  Retrieved: 
+
+[Q240_CON] Rank= | Expected=constitution_of_india.pdf
+  Question:  What happens during a financial emergency?
+  Retrieved: 
+
+[Q309_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  When can a dispute be referred to mediation?
+  Retrieved: 
+
+[Q311_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  Who can be empanelled as a mediator?
+  Retrieved: 
+
+[Q313_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What matters cannot be referred to mediation?
+  Retrieved: 
+
+[Q314_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What is the time limit for mediation?
+  Retrieved: 
+
+[Q315_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What duties must a mediator observe?
+  Retrieved: 
+
+[Q328_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What is the penalty for failure to comply with a Commission order?
+  Retrieved: 
+
+[Q329_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  Can offences under the Act be compounded?
+  Retrieved: 
+
+[Q343_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What is the bar of jurisdiction for civil courts under the Act?
+  Retrieved: constitution_of_india.pdf;constitution_of_india.pdf;constitution_of_india.pdf;constitution_of_india.pdf
+
+[Q365_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What is the procedure for laboratory testing under the Act?
+  Retrieved: 
+
+[Q373_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What is the procedure when the opposite party admits the complaint?
+  Retrieved: 
+
+[Q376_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  Can the Commission impose a penalty for non-compliance with its order?
+  Retrieved: 
+
+[Q382_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  Does the Act cover insurance services?
+  Retrieved: 
+
+[Q390_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What is the procedure when laboratory reports are disputed?
+  Retrieved: 
+
+[Q407_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What is the difference between a manufacturing defect and a design defect?
+  Retrieved: 
+
+[Q429_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What happens if mediation fails?
+  Retrieved: 
+
+[Q430_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  Who bears the cost of mediation?
+  Retrieved: 
+
+[Q431_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  Can a party withdraw from mediation?
+  Retrieved: 
+
+[Q455_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  Are offences under the Act cognizable?
+  Retrieved: 
+
+[Q456_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  Can a company be prosecuted under the Act?
+  Retrieved: 
+
+[Q477_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  What is the procedure for execution of compensation orders?
+  Retrieved: 
+
+[Q478_CPA] Rank= | Expected=consumer_protection_act_2019.pdf
+  Question:  Can costs be awarded against a frivolous complaint?
+  Retrieved: 
+

@@ -1,0 +1,33 @@
+﻿split,expected_label,predicted_label,question
+validation_candidate,consumer_protection,constitution,What does the Central Authority have the power to do under the Act?
+validation_candidate,consumer_protection,constitution,Where can the Central Council meet?
+validation_candidate,consumer_protection,constitution,Who is the Chairperson of the Central Council?
+validation_candidate,consumer_protection,constitution,How often must the Central Council meet at a minimum?
+validation_candidate,consumer_protection,constitution,What does section 97 cover?
+validation_candidate,consumer_protection,constitution,What does section 94 of the Act cover?
+validation_candidate,consumer_protection,constitution,"What does the Consumer Protection Act, 1986 get repealed by?"
+validation_candidate,consumer_protection,constitution,What can the model rules do?
+validation_candidate,consumer_protection,constitution,What is the purpose of the orders made under the Act?
+validation_candidate,consumer_protection,constitution,Who presides over the National Commission in the absence of the President?
+validation_candidate,consumer_protection,constitution,What does section 96 cover?
+validation_candidate,consumer_protection,constitution,What can the Central Government do with the Act?
+validation_candidate,consumer_protection,constitution,What happens if no agreement is reached between the parties within the specified time?
+validation_candidate,consumer_protection,constitution,What is the consequence of a vacancy in the National Commission?
+validation_candidate,consumer_protection,constitution,What is the role of the President and the other member in continuing a proceeding before the District Commission?
+validation_candidate,consumer_protection,constitution,"What does the District Commission become for the purposes of section 195 and Chapter XXVI of the Code of Criminal Procedure, 1973?"
+validation_candidate,consumer_protection,constitution,What are the modes of service for notices under this Act?
+validation_candidate,consumer_protection,constitution,What can the State Governments do with the Act?
+test_candidate,consumer_protection,constitution,"What is the punishment for seizing any record, register, or document in relation to unfair trade practices?"
+test_candidate,consumer_protection,constitution,Who are deemed to be public servants under this Act?
+test_candidate,consumer_protection,constitution,What are the qualifications for appointment of the President and members of the District Commission?
+test_existing_classifier,constitution,out_of_domain,What are the articles and protocols mentioned in the passage?
+test_existing_classifier,constitution,out_of_domain,What must the State ensure when making a law for compulsory acquisition of an educational institution's property?
+test_existing_classifier,consumer_protection,out_of_domain,"What is the punishment for seizing any record, register, or document in relation to unfair trade practices?"
+test_existing_classifier,constitution,out_of_domain,What are the conditions under which a person's seat in the Legislatures of two or more States becomes vacant?
+test_existing_classifier,constitution,out_of_domain,What is the date mentioned for the joint survey and agreement of the boundary in the Pakuria (Kushtia-Nadia) area?
+test_existing_classifier,consumer_protection,constitution,What is the power of the National Commission mentioned in the passage?
+test_existing_classifier,consumer_protection,constitution,Who are deemed to be public servants under this Act?
+test_existing_classifier,constitution,out_of_domain,Under what circumstances can the Lieutenant Governor take immediate action?
+test_existing_classifier,consumer_protection,constitution,What are the qualifications for appointment of the President and members of the District Commission?
+test_existing_classifier,constitution,out_of_domain,What is exempted from the paragraph mentioned in the passage?
+test_existing_classifier,consumer_protection,out_of_domain,What is the timeframe within which the District Commission or the State Commission or the National Commission must pass a suitable order after receiving the settlement report?

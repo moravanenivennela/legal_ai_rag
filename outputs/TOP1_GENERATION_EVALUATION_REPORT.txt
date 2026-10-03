@@ -1,0 +1,7 @@
+TOP-1 CONTEXT GENERATION EXPERIMENT
+============================================================
+Successful answers: 30/30
+Source match: 100.00%
+Average groundedness: 38.99%
+Groundedness >= 70%: 26.67%
+Average latency: 6.72s
