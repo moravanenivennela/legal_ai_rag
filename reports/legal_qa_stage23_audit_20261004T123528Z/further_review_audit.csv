@@ -1,0 +1,799 @@
+﻿candidate_id,source_document,pdf_page_1_based,original_question,original_answer,proposed_question,proposed_answer,original_reference,proposed_reference,stage21_status,precise_unresolved_issue,additional_evidence_or_review_needed,source_page_excerpt,original_supporting_passage,duplicate_flags,priority_group,approval_state,source_evidence_excerpt,adjacent_page_evidence_excerpt
+004dd69be0a72aeb,constitution_of_india.pdf,35,"What right, duty, or requirement is described in the clause beginning “and (b)(i) in the case where such person…”?","and
+               (b)(i) in the case where such person has so migrated before the
+      nineteenth day of July, 1948, he has been ordinarily resident in the
+       territory of India since the date of his migration, or
+                 (ii) in the case where such person has so migrated on or after the
+      nineteenth day of July, 1948, he has been registered as a citizen of India
+     by an  officer appointed  in  that behalf by the Government  of  the
+     Dominion of India on an application made by him therefor to such
+       officer before the commencement of this Constitution in the form and
+     manner prescribed by that Government:
+      Provided that no person shall be so registered unless he has been resident
+in the territory of India for at least six months immediately preceding the date
+of his application.","Under Article 6, what residence or registration condition applies based on whether a person migrated before or on/after 19 July 1948?",A person who migrated before 19 July 1948 had to have been ordinarily resident in India since migrating. A person who migrated on or after that date had to be registered before the Constitution commenced; registration required residence in India for at least six months immediately before applying.,Article 5,"Article 6(b)(i), (ii), and proviso",PARTIALLY_SUPPORTED,"Stage 21 marked PARTIALLY_SUPPORTED. Proposed range punctuation and the six-month residence phrase were repaired, but Article 6(a) also supplies a separate birthplace/ancestry condition for the citizenship rule. Needed: reviewer must decide whether the question is intentionally restricted to paragraph (b), verify every date/registration qualifier and proviso, and check the original printed page; current/historical applicability is outside this supplied PDF check.","Stage 21 marked PARTIALLY_SUPPORTED. Proposed range punctuation and the six-month residence phrase were repaired, but Article 6(a) also supplies a separate birthplace/ancestry condition for the citizenship rule. Needed: reviewer must decide whether the question is intentionally restricted to paragraph (b), verify every date/registration qualifier and proviso, and check the original printed page; current/historical applicability is outside this supplied PDF check.","6. Rights of citizenship of certain persons who have migrated to
+India from Pakistan.—Notwithstanding anything in article 5, a person who
+has migrated to the territory of India from the territory now included in
+Pakistan shall be deemed to be a citizen of India at the commencement of this
+Constitution if—
+             (a) he or either of his parents or any of his grand-parents was born
+       in India as defined in the Government of India Act, 1935 (as originally
+       enacted); and
+               (b)(i) in the case where such person has so migrated before the
+      nineteenth day of July, 1948, he has been ordinarily resident in the
+       territory of India since the date of his migration, or
+                 (ii) in the case where such person has so migrated on or after the
+      nineteenth day of July, 1948, he has been registered as a citizen of India
+     by an  officer appointed  in  that behalf by the Government  of  the
+     Dominion of India on an application made by him therefor to such
+       officer before the commencement of this Constitution in the form and
+     manner prescribed by that Government:
+      Provided that no person shall be so registered unless he has been resident
+in the territory of India for at least six months immediately preceding the date
+of his application.
+        7.  Rights  of  citizenship  of  certain  migrants  to  Pakistan.—
+Notwithstanding anything in articles 5 and 6, a person who has after the first
+day of March, 1947, migrated from the territory of India to the territory now
+included in Pakistan shall not be deemed to be a citizen of India:
+
+                               4","5. Citizenship at the commencement of the Constitution.—At the
+commencement of this Constitution, every person who has his domicile in the
+territory of India and—
+             (a) who was born in the territory of India; or
+             (b) either of whose parents was born in the territory of India; or
+              (c) who has been ordinarily resident in the territory of India for
+      not less than five years immediately preceding such commencement,
+shall be a citizen of India.
+       6. Rights of citizenship of certain persons who have migrated to
+India from Pakistan.—Notwithstanding anything in article 5, a person who
+has migrated to the territory of India from the territory now included in
+Pakistan shall be deemed to be a citizen of India at the commencement of this
+Constitution if—
+             (a) he or either of his parents or any of his grand-parents was born
+       in India as defined in the Government of India Act, 1935 (as originally
+       enacted); and
+               (b)(i) in the case where such person has so migrated before the
+      nineteenth day of July, 1948, he has been ordinarily resident in the
+       territory of India since the date of his migration, or
+                 (ii) in the case where such person has so migrated on or after the
+      nineteenth day of July, 1948, he has been registered as a citizen of India
+     by an  officer appointed  in  that behalf by the Government  of  the
+     Dominion of India on an application made by him therefor to such
+       officer before the commencement of this Constitution in the form and
+     manner prescribed by that Government:
+      Provided that no person shall be so registered unless he has been resident
+in the territory of India for at least six months immediately preceding the date
+of his application.",,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,"rsons who have migrated to
+India from Pakistan.—Notwithstanding anything in article 5, a person who
+has migrated to the territory of India from the territory now included in
+Pakistan shall be deemed to be a citizen of India at the commencement of this
+Constitution if—
+             (a) he or either of his parents or any of his grand-parents was born
+       in India as defined in the Government of India Act, 1935 (as originally
+       enacted); and
+               (b)(i) in the case where such person has so migrated before the
+      nineteenth day of July, 19",
+edb58504d9963e5a,consumer_protection_act_2019.pdf,2,How does Section 2(5) define complainant?,"(5) ""complainant"" means—
+
+                                          (i) a consumer;","How does Section 2(5) define ""complainant""?","""Complainant"" means: (i) a consumer; (ii) a registered voluntary consumer association; (iii) the Central or a State Government; (iv) the Central Authority; (v) one or more consumers with the same interest where there are numerous consumers; (vi) on a consumer's death, the legal heir or legal representative; or (vii) if a consumer is a minor, the parent or legal guardian.",Section 2(5),Section 2(5),PARTIALLY_SUPPORTED,"Stage 21 found the suggested Section 2(5) answer omits material words in items (ii) and (v). Needed: compare complete definition from the source page, including 'registered under any law for the time being in force' and representation on behalf of/for benefit of all interested consumers; restore only exact supported scope.","Stage 21 found the suggested Section 2(5) answer omits material words in items (ii) and (v). Needed: compare complete definition from the source page, including 'registered under any law for the time being in force' and representation on behalf of/for benefit of all interested consumers; restore only exact supported scope.","2            THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—
+
+
+Definitions.           2. In this Act, unless the context otherwise requires,—
+
+                           (1) ""advertisement"" means any audio or visual publicity, representation,
+                  endorsement or pronouncement made by means of light, sound, smoke, gas, print,
+                     electronic media, internet or website and includes any notice, circular, label, wrapper,
+                    invoice or such other documents;
+
+                            (2) ""appropriate laboratory"" means a laboratory or an organisation—
+
+                                          (i) recognised by the Central Government; or
+
+                                           (ii) recognised by a State Government, subject to such guidelines as may
+                       be issued by the Central Government in this behalf; or
+
+                                            (iii) established by or under any law for the time being in force, which is
+                          maintained, financed or aided by the Central Government or a State Government
+                            for carrying out analysis or test of any goods with a view to determining whether
+                        such goods suffer from any defect;
+
+                            (3) ""branch office"" means—
+
+                                           (i) any office or place of work described as a branch by the establishment; or
+
+                                           (ii) any establishment carrying on either the same or substantially the
+                     same activity carried on by the head office of the establishment;
+
+                           (4) ""Central Authority"" means the Central Consumer Protection Authority
+                     est","2. In this Act, unless the context otherwise requires,—
+
+                           (1) ""advertisement"" means any audio or visual publicity, representation,
+                  endorsement or pronouncement made by means of light, sound, smoke, gas, print,
+                     electronic media, internet or website and includes any notice, circular, label, wrapper,
+                    invoice or such other documents;
+
+                            (2) ""appropriate laboratory"" means a laboratory or an organisation—
+
+                                          (i) recognised by the Central Government; or
+
+                                           (ii) recognised by a State Government, subject to such guidelines as may
+                       be issued by the Central Government in this behalf; or
+
+                                            (iii) established by or under any law for the time being in force, which is
+                          maintained, financed or aided by the Central Government or a State Government
+                            for carrying out analysis or test of any goods with a view to determining whether
+                        such goods suffer from any defect;
+
+                            (3) ""branch office"" means—
+
+                                           (i) any office or place of work described as a branch by the establishment; or
+
+                                           (ii) any establishment carrying on either the same or substantially the
+                     same activity carried on by the head office of the establishment;
+
+                           (4) ""Central Authority"" means the Central Consumer Protection Authority
+                     established under section 10;
+
+                            (5) ""complainant"" means—
+
+                                          (i) a consumer; or
+
+                                           (ii) any voluntary consumer association registered under any law for the
+                        time being in force; or
+
+                                            (iii) the Central Government or any State Government; or
+
+                                      (iv) the Central Authority; or
+
+                                    (v) one or more consumers, where there are numerous consumers having
+                           the same interest; or
+
+                                      (vi) in case of death of a consumer, his legal heir or legal representative; or
+
+                                        (vii) in case of a consumer being a minor, his parent or legal guardian;
+
+                            (6) ""complaint"" means any allegation in writing, made by a complainant for
+                    obtaining any relief provided by or under this Act, that—
+
+                                          (i) an unfair contract or unfair trade practice or a restrictive trade practice
+                        has been adopted by any trader or service provider;
+
+                                           (ii) the goods bought by him or agreed to be bought by him suffer from
+                      one or more defects;
+
+                                            (iii) the services hired or availed of or agreed to be hired or availed of by
+                     him suffer from any deficiency;
+
+                                      (iv) a trader or a service provider, as the case may be, has charged for the
+                       goods or for the services mentioned in the complaint, a price in excess of the
+                      price—
+
+                                         (a) fixed by or under any law for the time being in force; or",,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,"tion Authority
+                     established under section 10;
+
+                            (5) ""complainant"" means—
+
+                                          (i) a consumer; or
+
+                                           (ii) any voluntary consumer association registered under any law for the
+                        time being in force; or
+
+                                            (iii) the Central Government or any State Government; or
+
+                                      (iv) the C",
+81ddc6564ee9b1bd,constitution_of_india.pdf,225,What comparison does the passage explicitly make?,"(2) Nothing in clause (1) shall bar the appointment of members of the
+Anglo-Indian community to posts other than, or in addition to, those reserved
+for the community under that clause if such members are found qualified for
+appointment on merit as compared with the members of other communities.","Under Article 336(2), what qualification permits appointment to posts beyond those reserved for the Anglo-Indian community?",The clause says such appointment is not barred if the member is found qualified on merit as compared with members of other communities.,,Article 336(2),SUPPORTED_SUGGESTION,"The proposed Article 336(2) wording has source-text support, but Stage 20/21 identifies repeated exact answer/template flags and a possible duplicate meaning. Needed: resolve duplicate cluster against other selected/raw candidates and assess whether this is a distinct useful question. Separately, check whether the historical text is suitable for the intended current-law dataset; supplied PDF text alone does not answer that.","The proposed Article 336(2) wording has source-text support, but Stage 20/21 identifies repeated exact answer/template flags and a possible duplicate meaning. Needed: resolve duplicate cluster against other selected/raw candidates and assess whether this is a distinct useful question. Separately, check whether the historical text is suitable for the intended current-law dataset; supplied PDF text alone does not answer that.","336.  Special  provision  for  Anglo-Indian community  in  certain
+services.—(1) During the  first two years  after the commencement of  this
+Constitution, appointments of members of the Anglo-Indian community to posts
+in the railway, customs, postal and telegraph services of the Union shall be made
+on the same basis as immediately before the fifteenth day of August, 1947.
+      During every succeeding period of two years, the number of posts
+reserved for the members of the said community in the said services shall, as
+nearly as possible, be less by ten per cent. than the numbers so reserved during
+the immediately preceding period of two years:
+      Provided that at the end of ten years from the commencement of this
+Constitution all such reservations shall cease.
+       (2) Nothing in clause (1) shall bar the appointment of members of the
+Anglo-Indian community to posts other than, or in addition to, those reserved
+for the community under that clause if such members are found qualified for
+appointment on merit as compared with the members of other communities.
+      337. Special provision with respect to educational grants for the
+benefit of Anglo-Indian community.—During the first three financial years
+after the commencement of this Constitution, the same grants, if any, shall be
+made by the Union and by each State 2*** for the benefit of the Anglo-Indian
+community in respect of education as were made in the financial year ending
+on the thirty-first day of March, 1948.
+      During every succeeding period of three years the grants may be less by
+ten per cent. than those for the immediately preceding period of three years:
+      Provided that at the end of ten years from the commencement of this
+Constitution such grants, to the extent to which they are a special","194          THE CONSTITUTION OF INDIA
+
+               (Part XVI.—Special Provisions Relating to Certain Classes)
+
+      1[Provided that nothing in  this  article shall prevent in making of any
+provision in favour of the members of the Scheduled Castes and the Scheduled
+Tribes for relaxation in qualifying marks in any examination or lowering the
+standards of evaluation, for reservation in matters or promotion to any class or
+classes of services or posts in connection with the affairs of the Union or of a State.]
+      336.  Special  provision  for  Anglo-Indian community  in  certain
+services.—(1) During the  first two years  after the commencement of  this
+Constitution, appointments of members of the Anglo-Indian community to posts
+in the railway, customs, postal and telegraph services of the Union shall be made
+on the same basis as immediately before the fifteenth day of August, 1947.
+      During every succeeding period of two years, the number of posts
+reserved for the members of the said community in the said services shall, as
+nearly as possible, be less by ten per cent. than the numbers so reserved during
+the immediately preceding period of two years:
+      Provided that at the end of ten years from the commencement of this
+Constitution all such reservations shall cease.
+       (2) Nothing in clause (1) shall bar the appointment of members of the
+Anglo-Indian community to posts other than, or in addition to, those reserved
+for the community under that clause if such members are found qualified for
+appointment on merit as compared with the members of other communities.
+      337. Special provision with respect to educational grants for the
+benefit of Anglo-Indian community.—During the first three financial years
+after the commencement of this Constitution, the same grants, if any, shall be
+made by the Union and by each State 2*** for the benefit of the Anglo-Indian
+community in respect of education as were made in the financial year ending
+on the thirty-first day of March, 1948.
+      During every succeeding period of three years the grants may be less by
+ten per cent. than those for the immediately preceding period of three years:
+      Provided that at the end of ten years from the commencement of this
+Constitution such grants, to the extent to which they are a special concession to
+the Anglo-Indian community, shall cease:
+      Provided  further  that no educational  institution  shall be  entitled  to
+receive any grant under this article unless at least forty per cent. of the annual
+admissions therein are made available to members of communities other than
+the Anglo-Indian community.
+
+______________________________________________
+1. Ins. by the Constitution (Eighty-second Amendment) Act, 2000, s. 2 (w.e.f. 8-9-2000).
+2. The words and letters ""specified in Part A or Part B of the First Schedule"" omitted by
+  the Constitution (Seventh Amendment) Act, 1956, s. 29 and Sch. (w.e.f. 1-11-1956).",REPEATED_EXACT_ANSWER;REPEATED_ANSWER_TEMPLATE,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,"ten years from the commencement of this
+Constitution all such reservations shall cease.
+       (2) Nothing in clause (1) shall bar the appointment of members of the
+Anglo-Indian community to posts other than, or in addition to, those reserved
+for the community under that clause if such members are found qualified for
+appointment on merit as compared with the members of other communities.
+      337. Special provision with respect to educational grants for the
+benefit of Anglo-Indian community.—During the first three finan",
+0dd8417bbfe6d7bc,constitution_of_india.pdf,69,What condition or exception is described in the clause beginning “Provided that such readjustment shall not affect representation…”?,"Provided that such readjustment shall not affect representation in the
+House of the People until the dissolution of the then existing House:
+      5[Provided further that such readjustment shall take effect from such date
+as the President may, by order, specify and until such readjustment takes effect,
+any  election  to  the House may be held on  the  basis  of  the  territorial
+constituencies existing before such readjustment:
+      Provided also that until the relevant figures for the first census taken
+after the year 6[2026] have been published,  it  shall not be necessary to
+7[readjust,—
+
+______________________________________________
+1.","Under the first proviso to Article 82, until when does the readjustment leave representation in the House of the People unaffected?",The readjustment shall not affect representation in the House of the People until the dissolution of the then existing House.,Article 82,"Article 82, first proviso",SUPPORTED_SUGGESTION,"The candidate passage clipped the following proviso. Needed: inspect the complete Article 82 text and its next proviso on the same/adjacent page, confirm the question is expressly limited to the first proviso, and determine whether source version/current status is adequate. Do not infer the later proviso from the truncated candidate excerpt.","The candidate passage clipped the following proviso. Needed: inspect the complete Article 82 text and its next proviso on the same/adjacent page, confirm the question is expressly limited to the first proviso, and determine whether source version/current status is adequate. Do not infer the later proviso from the truncated candidate excerpt.","82. Readjustment after each census.—Upon the completion of each
+census, the allocation of seats in the House of the People to the States and the
+division of each State into territorial constituencies shall be readjusted by such
+authority and in such manner as Parliament may by law determine:
+      Provided that such readjustment shall not affect representation in the
+House of the People until the dissolution of the then existing House:
+      5[Provided further that such readjustment shall take effect from such date
+as the President may, by order, specify and until such readjustment takes effect,
+any  election  to  the House may be held on  the  basis  of  the  territorial
+constituencies existing before such readjustment:
+      Provided also that until the relevant figures for the first census taken
+after the year 6[2026] have been published,  it  shall not be necessary to
+7[readjust,—
+
+______________________________________________
+1. Added by the Constitution (Forty-second Amendment) Act, 1976, s. 15 (w.e.f. 3-1-1977).
+2. Subs. by the Constitution (Eighty-fourth Amendment) Act, 2001, s. 3, for ""2000""
+   (w.e.f. 21-2-2002).
+3. Subs. by s.3, ibid, for certain words (w.e.f. 21-2-2002).
+4. Subs. by the Constitution (Eighty-seventh Amendment) Act, 2003, s. 2, for ""1991""
+   (w.e.f. 22-6-2003).
+5. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 16 (w.e.f. 3-1-1977).
+6. Subs. by the Constitution (Eighty-fourth Amendment) Act, 2001, s. 4, for ""2000""
+   (w.e.f. 21-2-2002).
+7. Subs. by s.4, ibid., for certain words (w.e.f. 21-2-2002).","82. Readjustment after each census.—Upon the completion of each
+census, the allocation of seats in the House of the People to the States and the
+division of each State into territorial constituencies shall be readjusted by such
+authority and in such manner as Parliament may by law determine:
+      Provided that such readjustment shall not affect representation in the
+House of the People until the dissolution of the then existing House:
+      5[Provided further that such readjustment shall take effect from such date
+as the President may, by order, specify and until such readjustment takes effect,
+any  election  to  the House may be held on  the  basis  of  the  territorial
+constituencies existing before such readjustment:
+      Provided also that until the relevant figures for the first census taken
+after the year 6[2026] have been published,  it  shall not be necessary to
+7[readjust,—
+
+______________________________________________
+1. Added by the Constitution (Forty-second Amendment) Act, 1976, s. 15 (w.e.f. 3-1-1977).
+2. Subs. by the Constitution (Eighty-fourth Amendment) Act, 2001, s. 3, for ""2000""
+   (w.e.f. 21-2-2002).
+3. Subs. by s.3, ibid, for certain words (w.e.f. 21-2-2002).
+4. Subs. by the Constitution (Eighty-seventh Amendment) Act, 2003, s. 2, for ""1991""
+   (w.e.f. 22-6-2003).
+5. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 16 (w.e.f. 3-1-1977).
+6. Subs. by the Constitution (Eighty-fourth Amendment) Act, 2001, s. 4, for ""2000""
+   (w.e.f. 21-2-2002).
+7. Subs. by s.4, ibid., for certain words (w.e.f. 21-2-2002).",,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,"shall be readjusted by such
+authority and in such manner as Parliament may by law determine:
+      Provided that such readjustment shall not affect representation in the
+House of the People until the dissolution of the then existing House:
+      5[Provided further that such readjustment shall take effect from such date
+as the President may, by order, specify and until such readjustment takes effect,
+any  election  to  the House may be held on  the  basis  of  the  territorial
+constituencies existing before such readjustment:
+      Provi",
+f8d48d6abe1c9354,constitution_of_india.pdf,124,What does Article 204 state about Appropriation Bills?,"(1) As soon as may be after the grants under
+article 203 have been made by the Assembly, there shall be introduced a Bill to
+provide for the appropriation out of the Consolidated Fund of the State of all
+moneys required to meet—
+          (a) the grants so made by the Assembly; and
+          (b) the expenditure charged on the Consolidated Fund of the State but
+      not exceeding in any case the amount shown in the statement previously
+       laid before the House or Houses.",What does Article 204(1) require an Appropriation Bill to provide for?,"After grants under Article 203 are made by the Assembly, a Bill shall be introduced to appropriate from the State Consolidated Fund the money required to meet those grants and charged expenditure, not exceeding the amount shown in the statement previously laid before the House or Houses.",Article 204,Article 204(1),PARTIALLY_SUPPORTED,"The proposed answer may make the 'not exceeding' ceiling appear to cover both grants and charged expenditure. Article 204(1)(a) and (b) separate the grants from charged expenditure, with the ceiling text in clause (b). Needed: rewrite or split the answer to preserve that scope, then compare against the complete clause.","The proposed answer may make the 'not exceeding' ceiling appear to cover both grants and charged expenditure. Article 204(1)(a) and (b) separate the grants from charged expenditure, with the ceiling text in clause (b). Needed: rewrite or split the answer to preserve that scope, then compare against the complete clause.","204. Appropriation Bills.—(1) As soon as may be after the grants under
+article 203 have been made by the Assembly, there shall be introduced a Bill to
+provide for the appropriation out of the Consolidated Fund of the State of all
+moneys required to meet—
+          (a) the grants so made by the Assembly; and
+          (b) the expenditure charged on the Consolidated Fund of the State but
+      not exceeding in any case the amount shown in the statement previously
+       laid before the House or Houses.
+       (2) No amendment shall be proposed to any such Bill in the House or
+either House of the Legislature of the State which will have the effect of
+varying the amount or altering the destination of any grant so made or of
+varying the amount of any expenditure charged on the Consolidated Fund of
+the State, and the decision of the person presiding as to whether an amendment
+is inadmissible under this clause shall be final.
+       (3) Subject to the provisions of articles 205 and 206, no money shall be
+withdrawn from the Consolidated Fund of the State except under appropriation
+made by law passed in accordance with the provisions of this article.
+      205. Supplementary, additional or excess grants.—(1) The Governor
+shall—
+          (a) if the amount authorised by any law made in accordance with the
+      provisions of article 204 to be expended for a particular service for the
+       current financial year is found to be insufficient for the purposes of that
+      year or when a need has arisen during the current financial year for
+      supplementary or additional expenditure upon some new service not
+      contemplated in the annual financial statement for that year; or","204. Appropriation Bills.—(1) As soon as may be after the grants under
+article 203 have been made by the Assembly, there shall be introduced a Bill to
+provide for the appropriation out of the Consolidated Fund of the State of all
+moneys required to meet—
+          (a) the grants so made by the Assembly; and
+          (b) the expenditure charged on the Consolidated Fund of the State but
+      not exceeding in any case the amount shown in the statement previously
+       laid before the House or Houses.
+       (2) No amendment shall be proposed to any such Bill in the House or
+either House of the Legislature of the State which will have the effect of
+varying the amount or altering the destination of any grant so made or of
+varying the amount of any expenditure charged on the Consolidated Fund of
+the State, and the decision of the person presiding as to whether an amendment
+is inadmissible under this clause shall be final.
+       (3) Subject to the provisions of articles 205 and 206, no money shall be
+withdrawn from the Consolidated Fund of the State except under appropriation
+made by law passed in accordance with the provisions of this article.",,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,"ion Bills.—(1) As soon as may be after the grants under
+article 203 have been made by the Assembly, there shall be introduced a Bill to
+provide for the appropriation out of the Consolidated Fund of the State of all
+moneys required to meet—
+          (a) the grants so made by the Assembly; and
+          (b) the expenditure charged on the Consolidated Fund of the State but
+      not exceeding in any case the amount shown in the statement previously
+       laid before the House or Houses.
+       (2) No amendment shall be proposed to any such",
+f60b551073179690,constitution_of_india.pdf,376,What condition or exception is described in the clause beginning “if he has voluntarily given up his membership…”?,"if he has voluntarily given up his membership of such political
+       party;","Under paragraph 2(1)(a) of the Tenth Schedule, what conduct is listed as a ground for disqualification?",A member of a House belonging to a political party shall be disqualified for being a member of the House if the member has voluntarily given up membership of that political party.,Article 2,"Tenth Schedule, paragraph 2(1)(a)",SUPPORTED_SUGGESTION,Paragraph 2(1)(a) is introduced by 'Subject to the provisions of paragraphs 4 and 5'. The proposed answer states the disqualification ground without that opening qualification. Needed: inspect paragraphs 4 and 5 in the Tenth Schedule and decide whether the answer should preserve the qualification; do not infer exceptions or current status from this single clause.,Paragraph 2(1)(a) is introduced by 'Subject to the provisions of paragraphs 4 and 5'. The proposed answer states the disqualification ground without that opening qualification. Needed: inspect paragraphs 4 and 5 in the Tenth Schedule and decide whether the answer should preserve the qualification; do not infer exceptions or current status from this single clause.,"1. Interpretation.—In this Schedule, unless the context otherwise requires,—
+              (a) ""House"" means either House of Parliament or the Legislative
+      Assembly or, as the case may be, either House of the Legislature of a State;
+             (b)  ""legislature  party"",  in  relation to a member of a House
+      belonging to any political party in accordance with the provisions of
+      paragraph 2 or 2*** paragraph 4, means the group consisting of all the
+     members of that House for the time being belonging to that political
+      party in accordance with the said provisions;
+              (c) ""original political party"", in relation to a member of a House,
+     means the political party to which he belongs for the purposes of sub-
+      paragraph (1) of paragraph 2;
+             (d) ""paragraph"" means a paragraph of this Schedule.
+       2.  Disqualification on ground  of  defection.—(1)  Subject  to  the
+provisions of 3[paragraphs 4 and 5], a member of a House belonging to any
+political party shall be disqualified for being a member of the House—
+             (a) if he has voluntarily given up his membership of such political
+       party; or
+             (b) if he votes or abstains from voting in such House contrary to
+     any direction issued by the political party to which he belongs or by any
+      person or authority authorised by it in this behalf, without obtaining, in
+       either  case, the  prior permission of such  political  party, person or
+       authority and such voting or abstention has not been condoned by such
+       political party, person or authority within fifteen days from the date of
+      such voting or abstention.
+      Explanation.—For the purposes of this sub-paragraph,—
+             (a) an elected member of a House shall","2.  Disqualification on ground  of  defection.—(1)  Subject  to  the
+provisions of 3[paragraphs 4 and 5], a member of a House belonging to any
+political party shall be disqualified for being a member of the House—
+             (a) if he has voluntarily given up his membership of such political
+       party; or
+             (b) if he votes or abstains from voting in such House contrary to
+     any direction issued by the political party to which he belongs or by any
+      person or authority authorised by it in this behalf, without obtaining, in
+       either  case, the  prior permission of such  political  party, person or
+       authority and such voting or abstention has not been condoned by such
+       political party, person or authority within fifteen days from the date of
+      such voting or abstention.
+      Explanation.—For the purposes of this sub-paragraph,—
+             (a) an elected member of a House shall be deemed to belong to
+      the political party, if any, by which he was set up as a candidate for
+       election as such member;
+             (b) a nominated member of a House shall,—
+
+______________________________________________
+1. Tenth Schedule added by the Constitution (Fifty-second Amendment) Act, 1985,  s. 6
+   (w.e.f. 1-3-1985).
+2. Certain words omitted by the Constitution (Ninety-first Amendment) Act, 2003, s. 5
+   (w.e.f. 1-1-2004).
+3. Subs. by s. 5, ibid., for ""paragraphs 3, 4 and 5"" (w.e.f. 1-1-2004).
+
+                              345",,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,"aph"" means a paragraph of this Schedule.
+       2.  Disqualification on ground  of  defection.—(1)  Subject  to  the
+provisions of 3[paragraphs 4 and 5], a member of a House belonging to any
+political party shall be disqualified for being a member of the House—
+             (a) if he has voluntarily given up his membership of such political
+       party; or
+             (b) if he votes or abstains from voting in such House contrary to
+     any direction issued by the political party to which he belongs",
+d9dfd76da2fe00b5,consumer_protection_act_2019.pdf,23,"According to the passage, what happens if there is a majority?","if there is a majority, but if the members are
+equally divided, they shall state the point or points on which they differ, and make a reference
+to the President who shall either hear the point or points himself or refer the case for hearing
+on such point or points by one or more of t","Under Section 47(3), how are differences of opinion among State Commission Bench members resolved?","The points are decided by the majority if there is one. If members are equally divided, they state the points of difference and refer them to the President, who hears them or refers them to one or more other members; the point is then decided by the majority of members who heard the case, including those who first heard it.",,Section 47(3),PARTIALLY_SUPPORTED,Section 47(3) spans a PDF page break. The suggested answer uses the majority path and tie referral but omits the proviso that the President/other members give their opinion within one month of reference. Needed: inspect pages 23-24 together and decide whether the answer is complete for the broad procedure question; include the time condition if a complete summary is intended.,Section 47(3) spans a PDF page break. The suggested answer uses the majority path and tie referral but omits the proviso that the President/other members give their opinion within one month of reference. Needed: inspect pages 23-24 together and decide whether the answer is complete for the broad procedure question; include the time condition if a complete summary is intended.,"47. (1) Subject to the other provisions of this Act, the State Commission shall have   Jurisdiction of
+jurisdiction—                                                                                           State
+                                                                                           Commission.
+             (a) to entertain—
+
+                     (i) complaints where the value of the goods or services paid as
+            consideration, exceeds rupees one crore, but does not exceed rupees ten crore:
+
+                Provided that where the Central Government deems it necessary so to do,
+                 it may prescribe such other value, as it deems fit;
+
+                       (ii) complaints against unfair contracts, where the value of goods or
+            services paid as consideration does not exceed ten crore rupees;
+
+                        (iii) appeals against the orders of any District Commission within the
+             State; and
+
+             (b) to call for the records and pass appropriate orders in any consumer dispute
+     which is pending before or has been decided by any District Commission within the
+      State, where it appears to the State Commission that such District Commission has
+      exercised a jurisdiction not vested in it by law, or has failed to exercise a jurisdiction so
+      vested or has acted in exercise of its jurisdiction illegally or with material irregularity.
+
+      (2) The jurisdiction, powers and authority of the State Commission may be exercised
+by Benches thereof, and a Bench may be constituted by the President with one or more
+members as the President may deem fit:
+
+     Provided that the senior-most member shall preside over the Bench.
+
+      (3) Where the members of a Bench differ in opinion on any","SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY              23
+
+
+      43. The Central Government may, by notification, make rules to provide for the   Qualifications,
+qualification for appointment, method of recruitment, procedure of appointment, term of   etc., of
+                                                                                                          President and
+office, resignation and removal of the President and members of the State Commission.      members of
+                                                                                                           State
+                                                                                          Commission.
+      44. The State Government may, by notification, make rules to provide for salaries and   Salaries,
+allowances and other terms and conditions of service of the President and members of the  allowances and
+State Commission.                                                                                   other terms
+                                                                                             and conditions
+                                                                                                            of service of
+                                                                                                          President and
+                                                                                     members of
+                                                                                                          State
+                                                                                          Commission.
+
+      45. Any person appointed as President or, as the case may be, a member of the State   Transitional
+Commission immediately before the commencement of this Act shall hold office as such, as   provision.
+President or member, as the case may be, till the completion of his term.
+
+      46. (1) The State Government shall determine the nature and categories of the officers   Officers and
+and other employees required to assist the State Commission in the discharge of its functions  employees of
+and provide the Commission with such officers and other employees as it may think fit.       State                                                                                          Commission.
+      (2) The officers and other employees of the State Commission shall discharge their
+functions under the general superintendence of the President.
+
+      (3) The salaries and allowances payable to and the other terms and conditions of
+service of, the officers and other employees of the State Commission shall be such as may be
+prescribed.
+
+      47. (1) Subject to the other provisions of this Act, the State Commission shall have   Jurisdiction of
+jurisdiction—                                                                                           State
+                                                                                           Commission.
+             (a) to entertain—
+
+                     (i) complaints where the value of the goods or services paid as
+            consideration, exceeds rupees one crore, but does not exceed rupees ten crore:
+
+                Provided that where the Central Government deems it necessary so to do,
+                 it may prescribe such other value, as it deems fit;
+
+                       (ii) complaints against unfair contracts, where the value of goods or
+            services paid as consideration does not exceed ten crore rupees;
+
+                        (iii) appeals against the orders of any District Commission within the
+             State; and
+
+             (b) to call for the records and pass appropriate orders in any consumer dispute
+     which is pending before or has been decided by any District Commission within the
+      State, where it appears to the State Commission that such District Commission has
+      exercised a jurisdiction not vested in it by law, or has failed to exercise a jurisdiction so
+      vested or has acted in exercise of its jurisdiction illegally or with material irregularity.
+
+      (2) The jurisdiction, powers and authority of the State Commission may be exercised
+by Benches thereof, and a Bench may be constituted by the President with one or more
+members as the President may deem fit:
+
+     Provided that the senior-most member shall preside over the Bench.
+
+      (3) Where the members of a Bench differ in opinion on any point, the points shall be
+decided according to the opinion of the majority, if there is a majority, but if the members are
+equally divided, they shall state the point or points on which they differ, and make a reference
+to the President who shall either hear the point or points himself or refer the case for hearing
+on such point or points by one or more of the other members and such point or points shall",,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,", the points shall be
+decided according to the opinion of the majority, if there is a majority, but if the members are
+equally divided, they shall state the point or points on which they differ, and make a reference
+to the President who shall either hear the point or points himself or refer the case for hearing
+on such point or points by one or more of the other members and such point or points shall","4           THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—
+
+
+             be decided according to the opinion of the majority of the members who have heard the case,
+              including those who first heard it:
+
+                   Provided that the President or the other members, as the case may be, shall give
+              opinion on the point or points so referred within a period of one month from the date of such
+               reference.
+
+                      (4) A complaint shall be instituted in a State Commission within the limits of whose
+               jurisdiction,—
+
+                            (a) the"
+fbac661dc9c90700,consumer_protection_act_2019.pdf,15,What condition or exception is described in the clause beginning “if he has any reason to believe that…”?,"if he has any reason to believe
+                that any person has violated any consumer rights or committed unfair trade practice or
+              causes any false or misleading advertisement to be made, shall,—
+
+                            (a) enter at any reasonable time into any such premises and search for any
+                 document or record or article or any other form of evidence and seize such document,
+                     record, article or such evidence;","Under Section 22(1), what may the specified officers do after the stated reason-to-believe threshold is met?","For an investigation after the preliminary inquiry under Section 19(1), the Director-General, an officer authorised by the Director-General, or the District Collector may: (a) enter premises at a reasonable time, search for and seize specified evidence; (b) make a note or inventory of a record or article; or (c) require production of a record, register, document or article.",,Section 22(1)(a)-(c),PARTIALLY_SUPPORTED,"The citation range was normalized to Section 22(1)(a)-(c), but the answer abbreviates the reason-to-believe trigger and replaces the source's broad search/seizure subject with 'specified evidence.' Needed: preserve who may act, the stated belief grounds, and the exact range of material/powers; inspect Section 19(1) context if retaining the preliminary-inquiry phrase.","The citation range was normalized to Section 22(1)(a)-(c), but the answer abbreviates the reason-to-believe trigger and replaces the source's broad search/seizure subject with 'specified evidence.' Needed: preserve who may act, the stated belief grounds, and the exact range of material/powers; inspect Section 19(1) context if retaining the preliminary-inquiry phrase.","22. (1) For the purpose of conducting an investigation after preliminary inquiry under   Search and
+               sub-section (1) of section 19, the Director-General or any other officer authorised by him in   seizure.
+                 this behalf, or the District Collector, as the case may be, may, if he has any reason to believe
+                that any person has violated any consumer rights or committed unfair trade practice or
+              causes any false or misleading advertisement to be made, shall,—
+
+                            (a) enter at any reasonable time into any such premises and search for any
+                 document or record or article or any other form of evidence and seize such document,
+                     record, article or such evidence;
+
+                            (b) make a note or an inventory of such record or article; or
+
+                              (c) require any person to produce any record, register or other document or
+                          article.
+
+2 of 1974.             (2) The provisions of the Code of Criminal Procedure, 1973, relating to search and
+               seizure shall apply, as far as may be, for search and seizure under this Act.
+
+                      (3) Every document, record or article seized under clause (a) of sub-section (1) or
+             produced under clause (c) of that sub-section shall be returned to the person, from whom
+              they were seized or who produced the same, within a period of twenty days of the date of
+             such seizure or production, as the case may be, after copies thereof or extracts therefrom
+                 certified by that person, in such manner as may be prescribed, have been taken.
+
+                      (4) Where any article seized unde","SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY              15
+
+
+                   Provided that the Central Authority may, for every subsequent contravention, prohibit
+             such endorser from making endorsement in respect of any product or service for a period
+             which may extend to three years.
+
+                      (4) Where the Central Authority is satisfied after investigation that any person is
+             found to publish, or is a party to the publication of, a misleading advertisement, it may
+             impose on such person a penalty which may extend to ten lakh rupees.
+
+                      (5) No endorser shall be liable to a penalty under sub-sections (2) and (3) if he has
+               exercised due diligence to verify the veracity of the claims made in the advertisement regarding
+               the product or service being endorsed by him.
+
+                      (6) No person shall be liable to such penalty if he proves that he had published or
+              arranged for the publication of such advertisement in the ordinary course of his business:
+
+                   Provided that no such defence shall be available to such person if he had previous
+             knowledge of the order passed by the Central Authority for withdrawal or modification of
+             such advertisement.
+
+                      (7) While determining the penalty under this section, regard shall be had to the
+               following, namely:—
+
+                            (a) the population and the area impacted or affected by such offence;
+
+                            (b) the frequency and duration of such offence;
+
+                              (c) the vulnerability of the class of persons likely to be adversely affected by
+                   such offence; and
+
+                            (d) the gross revenue from the sales effected by virtue of such offence.
+
+                      (8) The Central Authority shall give the person an opportunity of being heard before
+             an order under this section is passed.
+
+                    22. (1) For the purpose of conducting an investigation after preliminary inquiry under   Search and
+               sub-section (1) of section 19, the Director-General or any other officer authorised by him in   seizure.
+                 this behalf, or the District Collector, as the case may be, may, if he has any reason to believe
+                that any person has violated any consumer rights or committed unfair trade practice or
+              causes any false or misleading advertisement to be made, shall,—
+
+                            (a) enter at any reasonable time into any such premises and search for any
+                 document or record or article or any other form of evidence and seize such document,
+                     record, article or such evidence;
+
+                            (b) make a note or an inventory of such record or article; or
+
+                              (c) require any person to produce any record, register or other document or
+                          article.
+
+2 of 1974.             (2) The provisions of the Code of Criminal Procedure, 1973, relating to search and
+               seizure shall apply, as far as may be, for search and seizure under this Act.
+
+                      (3) Every document, record or article seized under clause (a) of sub-section (1) or
+             produced under clause (c) of that sub-section shall be returned to the person, from whom
+              they were seized or who produced the same, within a period of twenty days of the date of
+             such seizure or production, as the case may be, after copies thereof or extracts therefrom
+                 certified by that person, in such manner as may be prescribed, have been taken.
+
+                      (4) Where any article seized under sub-section (1) are subject to speedy or natural
+               decay, the Director-General or such other officer may dispose of the article in such manner as
+           may be prescribed.
+
+                      (5) In the case of articles other than the articles referred to in sub-section (4), provisions
+              contained in clause (c) of sub-section (2) of section 38 shall mutatis mutandis apply in
+                relation to analysis or tests.",,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,"22. (1) For the purpose of conducting an investigation after preliminary inquiry under
+sub-section (1) of section 19, the Director-General or any other officer authorised by him in
+this behalf, or the District Collector, as the case may be, may, if he has any reason to believe
+that any person has violated any consumer rights or committed unfair trade practice or
+causes any false or misleading advertisement to be made, shall,—
+(a) enter at any reasonable time into any such premises and search for any
+document or record or article or any other form of evidence and seize such document,
+record, article or such evidence;
+(b) make a note or an inventory of such record or article; or
+(c) require any person to produce any record, register or other document or
+article.",
+f6adb89377a3f28e,constitution_of_india.pdf,177,"What right, duty, or requirement is described in the clause beginning “(2) A resolution passed under clause (1) shall…”?","(2) A resolution passed under clause (1) shall remain in force for such
+period not exceeding one year as may be specified therein:
+      Provided that, if and so often as a resolution approving the continuance
+in force of any such resolution is passed in the manner provided in clause (1),
+such resolution shall continue in force for a further period of one year from the
+date on which under this clause it would otherwise have ceased to be in force.","How long does a resolution under Article 249(1) remain in force, and how may it be continued?","It remains in force for the specified period, not exceeding one year. A continuation resolution passed in the manner provided in clause (1) continues it for a further year from the date it otherwise would have ceased.",Article 248,Article 249(2),PARTIALLY_SUPPORTED,"The proposed answer states a further year as fixed duration. Article 249(2) says a further period not exceeding one year. Needed: correct that maximum, retain the date from which the further period runs and the resolution procedure, then recheck the complete clause.","The proposed answer states a further year as fixed duration. Article 249(2) says a further period not exceeding one year. Needed: correct that maximum, retain the date from which the further period runs and the resolution procedure, then recheck the complete clause.","249. Power of Parliament to legislate with respect to a matter in the
+State List in the national interest.—(1) Notwithstanding anything  in the
+foregoing provisions of this Chapter, if the Council of States has declared by
+resolution supported by not less than two-thirds of the members present and
+voting that it is necessary or expedient in the national interest that Parliament
+should make laws with respect to 2[goods and services tax provided under article
+246A or] any matter enumerated in the State List specified in the resolution, it
+shall be lawful for Parliament to make laws for the whole or any part of the
+territory of India with respect to that matter while the resolution remains in force.
+       (2) A resolution passed under clause (1) shall remain in force for such
+period not exceeding one year as may be specified therein:
+      Provided that, if and so often as a resolution approving the continuance
+in force of any such resolution is passed in the manner provided in clause (1),
+such resolution shall continue in force for a further period of one year from the
+date on which under this clause it would otherwise have ceased to be in force.
+       (3) A law made by Parliament which Parliament would not but for the
+passing of a resolution under clause (1) have been competent to make shall, to the
+extent of the incompetency, cease to have effect on the expiration of a period of
+six months after the resolution has ceased to be in force, except as respects things
+done or omitted to be done before the expiration of the said period.
+
+______________________________________________
+1. Subs. by the Constitution (One Hundred and First Amendment) Act, 2016, s. 3, for
+  ""Parliament"" (w.e.f. 16-9-2016).
+2. Ins. by s. 4, ibid. (w.e.f. 16-9-2016).","248. Residuary powers of legislation.—(1) 1[Subject to article 246A,
+Parliament] has exclusive power to make any law with respect to any matter
+not enumerated in the Concurrent List or State List.
+       (2) Such power shall include the power of making any law imposing a
+tax not mentioned in either of those Lists.
+      249. Power of Parliament to legislate with respect to a matter in the
+State List in the national interest.—(1) Notwithstanding anything  in the
+foregoing provisions of this Chapter, if the Council of States has declared by
+resolution supported by not less than two-thirds of the members present and
+voting that it is necessary or expedient in the national interest that Parliament
+should make laws with respect to 2[goods and services tax provided under article
+246A or] any matter enumerated in the State List specified in the resolution, it
+shall be lawful for Parliament to make laws for the whole or any part of the
+territory of India with respect to that matter while the resolution remains in force.
+       (2) A resolution passed under clause (1) shall remain in force for such
+period not exceeding one year as may be specified therein:
+      Provided that, if and so often as a resolution approving the continuance
+in force of any such resolution is passed in the manner provided in clause (1),
+such resolution shall continue in force for a further period of one year from the
+date on which under this clause it would otherwise have ceased to be in force.
+       (3) A law made by Parliament which Parliament would not but for the
+passing of a resolution under clause (1) have been competent to make shall, to the
+extent of the incompetency, cease to have effect on the expiration of a period of
+six months after the resolution has ceased to be in force, except as respects things
+done or omitted to be done before the expiration of the said period.
+
+______________________________________________
+1. Subs. by the Constitution (One Hundred and First Amendment) Act, 2016, s. 3, for
+  ""Parliament"" (w.e.f. 16-9-2016).
+2. Ins. by s. 4, ibid. (w.e.f. 16-9-2016).",,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,"he
+territory of India with respect to that matter while the resolution remains in force.
+       (2) A resolution passed under clause (1) shall remain in force for such
+period not exceeding one year as may be specified therein:
+      Provided that, if and so often as a resolution approving the continuance
+in force of any such resolution is passed in the manner provided in clause (1),
+such resolution shall continue in force for a further period of one year from the
+date on which under this clause it would otherwise have ceased to be i",
+eab655c4291e3806,constitution_of_india.pdf,52,What does Article 39 state about Certain principles of policy to be followed by the State?,"The
+State shall, in particular, direct its policy towards securing—
+             (a) that the citizens, men and women equally, have the right to an
+      adequate means of livelihood;
+             (b) that the ownership and control of the material resources of the
+     community are so distributed as best to subserve the common good;
+              (c) that the operation of the economic system does not result in the
+      concentration  of wealth and means of production  to the common
+      detriment;
+              (d) that there is equal pay for equal work for both men and women;
+              (e) that the health and strength of workers, men and women, and
+      the tender age of children are not abused and that citizens are not forced
+     by economic necessity to enter avocations unsuited to their age or
+       strength;
+
+______________________________________________
+1.",What do clauses (a) through (e) of Article 39 say the State shall direct its policy towards securing?,"The listed aims are adequate means of livelihood for citizens, men and women equally; distribution of community material resources to serve the common good; prevention of concentration of wealth and means of production to common detriment; equal pay for equal work for men and women; and protection of workers' health and strength and children's tender age, including against economically compelled work unsuited to age or strength.",Article 39,Article 39(a)-(e),PARTIALLY_SUPPORTED,"Article 39(a)-(e) range is source-supported, but the answer compresses five clauses. Needed: check each distinct clause and its qualifications against full Article 39 text (including the remaining clause (f) if the question is intended to cover all of Article 39); retain an explicit (a)-(e) scope or cover all clauses.","Article 39(a)-(e) range is source-supported, but the answer compresses five clauses. Needed: check each distinct clause and its qualifications against full Article 39 text (including the remaining clause (f) if the question is intended to cover all of Article 39); retain an explicit (a)-(e) scope or cover all clauses.","39. Certain principles of policy to be followed by the State.—The
+State shall, in particular, direct its policy towards securing—
+             (a) that the citizens, men and women equally, have the right to an
+      adequate means of livelihood;
+             (b) that the ownership and control of the material resources of the
+     community are so distributed as best to subserve the common good;
+              (c) that the operation of the economic system does not result in the
+      concentration  of wealth and means of production  to the common
+      detriment;
+              (d) that there is equal pay for equal work for both men and women;
+              (e) that the health and strength of workers, men and women, and
+      the tender age of children are not abused and that citizens are not forced
+     by economic necessity to enter avocations unsuited to their age or
+       strength;
+
+______________________________________________
+1. Art. 38 renumbered as cl. (1) by the Constitution (Forty-fourth Amendment) Act,
+  1978,  s. 9 (w.e.f. 20-6-1979).
+2. Ins. by s. 9, ibid. (w.e.f. 20-6-1979).
+
+                               21","39. Certain principles of policy to be followed by the State.—The
+State shall, in particular, direct its policy towards securing—
+             (a) that the citizens, men and women equally, have the right to an
+      adequate means of livelihood;
+             (b) that the ownership and control of the material resources of the
+     community are so distributed as best to subserve the common good;
+              (c) that the operation of the economic system does not result in the
+      concentration  of wealth and means of production  to the common
+      detriment;
+              (d) that there is equal pay for equal work for both men and women;
+              (e) that the health and strength of workers, men and women, and
+      the tender age of children are not abused and that citizens are not forced
+     by economic necessity to enter avocations unsuited to their age or
+       strength;
+
+______________________________________________
+1. Art. 38 renumbered as cl. (1) by the Constitution (Forty-fourth Amendment) Act,
+  1978,  s. 9 (w.e.f. 20-6-1979).
+2. Ins. by s. 9, ibid. (w.e.f. 20-6-1979).
+
+                               21",,NEEDS_FURTHER_REVIEW; NOT PROMOTED,NOT_APPROVED,"ngaged in different vocations.]
+      39. Certain principles of policy to be followed by the State.—The
+State shall, in particular, direct its policy towards securing—
+             (a) that the citizens, men and women equally, have the right to an
+      adequate means of livelihood;
+             (b) that the ownership and control of the material resources of the
+     community are so distributed as best to subserve the common good;
+              (c) that the operation of the economic system does not result in the
+      concentration  of wea",

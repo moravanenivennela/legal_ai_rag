@@ -1,0 +1,217 @@
+{
+  "report_type": "AI source-based first-pass screening; not human review or legal verification",
+  "created_at_utc": "2026-10-04T10:01:07.424871+00:00",
+  "input_batch": "reports/legal_qa_review_prioritization_20261004T093327Z/first_review_batch.csv",
+  "input_individual_review_workspace": "reports/legal_qa_individual_review_20261004T094008Z",
+  "source_pdfs": [
+    "data/constitution_of_india.pdf",
+    "data/consumer_protection_act_2019.pdf"
+  ],
+  "candidate_count": 50,
+  "unique_candidate_ids": 50,
+  "recommendation_counts": {
+    "PROPOSED_REJECT": 26,
+    "PENDING_HUMAN_REVIEW": 11,
+    "PROPOSED_APPROVE": 13
+  },
+  "source_counts_by_recommendation": {
+    "constitution_of_india.pdf": {
+      "PROPOSED_REJECT": 21,
+      "PENDING_HUMAN_REVIEW": 7,
+      "PROPOSED_APPROVE": 13
+    },
+    "consumer_protection_act_2019.pdf": {
+      "PROPOSED_REJECT": 5,
+      "PENDING_HUMAN_REVIEW": 4
+    }
+  },
+  "question_type_counts_by_recommendation": {
+    "rights_duties": {
+      "PROPOSED_REJECT": 6,
+      "PROPOSED_APPROVE": 3
+    },
+    "definition": {
+      "PROPOSED_REJECT": 3,
+      "PENDING_HUMAN_REVIEW": 2,
+      "PROPOSED_APPROVE": 3
+    },
+    "comparison": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "condition_exception": {
+      "PROPOSED_REJECT": 4,
+      "PROPOSED_APPROVE": 2,
+      "PENDING_HUMAN_REVIEW": 2
+    },
+    "direct_factual": {
+      "PROPOSED_APPROVE": 5,
+      "PENDING_HUMAN_REVIEW": 2,
+      "PROPOSED_REJECT": 1
+    },
+    "procedure_remedy": {
+      "PROPOSED_REJECT": 5,
+      "PENDING_HUMAN_REVIEW": 3
+    },
+    "scenario": {
+      "PROPOSED_REJECT": 7,
+      "PENDING_HUMAN_REVIEW": 1
+    }
+  },
+  "reference_status_counts_by_recommendation": {
+    "EXPLICIT_NUMBERED_HEADING": {
+      "PROPOSED_REJECT": 20,
+      "PROPOSED_APPROVE": 13,
+      "PENDING_HUMAN_REVIEW": 4
+    },
+    "UNCONFIRMED": {
+      "PENDING_HUMAN_REVIEW": 7,
+      "PROPOSED_REJECT": 6
+    }
+  },
+  "answer_support_check_counts_by_recommendation": {
+    "Textually present, but answers from a different provision than the cited reference.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Supported fragment, materially incomplete definition.": {
+      "PROPOSED_REJECT": 1
+    },
+    "The text answers the comparison question, but reference and duplicate concerns remain.": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "Textually supported start, but answer is cut off before the provision is complete.": {
+      "PROPOSED_REJECT": 1
+    },
+    "The definition is textually supported but misattributed by the question/reference.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Supported and complete for the scoped question.": {
+      "PROPOSED_APPROVE": 1
+    },
+    "Textually supported under a different provision; includes an extraction artifact.": {
+      "PROPOSED_REJECT": 2
+    },
+    "The quoted words occur in the source, but do not answer the ?what happens? question.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Exact fragment is present, but it is not a self-contained answer.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Supported but may be incomplete for the broad question; reviewer should narrow the question or complete the answer.": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "Source text is identifiable, but the proposed answer is truncated and the question is not intelligible as written.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Supported for the scoped clause; possible exact duplicate requires review.": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "Textually supported; citation metadata is absent.": {
+      "PENDING_HUMAN_REVIEW": 2
+    },
+    "Text is supported only as an incomplete excerpt; it is not a usable complete answer.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Textually supported under a different article.": {
+      "PROPOSED_REJECT": 4
+    },
+    "Supported and complete for the question.": {
+      "PROPOSED_APPROVE": 4
+    },
+    "Text appears in the cited passage, but the question and answer are ambiguously aligned.": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "The text is only a heading, not an answer to a procedure/remedy question.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Supported and complete for the scoped definition.": {
+      "PROPOSED_APPROVE": 2
+    },
+    "Textually supported under a different provision; mislabeled citation.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Matches the printed clause, but current-law status needs authoritative legal review.": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "Misaligned with the question and incomplete.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Supported and complete for the scoped clause.": {
+      "PROPOSED_APPROVE": 5
+    },
+    "The definition text exists in the PDF, but the question/reference attributes it to the wrong provision.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Condition is present, but the answer does not answer ?what happens?.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Textually supported but citation metadata and intended scope remain unconfirmed.": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "The footnote text is present, but it does not answer the stated legal question.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Supported; relevant definition and certification text are reproduced.": {
+      "PROPOSED_APPROVE": 1
+    },
+    "Supported fragment; not self-contained enough to approve.": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "Source passage supports the topic, but the answer is truncated before the operative outcome.": {
+      "PROPOSED_REJECT": 1
+    },
+    "A contents heading does not answer the substantive question.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Supported partial text; answer is incomplete for the broad question.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Supported fragment but materially incomplete; the missing destination changes the answer.": {
+      "PROPOSED_REJECT": 1
+    },
+    "The quoted amendment note is present, but it does not answer the stated question.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Textually supported; exact provision reference is not included.": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "Wrong provision and incomplete answer to the ?what happens? question.": {
+      "PROPOSED_REJECT": 1
+    },
+    "Textually supported fragment with an extraction artifact; reference missing.": {
+      "PENDING_HUMAN_REVIEW": 1
+    }
+  },
+  "issue_type_counts": {
+    "citation_mismatch": 12,
+    "answer_incomplete": 4,
+    "reference_unconfirmed": 13,
+    "possible_exact_duplicate": 2,
+    "duplicate_flag:repeated_answer_template": 3,
+    "duplicate_flag:repeated_exact_answer": 3,
+    "answer_truncated": 6,
+    "question_misattribution": 3,
+    "ocr_or_extraction_artifact": 3,
+    "answer_nonresponsive": 3,
+    "answer_fragment": 2,
+    "question_scope_broad": 1,
+    "question_malformed": 5,
+    "near_duplicate": 3,
+    "repeated_answer_template": 1,
+    "duplicate_flag:near_question_duplicate": 2,
+    "question_ambiguous": 1,
+    "answer_missing_substance": 2,
+    "current_law_status_uncertain": 1,
+    "amendment_footnote": 1,
+    "question_answer_mismatch": 1,
+    "footnote_as_provision": 3,
+    "scope_uncertain": 2,
+    "table_of_contents_only": 1,
+    "page_boundary_truncation": 2
+  },
+  "declared_pdf_page_passage_match_count": 50,
+  "answer_text_found_in_passage_count": 50,
+  "original_forms_still_pending_count": 50,
+  "human_decisions_entered": 0,
+  "legally_verified_count": 0,
+  "interpretation": "Page/passage text matches establish traceability only, not legal correctness. Recommendations are preliminary and must not be imported as human decisions."
+}

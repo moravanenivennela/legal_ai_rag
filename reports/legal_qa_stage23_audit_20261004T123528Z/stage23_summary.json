@@ -1,0 +1,145 @@
+{
+  "report_type": "Stage 23 source-text audit and dataset construction plan; not legal review/approval",
+  "created_at_utc": "2026-10-04T12:35:28.595652+00:00",
+  "branch_checked": "rag-quality-overhaul",
+  "audit_counts": {
+    "ready_records_audited": 21,
+    "further_review_records_audited": 10,
+    "ready_reference_pages_checked": 21,
+    "approved_examples": 0,
+    "legally_verified_examples": 0
+  },
+  "ready_source_text_audit_counts": {
+    "SOURCE_TEXT_ALIGNED_WITH_EXTRACTION_CAVEAT": 1,
+    "SOURCE_TEXT_ALIGNED": 15,
+    "SOURCE_TEXT_ALIGNED_WITH_SCOPE_NOTE": 3,
+    "SOURCE_TEXT_ALIGNED_DUPLICATE_FLAG": 1,
+    "SOURCE_TEXT_ALIGNED_WITH_CONTEXT_NOTE": 1
+  },
+  "ready_by_source": {
+    "constitution_of_india.pdf": 15,
+    "consumer_protection_act_2019.pdf": 6
+  },
+  "ready_by_question_type": {
+    "definition": 4,
+    "procedure_remedy": 5,
+    "rights_duties": 4,
+    "scenario": 5,
+    "condition_exception": 3
+  },
+  "ready_duplicate_flagged_count": 1,
+  "further_review_reasons": {
+    "004dd69be0a72aeb": "Stage 21 marked PARTIALLY_SUPPORTED. Proposed range punctuation and the six-month residence phrase were repaired, but Article 6(a) also supplies a separate birthplace/ancestry condition for the citizenship rule. Needed: reviewer must decide whether the question is intentionally restricted to paragraph (b), verify every date/registration qualifier and proviso, and check the original printed page; current/historical applicability is outside this supplied PDF check.",
+    "edb58504d9963e5a": "Stage 21 found the suggested Section 2(5) answer omits material words in items (ii) and (v). Needed: compare complete definition from the source page, including \"registered under any law for the time being in force\" and representation on behalf of/for benefit of all interested consumers; restore only exact supported scope.",
+    "81ddc6564ee9b1bd": "The proposed Article 336(2) wording has source-text support, but Stage 20/21 identifies repeated exact answer/template flags and a possible duplicate meaning. Needed: resolve duplicate cluster against other selected/raw candidates and assess whether this is a distinct useful question. Separately, check whether the historical text is suitable for the intended current-law dataset; supplied PDF text alone does not answer that.",
+    "0dd8417bbfe6d7bc": "The candidate passage clipped the following proviso. Needed: inspect the complete Article 82 text and its next proviso on the same/adjacent page, confirm the question is expressly limited to the first proviso, and determine whether source version/current status is adequate. Do not infer the later proviso from the truncated candidate excerpt.",
+    "f8d48d6abe1c9354": "The proposed answer may make the \"not exceeding\" ceiling appear to cover both grants and charged expenditure. Article 204(1)(a) and (b) separate the grants from charged expenditure, with the ceiling text in clause (b). Needed: rewrite or split the answer to preserve that scope, then compare against the complete clause.",
+    "f60b551073179690": "Paragraph 2(1)(a) is introduced by \"Subject to the provisions of paragraphs 4 and 5\". The proposed answer states the disqualification ground without that opening qualification. Needed: inspect paragraphs 4 and 5 in the Tenth Schedule and decide whether the answer should preserve the qualification; do not infer exceptions or current status from this single clause.",
+    "d9dfd76da2fe00b5": "Section 47(3) spans a PDF page break. The suggested answer uses the majority path and tie referral but omits the proviso that the President/other members give their opinion within one month of reference. Needed: inspect pages 23-24 together and decide whether the answer is complete for the broad procedure question; include the time condition if a complete summary is intended.",
+    "fbac661dc9c90700": "The citation range was normalized to Section 22(1)(a)-(c), but the answer abbreviates the reason-to-believe trigger and replaces the source's broad search/seizure subject with \"specified evidence.\" Needed: preserve who may act, the stated belief grounds, and the exact range of material/powers; inspect Section 19(1) context if retaining the preliminary-inquiry phrase.",
+    "f6adb89377a3f28e": "The proposed answer states a further year as fixed duration. Article 249(2) says a further period not exceeding one year. Needed: correct that maximum, retain the date from which the further period runs and the resolution procedure, then recheck the complete clause.",
+    "eab655c4291e3806": "Article 39(a)-(e) range is source-supported, but the answer compresses five clauses. Needed: check each distinct clause and its qualifications against full Article 39 text (including the remaining clause (f) if the question is intended to cover all of Article 39); retain an explicit (a)-(e) scope or cover all clauses."
+  },
+  "candidate_pool": {
+    "raw_candidates": 2424,
+    "selected_candidates": 1000,
+    "deduplicated_pool": 2113,
+    "selected_source_counts": {
+      "constitution_of_india.pdf": 813,
+      "consumer_protection_act_2019.pdf": 187
+    },
+    "selected_source_percentages": {
+      "constitution_of_india.pdf": 81.3,
+      "consumer_protection_act_2019.pdf": 18.7
+    },
+    "selected_type_counts": {
+      "condition_exception": 163,
+      "rights_duties": 568,
+      "direct_factual": 118,
+      "scenario": 71,
+      "definition": 52,
+      "procedure_remedy": 27,
+      "comparison": 1
+    },
+    "selected_type_percentages": {
+      "condition_exception": 16.3,
+      "rights_duties": 56.8,
+      "direct_factual": 11.8,
+      "scenario": 7.1,
+      "definition": 5.2,
+      "procedure_remedy": 2.7,
+      "comparison": 0.1
+    },
+    "selected_source_by_type": {
+      "constitution_of_india.pdf": {
+        "condition_exception": 122,
+        "rights_duties": 456,
+        "direct_factual": 118,
+        "scenario": 54,
+        "definition": 42,
+        "procedure_remedy": 20,
+        "comparison": 1
+      },
+      "consumer_protection_act_2019.pdf": {
+        "condition_exception": 41,
+        "rights_duties": 112,
+        "scenario": 17,
+        "definition": 10,
+        "procedure_remedy": 7
+      }
+    },
+    "selected_reference_status_counts": {
+      "EXPLICIT_NUMBERED_HEADING": 445,
+      "UNCONFIRMED": 555
+    },
+    "selected_duplicate_flags": {
+      "REPEATED_EXACT_ANSWER": 251,
+      "REPEATED_ANSWER_TEMPLATE": 253
+    },
+    "selected_status_counts": {
+      "PENDING_HUMAN_REVIEW": 1000
+    },
+    "raw_type_counts": {
+      "rights_duties": 1348,
+      "procedure_remedy": 66,
+      "condition_exception": 448,
+      "direct_factual": 250,
+      "definition": 115,
+      "scenario": 196,
+      "comparison": 1
+    },
+    "usable_pdf_pages": {
+      "constitution_of_india.pdf": 402,
+      "consumer_protection_act_2019.pdf": 40
+    }
+  },
+  "stage19_screening_counts": {
+    "PROPOSED_REJECT": 26,
+    "PENDING_HUMAN_REVIEW": 11,
+    "PROPOSED_APPROVE": 13
+  },
+  "approval_state": "0 approved. Stage 19 labels are AI screening recommendations and Stage 22 readiness groups only prioritize human review.",
+  "legal_correctness_claim": "None. Source-text alignment proves traceability only, not legal correctness, interpretation, or current legal status.",
+  "outputs": [
+    "ready_batch_audit.csv",
+    "further_review_audit.csv",
+    "dataset_500_plan.md",
+    "stage23_summary.json"
+  ],
+  "original_stage16_form_states": {
+    "PENDING": 50
+  },
+  "original_stage16_form_count": 50,
+  "reference_page_consistency_counts": {
+    "PROVISION_TEXT_ON_CITED_PAGE": 16,
+    "DEFINITION_ITEM_ON_CITED_PAGE; SECTION_HEADING_ON_EARLIER_PAGE": 2,
+    "SUBCLAUSE_ON_CITED_PAGE; PARAGRAPH_HEADING_ON_PREVIOUS_PAGE": 1,
+    "PROVISO_ON_CITED_PAGE; SUBSECTION_ON_PREVIOUS_PAGE": 1,
+    "SUBCLAUSE_ON_CITED_PAGE; ARTICLE_HEADING_ON_PREVIOUS_PAGE": 1
+  },
+  "ready_issues_summary": {
+    "records_with_duplicate_flag": 1,
+    "records_with_scope_or_qualification_notes": 9,
+    "all_21_supported_by_scoped_source_evidence": 21
+  }
+}

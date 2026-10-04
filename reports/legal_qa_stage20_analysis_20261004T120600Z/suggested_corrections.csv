@@ -1,0 +1,1385 @@
+﻿candidate_id,correction_status,preliminary_recommendation,source_pdf,pdf_page,question_type,original_question,original_answer,original_legal_reference,original_supporting_passage_verbatim,suggested_question_only_for_human_review,suggested_answer_only_for_human_review,suggested_legal_reference_only_for_human_review,why_source_supported,human_review_still_required,human_decision,reviewer,source_confirmation,approved,additional_source_context_pdf_page,additional_source_context_verbatim
+004dd69be0a72aeb,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,35,rights_duties,"What right, duty, or requirement is described in the clause beginning “and (b)(i) in the case where such person…”?","and
+               (b)(i) in the case where such person has so migrated before the
+      nineteenth day of July, 1948, he has been ordinarily resident in the
+       territory of India since the date of his migration, or
+                 (ii) in the case where such person has so migrated on or after the
+      nineteenth day of July, 1948, he has been registered as a citizen of India
+     by an  officer appointed  in  that behalf by the Government  of  the
+     Dominion of India on an application made by him therefor to such
+       officer before the commencement of this Constitution in the form and
+     manner prescribed by that Government:
+      Provided that no person shall be so registered unless he has been resident
+in the territory of India for at least six months immediately preceding the date
+of his application.",Article 5,"5. Citizenship at the commencement of the Constitution.—At the
+commencement of this Constitution, every person who has his domicile in the
+territory of India and—
+             (a) who was born in the territory of India; or
+             (b) either of whose parents was born in the territory of India; or
+              (c) who has been ordinarily resident in the territory of India for
+      not less than five years immediately preceding such commencement,
+shall be a citizen of India.
+       6. Rights of citizenship of certain persons who have migrated to
+India from Pakistan.—Notwithstanding anything in article 5, a person who
+has migrated to the territory of India from the territory now included in
+Pakistan shall be deemed to be a citizen of India at the commencement of this
+Constitution if—
+             (a) he or either of his parents or any of his grand-parents was born
+       in India as defined in the Government of India Act, 1935 (as originally
+       enacted); and
+               (b)(i) in the case where such person has so migrated before the
+      nineteenth day of July, 1948, he has been ordinarily resident in the
+       territory of India since the date of his migration, or
+                 (ii) in the case where such person has so migrated on or after the
+      nineteenth day of July, 1948, he has been registered as a citizen of India
+     by an  officer appointed  in  that behalf by the Government  of  the
+     Dominion of India on an application made by him therefor to such
+       officer before the commencement of this Constitution in the form and
+     manner prescribed by that Government:
+      Provided that no person shall be so registered unless he has been resident
+in the territory of India for at least six months immediately preceding the date
+of his application.","Under Article 6, what residence or registration condition applies based on whether a person migrated before or on/after 19 July 1948?",A person who migrated before 19 July 1948 must have been ordinarily resident in India since migration. A person who migrated on or after that date must have been registered as a citizen before the Constitution commenced; registration required at least six months? residence in India immediately before applying.,Article 6(b)(i)?(ii) and proviso,Correct Article 5 to Article 6 and ask about the conditions in the quoted subclauses.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+edb58504d9963e5a,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,consumer_protection_act_2019.pdf,2,definition,How does Section 2(5) define complainant?,"(5) ""complainant"" means—
+
+                                          (i) a consumer;",Section 2(5),"2. In this Act, unless the context otherwise requires,—
+
+                           (1) ""advertisement"" means any audio or visual publicity, representation,
+                  endorsement or pronouncement made by means of light, sound, smoke, gas, print,
+                     electronic media, internet or website and includes any notice, circular, label, wrapper,
+                    invoice or such other documents;
+
+                            (2) ""appropriate laboratory"" means a laboratory or an organisation—
+
+                                          (i) recognised by the Central Government; or
+
+                                           (ii) recognised by a State Government, subject to such guidelines as may
+                       be issued by the Central Government in this behalf; or
+
+                                            (iii) established by or under any law for the time being in force, which is
+                          maintained, financed or aided by the Central Government or a State Government
+                            for carrying out analysis or test of any goods with a view to determining whether
+                        such goods suffer from any defect;
+
+                            (3) ""branch office"" means—
+
+                                           (i) any office or place of work described as a branch by the establishment; or
+
+                                           (ii) any establishment carrying on either the same or substantially the
+                     same activity carried on by the head office of the establishment;
+
+                           (4) ""Central Authority"" means the Central Consumer Protection Authority
+                     established under section 10;
+
+                            (5) ""complainant"" means—
+
+                                          (i) a consumer; or
+
+                                           (ii) any voluntary consumer association registered under any law for the
+                        time being in force; or
+
+                                            (iii) the Central Government or any State Government; or
+
+                                      (iv) the Central Authority; or
+
+                                    (v) one or more consumers, where there are numerous consumers having
+                           the same interest; or
+
+                                      (vi) in case of death of a consumer, his legal heir or legal representative; or
+
+                                        (vii) in case of a consumer being a minor, his parent or legal guardian;
+
+                            (6) ""complaint"" means any allegation in writing, made by a complainant for
+                    obtaining any relief provided by or under this Act, that—
+
+                                          (i) an unfair contract or unfair trade practice or a restrictive trade practice
+                        has been adopted by any trader or service provider;
+
+                                           (ii) the goods bought by him or agreed to be bought by him suffer from
+                      one or more defects;
+
+                                            (iii) the services hired or availed of or agreed to be hired or availed of by
+                     him suffer from any deficiency;
+
+                                      (iv) a trader or a service provider, as the case may be, has charged for the
+                       goods or for the services mentioned in the complaint, a price in excess of the
+                      price—
+
+                                         (a) fixed by or under any law for the time being in force; or",How does Section 2(5) define ?complainant??,"?Complainant? means: (i) a consumer; (ii) a registered voluntary consumer association; (iii) the Central or a State Government; (iv) the Central Authority; (v) one or more consumers with the same interest where there are numerous consumers; (vi) on a consumer?s death, the legal heir or legal representative; or (vii) if a consumer is a minor, the parent or legal guardian.",Section 2(5),Complete omitted items (ii)?(vii) using the same-page definition.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+81ddc6564ee9b1bd,SUGGESTED_ONLY_NOT_APPROVED,PENDING_HUMAN_REVIEW,constitution_of_india.pdf,225,comparison,What comparison does the passage explicitly make?,"(2) Nothing in clause (1) shall bar the appointment of members of the
+Anglo-Indian community to posts other than, or in addition to, those reserved
+for the community under that clause if such members are found qualified for
+appointment on merit as compared with the members of other communities.",,"194          THE CONSTITUTION OF INDIA
+
+               (Part XVI.—Special Provisions Relating to Certain Classes)
+
+      1[Provided that nothing in  this  article shall prevent in making of any
+provision in favour of the members of the Scheduled Castes and the Scheduled
+Tribes for relaxation in qualifying marks in any examination or lowering the
+standards of evaluation, for reservation in matters or promotion to any class or
+classes of services or posts in connection with the affairs of the Union or of a State.]
+      336.  Special  provision  for  Anglo-Indian community  in  certain
+services.—(1) During the  first two years  after the commencement of  this
+Constitution, appointments of members of the Anglo-Indian community to posts
+in the railway, customs, postal and telegraph services of the Union shall be made
+on the same basis as immediately before the fifteenth day of August, 1947.
+      During every succeeding period of two years, the number of posts
+reserved for the members of the said community in the said services shall, as
+nearly as possible, be less by ten per cent. than the numbers so reserved during
+the immediately preceding period of two years:
+      Provided that at the end of ten years from the commencement of this
+Constitution all such reservations shall cease.
+       (2) Nothing in clause (1) shall bar the appointment of members of the
+Anglo-Indian community to posts other than, or in addition to, those reserved
+for the community under that clause if such members are found qualified for
+appointment on merit as compared with the members of other communities.
+      337. Special provision with respect to educational grants for the
+benefit of Anglo-Indian community.—During the first three financial years
+after the commencement of this Constitution, the same grants, if any, shall be
+made by the Union and by each State 2*** for the benefit of the Anglo-Indian
+community in respect of education as were made in the financial year ending
+on the thirty-first day of March, 1948.
+      During every succeeding period of three years the grants may be less by
+ten per cent. than those for the immediately preceding period of three years:
+      Provided that at the end of ten years from the commencement of this
+Constitution such grants, to the extent to which they are a special concession to
+the Anglo-Indian community, shall cease:
+      Provided  further  that no educational  institution  shall be  entitled  to
+receive any grant under this article unless at least forty per cent. of the annual
+admissions therein are made available to members of communities other than
+the Anglo-Indian community.
+
+______________________________________________
+1. Ins. by the Constitution (Eighty-second Amendment) Act, 2000, s. 2 (w.e.f. 8-9-2000).
+2. The words and letters ""specified in Part A or Part B of the First Schedule"" omitted by
+  the Constitution (Seventh Amendment) Act, 1956, s. 29 and Sch. (w.e.f. 1-11-1956).","Under Article 336(2), what qualification permits appointment to posts beyond those reserved for the Anglo-Indian community?",The clause says such appointment is not barred if the member is found qualified on merit as compared with members of other communities.,Article 336(2),Replace the vague question and add its heading-based reference. Duplicate/repeated-answer warning remains.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+0dd8417bbfe6d7bc,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,69,condition_exception,What condition or exception is described in the clause beginning “Provided that such readjustment shall not affect representation…”?,"Provided that such readjustment shall not affect representation in the
+House of the People until the dissolution of the then existing House:
+      5[Provided further that such readjustment shall take effect from such date
+as the President may, by order, specify and until such readjustment takes effect,
+any  election  to  the House may be held on  the  basis  of  the  territorial
+constituencies existing before such readjustment:
+      Provided also that until the relevant figures for the first census taken
+after the year 6[2026] have been published,  it  shall not be necessary to
+7[readjust,—
+
+______________________________________________
+1.",Article 82,"82. Readjustment after each census.—Upon the completion of each
+census, the allocation of seats in the House of the People to the States and the
+division of each State into territorial constituencies shall be readjusted by such
+authority and in such manner as Parliament may by law determine:
+      Provided that such readjustment shall not affect representation in the
+House of the People until the dissolution of the then existing House:
+      5[Provided further that such readjustment shall take effect from such date
+as the President may, by order, specify and until such readjustment takes effect,
+any  election  to  the House may be held on  the  basis  of  the  territorial
+constituencies existing before such readjustment:
+      Provided also that until the relevant figures for the first census taken
+after the year 6[2026] have been published,  it  shall not be necessary to
+7[readjust,—
+
+______________________________________________
+1. Added by the Constitution (Forty-second Amendment) Act, 1976, s. 15 (w.e.f. 3-1-1977).
+2. Subs. by the Constitution (Eighty-fourth Amendment) Act, 2001, s. 3, for ""2000""
+   (w.e.f. 21-2-2002).
+3. Subs. by s.3, ibid, for certain words (w.e.f. 21-2-2002).
+4. Subs. by the Constitution (Eighty-seventh Amendment) Act, 2003, s. 2, for ""1991""
+   (w.e.f. 22-6-2003).
+5. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 16 (w.e.f. 3-1-1977).
+6. Subs. by the Constitution (Eighty-fourth Amendment) Act, 2001, s. 4, for ""2000""
+   (w.e.f. 21-2-2002).
+7. Subs. by s.4, ibid., for certain words (w.e.f. 21-2-2002).","Under the first proviso to Article 82, until when does the readjustment leave representation in the House of the People unaffected?",The readjustment shall not affect representation in the House of the People until the dissolution of the then existing House.,"Article 82, first proviso","Narrow the question to the complete first proviso already in evidence, not the truncated following clause.",YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+0a9552ef52cfaff9,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,376,definition,How does Article 1 define paragraph?,"""paragraph"" means a paragraph of this Schedule.",Article 1,"1. Interpretation.—In this Schedule, unless the context otherwise requires,—
+              (a) ""House"" means either House of Parliament or the Legislative
+      Assembly or, as the case may be, either House of the Legislature of a State;
+             (b)  ""legislature  party"",  in  relation to a member of a House
+      belonging to any political party in accordance with the provisions of
+      paragraph 2 or 2*** paragraph 4, means the group consisting of all the
+     members of that House for the time being belonging to that political
+      party in accordance with the said provisions;
+              (c) ""original political party"", in relation to a member of a House,
+     means the political party to which he belongs for the purposes of sub-
+      paragraph (1) of paragraph 2;
+             (d) ""paragraph"" means a paragraph of this Schedule.",How does paragraph 1(d) of the Tenth Schedule define ?paragraph??,?Paragraph? means a paragraph of this Schedule.,"Tenth Schedule, paragraph 1(d)","This is Schedule paragraph 1(d), not Article 1.",YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+1c53f50edc89caed,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,95,procedure_remedy,"What procedure or remedy is described in the clause beginning “] (2) The Supreme Court may, if it…”?","]
+       (2) The Supreme Court may, if it deems it expedient so to do for the ends
+of justice, transfer any case, appeal or other proceedings pending before any
+High Court to any other High Court.",Article 138,"138. Enlargement of the jurisdiction of the Supreme Court.—(1) The
+Supreme Court shall have such further jurisdiction and powers with respect to
+any of the matters in the Union List as Parliament may by law confer.
+       (2) The Supreme Court shall have such further jurisdiction and powers
+with respect to any matter as the Government of India and the Government of
+any State may by special agreement confer, if Parliament by law provides for
+the exercise of such jurisdiction and powers by the Supreme Court.
+      139. Conferment on the Supreme Court of powers to issue certain
+writs.—Parliament may by law confer on the Supreme Court power to issue
+directions, orders or writs, including writs in the nature of habeas corpus,
+mandamus, prohibition, quo warranto and certiorari, or any of them, for any
+purposes other than those mentioned in clause (2) of article 32.
+      1[139A. Transfer of certain cases.—2[(1) Where cases involving the
+same or  substantially the same questions of law are pending before the
+Supreme Court and one or more High Courts or before two or more High
+Courts and the Supreme Court  is  satisfied on  its own motion or on an
+application made by the Attorney-General of India or by a party to any such
+case that such questions are substantial questions of general importance, the
+Supreme Court may withdraw the case or cases pending before the High Court
+or the High Courts and dispose of all the cases itself:
+      Provided  that  the Supreme Court may  after determining  the  said
+questions of law return any case so withdrawn together with a copy of its
+judgment on such questions to the High Court from which the case has been
+withdrawn, and the High Court shall on receipt thereof, proceed to dispose of
+the case in conformity with such judgment.]
+       (2) The Supreme Court may, if it deems it expedient so to do for the ends
+of justice, transfer any case, appeal or other proceedings pending before any
+High Court to any other High Court.]",What transfer power is stated in Article 139A(2)?,"The Supreme Court may, if it deems it expedient so to do for the ends of justice, transfer any case, appeal or other proceeding pending before any High Court to any other High Court.",Article 139A(2),Correct Article 138 to Article 139A(2) and remove the stray bracket.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+014cfafe86aae67e,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,194,rights_duties,"What right, duty, or requirement is described in the clause beginning “—(1) The custody of the Consolidated Fund of…”?","—(1)  The  custody  of  the
+Consolidated Fund of India and the Contingency Fund of India, the payment of
+moneys into such Funds, the withdrawal of moneys therefrom, the custody of
+public moneys other than those credited to such Funds received by or on behalf
+of the Government of India, their payment into the public account of India and
+the withdrawal of moneys from such account and all other matters connected
+with or ancillary to matters aforesaid shall be regulated by law made by
+Parliament, and, until provision in that behalf is so made, shall be regulated by
+rules made by the President.",Article 281,"281. Recommendations of the Finance Commission.—The President
+shall cause every recommendation made by the Finance Commission under the
+provisions of this Constitution together with an explanatory memorandum as to
+the action taken thereon to be laid before each House of Parliament.
+                    Miscellaneous Financial Provisions
+      282. Expenditure defrayable by the Union or a State out of  its
+revenues.—The Union or a State may make any grants for any public purpose,
+notwithstanding that the purpose is not one with respect to which Parliament or
+the Legislature of the State, as the case may be, may make laws.
+      283. Custody, etc., of Consolidated Funds, Contingency Funds and
+moneys  credited  to  the  public  accounts.—(1)  The  custody  of  the
+Consolidated Fund of India and the Contingency Fund of India, the payment of
+moneys into such Funds, the withdrawal of moneys therefrom, the custody of
+public moneys other than those credited to such Funds received by or on behalf
+of the Government of India, their payment into the public account of India and
+the withdrawal of moneys from such account and all other matters connected
+with or ancillary to matters aforesaid shall be regulated by law made by
+Parliament, and, until provision in that behalf is so made, shall be regulated by
+rules made by the President.
+       (2) The  custody  of  the  Consolidated Fund  of  a  State and  the
+Contingency Fund of a State, the payment of moneys into such Funds, the
+withdrawal of moneys therefrom, the custody of public moneys other than
+those credited to such Funds received by or on behalf of the Government of the
+State, their payment into the public account of the State and the withdrawal of
+moneys from such account and all other matters connected with or ancillary to
+matters aforesaid shall be regulated by law made by the Legislature of the
+State, and, until provision in that behalf is so made, shall be regulated by rules
+made by the Governor 1*** of the State.
+      284. Custody of suitors' deposits and other moneys received by
+public servants and courts.—All moneys received by or deposited with—
+             (a) any officer employed in connection with the affairs of the
+       Union or of a State in his capacity as such, other than revenues or
+        public moneys raised or received by the Government of India or the
+       Government of the State, as the case may be; or
+             (b) any court within the territory of India to the credit of any
+        cause, matter, account or persons,
+
+______________________________________________
+1. The words ""or Rajpramukh"" omitted by the Constitution (Seventh Amendment)
+  Act, 1956, s. 29 and Sch. (w.e.f. 1-11-1956).","Under Article 283(1), how are the specified Union funds and public-account matters regulated until Parliament makes provision by law?",They are regulated by rules made by the President until provision is made by a law of Parliament.,Article 283(1),"The answer is from Article 283(1), not Article 281; remove the stray dash.",YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+06f032849da5dbd4,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,214,scenario,"According to the passage, what happens if the causes of action on which such suits or proceedings are based had arisen after such establishment?","if  the causes  of  action on which such  suits  or
+      proceedings are based had arisen after such establishment;
+             (f) repeal or amend any order made by the President under clause (3)
+      of article 371D;",Article 323A,"323A. Administrative tribunals.—(1) Parliament may, by law, provide
+for  the  adjudication  or  trial by  administrative  tribunals  of  disputes and
+complaints with respect to recruitment and conditions of service of persons
+appointed to public services and posts in connection with the affairs of the
+Union or of any State or of any local or other authority within the territory of
+India or under the control of the Government of India or of any corporation
+owned or controlled by the Government.
+       (2) A law made under clause (1) may—
+          (a) provide for the establishment of an administrative tribunal for the
+     Union and a separate administrative tribunal for each State or for two or
+     more States;
+          (b) specify the jurisdiction, powers (including the power to punish for
+      contempt) and authority which may be exercised by each of the said
+       tribunals;
+           (c) provide for the procedure (including provisions as to limitation
+     and rules of evidence) to be followed by the said tribunals;
+          (d) exclude the jurisdiction of all courts, except the jurisdiction of the
+     Supreme Court under  article 136,  with  respect  to the  disputes or
+      complaints referred to in clause (1);
+           (e) provide for the transfer to each such administrative tribunal of any
+      cases pending before any court or other authority immediately before the
+      establishment of such tribunal as would have been within the jurisdiction
+      of such  tribunal  if  the causes  of  action on which such  suits  or
+      proceedings are based had arisen after such establishment;
+             (f) repeal or amend any order made by the President under clause (3)
+      of article 371D;
+          (g)  contain  such  supplemental,  incidental  and  consequential
+      provisions (including provisions as to fees) as Parliament may deem
+      necessary for the effective functioning of, and for the speedy disposal of
+      cases by, and the enforcement of the orders of, such tribunals.
+
+______________________________________________
+1. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 46 (w.e.f. 3-1-1977).
+                              183",What may a law under Article 323A(2)(e) provide for in relation to certain cases pending when an administrative tribunal is established?,It may provide for transfer to the tribunal of cases pending before a court or other authority immediately before establishment that would have fallen within the tribunal?s jurisdiction if their causes of action had arisen after establishment.,Article 323A(2)(e),Replace the isolated condition with the complete transfer proposition in the clause.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+fe25da3c7158a625,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,consumer_protection_act_2019.pdf,24,condition_exception,What condition or exception is described in the clause beginning “if the interest of justice so requires.”?,"if the interest of justice so
+                requires.",,"24           THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—
+
+
+             be decided according to the opinion of the majority of the members who have heard the case,
+              including those who first heard it:
+
+                   Provided that the President or the other members, as the case may be, shall give
+              opinion on the point or points so referred within a period of one month from the date of such
+               reference.
+
+                      (4) A complaint shall be instituted in a State Commission within the limits of whose
+               jurisdiction,—
+
+                            (a) the opposite party or each of the opposite parties, where there are more than
+                    one, at the time of the institution of the complaint, ordinarily resides or carries on
+                    business or has a branch office or personally works for gain; or
+
+                            (b) any of the opposite parties, where there are more than one, at the time of the
+                       institution of the complaint, actually and voluntarily resides, or carries on business or
+                   has a branch office or personally works for gain, provided in such case, the permission
+                    of the State Commission is given; or
+
+                             (c) the cause of action, wholly or in part, arises; or
+
+                            (d) the complainant resides or personally works for gain.
+
+Transfer of           48. On the application of the complainant or of its own motion, the State Commission
+cases.        may, at any stage of the proceeding, transfer any complaint pending before a District
+            Commission to another District Commission within the State if the interest of justice so
+                requires.
+
+Procedure            49. (1) The provisions relating to complaints under sections 35, 36, 37, 38 and 39 shall,
+applicable to    with such modifications as may be necessary, be applicable to the disposal of complaints by
+State           the State Commission.Commission.
+                      (2) Without prejudice to the provisions of sub-section (1), the State Commission may
+               also declare any terms of contract, which is unfair to any consumer, to be null and void.
+
+Review by            50. The State Commission shall have the power to review any of the order passed by
+State               it if there is an error apparent on the face of the record, either of its own motion or on an
+Commission in  application made by any of the parties within thirty days of such order.certain cases.
+
+Appeal to            51. (1) Any person aggrieved by an order made by the State Commission in exercise of
+National          its powers conferred by sub-clause (i) or (ii) of clause (a) of sub-section (1) of section 47
+Commission.   may prefer an appeal against such order to the National Commission within a period of thirty
+             days from the date of the order in such form and manner as may be prescribed:
+
+                   Provided that the National Commission shall not entertain the appeal after the expiry
+              of the said period of thirty days unless it is satisfied that there was sufficient cause for not
+                 filing it within that period:
+
+                   Provided further that no appeal by a person, who is required to pay any amount in
+              terms of an order of the State Commission, shall be entertained by the National Commission
+              unless the appellant has deposited fifty per cent. of that amount in the manner as may be
+               prescribed.
+
+                      (2) Save as otherwise expressly provided under this Act or by any other law for the
+              time being in force, an appeal shall lie to the National Commission from any order passed in
+              appeal by any State Commission, if the National Commission is satisfied that the case
+              involves a substantial question of law.
+
+                      (3) In an appeal involving a question of law, the memorandum of appeal shall precisely
+                state the substantial question of law involved in the appeal.
+
+                      (4) Where the National Commission is satisfied that a substantial question of law is
+              involved in any case, it shall formulate that question and hear the appeal on that question:",When may the State Commission transfer a complaint pending before a District Commission to another District Commission in the State?,"On the complainant?s application or on its own motion, the State Commission may transfer such a complaint at any stage of the proceeding if the interest of justice so requires.",Section 48,Use the complete Section 48 sentence rather than its final condition fragment.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+f8d48d6abe1c9354,SUGGESTED_ONLY_NOT_APPROVED,PENDING_HUMAN_REVIEW,constitution_of_india.pdf,124,direct_factual,What does Article 204 state about Appropriation Bills?,"(1) As soon as may be after the grants under
+article 203 have been made by the Assembly, there shall be introduced a Bill to
+provide for the appropriation out of the Consolidated Fund of the State of all
+moneys required to meet—
+          (a) the grants so made by the Assembly; and
+          (b) the expenditure charged on the Consolidated Fund of the State but
+      not exceeding in any case the amount shown in the statement previously
+       laid before the House or Houses.",Article 204,"204. Appropriation Bills.—(1) As soon as may be after the grants under
+article 203 have been made by the Assembly, there shall be introduced a Bill to
+provide for the appropriation out of the Consolidated Fund of the State of all
+moneys required to meet—
+          (a) the grants so made by the Assembly; and
+          (b) the expenditure charged on the Consolidated Fund of the State but
+      not exceeding in any case the amount shown in the statement previously
+       laid before the House or Houses.
+       (2) No amendment shall be proposed to any such Bill in the House or
+either House of the Legislature of the State which will have the effect of
+varying the amount or altering the destination of any grant so made or of
+varying the amount of any expenditure charged on the Consolidated Fund of
+the State, and the decision of the person presiding as to whether an amendment
+is inadmissible under this clause shall be final.
+       (3) Subject to the provisions of articles 205 and 206, no money shall be
+withdrawn from the Consolidated Fund of the State except under appropriation
+made by law passed in accordance with the provisions of this article.",What does Article 204(1) require an Appropriation Bill to provide for?,"After grants under Article 203 are made by the Assembly, a Bill shall be introduced to appropriate from the State Consolidated Fund the money required to meet those grants and charged expenditure, not exceeding the amount shown in the statement previously laid before the House or Houses.",Article 204(1),Narrow the broad question to the subsection the answer covers.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+fbde0aa31a8f63b3,SUGGESTED_ONLY_NOT_APPROVED,PENDING_HUMAN_REVIEW,consumer_protection_act_2019.pdf,5,definition,How does the Act define injury?,"(23) ""injury"" means any harm whatever illegally caused to any person, in body,
+                mind or property;",,"SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY               5
+
+
+                  commercial activity, trade or profession, or such other class or classes of persons
+                    including public utility entities in the manner as may be prescribed;
+
+                           (20) ""express warranty"" means any material statement, affirmation of fact, promise
+                    or description relating to a product or service warranting that it conforms to such
+                    material statement, affirmation, promise or description and includes any sample or
+                 model of a product warranting that the whole of such product conforms to such
+                  sample or model;
+
+                          (21) ""goods"" means every kind of movable property and includes ""food"" as
+                    defined in clause (j) of sub-section (1) of section 3 of the Food Safety and Standards
+34 of 2006.          Act, 2006;
+
+                          (22) ""harm"", in relation to a product liability, includes—
+
+                                          (i) damage to any property, other than the product itself;
+
+                                           (ii) personal injury, illness or death;
+
+                                            (iii) mental agony or emotional distress attendant to personal injury or
+                              illness or damage to property; or
+
+                                      (iv) any loss of consortium or services or other loss resulting from a harm
+                           referred to in sub-clause (i) or sub-clause (ii) or sub-clause (iii),
+
+                    but shall not include any harm caused to a product itself or any damage to the property
+                 on account of breach of warranty conditions or any commercial or economic loss,
+                    including any direct, incidental or consequential loss relating thereto;
+
+                          (23) ""injury"" means any harm whatever illegally caused to any person, in body,
+                mind or property;
+
+                          (24) ""manufacturer"" means a person who—
+
+                                          (i) makes any goods or parts thereof; or
+
+                                           (ii) assembles any goods or parts thereof made by others; or
+
+                                            (iii) puts or causes to be put his own mark on any goods made by any
+                          other person;
+
+                          (25) ""mediation"" means the process by which a mediator mediates the consumer
+                    disputes;
+
+                          (26) ""mediator"" means a mediator referred to in section 75;
+
+                          (27) ""member"" includes the President and a member of the National Commission
+                    or a State Commission or a District Commission, as the case may be;
+
+                          (28) ""misleading advertisement"" in relation to any product or service, means an
+                    advertisement, which—
+
+                                          (i) falsely describes such product or service; or
+
+                                           (ii) gives a false guarantee to, or is likely to mislead the consumers as to
+                          the nature, substance, quantity or quality of such product or service; or
+
+                                            (iii) conveys an express or implied representation which, if made by the
+                        manufacturer or seller or service provider thereof, would constitute an unfair
+                           trade practice; or
+
+                                      (iv) deliberately conceals important information;
+
+                          (29) ""National Commission"" means the National Consumer Disputes Redressal
+                 Commission established under sub-section (1) of section 53;",How does Section 2(23) define ?injury??,"?Injury? means any harm whatever illegally caused to any person, in body, mind or property.",Section 2(23),Add the section/item reference explicit in the source.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+ffada58d009e6dde,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,127,condition_exception,What condition or exception is described in the clause beginning “Unless the Legislature of the State by law…”?,"Unless the Legislature of the State by law otherwise provides, this
+article  shall,  after  the  expiration of a  period of  fifteen  years from  the
+commencement of this Constitution, have effect as if the words “or in English”
+were omitted therefrom:
+      1[Provided that in relation to the 2[Legislatures of the States of Himachal
+Pradesh, Manipur, Meghalaya and Tripura] this clause shall have effect as if for
+the words “fifteen years” occurring therein, the words “twenty-five years” were
+substituted:]
+      3[Provided further that in relation to the 4[Legislatures of the States of
+5[Arunachal Pradesh, Goa and Mizoram]], this clause shall have effect as if for
+______________________________________________
+1.",Article 210,"210. Language to be used in the Legislature.—(1) Notwithstanding
+anything in Part XVII, but subject to the provisions of article 348, business in
+the Legislature of a State shall be transacted in the  official language or
+languages of the State or in Hindi or in English:
+      Provided that the Speaker of the Legislative Assembly or Chairman of
+the Legislative Council, or person acting as such, as the case may be, may
+permit any member who cannot adequately express himself in any of the
+languages aforesaid to address the House in his mother-tongue.
+       (2) Unless the Legislature of the State by law otherwise provides, this
+article  shall,  after  the  expiration of a  period of  fifteen  years from  the
+commencement of this Constitution, have effect as if the words “or in English”
+were omitted therefrom:
+      1[Provided that in relation to the 2[Legislatures of the States of Himachal
+Pradesh, Manipur, Meghalaya and Tripura] this clause shall have effect as if for
+the words “fifteen years” occurring therein, the words “twenty-five years” were
+substituted:]
+      3[Provided further that in relation to the 4[Legislatures of the States of
+5[Arunachal Pradesh, Goa and Mizoram]], this clause shall have effect as if for
+______________________________________________
+1. Ins. by the State of Himachal Pradesh Act, 1970 (53 of 1970), s. 46 (w.e.f. 25-1-1971).
+2. Subs. by the North-Eastern Areas (Reorganisation) Act, 1971 (81 of 1971) s. 71, for
+   ""Legislature of the State of Himachal Pradesh"" (w.e.f. 21-1-1972).
+3. Ins. by the State of Mizoram Act, 1986 (34 of 1986), s. 39 (w.e.f. 20-2-1987).
+4. Subs. by the State of Arunachal Pradesh Act, 1986 (69 of 1986), s. 42, for ""Legislature
+  of the State of Mizoram"" (w.e.f. 20-2-1987).
+5. Subs. by the Goa, Daman and Diu Reorganisation Act, 1987 (18 of 1987), s. 63, for
+  ""Arunachal Pradesh and Mizoram"" (w.e.f. 30-5-1987).","Under the first proviso to Article 210(2), what period replaces fifteen years for the Legislatures of Himachal Pradesh, Manipur, Meghalaya and Tripura?","For those Legislatures, ?twenty-five years? is substituted for ?fifteen years?.","Article 210(2), first proviso",Replace malformed near-duplicate wording with a complete question about the first proviso; check candidate e6f5df6480d94525 for duplication.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+fe7d73898eca8201,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,45,rights_duties,"What right, duty, or requirement is described in the clause beginning “—In sub-clause (b) of clause (2), the reference…”?","—In sub-clause (b) of clause (2), the reference to Hindus
+shall be construed as including a reference to persons professing the Sikh, Jaina
+or Buddhist religion, and the reference to Hindu religious institutions shall be
+construed accordingly.",Article 24,"24. Prohibition of employment of children in factories, etc.—No child
+below the age of fourteen years shall be employed to work in any factory or
+mine or engaged in any other hazardous employment.
+                       Right to Freedom of Religion
+      25. Freedom  of  conscience and  free  profession,  practice and
+propagation of religion.—(1) Subject to public order, morality and health and
+to the other provisions of this Part, all persons are equally entitled to freedom
+of conscience and the right freely to profess, practice and propagate religion.
+       (2) Nothing in this article shall affect the operation of any existing law or
+prevent the State from making any law—
+             (a) regulating or restricting any economic, financial, political or
+      other secular activity which may be associated with religious practice;
+             (b) providing for social welfare and reform or the throwing open
+      of Hindu religious institutions of a public character to all classes and
+       sections of Hindus.
+      Explanation I.—The wearing and carrying of kirpans shall be deemed to
+be included in the profession of the Sikh religion.
+      Explanation II.—In sub-clause (b) of clause (2), the reference to Hindus
+shall be construed as including a reference to persons professing the Sikh, Jaina
+or Buddhist religion, and the reference to Hindu religious institutions shall be
+construed accordingly.",What does Explanation II to Article 25(2)(b) say about the reference to Hindus and Hindu religious institutions?,"It says the reference to Hindus includes persons professing the Sikh, Jaina or Buddhist religion, and the reference to Hindu religious institutions is construed accordingly.","Article 25(2), Explanation II","Correct Article 24 to Article 25(2), Explanation II.",YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+b268a450d367bf03,SUGGESTED_ONLY_NOT_APPROVED,PENDING_HUMAN_REVIEW,constitution_of_india.pdf,117,scenario,"According to the passage, what happens if he is so disqualified by or under any law made by Parliament. 2[Explanation.—For the purposes of this clause]?","if he is so disqualified by or under any law made by Parliament.
+      2[Explanation.—For the purposes of this clause], a person shall not be
+deemed to hold an office of profit under the Government of India or the
+Government of any State specified in the First Schedule by reason only that he
+is a Minister either for the Union or for such State.",Article 191,"191.  Disqualifications  for membership.—(1) A  person  shall  be
+disqualified for being chosen as, and for being, a member of the Legislative
+Assembly or Legislative Council of a State—
+           1[(a) if he holds any office of profit under the Government of India or
+      the Government of any State specified in the First Schedule, other than
+      an office declared by the Legislature of the State by law not to disqualify
+        its holder;]
+          (b) if he is of unsound mind and stands so declared by a competent
+       court;
+           (c) if he is an undischarged insolvent;
+          (d) if he is not a citizen of India, or has voluntarily acquired the
+       citizenship of a foreign State, or  is under any acknowledgment of
+       allegiance or adherence to a foreign State;
+           (e) if he is so disqualified by or under any law made by Parliament.
+      2[Explanation.—For the purposes of this clause], a person shall not be
+deemed to hold an office of profit under the Government of India or the
+Government of any State specified in the First Schedule by reason only that he
+is a Minister either for the Union or for such State.
+       3[(2) A person  shall be  disqualified  for  being a member  of  the
+Legislative Assembly or Legislative Council of a State if he is so disqualified
+under the Tenth Schedule.]
+       4[192. Decision on questions as to disqualifications of members.—(1)
+If any question arises as to whether a member of a House of the Legislature of a
+State has become subject to any of the disqualifications mentioned in clause (1)
+of article 191, the question shall be referred for the decision of the Governor
+and his decision shall be final.
+______________________________________________
+1. Subs. by the Constitution (Forty-second Amendment) Act, 1976, s. 32 to read as ""(a) if
+  he holds any such office of profit under the Government of India or the Government of
+  any State specified in the First Schedule as is declared by Parliament by law to
+   disqualify  its holder"" (date not  notified). This amendment was omitted by  the
+   Constitution (Forty-fourth Amendment) Act, 1978, s. 45 (w.e.f. 20-6-1979).
+2. Subs. by the Constitution (Fifty-second Amendment) Act, 1985, s. 5, for ""(2) For the
+  purposes of this article"" (w.e.f. 1-3-1985).
+3. Ins. by s. 5, ibid. (w.e.f. 1-3-1985).
+4. Subs. by the Constitution (Forty-second Amendment) Act, 1976, s. 33, for art. 192
+   (w.e.f. 3-1-1977) and further subs. by the Constitution (Forty-fourth Amendment)
+  Act, 1978, s. 25, for art. 192 (w.e.f. 20-6-1979).",What does the Explanation to Article 191(1) say about a person being a Minister?,A person is not deemed to hold an office of profit under the Government of India or a State specified in the First Schedule only because that person is a Minister for the Union or that State.,"Article 191(1), Explanation",Separate the explanation from the preceding disqualification condition.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+64257f501275a7c1,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,consumer_protection_act_2019.pdf,16,procedure_remedy,What procedure or remedy is described in the clause beginning “CHAPTER IV CONSUMER DISPUTES REDRESSAL COMMISSION Establishment 28.”?,"CHAPTER IV
+
+                                 CONSUMER DISPUTES REDRESSAL COMMISSION
+
+Establishment        28.",,"16           THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—
+
+
+Designation          23. The Central Government may, if it considers necessary, by notification, designate
+of any        any statutory authority or body to exercise the powers and perform the functions of the
+statutory       Central Authority referred to in section 10.authority or
+body to
+function as
+Central
+Authority.
+
+Appeal.             24. A person aggrieved by any order passed by the Central Authority under
+               sections 20 and 21 may file an appeal to the National Commission within a period of thirty
+             days from the date of receipt of such order.
+
+Grants by            25. The Central Government may, after due appropriation made by Parliament by law in
+Central         this behalf, make to the Central Authority grants of such sums of money as that Government
+Government.          may think fit for being utilised for the purposes of this Act.
+
+Accounts and         26. (1) The Central Authority shall maintain proper accounts and other relevant records
+audit.         and prepare an annual statement of accounts in such form and manner as may be prescribed
+                in consultation with the Comptroller and Auditor-General of India.
+
+                      (2) The accounts of the Central Authority shall be audited by the Comptroller and
+              Auditor-General of India at such intervals as may be specified by him and any expenditure
+              incurred in connection with such audit shall be payable by the Central Authority to the
+              Comptroller and Auditor-General of India.
+
+                      (3) The Comptroller and Auditor-General of India or any other person appointed by
+            him in connection with the audit of the accounts of the Central Authority shall have the same
+                rights, privileges and authority in connection with such audit as the Comptroller and
+              Auditor-General of India generally has, in connection with the audit of the Government
+              accounts and, in particular, shall have the right to demand the production of books, accounts,
+             connected vouchers and other documents and papers and to inspect any of the offices of
+               the Central Authority.
+
+                     (4) The accounts of the Central Authority as certified by the Comptroller and
+              Auditor-General of India or any other person appointed by him in this behalf together with
+               the audit report thereon shall be forwarded annually to the Central Government which shall
+              cause the same to be laid before each House of Parliament.
+
+Furnishing of         27. (1) The Central Authority shall prepare once in every year, in such form, manner
+annual        and at such time as may be prescribed, an annual report giving full account of its activities
+reports, etc.
+              during the previous year and such other reports and returns, as may be directed, and copies
+              of such report and returns shall be forwarded to the Central Government.
+
+                      (2) A copy of the annual report received under sub-section (1) shall be laid, as soon as
+          may be after it is received, before each House of Parliament.
+
+                                   CHAPTER IV
+
+                                 CONSUMER DISPUTES REDRESSAL COMMISSION
+
+Establishment        28. (1) The State Government shall, by notification, establish a District Consumer
+of District      Disputes Redressal Commission, to be known as the District Commission, in each district of
+Consumer
+Disputes        the State:
+Redressal                   Provided that the State Government may, if it deems fit, establish more than oneCommission.
+                District Commission in a district.
+                      (2) Each District Commission shall consist of—
+                            (a) a President; and
+                            (b) not less than two and not more than such number of members as may be
+                     prescribed, in consultation with the Central Government.",What does Section 28(1) require the State Government to establish?,"The State Government shall, by notification, establish a District Consumer Disputes Redressal Commission in each district of the State; it may establish more than one in a district.",Section 28(1),Replace the chapter heading fragment with the operative rule and proviso.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+fcfc86a574176015,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,63,rights_duties,"What right, duty, or requirement is described in the clause beginning “—(1) All doubts and disputes arising out of…”?","—(1) All doubts and disputes arising out of or in
+connection with the election of a President or Vice-President shall be inquired
+into and decided by the Supreme Court whose decision shall be final.",Article 70,"70. Discharge of President's functions in other contingencies.—
+Parliament may make such provision as it thinks fit for the discharge of the
+functions of the President in any contingency not provided for in this Chapter.
+       1[71. Matters relating  to, or connected with, the  election of a
+President or Vice-President.—(1) All doubts and disputes arising out of or in
+connection with the election of a President or Vice-President shall be inquired
+into and decided by the Supreme Court whose decision shall be final.
+       (2) If the election of a person as President or Vice-President is declared
+void by the Supreme Court, acts done by him in the exercise and performance
+of the powers and duties of the office of President or Vice-President, as the
+case may be, on or before the date of the decision of the Supreme Court shall
+not be invalidated by reason of that declaration.
+       (3) Subject to the provisions of this Constitution, Parliament may by law
+regulate any matter relating to or connected with the election of a President or
+Vice-President.
+       (4) The election of a person as President or Vice-President shall not be
+called in question on the ground of the existence of any vacancy for whatever
+reason among the members of the electoral college electing him.]
+      72. Power of President to grant pardons, etc., and to suspend, remit
+or commute sentences in certain cases.—(1) The President shall have the
+power to grant pardons, reprieves, respites or remissions of punishment or to
+suspend, remit or commute the sentence of any person convicted of any
+offence—
+          (a) in  all cases where the punishment or sentence is by a Court
+       Martial;
+
+______________________________________________
+1. Subs. by the Constitution (Thirty-ninth Amendment) Act, 1975, s. 2 (w.e.f 10-8-1975) and
+   further  subs.  by  the  Constitution  (Forty-fourth  Amendment)  Act,  1978,   s.  10.
+   (w.e.f. 20-6-1979).",Who decides doubts and disputes arising out of or connected with the election of the President or Vice-President under Article 71(1)?,"The Supreme Court inquires into and decides those doubts and disputes, and its decision is final.",Article 71(1),Correct Article 70 to Article 71(1) and ask directly about the provision.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+f60b551073179690,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,376,condition_exception,What condition or exception is described in the clause beginning “if he has voluntarily given up his membership…”?,"if he has voluntarily given up his membership of such political
+       party;",Article 2,"2.  Disqualification on ground  of  defection.—(1)  Subject  to  the
+provisions of 3[paragraphs 4 and 5], a member of a House belonging to any
+political party shall be disqualified for being a member of the House—
+             (a) if he has voluntarily given up his membership of such political
+       party; or
+             (b) if he votes or abstains from voting in such House contrary to
+     any direction issued by the political party to which he belongs or by any
+      person or authority authorised by it in this behalf, without obtaining, in
+       either  case, the  prior permission of such  political  party, person or
+       authority and such voting or abstention has not been condoned by such
+       political party, person or authority within fifteen days from the date of
+      such voting or abstention.
+      Explanation.—For the purposes of this sub-paragraph,—
+             (a) an elected member of a House shall be deemed to belong to
+      the political party, if any, by which he was set up as a candidate for
+       election as such member;
+             (b) a nominated member of a House shall,—
+
+______________________________________________
+1. Tenth Schedule added by the Constitution (Fifty-second Amendment) Act, 1985,  s. 6
+   (w.e.f. 1-3-1985).
+2. Certain words omitted by the Constitution (Ninety-first Amendment) Act, 2003, s. 5
+   (w.e.f. 1-1-2004).
+3. Subs. by s. 5, ibid., for ""paragraphs 3, 4 and 5"" (w.e.f. 1-1-2004).
+
+                              345","Under paragraph 2(1)(a) of the Tenth Schedule, what conduct is listed as a ground for disqualification?",A member of a House belonging to a political party shall be disqualified for being a member of the House if the member has voluntarily given up membership of that political party.,"Tenth Schedule, paragraph 2(1)(a)","This is a Tenth Schedule paragraph, not Article 2; include the clause lead-in.",YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+d9dfd76da2fe00b5,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,consumer_protection_act_2019.pdf,23,scenario,"According to the passage, what happens if there is a majority?","if there is a majority, but if the members are
+equally divided, they shall state the point or points on which they differ, and make a reference
+to the President who shall either hear the point or points himself or refer the case for hearing
+on such point or points by one or more of t",,"SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY              23
+
+
+      43. The Central Government may, by notification, make rules to provide for the   Qualifications,
+qualification for appointment, method of recruitment, procedure of appointment, term of   etc., of
+                                                                                                          President and
+office, resignation and removal of the President and members of the State Commission.      members of
+                                                                                                           State
+                                                                                          Commission.
+      44. The State Government may, by notification, make rules to provide for salaries and   Salaries,
+allowances and other terms and conditions of service of the President and members of the  allowances and
+State Commission.                                                                                   other terms
+                                                                                             and conditions
+                                                                                                            of service of
+                                                                                                          President and
+                                                                                     members of
+                                                                                                          State
+                                                                                          Commission.
+
+      45. Any person appointed as President or, as the case may be, a member of the State   Transitional
+Commission immediately before the commencement of this Act shall hold office as such, as   provision.
+President or member, as the case may be, till the completion of his term.
+
+      46. (1) The State Government shall determine the nature and categories of the officers   Officers and
+and other employees required to assist the State Commission in the discharge of its functions  employees of
+and provide the Commission with such officers and other employees as it may think fit.       State                                                                                          Commission.
+      (2) The officers and other employees of the State Commission shall discharge their
+functions under the general superintendence of the President.
+
+      (3) The salaries and allowances payable to and the other terms and conditions of
+service of, the officers and other employees of the State Commission shall be such as may be
+prescribed.
+
+      47. (1) Subject to the other provisions of this Act, the State Commission shall have   Jurisdiction of
+jurisdiction—                                                                                           State
+                                                                                           Commission.
+             (a) to entertain—
+
+                     (i) complaints where the value of the goods or services paid as
+            consideration, exceeds rupees one crore, but does not exceed rupees ten crore:
+
+                Provided that where the Central Government deems it necessary so to do,
+                 it may prescribe such other value, as it deems fit;
+
+                       (ii) complaints against unfair contracts, where the value of goods or
+            services paid as consideration does not exceed ten crore rupees;
+
+                        (iii) appeals against the orders of any District Commission within the
+             State; and
+
+             (b) to call for the records and pass appropriate orders in any consumer dispute
+     which is pending before or has been decided by any District Commission within the
+      State, where it appears to the State Commission that such District Commission has
+      exercised a jurisdiction not vested in it by law, or has failed to exercise a jurisdiction so
+      vested or has acted in exercise of its jurisdiction illegally or with material irregularity.
+
+      (2) The jurisdiction, powers and authority of the State Commission may be exercised
+by Benches thereof, and a Bench may be constituted by the President with one or more
+members as the President may deem fit:
+
+     Provided that the senior-most member shall preside over the Bench.
+
+      (3) Where the members of a Bench differ in opinion on any point, the points shall be
+decided according to the opinion of the majority, if there is a majority, but if the members are
+equally divided, they shall state the point or points on which they differ, and make a reference
+to the President who shall either hear the point or points himself or refer the case for hearing
+on such point or points by one or more of the other members and such point or points shall","Under Section 47(3), how are differences of opinion among State Commission Bench members resolved?","The points are decided by the majority if there is one. If members are equally divided, they state the points of difference and refer them to the President, who hears them or refers them to one or more other members; the point is then decided by the majority of members who heard the case, including those who first heard it.",Section 47(3),Replace the malformed majority question and truncated equal-division answer. The final sentence continues on PDF page 24 and was checked there.,YES,NOT_ENTERED,,NOT_ENTERED,NO,24,"be decided according to the opinion of the majority of the members who have heard the case,
+including those who first heard it:
+Provided that the President or the other members, as the case may be, shall give
+opinion on the point or points so referred within a period of one month from the date of such
+reference."
+e7b9568884b0bbc8,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,92,procedure_remedy,What procedure or remedy is described in the clause beginning “—(1) An appeal shall lie to the Supreme…”?,"—(1) An appeal shall lie to the Supreme Court
+from any judgment, decree or final order of a High Court in the territory of
+India, whether in a civil, criminal or other proceeding, 3[if the High Court
+certifies under article 134A] that the case involves a substantial question of law
+as to the interpretation of this Constitution.",Article 131,"131. Original jurisdiction of the Supreme Court.—Subject to the
+provisions of this Constitution, the Supreme Court shall, to the exclusion of any
+other court, have original jurisdiction in any dispute—
+          (a) between the Government of India and one or more States; or
+          (b) between the Government of India and any State or States on one
+       side and one or more other States on the other; or
+           (c) between two or more States,
+if and in so far as the dispute involves any question (whether of law or fact) on which
+the existence or extent of a legal right depends:
+      1[Provided that the said jurisdiction shall not extend to a dispute arising
+out of any treaty, agreement, covenant, engagement, sanad or other similar
+instrument  which,  having  been  entered  into  or  executed  before  the
+commencement  of  this  Constitution,  continues  in  operation  after  such
+commencement, or which provides that the said jurisdiction shall not extend to
+such a dispute.]
+      2[131A. Exclusive  jurisdiction  of  the Supreme  Court  in regard  to
+questions as to constitutional  validity of Central laws.].—Omitted by the
+Constitution (Forty-third Amendment) Act, 1977, s. 4 (w.e.f. 13-4-1978).
+      132. Appellate jurisdiction of the Supreme Court in appeals from
+High Courts in certain cases.—(1) An appeal shall lie to the Supreme Court
+from any judgment, decree or final order of a High Court in the territory of
+India, whether in a civil, criminal or other proceeding, 3[if the High Court
+certifies under article 134A] that the case involves a substantial question of law
+as to the interpretation of this Constitution.
+
+______________________________________________
+1. Subs. by the Constitution (Seventh Amendment) Act, 1956, s. 5, for the proviso
+   (w.e.f. 1-11-1956).
+2. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 23 (w.e.f. 1-2-1977).
+3. Subs. by the Constitution (Forty-fourth Amendment) Act, 1978, s. 17, for ""if the High
+  Court certifies"" (w.e.f. 1-8-1979).","Under Article 132(1), when does an appeal lie to the Supreme Court from a High Court judgment, decree or final order?",An appeal lies if the High Court certifies under Article 134A that the case involves a substantial question of law as to the interpretation of the Constitution.,Article 132(1),Correct Article 131 to Article 132(1).,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+fb671b1434235def,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_APPROVE,constitution_of_india.pdf,163,rights_duties,"What right, duty, or requirement is described in the clause beginning “(2) The Governor shall cause every recommendation made…”?","(2) The Governor  shall cause every recommendation made by the
+Commission under this article together with an explanatory memorandum as to
+the action taken thereon to be laid before the Legislature of the State.",Article 243Y,"243Y. Finance Commission.—(1) The Finance Commission constituted
+under article 243I shall also review the financial position of the Municipalities
+and make recommendations to the Governor as to—
+          (a) the principles which should govern—
+                   (i) the distribution between the State and the Municipalities of
+          the net proceeds of the taxes, duties, tolls and fees leviable by the
+           State, which may be divided between them under this Part and the
+          allocation between the Municipalities at all levels of their respective
+         shares of such proceeds;
+                   (ii) the determination of the taxes, duties, tolls and fees which
+       may be assigned to, or appropriated by, the Municipalities;
+                    (iii)  the   grants-in-aid   to  the  Municipalities  from  the
+         Consolidated Fund of the State;
+          (b) the measures needed to improve the financial position of the
+       Municipalities;
+           (c) any other matter referred to the Finance Commission by the
+      Governor in the interests of sound finance of the Municipalities.
+       (2) The Governor  shall cause every recommendation made by the
+Commission under this article together with an explanatory memorandum as to
+the action taken thereon to be laid before the Legislature of the State.",What must the Governor lay before the State Legislature under Article 243Y(2)?,"The Governor shall cause every recommendation made by the Commission under Article 243Y, together with an explanatory memorandum as to the action taken, to be laid before the State Legislature.",Article 243Y(2),Optional precision edit; the existing text is source-supported.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+d7ba0f6ff8b6349a,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,consumer_protection_act_2019.pdf,24,scenario,"According to the passage, what happens if the National Commission is satisfied that the case involves a substantial question of law. (3) In an appeal involving a question of law?","if the National Commission is satisfied that the case
+              involves a substantial question of law.
+
+                      (3) In an appeal involving a question of law, the memorandum of appeal shall precisely
+                state the substantial question of law involved in the appeal.",,"24           THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—
+
+
+             be decided according to the opinion of the majority of the members who have heard the case,
+              including those who first heard it:
+
+                   Provided that the President or the other members, as the case may be, shall give
+              opinion on the point or points so referred within a period of one month from the date of such
+               reference.
+
+                      (4) A complaint shall be instituted in a State Commission within the limits of whose
+               jurisdiction,—
+
+                            (a) the opposite party or each of the opposite parties, where there are more than
+                    one, at the time of the institution of the complaint, ordinarily resides or carries on
+                    business or has a branch office or personally works for gain; or
+
+                            (b) any of the opposite parties, where there are more than one, at the time of the
+                       institution of the complaint, actually and voluntarily resides, or carries on business or
+                   has a branch office or personally works for gain, provided in such case, the permission
+                    of the State Commission is given; or
+
+                             (c) the cause of action, wholly or in part, arises; or
+
+                            (d) the complainant resides or personally works for gain.
+
+Transfer of           48. On the application of the complainant or of its own motion, the State Commission
+cases.        may, at any stage of the proceeding, transfer any complaint pending before a District
+            Commission to another District Commission within the State if the interest of justice so
+                requires.
+
+Procedure            49. (1) The provisions relating to complaints under sections 35, 36, 37, 38 and 39 shall,
+applicable to    with such modifications as may be necessary, be applicable to the disposal of complaints by
+State           the State Commission.Commission.
+                      (2) Without prejudice to the provisions of sub-section (1), the State Commission may
+               also declare any terms of contract, which is unfair to any consumer, to be null and void.
+
+Review by            50. The State Commission shall have the power to review any of the order passed by
+State               it if there is an error apparent on the face of the record, either of its own motion or on an
+Commission in  application made by any of the parties within thirty days of such order.certain cases.
+
+Appeal to            51. (1) Any person aggrieved by an order made by the State Commission in exercise of
+National          its powers conferred by sub-clause (i) or (ii) of clause (a) of sub-section (1) of section 47
+Commission.   may prefer an appeal against such order to the National Commission within a period of thirty
+             days from the date of the order in such form and manner as may be prescribed:
+
+                   Provided that the National Commission shall not entertain the appeal after the expiry
+              of the said period of thirty days unless it is satisfied that there was sufficient cause for not
+                 filing it within that period:
+
+                   Provided further that no appeal by a person, who is required to pay any amount in
+              terms of an order of the State Commission, shall be entertained by the National Commission
+              unless the appellant has deposited fifty per cent. of that amount in the manner as may be
+               prescribed.
+
+                      (2) Save as otherwise expressly provided under this Act or by any other law for the
+              time being in force, an appeal shall lie to the National Commission from any order passed in
+              appeal by any State Commission, if the National Commission is satisfied that the case
+              involves a substantial question of law.
+
+                      (3) In an appeal involving a question of law, the memorandum of appeal shall precisely
+                state the substantial question of law involved in the appeal.
+
+                      (4) Where the National Commission is satisfied that a substantial question of law is
+              involved in any case, it shall formulate that question and hear the appeal on that question:","Under Section 51(2), when does an appeal lie to the National Commission from an appellate State Commission order?","Unless otherwise expressly provided by this Act or another law in force, an appeal lies to the National Commission from an order passed in appeal by a State Commission if the National Commission is satisfied that the case involves a substantial question of law.",Section 51(2),"State the consequence and cite subsection (2), without conflating subsection (3).",YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+e7dda45e24d43b89,SUGGESTED_ONLY_NOT_APPROVED,PENDING_HUMAN_REVIEW,constitution_of_india.pdf,320,procedure_remedy,What procedure or remedy is described in the clause beginning “(c) the procedure to be followed by the…”?,"(c) the procedure to be followed by the Regional or District
+      Council or any court constituted by such Council in appeals and other
+      proceedings under sub-paragraph (2) of this paragraph;",,"289         THE CONSTITUTION OF INDIA
+
+                             (Sixth Schedule)
+
+       (4) A Regional Council or District Council, as the case may be, may
+with the previous approval of the Governor make rules regulating —
+             (a) the constitution of village councils and courts and the
+      powers to be exercised by them under this paragraph;
+              (b) the procedure to be followed by village councils or courts in
+       the trial of suits and cases under sub-paragraph (1) of this paragraph;
+               (c) the procedure to be followed by the Regional or District
+      Council or any court constituted by such Council in appeals and other
+      proceedings under sub-paragraph (2) of this paragraph;
+             (d) the enforcement of decisions and orders of such councils
+     and courts;
+               (e)  all  other  ancillary matters  for  the  carrying out of the
+       provisions of sub-paragraphs (1) and (2) of this paragraph.
+       1[(5) On and from such date as the President may, 2[after consulting the
+Government of the State concerned], by notification appoint in this behalf, this
+paragraph shall have effect in relation to such autonomous district or region as
+may be specified in the notification, as if—
+                 (i) in sub-paragraph (1), for the words “between the parties all of
+    whom belong to Scheduled Tribes within such areas, other than suits
+      and cases to which the provisions of sub-paragraph (1) of paragraph 5
+       of this Schedule apply,”, the words “not being suits and cases of the
+       nature  referred  to  in sub-paragraph  (1)  of paragraph  (5)  of  this
+      Schedule, which the Governor may specify in this behalf,” had been
+       substituted;
+                  (ii) sub-paragraphs (2) and (3) had been omitted;
+                  (iii) in sub-paragraph (4)—
+                     (a)  for  the words “A Regional  Council  or  District
+             Council, as the case may be, may with the previous approval of
+             the Governor make rules regulating”, the words “the Governor
+         may make rules regulating” had been substituted; and
+                      (b)  for  clause  (a),  the  following  clause had been
+              substituted, namely:—
+______________________________________________
+1. Ins. by the Assam Reorganisation (Meghalaya) Act, 1969 (55 of 1969), s. 74 and
+   Fourth Sch. (w.e.f. 2-4-1970).
+2. Subs. by the North-Eastern Areas (Reorganisation) Act, 1971 (81 of 1971), s. 71(i)
+  and Eighth Sch., for certain words (w.e.f. 21-1-1972).","Under paragraph 14(4)(c) of the Sixth Schedule, what procedure may rules regulate?","Rules may regulate the procedure to be followed by the Regional or District Council, or a court constituted by such Council, in appeals and other proceedings under sub-paragraph (2) of paragraph 14.","Sixth Schedule, paragraph 14(4)(c)",The surrounding source text identifies paragraph 14; add it and make the sub-clause a complete answer.,YES,NOT_ENTERED,,NOT_ENTERED,NO,319,"14. Administration of justice in autonomous districts and 
+autonomous regions.—(1) The Regional Council for an autonomous region 
+in respect of areas within such region and the District Council for an 
+autonomous district in respect of areas within the district other than those 
+which are under the authority of the Regional Councils, if any, within the 
+district may constitute village councils or courts for the trial of suits and 
+cases between  the parties all of whom belong to Scheduled Tribes within 
+such areas, other than suits and cases  to which the provisions of             
+sub-paragraph (1) of paragraph 5 of this Schedule  apply,  to the exclusion 
+of any court in the State, and may appoint suitable persons to be members of 
+such village councils or presiding officers of such courts, and may also 
+appoint such officers as may be necessary for the administration of the laws 
+made under paragraph 3 of this Schedule.
+(2) Notwithstanding anything in this Constitution, the Regional"
+dfe75d1781e7d3d1,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_APPROVE,constitution_of_india.pdf,190,definition,How does Article 279 define net proceeds?,"“net proceeds” means in relation to any tax or duty
+the proceeds thereof reduced by the cost of collection, and for the purposes of
+those provisions the net proceeds of any tax or duty, or of any part of any tax or
+duty, in or attributable to any area shall be ascertained and certified by the
+Comptroller and Auditor-General of India, whose certificate shall be final.
+       (2) Subject as aforesaid, and to any other express provision of this
+Chapter, a law made by Parliament or an order of the President may, in any
+case where under this Part the proceeds of any duty or tax are, or may be,
+assigned to any State, provide for the manner in which the proceeds are to be
+calculated, for the time from or  at which and the manner in which any
+payments are to be made, for the making of adjustments between one financial
+year and another, and for any other incidental or ancillary matters.
+
+______________________________________________
+1. Subs. by the Constitution (Sixtieth Amendment) Act, 1988, s. 2, for ""two hundred and
+   fifty rupees"" (w.e.f. 20-12-1988).
+2. Proviso omitted by s.2, ibid. (w.e.f. 20-12-1988).",Article 279,"279.  Calculation  of  “net  proceeds”,  etc.—(1)  In  the  foregoing
+provisions of this Chapter, “net proceeds” means in relation to any tax or duty
+the proceeds thereof reduced by the cost of collection, and for the purposes of
+those provisions the net proceeds of any tax or duty, or of any part of any tax or
+duty, in or attributable to any area shall be ascertained and certified by the
+Comptroller and Auditor-General of India, whose certificate shall be final.
+       (2) Subject as aforesaid, and to any other express provision of this
+Chapter, a law made by Parliament or an order of the President may, in any
+case where under this Part the proceeds of any duty or tax are, or may be,
+assigned to any State, provide for the manner in which the proceeds are to be
+calculated, for the time from or  at which and the manner in which any
+payments are to be made, for the making of adjustments between one financial
+year and another, and for any other incidental or ancillary matters.
+
+______________________________________________
+1. Subs. by the Constitution (Sixtieth Amendment) Act, 1988, s. 2, for ""two hundred and
+   fifty rupees"" (w.e.f. 20-12-1988).
+2. Proviso omitted by s.2, ibid. (w.e.f. 20-12-1988).",How does Article 279(1) define ?net proceeds??,"?Net proceeds? means, in relation to a tax or duty, its proceeds reduced by the cost of collection. The net proceeds attributable to an area are ascertained and certified by the Comptroller and Auditor-General of India, whose certificate is final.",Article 279(1),"Trim subsection (2), which is outside the definition asked for.",YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+fbac661dc9c90700,SUGGESTED_ONLY_NOT_APPROVED,PENDING_HUMAN_REVIEW,consumer_protection_act_2019.pdf,15,condition_exception,What condition or exception is described in the clause beginning “if he has any reason to believe that…”?,"if he has any reason to believe
+                that any person has violated any consumer rights or committed unfair trade practice or
+              causes any false or misleading advertisement to be made, shall,—
+
+                            (a) enter at any reasonable time into any such premises and search for any
+                 document or record or article or any other form of evidence and seize such document,
+                     record, article or such evidence;",,"SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY              15
+
+
+                   Provided that the Central Authority may, for every subsequent contravention, prohibit
+             such endorser from making endorsement in respect of any product or service for a period
+             which may extend to three years.
+
+                      (4) Where the Central Authority is satisfied after investigation that any person is
+             found to publish, or is a party to the publication of, a misleading advertisement, it may
+             impose on such person a penalty which may extend to ten lakh rupees.
+
+                      (5) No endorser shall be liable to a penalty under sub-sections (2) and (3) if he has
+               exercised due diligence to verify the veracity of the claims made in the advertisement regarding
+               the product or service being endorsed by him.
+
+                      (6) No person shall be liable to such penalty if he proves that he had published or
+              arranged for the publication of such advertisement in the ordinary course of his business:
+
+                   Provided that no such defence shall be available to such person if he had previous
+             knowledge of the order passed by the Central Authority for withdrawal or modification of
+             such advertisement.
+
+                      (7) While determining the penalty under this section, regard shall be had to the
+               following, namely:—
+
+                            (a) the population and the area impacted or affected by such offence;
+
+                            (b) the frequency and duration of such offence;
+
+                              (c) the vulnerability of the class of persons likely to be adversely affected by
+                   such offence; and
+
+                            (d) the gross revenue from the sales effected by virtue of such offence.
+
+                      (8) The Central Authority shall give the person an opportunity of being heard before
+             an order under this section is passed.
+
+                    22. (1) For the purpose of conducting an investigation after preliminary inquiry under   Search and
+               sub-section (1) of section 19, the Director-General or any other officer authorised by him in   seizure.
+                 this behalf, or the District Collector, as the case may be, may, if he has any reason to believe
+                that any person has violated any consumer rights or committed unfair trade practice or
+              causes any false or misleading advertisement to be made, shall,—
+
+                            (a) enter at any reasonable time into any such premises and search for any
+                 document or record or article or any other form of evidence and seize such document,
+                     record, article or such evidence;
+
+                            (b) make a note or an inventory of such record or article; or
+
+                              (c) require any person to produce any record, register or other document or
+                          article.
+
+2 of 1974.             (2) The provisions of the Code of Criminal Procedure, 1973, relating to search and
+               seizure shall apply, as far as may be, for search and seizure under this Act.
+
+                      (3) Every document, record or article seized under clause (a) of sub-section (1) or
+             produced under clause (c) of that sub-section shall be returned to the person, from whom
+              they were seized or who produced the same, within a period of twenty days of the date of
+             such seizure or production, as the case may be, after copies thereof or extracts therefrom
+                 certified by that person, in such manner as may be prescribed, have been taken.
+
+                      (4) Where any article seized under sub-section (1) are subject to speedy or natural
+               decay, the Director-General or such other officer may dispose of the article in such manner as
+           may be prescribed.
+
+                      (5) In the case of articles other than the articles referred to in sub-section (4), provisions
+              contained in clause (c) of sub-section (2) of section 38 shall mutatis mutandis apply in
+                relation to analysis or tests.","Under Section 22(1), what may the specified officers do after the stated reason-to-believe threshold is met?","For an investigation after the preliminary inquiry under Section 19(1), the Director-General, an officer authorised by the Director-General, or the District Collector may: (a) enter premises at a reasonable time, search for and seize specified evidence; (b) make a note or inventory of a record or article; or (c) require production of a record, register, document or article.",Section 22(1)(a)?(c),Supply the omitted actors and all three powers explicitly listed in the source.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+f6adb89377a3f28e,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,177,rights_duties,"What right, duty, or requirement is described in the clause beginning “(2) A resolution passed under clause (1) shall…”?","(2) A resolution passed under clause (1) shall remain in force for such
+period not exceeding one year as may be specified therein:
+      Provided that, if and so often as a resolution approving the continuance
+in force of any such resolution is passed in the manner provided in clause (1),
+such resolution shall continue in force for a further period of one year from the
+date on which under this clause it would otherwise have ceased to be in force.",Article 248,"248. Residuary powers of legislation.—(1) 1[Subject to article 246A,
+Parliament] has exclusive power to make any law with respect to any matter
+not enumerated in the Concurrent List or State List.
+       (2) Such power shall include the power of making any law imposing a
+tax not mentioned in either of those Lists.
+      249. Power of Parliament to legislate with respect to a matter in the
+State List in the national interest.—(1) Notwithstanding anything  in the
+foregoing provisions of this Chapter, if the Council of States has declared by
+resolution supported by not less than two-thirds of the members present and
+voting that it is necessary or expedient in the national interest that Parliament
+should make laws with respect to 2[goods and services tax provided under article
+246A or] any matter enumerated in the State List specified in the resolution, it
+shall be lawful for Parliament to make laws for the whole or any part of the
+territory of India with respect to that matter while the resolution remains in force.
+       (2) A resolution passed under clause (1) shall remain in force for such
+period not exceeding one year as may be specified therein:
+      Provided that, if and so often as a resolution approving the continuance
+in force of any such resolution is passed in the manner provided in clause (1),
+such resolution shall continue in force for a further period of one year from the
+date on which under this clause it would otherwise have ceased to be in force.
+       (3) A law made by Parliament which Parliament would not but for the
+passing of a resolution under clause (1) have been competent to make shall, to the
+extent of the incompetency, cease to have effect on the expiration of a period of
+six months after the resolution has ceased to be in force, except as respects things
+done or omitted to be done before the expiration of the said period.
+
+______________________________________________
+1. Subs. by the Constitution (One Hundred and First Amendment) Act, 2016, s. 3, for
+  ""Parliament"" (w.e.f. 16-9-2016).
+2. Ins. by s. 4, ibid. (w.e.f. 16-9-2016).","How long does a resolution under Article 249(1) remain in force, and how may it be continued?","It remains in force for the specified period, not exceeding one year. A continuation resolution passed in the manner provided in clause (1) continues it for a further year from the date it otherwise would have ceased.",Article 249(2),"The quoted rule is Article 249(2), not Article 248.",YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+eab655c4291e3806,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,52,direct_factual,What does Article 39 state about Certain principles of policy to be followed by the State?,"The
+State shall, in particular, direct its policy towards securing—
+             (a) that the citizens, men and women equally, have the right to an
+      adequate means of livelihood;
+             (b) that the ownership and control of the material resources of the
+     community are so distributed as best to subserve the common good;
+              (c) that the operation of the economic system does not result in the
+      concentration  of wealth and means of production  to the common
+      detriment;
+              (d) that there is equal pay for equal work for both men and women;
+              (e) that the health and strength of workers, men and women, and
+      the tender age of children are not abused and that citizens are not forced
+     by economic necessity to enter avocations unsuited to their age or
+       strength;
+
+______________________________________________
+1.",Article 39,"39. Certain principles of policy to be followed by the State.—The
+State shall, in particular, direct its policy towards securing—
+             (a) that the citizens, men and women equally, have the right to an
+      adequate means of livelihood;
+             (b) that the ownership and control of the material resources of the
+     community are so distributed as best to subserve the common good;
+              (c) that the operation of the economic system does not result in the
+      concentration  of wealth and means of production  to the common
+      detriment;
+              (d) that there is equal pay for equal work for both men and women;
+              (e) that the health and strength of workers, men and women, and
+      the tender age of children are not abused and that citizens are not forced
+     by economic necessity to enter avocations unsuited to their age or
+       strength;
+
+______________________________________________
+1. Art. 38 renumbered as cl. (1) by the Constitution (Forty-fourth Amendment) Act,
+  1978,  s. 9 (w.e.f. 20-6-1979).
+2. Ins. by s. 9, ibid. (w.e.f. 20-6-1979).
+
+                               21",What do clauses (a) through (e) of Article 39 say the State shall direct its policy towards securing?,"The listed aims are adequate means of livelihood for citizens, men and women equally; distribution of community material resources to serve the common good; prevention of concentration of wealth and means of production to common detriment; equal pay for equal work for men and women; and protection of workers? health and strength and children?s tender age, including against economically compelled work unsuited to age or strength.",Article 39(a)?(e),Narrow the question to clauses (a)?(e) included in the evidence.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+fbd632de04371122,SUGGESTED_ONLY_NOT_APPROVED,PENDING_HUMAN_REVIEW,consumer_protection_act_2019.pdf,3,definition,How does the Act define consumer dispute?,"(8) ""consumer dispute"" means a dispute where the person against whom a
+     complaint has been made, denies or disputes the allegations contained in the complaint;",,"SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY               3
+
+
+                          (b) displayed on the goods or any package containing such goods; or
+
+                          (c) displayed on the price list exhibited by him by or under any law
+                   for the time being in force; or
+
+                         (d) agreed between the parties;
+
+                    (v) the goods, which are hazardous to life and safety when used, are being
+            offered for sale to the public—
+
+                         (a) in contravention of standards relating to safety of such goods
+                 as required to be complied with, by or under any law for the time being in
+                   force;
+
+                         (b) where the trader knows that the goods so offered are unsafe to
+                  the public;
+
+                     (vi) the services which are hazardous or likely to be hazardous to life and
+            safety of the public when used, are being offered by a person who provides any
+            service and who knows it to be injurious to life and safety;
+
+                    (vii) a claim for product liability action lies against the product
+           manufacturer, product seller or product service provider, as the case may be;
+
+             (7) ""consumer"" means any person who—
+
+                       (i) buys any goods for a consideration which has been paid or promised
+            or partly paid and partly promised, or under any system of deferred payment
+          and includes any user of such goods other than the person who buys such
+          goods for consideration paid or promised or partly paid or partly promised, or
+           under any system of deferred payment, when such use is made with the approval
+           of such person, but does not include a person who obtains such goods for
+            resale or for any commercial purpose; or
+
+                        (ii) hires or avails of any service for a consideration which has been paid
+            or promised or partly paid and partly promised, or under any system of deferred
+          payment and includes any beneficiary of such service other than the person
+        who hires or avails of the services for consideration paid or promised, or partly
+           paid and partly promised, or under any system of deferred payment, when such
+            services are availed of with the approval of the first mentioned person, but does
+           not include a person who avails of such service for any commercial purpose.
+
+               Explanation.—For the purposes of this clause,—
+
+                         (a) the expression ""commercial purpose"" does not include use by a
+                person of goods bought and used by him exclusively for the purpose of
+                 earning his livelihood, by means of self-employment;
+
+                         (b) the expressions ""buys any goods"" and ""hires or avails any
+                  services"" includes offline or online transactions through electronic means
+                 or by teleshopping or direct selling or multi-level marketing;
+
+            (8) ""consumer dispute"" means a dispute where the person against whom a
+     complaint has been made, denies or disputes the allegations contained in the complaint;
+
+             (9) ""consumer rights"" includes,—
+
+                       (i) the right to be protected against the marketing of goods, products or
+            services which are hazardous to life and property;
+
+                        (ii) the right to be informed about the quality, quantity, potency, purity,
+           standard and price of goods, products or services, as the case may be, so as to
+            protect the consumer against unfair trade practices;",How does Section 2(8) define ?consumer dispute??,A ?consumer dispute? means a dispute where the person against whom a complaint has been made denies or disputes the allegations in the complaint.,Section 2(8),Add the explicit Section 2(8) reference.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+42ece46ffcd8dd91,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,199,scenario,"According to the passage, what happens if this Constitution had not come into operation?","if
+this Constitution had not come into operation, would have accrued to His Majesty
+or, as the case may be, to the Ruler of an Indian State by escheat or lapse, or as
+bona vacantia for want of a rightful owner, shall, if it is property situate in a
+State, vest in such State, and shall, in any other case, vest",Article 296,"296. Property accruing by escheat or lapse or as bona vacantia.—
+Subject as hereinafter provided, any property in the territory of India which, if
+this Constitution had not come into operation, would have accrued to His Majesty
+or, as the case may be, to the Ruler of an Indian State by escheat or lapse, or as
+bona vacantia for want of a rightful owner, shall, if it is property situate in a
+State, vest in such State, and shall, in any other case, vest in the Union:","Under Article 296, where does covered property vest if it is situated in a State, and where otherwise?","If the property is situated in a State, it vests in that State; in any other case, it vests in the Union.",Article 296,Complete the answer with the Union destination explicitly present at the end of the supplied full provision.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+da206ca0d0dcda4c,SUGGESTED_ONLY_NOT_APPROVED,PENDING_HUMAN_REVIEW,consumer_protection_act_2019.pdf,15,condition_exception,"What condition or exception is described in the clause beginning “Provided that the Central Authority may, for every…”?","Provided that the Central Authority may, for every subsequent contravention, prohibit
+             such endorser from making endorsement in respect of any product or service for a period
+             which may extend to three years.",,"SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY              15
+
+
+                   Provided that the Central Authority may, for every subsequent contravention, prohibit
+             such endorser from making endorsement in respect of any product or service for a period
+             which may extend to three years.
+
+                      (4) Where the Central Authority is satisfied after investigation that any person is
+             found to publish, or is a party to the publication of, a misleading advertisement, it may
+             impose on such person a penalty which may extend to ten lakh rupees.
+
+                      (5) No endorser shall be liable to a penalty under sub-sections (2) and (3) if he has
+               exercised due diligence to verify the veracity of the claims made in the advertisement regarding
+               the product or service being endorsed by him.
+
+                      (6) No person shall be liable to such penalty if he proves that he had published or
+              arranged for the publication of such advertisement in the ordinary course of his business:
+
+                   Provided that no such defence shall be available to such person if he had previous
+             knowledge of the order passed by the Central Authority for withdrawal or modification of
+             such advertisement.
+
+                      (7) While determining the penalty under this section, regard shall be had to the
+               following, namely:—
+
+                            (a) the population and the area impacted or affected by such offence;
+
+                            (b) the frequency and duration of such offence;
+
+                              (c) the vulnerability of the class of persons likely to be adversely affected by
+                   such offence; and
+
+                            (d) the gross revenue from the sales effected by virtue of such offence.
+
+                      (8) The Central Authority shall give the person an opportunity of being heard before
+             an order under this section is passed.
+
+                    22. (1) For the purpose of conducting an investigation after preliminary inquiry under   Search and
+               sub-section (1) of section 19, the Director-General or any other officer authorised by him in   seizure.
+                 this behalf, or the District Collector, as the case may be, may, if he has any reason to believe
+                that any person has violated any consumer rights or committed unfair trade practice or
+              causes any false or misleading advertisement to be made, shall,—
+
+                            (a) enter at any reasonable time into any such premises and search for any
+                 document or record or article or any other form of evidence and seize such document,
+                     record, article or such evidence;
+
+                            (b) make a note or an inventory of such record or article; or
+
+                              (c) require any person to produce any record, register or other document or
+                          article.
+
+2 of 1974.             (2) The provisions of the Code of Criminal Procedure, 1973, relating to search and
+               seizure shall apply, as far as may be, for search and seizure under this Act.
+
+                      (3) Every document, record or article seized under clause (a) of sub-section (1) or
+             produced under clause (c) of that sub-section shall be returned to the person, from whom
+              they were seized or who produced the same, within a period of twenty days of the date of
+             such seizure or production, as the case may be, after copies thereof or extracts therefrom
+                 certified by that person, in such manner as may be prescribed, have been taken.
+
+                      (4) Where any article seized under sub-section (1) are subject to speedy or natural
+               decay, the Director-General or such other officer may dispose of the article in such manner as
+           may be prescribed.
+
+                      (5) In the case of articles other than the articles referred to in sub-section (4), provisions
+              contained in clause (c) of sub-section (2) of section 38 shall mutatis mutandis apply in
+                relation to analysis or tests.","Under the proviso to Section 21(3), what may the Central Authority do for each subsequent contravention by an endorser?",It may prohibit the endorser from making endorsements for any product or service for a period that may extend to three years.,"Section 21(3), proviso",Add the subsection reference confirmed by the preceding text and scope the question to the subsequent-contravention power.,YES,NOT_ENTERED,,NOT_ENTERED,NO,14,"21. (1) Where the Central Authority is satisfied after investigation that any
+advertisement is false or misleading and is prejudicial to the interest of any consumer or is in
+contravention of consumer rights, it may, by order, issue directions to the concerned trader
+or manufacturer or endorser or advertiser or publisher, as the case may be, to discontinue
+such advertisement or to modify the same in such manner and within such time as may be
+specified in that order.
+(2) Notwithstanding the order passed under sub-section (1), if the Central Authority
+is of the opinion that it is necessary to impose a penalty in respect of such false or misleading
+advertisement, by a manufacturer or an endorser, it may, by order, impose on manufacturer or
+endorser a penalty which may extend to ten lakh rupees:
+Provided that the Central Authority may, for every subsequent contravention by a
+manufacturer or endorser, impose a penalty, which may extend to fifty lakh rupees.
+(3) Notwithstanding any order under sub-sections (1) and (2), where the Central
+Authority deems it necessary, it may, by order, prohibit the endorser of a false or misleading
+advertisement from making endorsement of any product or service for a period which may
+extend to one year:"
+40ae4bf48b2fdef8,SUGGESTED_ONLY_NOT_APPROVED,PROPOSED_REJECT,constitution_of_india.pdf,73,scenario,"According to the passage, what happens if he ceases to be a member of the House of the People?","if he ceases to be a member of the House of
+      the People;
+          (b) may at any time, by writing under his hand addressed, if such
+     member is the Speaker, to the Deputy Speaker, and if such member is
+      the Deputy Speaker, to the Speaker, resign his office;",Article 93,"93. The Speaker and Deputy Speaker of the House of the People.—
+The House of the People shall, as soon as may be, choose two members of the
+House to be respectively Speaker and Deputy Speaker thereof and, so often as
+the office of Speaker or Deputy Speaker becomes vacant, the House shall
+choose another member to be Speaker or Deputy Speaker, as the case may be.
+      94. Vacation and resignation of, and removal from, the offices of
+Speaker and Deputy Speaker.— A member holding office as Speaker or
+Deputy Speaker of the House of the People—
+          (a) shall vacate his office if he ceases to be a member of the House of
+      the People;
+          (b) may at any time, by writing under his hand addressed, if such
+     member is the Speaker, to the Deputy Speaker, and if such member is
+      the Deputy Speaker, to the Speaker, resign his office; and
+           (c) may be removed from his office by a resolution of the House of
+      the People passed by a majority of all the then members of the House:
+      Provided that no resolution for the purpose of clause (c) shall be moved
+unless at least fourteen days’ notice has been given of the intention to move the
+resolution:
+      Provided further that, whenever the House of the People is dissolved, the
+Speaker shall not vacate his office until immediately before the first meeting of
+the House of the People after the dissolution.
+     95. Power of the Deputy Speaker or other person to perform the
+duties of the office of, or to act as, Speaker.—(1) While the office of Speaker
+is vacant, the duties of the office shall be performed by the Deputy Speaker or,
+if the office of Deputy Speaker is also vacant, by such member of the House of
+the People as the President may appoint for the purpose.
+        (2) During the absence of the Speaker from any sitting of the House of the
+People the Deputy Speaker or, if he is also absent, such person as may be determined
+by the rules of procedure of the House, or, if no such person is present, such other
+person as may be determined by the House, shall act as Speaker.","Under Article 94(a), what happens to a Speaker?s or Deputy Speaker?s office if the member ceases to be a member of the House of the People?",A member holding office as Speaker or Deputy Speaker shall vacate that office if the member ceases to be a member of the House of the People.,Article 94(a),"Correct Article 93 to Article 94(a) and state the consequence, not just the condition.",YES,NOT_ENTERED,,NOT_ENTERED,NO,,
+c7c26340924bbb43,SUGGESTED_ONLY_NOT_APPROVED,PENDING_HUMAN_REVIEW,constitution_of_india.pdf,97,procedure_remedy,What procedure or remedy is described in the clause beginning “] (d) rules as to the entertainment of…”?,"]
+             (d) rules as to the entertainment of appeals under sub-clause (c) of
+      clause (1) of article 134;",,"66          THE CONSTITUTION OF INDIA
+
+                         (Part V.—The Union)
+
+             (b) rules as to the procedure for hearing appeals and other matters
+       pertaining to appeals including the time within which appeals to the
+      Court are to be entered;
+              (c) rules as to the proceedings in the Court for the enforcement of
+     any of the rights conferred by Part III;
+              1[(cc) rules as to the proceedings in the Court under 2[article
+      139A];]
+             (d) rules as to the entertainment of appeals under sub-clause (c) of
+      clause (1) of article 134;
+              (e) rules as to the conditions subject to which any judgment
+      pronounced or order made by the Court may be reviewed and the
+      procedure for such review including the time within which applications
+       to the Court for such review are to be entered;
+                 (f) rules as to the costs of and incidental to any proceedings in the
+      Court and as to the fees to be charged in respect of proceedings therein;
+             (g) rules as to the granting of bail;
+             (h) rules as to stay of proceedings;
+                 (i) rules providing for the summary determination of any appeal
+     which appears to the Court to be frivolous or vexatious or brought for
+      the purpose of delay;
+                (j) rules as  to the procedure for inquiries referred to in
+      clause (1) of article 317.
+       (2) Subject to the 3[provisions of 4*** clause (3)], rules made under this
+article may fix the minimum number of Judges who are to sit for any purpose,
+and may provide for the powers of single Judges and Division Courts.
+       (3) 5[4***The minimum number] of Judges who are to sit for the purpose
+of deciding any case involving a  substantial  question of law as  to the
+interpretation of this Constitution or for the purpose of hearing any reference
+under article 143 shall be five:
+______________________________________________
+1. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 26 (w.e.f. 1-2-1977).
+2. Subs. by the Constitution (Forty-third Amendment) Act, 1977, s. 6, for ""articles 131A
+  and 139A"" (w.e.f. 13-4-1978).
+3. Subs. by the Constitution (Forty-second Amendment) Act, 1976, s. 26, for ""provisions
+  of clause (3)"" (w.e.f. 1-2-1977).
+4. Certain words omitted by the  Constitution (Forty-third Amendment) Act, 1977, s. 6
+   (w.e.f. 13-4-1978).
+5. Subs. by the  Constitution (Forty-second Amendment) Act, 1976, s. 26, for ""The
+  minimum number"" (w.e.f. 1-2-1977).",What may rules under Article 145(1)(d) provide for?,Rules may provide for the entertainment of appeals under Article 134(1)(c).,Article 145(1)(d),Add the source reference and remove the stray bracket.,YES,NOT_ENTERED,,NOT_ENTERED,NO,,

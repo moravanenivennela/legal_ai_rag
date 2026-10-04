@@ -1,0 +1,129 @@
+{
+  "report_type": "Stage 20 AI-assisted first-pass analysis; not human decisions or legal verification",
+  "created_at_utc": "2026-10-04T12:12:31.077622+00:00",
+  "branch_checked": "rag-quality-overhaul",
+  "candidate_count": 50,
+  "unique_candidate_count": 50,
+  "recommendation_counts": {
+    "PROPOSED_REJECT": 26,
+    "PENDING_HUMAN_REVIEW": 11,
+    "PROPOSED_APPROVE": 13
+  },
+  "source_counts_by_recommendation": {
+    "constitution_of_india.pdf": {
+      "PROPOSED_REJECT": 21,
+      "PENDING_HUMAN_REVIEW": 7,
+      "PROPOSED_APPROVE": 13
+    },
+    "consumer_protection_act_2019.pdf": {
+      "PROPOSED_REJECT": 5,
+      "PENDING_HUMAN_REVIEW": 4
+    }
+  },
+  "question_type_counts_by_recommendation": {
+    "rights_duties": {
+      "PROPOSED_REJECT": 6,
+      "PROPOSED_APPROVE": 3
+    },
+    "definition": {
+      "PROPOSED_REJECT": 3,
+      "PENDING_HUMAN_REVIEW": 2,
+      "PROPOSED_APPROVE": 3
+    },
+    "comparison": {
+      "PENDING_HUMAN_REVIEW": 1
+    },
+    "condition_exception": {
+      "PROPOSED_REJECT": 4,
+      "PROPOSED_APPROVE": 2,
+      "PENDING_HUMAN_REVIEW": 2
+    },
+    "direct_factual": {
+      "PROPOSED_APPROVE": 5,
+      "PENDING_HUMAN_REVIEW": 2,
+      "PROPOSED_REJECT": 1
+    },
+    "procedure_remedy": {
+      "PROPOSED_REJECT": 5,
+      "PENDING_HUMAN_REVIEW": 3
+    },
+    "scenario": {
+      "PROPOSED_REJECT": 7,
+      "PENDING_HUMAN_REVIEW": 1
+    }
+  },
+  "unique_candidate_counts_by_failure_pattern_group": {
+    "wrong_citation": 12,
+    "incomplete_answer": 16,
+    "missing_reference": 13,
+    "duplicate_or_repeated_answer": 6,
+    "uncertain_legal_interpretation": 5,
+    "poorly_formed_question": 12,
+    "ocr_or_extraction_issue": 3
+  },
+  "failure_pattern_counts_by_recommendation": {
+    "PROPOSED_REJECT": {
+      "wrong_citation": 12,
+      "incomplete_answer": 14,
+      "poorly_formed_question": 10,
+      "ocr_or_extraction_issue": 2,
+      "missing_reference": 6,
+      "duplicate_or_repeated_answer": 4
+    },
+    "PENDING_HUMAN_REVIEW": {
+      "missing_reference": 7,
+      "duplicate_or_repeated_answer": 2,
+      "uncertain_legal_interpretation": 5,
+      "incomplete_answer": 2,
+      "poorly_formed_question": 2,
+      "ocr_or_extraction_issue": 1
+    }
+  },
+  "suggested_correction_count": 31,
+  "suggested_correction_ids": [
+    "004dd69be0a72aeb",
+    "edb58504d9963e5a",
+    "81ddc6564ee9b1bd",
+    "0dd8417bbfe6d7bc",
+    "0a9552ef52cfaff9",
+    "1c53f50edc89caed",
+    "014cfafe86aae67e",
+    "06f032849da5dbd4",
+    "fe25da3c7158a625",
+    "f8d48d6abe1c9354",
+    "fbde0aa31a8f63b3",
+    "ffada58d009e6dde",
+    "fe7d73898eca8201",
+    "b268a450d367bf03",
+    "64257f501275a7c1",
+    "fcfc86a574176015",
+    "f60b551073179690",
+    "d9dfd76da2fe00b5",
+    "e7b9568884b0bbc8",
+    "fb671b1434235def",
+    "d7ba0f6ff8b6349a",
+    "e7dda45e24d43b89",
+    "dfe75d1781e7d3d1",
+    "fbac661dc9c90700",
+    "f6adb89377a3f28e",
+    "eab655c4291e3806",
+    "fbd632de04371122",
+    "42ece46ffcd8dd91",
+    "da206ca0d0dcda4c",
+    "40ae4bf48b2fdef8",
+    "c7c26340924bbb43"
+  ],
+  "original_forms_pending_count": 50,
+  "human_decisions_entered": 0,
+  "reviewer_names_entered": 0,
+  "source_confirmations_entered": 0,
+  "approved_count": 0,
+  "provenance_checks_from_first_pass": {
+    "page_match": 50,
+    "answer_text_in_candidate_evidence": 50,
+    "meaning": "Traceability only, not legal correctness."
+  },
+  "stage13_count_reconciliation": "The Stage 13 manifest lists 1,000 selected candidates but top-level review_status_counts of 2,424 pending (raw count); reconcile with Stage 14 before estimating review progress.",
+  "target_status": "500 approved human-reviewed examples not achieved; no train/validation/test split created.",
+  "supplemental_source_context_count": 3
+}

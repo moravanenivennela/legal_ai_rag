@@ -1,0 +1,290 @@
+﻿candidate_id,source_document,pdf_page_1_based,question_type,original_question,original_answer,proposed_question,proposed_answer,original_reference,proposed_reference,reference_page_consistency,source_text_audit,source_text_finding,quality_or_scope_flags,duplicate_flags,first_pass_recommendation,source_provision_excerpt,adjacent_page_excerpt_if_needed,approval_state,current_law_status
+0a9552ef52cfaff9,constitution_of_india.pdf,376,definition,How does Article 1 define paragraph?,"""paragraph"" means a paragraph of this Schedule.","How does paragraph 1(d) of the Tenth Schedule define ""paragraph""?","""Paragraph"" means a paragraph of this Schedule.",Article 1,"Tenth Schedule, paragraph 1(d)",PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED_WITH_EXTRACTION_CAVEAT,The proposed Tenth Schedule paragraph 1(d) question/reference fixes the original Article 1 misattribution; the source definition is on the cited Constitution PDF page. The extracted page also has a visibly damaged text fragment nearby; verify the relevant sub-item visually in the PDF.,No material defect in the short answer identified from the printed definition. Keep the surrounding Schedule context; do not rely on damaged OCR around other sub-items.,,PROPOSED_REJECT,"to which he belongs for the purposes of sub-
+      paragraph (1) of paragraph 2;
+             (d) ""paragraph"" means a paragraph of this Schedule.
+       2.  Disqualification on ground  of  defection.—(1)  Subject  to  the
+provisions of 3[paragraphs 4 and 5], a member of a House belonging to any
+political party shall be disqualified for being a member of the House—
+             (a) if he has voluntarily given up his membership of such political
+       party; or
+             (b) if he votes or abstains from voting in suc",,NOT_APPROVED; human review still required,NOT_ASSESSED
+1c53f50edc89caed,constitution_of_india.pdf,95,procedure_remedy,"What procedure or remedy is described in the clause beginning “] (2) The Supreme Court may, if it…”?","]
+       (2) The Supreme Court may, if it deems it expedient so to do for the ends
+of justice, transfer any case, appeal or other proceedings pending before any
+High Court to any other High Court.",What transfer power is stated in Article 139A(2)?,"The Supreme Court may, if it deems it expedient so to do for the ends of justice, transfer any case, appeal or other proceeding pending before any High Court to any other High Court.",Article 138,Article 139A(2),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,"The source page contains Article 139A(2), including the ends-of-justice condition and transfer between High Courts. The original Article 138 label was incorrect; proposed reference matches the cited page.",The proposed answer preserves the stated condition and transfer scope. Source wording uses plural 'proceedings'; singular paraphrase does not appear to change the described scope.,,PROPOSED_REJECT,"ment.]
+       (2) The Supreme Court may, if it deems it expedient so to do for the ends
+of justice, transfer any case, appeal or other proceedings pending before any
+High Court to any other High Court.]
+      140. Ancillary powers of the Supreme Court.—Parliament may by
+law make provision for conferring upon the Supreme Court such supplemental
+powers not inconsistent with any of the provisions of this Constitution as may
+appear to be necessary or desirable for the purpose of enabling the Court more
+effectively to exercise the jurisdiction conferred u",,NOT_APPROVED; human review still required,NOT_ASSESSED
+014cfafe86aae67e,constitution_of_india.pdf,194,rights_duties,"What right, duty, or requirement is described in the clause beginning “—(1) The custody of the Consolidated Fund of…”?","—(1)  The  custody  of  the
+Consolidated Fund of India and the Contingency Fund of India, the payment of
+moneys into such Funds, the withdrawal of moneys therefrom, the custody of
+public moneys other than those credited to such Funds received by or on behalf
+of the Government of India, their payment into the public account of India and
+the withdrawal of moneys from such account and all other matters connected
+with or ancillary to matters aforesaid shall be regulated by law made by
+Parliament, and, until provision in that behalf is so made, shall be regulated by
+rules made by the President.","Under Article 283(1), how are the specified Union funds and public-account matters regulated until Parliament makes provision by law?",They are regulated by rules made by the President until provision is made by a law of Parliament.,Article 281,Article 283(1),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED_WITH_SCOPE_NOTE,"Article 283(1) describes the specified Union funds/public-account matters and says they are regulated by parliamentary law, with presidential rules until that law makes provision.","The proposed question asks specifically about the interim period, so the short answer is responsive; it omits the ongoing parliamentary-law rule. Ensure the question remains explicitly limited to the interim period.",,PROPOSED_REJECT,"connected
+with or ancillary to matters aforesaid shall be regulated by law made by
+Parliament, and, until provision in that behalf is so made, shall be regulated by
+rules made by the President.
+       (2) The  custody  of  the  Consolidated Fund  of  a  State and  the
+Contingency Fund of a State, the payment of moneys into such Funds, the
+withdrawal of moneys therefrom, the custody of public moneys other than
+those credited to such Funds received by or on behalf of the Government of the
+State, their payment into the",,NOT_APPROVED; human review still required,NOT_ASSESSED
+06f032849da5dbd4,constitution_of_india.pdf,214,scenario,"According to the passage, what happens if the causes of action on which such suits or proceedings are based had arisen after such establishment?","if  the causes  of  action on which such  suits  or
+      proceedings are based had arisen after such establishment;
+             (f) repeal or amend any order made by the President under clause (3)
+      of article 371D;",What may a law under Article 323A(2)(e) provide for in relation to certain cases pending when an administrative tribunal is established?,It may provide for transfer to the tribunal of cases pending before a court or other authority immediately before establishment that would have fallen within the tribunal's jurisdiction if their causes of action had arisen after establishment.,Article 323A,Article 323A(2)(e),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,"Article 323A(2)(e) supports transfer of qualifying matters pending before a court/authority immediately before tribunal establishment, assessed by whether they would have been within the tribunal jurisdiction had the cause arisen after establishment.",The proposed question and answer preserve the key timing and jurisdiction condition. It is a paraphrase; check full sub-clause wording before any human decision.,,PROPOSED_REJECT,"1);
+           (e) provide for the transfer to each such administrative tribunal of any
+      cases pending before any court or other authority immediately before the
+      establishment of such tribunal as would have been within the jurisdiction
+      of such  tribunal  if  the causes  of  action on which such  suits  or
+      proceedings are based had arisen after such establishment;
+             (f) repeal or amend any order made by the President under clause (3)
+      of article 371D;
+          (g)  contain  such  supplemental,  incidental  and  consequent",,NOT_APPROVED; human review still required,NOT_ASSESSED
+fe25da3c7158a625,consumer_protection_act_2019.pdf,24,condition_exception,What condition or exception is described in the clause beginning “if the interest of justice so requires.”?,"if the interest of justice so
+                requires.",When may the State Commission transfer a complaint pending before a District Commission to another District Commission in the State?,"On the complainant's application or on its own motion, the State Commission may transfer such a complaint at any stage of the proceeding if the interest of justice so requires.",,Section 48,PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,"Section 48 on the cited Consumer Act PDF page identifies the application/own-motion route, timing, transfer destination within the State, and interests-of-justice condition.",The suggested question/answer capture the listed conditions; 'such a complaint' relies on the question for its referent.,,PROPOSED_REJECT,"48. On the application of the complainant or of its own motion, the State Commission
+may, at any stage of the proceeding, transfer any complaint pending before a District
+Commission to another District Commission within the State if the interest of justice so
+requires.",,NOT_APPROVED; human review still required,NOT_ASSESSED
+fbde0aa31a8f63b3,consumer_protection_act_2019.pdf,5,definition,How does the Act define injury?,"(23) ""injury"" means any harm whatever illegally caused to any person, in body,
+                mind or property;","How does Section 2(23) define ""injury""?","""Injury"" means any harm whatever illegally caused to any person, in body, mind or property.",,Section 2(23),DEFINITION_ITEM_ON_CITED_PAGE; SECTION_HEADING_ON_EARLIER_PAGE,SOURCE_TEXT_ALIGNED,"Section 2(23) on the cited page defines injury as harm illegally caused to a person in body, mind, or property.",Proposed definition tracks the displayed text. This is traceability only; no legal or current-law validation.,,PENDING_HUMAN_REVIEW,"ing any direct, incidental or consequential loss relating thereto;
+
+                          (23) ""injury"" means any harm whatever illegally caused to any person, in body,
+                mind or property;
+
+                          (24) ""manufacturer"" means a person who—
+
+                                          (i) makes any goods or parts thereof; or
+
+                                           (ii) assembles any goods or parts thereof made by others; or
+
+                                            (iii) puts or causes","THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—
+
+
+Definitions.           2. In this Act, unless the context otherwise requires,—
+
+                           (1) ""advertisement"" means any audio or visual publicity, representation,
+                  endorsement or pronouncement made by means of light, sound, smoke, gas, print,
+                     electronic media, internet or website and includes any notice, circular, label",NOT_APPROVED; human review still required,NOT_ASSESSED
+ffada58d009e6dde,constitution_of_india.pdf,127,condition_exception,What condition or exception is described in the clause beginning “Unless the Legislature of the State by law…”?,"Unless the Legislature of the State by law otherwise provides, this
+article  shall,  after  the  expiration of a  period of  fifteen  years from  the
+commencement of this Constitution, have effect as if the words “or in English”
+were omitted therefrom:
+      1[Provided that in relation to the 2[Legislatures of the States of Himachal
+Pradesh, Manipur, Meghalaya and Tripura] this clause shall have effect as if for
+the words “fifteen years” occurring therein, the words “twenty-five years” were
+substituted:]
+      3[Provided further that in relation to the 4[Legislatures of the States of
+5[Arunachal Pradesh, Goa and Mizoram]], this clause shall have effect as if for
+______________________________________________
+1.","Under the first proviso to Article 210(2), what period replaces fifteen years for the Legislatures of Himachal Pradesh, Manipur, Meghalaya and Tripura?","For those Legislatures, ""twenty-five years"" is substituted for ""fifteen years"".",Article 210,"Article 210(2), first proviso",PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,"The cited Article 210(2) proviso names Himachal Pradesh, Manipur, Meghalaya, and Tripura and substitutes twenty-five years for fifteen years.",The proposed answer is very short but directly responds to the substitution question. Preserve that it is a substitution for specified Legislatures under the proviso.,,PROPOSED_REJECT,"ra] this clause shall have effect as if for
+the words “fifteen years” occurring therein, the words “twenty-five years” were
+substituted:]
+      3[Provided further that in relation to the 4[Legislatures of the States of
+5[Arunachal Pradesh, Goa and Mizoram]], this clause shall have effect as if for
+______________________________________________
+1. Ins. by the State of Himachal Pradesh Act, 1970 (53 of 1970), s. 46 (w.e.f. 25-1-1971).
+2. Subs. by the North-Eastern Areas (Reorganisation) Act, 19",,NOT_APPROVED; human review still required,NOT_ASSESSED
+fe7d73898eca8201,constitution_of_india.pdf,45,rights_duties,"What right, duty, or requirement is described in the clause beginning “—In sub-clause (b) of clause (2), the reference…”?","—In sub-clause (b) of clause (2), the reference to Hindus
+shall be construed as including a reference to persons professing the Sikh, Jaina
+or Buddhist religion, and the reference to Hindu religious institutions shall be
+construed accordingly.",What does Explanation II to Article 25(2)(b) say about the reference to Hindus and Hindu religious institutions?,"It says the reference to Hindus includes persons professing the Sikh, Jaina or Buddhist religion, and the reference to Hindu religious institutions is construed accordingly.",Article 24,"Article 25(2), Explanation II",PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,"Article 25(2), Explanation II, on the cited Constitution page covers the interpretation of 'Hindus' and 'Hindu religious institutions.'",The answer conveys both parts. Retain the source's interpretive formulation ('construed as including' / 'construed accordingly') if precision is required.,,PROPOSED_REJECT,"in the profession of the Sikh religion.
+      Explanation II.—In sub-clause (b) of clause (2), the reference to Hindus
+shall be construed as including a reference to persons professing the Sikh, Jaina
+or Buddhist religion, and the reference to Hindu religious institutions shall be
+construed accordingly.
+      26. Freedom to manage religious affairs.—Subject to public order,
+morality and health, every religious denomination or any section thereof shall
+have the right—
+          (a) to establish and maintain institutions for r",,NOT_APPROVED; human review still required,NOT_ASSESSED
+b268a450d367bf03,constitution_of_india.pdf,117,scenario,"According to the passage, what happens if he is so disqualified by or under any law made by Parliament. 2[Explanation.—For the purposes of this clause]?","if he is so disqualified by or under any law made by Parliament.
+      2[Explanation.—For the purposes of this clause], a person shall not be
+deemed to hold an office of profit under the Government of India or the
+Government of any State specified in the First Schedule by reason only that he
+is a Minister either for the Union or for such State.",What does the Explanation to Article 191(1) say about a person being a Minister?,A person is not deemed to hold an office of profit under the Government of India or a State specified in the First Schedule only because that person is a Minister for the Union or that State.,Article 191,"Article 191(1), Explanation",PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED_WITH_SCOPE_NOTE,The Explanation to Article 191(1) states that a person is not deemed to hold the specified office of profit merely because the person is a Minister for the Union or the relevant State.,"Answer is source-aligned, but its full limiting relationship to the clause (a) office-of-profit disqualification should remain clear. The source page includes an amendment marker; current applicability was not evaluated.",,PENDING_HUMAN_REVIEW,"fied by or under any law made by Parliament.
+      2[Explanation.—For the purposes of this clause], a person shall not be
+deemed to hold an office of profit under the Government of India or the
+Government of any State specified in the First Schedule by reason only that he
+is a Minister either for the Union or for such State.
+       3[(2) A person  shall be  disqualified  for  being a member  of  the
+Legislative Assembly or Legislative Council of a State if he is so disqualified
+under the Tenth Schedule.]
+       4[192. Decision on",,NOT_APPROVED; human review still required,NOT_ASSESSED
+64257f501275a7c1,consumer_protection_act_2019.pdf,16,procedure_remedy,What procedure or remedy is described in the clause beginning “CHAPTER IV CONSUMER DISPUTES REDRESSAL COMMISSION Establishment 28.”?,"CHAPTER IV
+
+                                 CONSUMER DISPUTES REDRESSAL COMMISSION
+
+Establishment        28.",What does Section 28(1) require the State Government to establish?,"The State Government shall, by notification, establish a District Consumer Disputes Redressal Commission in each district of the State; it may establish more than one in a district.",,Section 28(1),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,Section 28(1) says the State Government shall establish a District Commission in each district by notification and may establish more than one in a district.,Proposed answer includes the main direction and proviso. It is a close paraphrase of the supplied Act text.,,PROPOSED_REJECT,"CHAPTER IV
+CONSUMER DISPUTES REDRESSAL COMMISSION
+28. (1) The State Government shall, by notification, establish a District Consumer
+Disputes Redressal Commission, to be known as the District Commission, in each district of
+the State:
+Provided that the State Government may, if it deems fit, establish more than one
+District Commission in a district.",,NOT_APPROVED; human review still required,NOT_ASSESSED
+fcfc86a574176015,constitution_of_india.pdf,63,rights_duties,"What right, duty, or requirement is described in the clause beginning “—(1) All doubts and disputes arising out of…”?","—(1) All doubts and disputes arising out of or in
+connection with the election of a President or Vice-President shall be inquired
+into and decided by the Supreme Court whose decision shall be final.",Who decides doubts and disputes arising out of or connected with the election of the President or Vice-President under Article 71(1)?,"The Supreme Court inquires into and decides those doubts and disputes, and its decision is final.",Article 70,Article 71(1),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,Article 71(1) on the cited page assigns election doubts/disputes to the Supreme Court and states its decision is final.,Question and answer are responsive and retain finality. No external or current-law check performed.,,PROPOSED_REJECT,"1[71. Matters relating  to, or connected with, the  election of a
+President or Vice-President.—(1) All doubts and disputes arising out of or in
+connection with the election of a President or Vice-President shall be inquired
+into and decided by the Supreme Court whose decision shall be final.
+       (2) If the election of a person as President or Vice-President is declared
+void by the Supreme Court, acts done by him in the exercise and performance
+of the powers and duties of the office of President or Vice-President, as the
+case may be, on or befo",,NOT_APPROVED; human review still required,NOT_ASSESSED
+e7b9568884b0bbc8,constitution_of_india.pdf,92,procedure_remedy,What procedure or remedy is described in the clause beginning “—(1) An appeal shall lie to the Supreme…”?,"—(1) An appeal shall lie to the Supreme Court
+from any judgment, decree or final order of a High Court in the territory of
+India, whether in a civil, criminal or other proceeding, 3[if the High Court
+certifies under article 134A] that the case involves a substantial question of law
+as to the interpretation of this Constitution.","Under Article 132(1), when does an appeal lie to the Supreme Court from a High Court judgment, decree or final order?",An appeal lies if the High Court certifies under Article 134A that the case involves a substantial question of law as to the interpretation of the Constitution.,Article 131,Article 132(1),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED_DUPLICATE_FLAG,Article 132(1) on the cited page supports the High Court certificate under Article 134A and a substantial question of law about constitutional interpretation. It corrects the original Article 131 misattribution.,"The 1,000 selected set flags repeated exact answer/template. The raw worksheet identifies a matching answer row b3774b7670445120, omitted by the selection cap, with the same page and old Article 131 attribution. This is an apparent duplicate variant, not independent evidence; resolve duplicate linkage before counting both.",REPEATED_EXACT_ANSWER;REPEATED_ANSWER_TEMPLATE,PROPOSED_REJECT,"rt in the territory of
+India, whether in a civil, criminal or other proceeding, 3[if the High Court
+certifies under article 134A] that the case involves a substantial question of law
+as to the interpretation of this Constitution.
+
+______________________________________________
+1. Subs. by the Constitution (Seventh Amendment) Act, 1956, s. 5, for the proviso
+   (w.e.f. 1-11-1956).
+2. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 23 (w.e.f. 1-2-1977).
+3. Subs. by the Constitution (Forty-",,NOT_APPROVED; human review still required,NOT_ASSESSED
+fb671b1434235def,constitution_of_india.pdf,163,rights_duties,"What right, duty, or requirement is described in the clause beginning “(2) The Governor shall cause every recommendation made…”?","(2) The Governor  shall cause every recommendation made by the
+Commission under this article together with an explanatory memorandum as to
+the action taken thereon to be laid before the Legislature of the State.",What must the Governor lay before the State Legislature under Article 243Y(2)?,"The Governor shall cause every recommendation made by the Commission under Article 243Y, together with an explanatory memorandum as to the action taken, to be laid before the State Legislature.",Article 243Y,Article 243Y(2),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,Article 243Y(2) requires the Governor to lay the Commission recommendations under that article and an explanatory memorandum on action taken before the State Legislature.,The proposed question/answer map to the cited clause. The source says 'under this article'; using 'under Article 243Y' is a clear reference paraphrase.,,PROPOSED_APPROVE,"es and also for
+      the withdrawal of such moneys therefrom,
+as may be specified in the law.
+     243Y. Finance Commission.—(1) The Finance Commission constituted
+under article 243I shall also review the financial position of the Municipalities
+and make recommendations to the Governor as to—
+          (a) the principles which should govern—
+                   (i) the distribution between the State and the Municipalities of
+          the net proceeds of the taxes, duties, tolls and fees leviable by",,NOT_APPROVED; human review still required,NOT_ASSESSED
+d7ba0f6ff8b6349a,consumer_protection_act_2019.pdf,24,scenario,"According to the passage, what happens if the National Commission is satisfied that the case involves a substantial question of law. (3) In an appeal involving a question of law?","if the National Commission is satisfied that the case
+              involves a substantial question of law.
+
+                      (3) In an appeal involving a question of law, the memorandum of appeal shall precisely
+                state the substantial question of law involved in the appeal.","Under Section 51(2), when does an appeal lie to the National Commission from an appellate State Commission order?","Unless otherwise expressly provided by this Act or another law in force, an appeal lies to the National Commission from an order passed in appeal by a State Commission if the National Commission is satisfied that the case involves a substantial question of law.",,Section 51(2),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,"Section 51(2) states the appeal from an order passed in appeal by a State Commission to the National Commission where a substantial question of law is involved, subject to its saving clause.",Answer captures the threshold and saving language; it paraphrases 'Save as otherwise expressly provided under this Act or by any other law for the time being in force.',,PROPOSED_REJECT,"se expressly provided under this Act or by any other law for the
+              time being in force, an appeal shall lie to the National Commission from any order passed in
+              appeal by any State Commission, if the National Commission is satisfied that the case
+              involves a substantial question of law.
+
+                      (3) In an appeal involving a question of law, the memorandum of appeal shall precisely
+                state the substantial question of law involved in the appeal.
+
+                      (4) Where the National Commission i",,NOT_APPROVED; human review still required,NOT_ASSESSED
+e7dda45e24d43b89,constitution_of_india.pdf,320,procedure_remedy,What procedure or remedy is described in the clause beginning “(c) the procedure to be followed by the…”?,"(c) the procedure to be followed by the Regional or District
+      Council or any court constituted by such Council in appeals and other
+      proceedings under sub-paragraph (2) of this paragraph;","Under paragraph 14(4)(c) of the Sixth Schedule, what procedure may rules regulate?","Rules may regulate the procedure to be followed by the Regional or District Council, or a court constituted by such Council, in appeals and other proceedings under sub-paragraph (2) of paragraph 14.",,"Sixth Schedule, paragraph 14(4)(c)",SUBCLAUSE_ON_CITED_PAGE; PARAGRAPH_HEADING_ON_PREVIOUS_PAGE,SOURCE_TEXT_ALIGNED,Sixth Schedule paragraph 14(4)(c) lists procedure in appeals and other proceedings under paragraph 14(2) among matters rules may regulate.,Question/answer are responsive. Preserve that rule-making is subject to previous approval of the Governor in the paragraph's lead-in.,,PENDING_HUMAN_REVIEW,"the trial of suits and cases under sub-paragraph (1) of this paragraph;
+               (c) the procedure to be followed by the Regional or District
+      Council or any court constituted by such Council in appeals and other
+      proceedings under sub-paragraph (2) of this paragraph;
+             (d) the enforcement of decisions and orders of such councils
+     and courts;
+               (e)  all  other  ancillary matters  for  the  carrying out of the
+       provisions of sub-paragraphs (1) and (2) of this paragraph.
+       1[(5) On and from such date as the President may, 2","ith
+to the Governor and, until assented to by him, shall have no effect.
+       14.  Administration  of  justice  in  autonomous  districts  and
+autonomous regions.—(1) The Regional Council for an autonomous region
+in respect of areas within such region and the District Council for an
+autonomous district in respect of areas within the district other than those
+which are under the authority of the Regional Councils, if any, within the
+d",NOT_APPROVED; human review still required,NOT_ASSESSED
+dfe75d1781e7d3d1,constitution_of_india.pdf,190,definition,How does Article 279 define net proceeds?,"“net proceeds” means in relation to any tax or duty
+the proceeds thereof reduced by the cost of collection, and for the purposes of
+those provisions the net proceeds of any tax or duty, or of any part of any tax or
+duty, in or attributable to any area shall be ascertained and certified by the
+Comptroller and Auditor-General of India, whose certificate shall be final.
+       (2) Subject as aforesaid, and to any other express provision of this
+Chapter, a law made by Parliament or an order of the President may, in any
+case where under this Part the proceeds of any duty or tax are, or may be,
+assigned to any State, provide for the manner in which the proceeds are to be
+calculated, for the time from or  at which and the manner in which any
+payments are to be made, for the making of adjustments between one financial
+year and another, and for any other incidental or ancillary matters.
+
+______________________________________________
+1. Subs. by the Constitution (Sixtieth Amendment) Act, 1988, s. 2, for ""two hundred and
+   fifty rupees"" (w.e.f. 20-12-1988).
+2. Proviso omitted by s.2, ibid. (w.e.f. 20-12-1988).","How does Article 279(1) define ""net proceeds""?","""Net proceeds"" means, in relation to a tax or duty, its proceeds reduced by the cost of collection. The net proceeds attributable to an area are ascertained and certified by the Comptroller and Auditor-General of India, whose certificate is final.",Article 279,Article 279(1),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED_WITH_CONTEXT_NOTE,"Article 279(1) defines net proceeds by reducing proceeds by collection costs and says the Comptroller and Auditor-General certifies the net proceeds attributable to an area, with certificate finality.",The proposed answer combines the definition with the subsection's certification sentence. Keep the source's context that this applies for purposes of the foregoing provisions of the Chapter.,,PROPOSED_APPROVE,"279.  Calculation  of  “net  proceeds”,  etc.—(1)  In  the  foregoing
+provisions of this Chapter, “net proceeds” means in relation to any tax or duty
+the proceeds thereof reduced by the cost of collection, and for the purposes of
+those provisions the net proceeds of any tax or duty, or of any part of any tax or
+duty, in or attributable to any area shall be ascertained and certified by the
+Comptroller and Auditor-General of India, whose certificate shall be final.
+       (2) Subject as aforesaid, and to any other express pro",,NOT_APPROVED; human review still required,NOT_ASSESSED
+fbd632de04371122,consumer_protection_act_2019.pdf,3,definition,How does the Act define consumer dispute?,"(8) ""consumer dispute"" means a dispute where the person against whom a
+     complaint has been made, denies or disputes the allegations contained in the complaint;","How does Section 2(8) define ""consumer dispute""?","A ""consumer dispute"" means a dispute where the person against whom a complaint has been made denies or disputes the allegations in the complaint.",,Section 2(8),DEFINITION_ITEM_ON_CITED_PAGE; SECTION_HEADING_ON_EARLIER_PAGE,SOURCE_TEXT_ALIGNED,Section 2(8) defines a consumer dispute where the person complained against denies or disputes allegations contained in the complaint.,Proposed question/reference is supported. Answer paraphrases 'allegations contained in the complaint' as 'allegations in the complaint'; no material change apparent from the excerpt.,,PENDING_HUMAN_REVIEW,"s
+                 or by teleshopping or direct selling or multi-level marketing;
+
+            (8) ""consumer dispute"" means a dispute where the person against whom a
+     complaint has been made, denies or disputes the allegations contained in the complaint;
+
+             (9) ""consumer rights"" includes,—
+
+                       (i) the right to be protected against the marketing of goods, products or
+            services which are hazardous to life and property;
+
+                        (ii) the right to be informed about the quality, quantity, potency, purity,","THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—
+
+
+Definitions.           2. In this Act, unless the context otherwise requires,—
+
+                           (1) ""advertisement"" means any audio or visual publicity, representation,
+                  endorsement or pronouncement made by means of light, sound, smoke, gas, print,
+                     electronic media, internet or website and includes any notice, circular, label",NOT_APPROVED; human review still required,NOT_ASSESSED
+42ece46ffcd8dd91,constitution_of_india.pdf,199,scenario,"According to the passage, what happens if this Constitution had not come into operation?","if
+this Constitution had not come into operation, would have accrued to His Majesty
+or, as the case may be, to the Ruler of an Indian State by escheat or lapse, or as
+bona vacantia for want of a rightful owner, shall, if it is property situate in a
+State, vest in such State, and shall, in any other case, vest","Under Article 296, where does covered property vest if it is situated in a State, and where otherwise?","If the property is situated in a State, it vests in that State; in any other case, it vests in the Union.",Article 296,Article 296,PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED_WITH_SCOPE_NOTE,Article 296 contains the State-versus-Union vesting rule.,"The answer depends on the Article 296 opening predicate: property that would have accrued by escheat/lapse/bona vacantia for want of a rightful owner, subject to the article's later qualification. 'Covered property' in the question should be read with that full predicate, not all property.",,PROPOSED_REJECT,"the Ruler of an Indian State by escheat or lapse, or as
+bona vacantia for want of a rightful owner, shall, if it is property situate in a
+State, vest in such State, and shall, in any other case, vest in the Union:",,NOT_APPROVED; human review still required,NOT_ASSESSED
+da206ca0d0dcda4c,consumer_protection_act_2019.pdf,15,condition_exception,"What condition or exception is described in the clause beginning “Provided that the Central Authority may, for every…”?","Provided that the Central Authority may, for every subsequent contravention, prohibit
+             such endorser from making endorsement in respect of any product or service for a period
+             which may extend to three years.","Under the proviso to Section 21(3), what may the Central Authority do for each subsequent contravention by an endorser?",It may prohibit the endorser from making endorsements for any product or service for a period that may extend to three years.,,"Section 21(3), proviso",PROVISO_ON_CITED_PAGE; SUBSECTION_ON_PREVIOUS_PAGE,SOURCE_TEXT_ALIGNED,"The proviso on the cited page permits the Central Authority, for every subsequent contravention, to prohibit the endorser from endorsement of a product/service for up to three years.",The proposed text retains 'may' and the maximum period. The reference depends on the immediately preceding Section 21(3); inspect that subsection with the proviso.,,PENDING_HUMAN_REVIEW,"F INDIA EXTRAORDINARY              15
+
+
+                   Provided that the Central Authority may, for every subsequent contravention, prohibit
+             such endorser from making endorsement in respect of any product or service for a period
+             which may extend to three years.
+
+                      (4) Where the Central Authority is satisfied after investigation that any person is
+             found to publish, or is a party to the publication of, a misleading advertisement, it may
+             impose on such person a penalty whic",,NOT_APPROVED; human review still required,NOT_ASSESSED
+40ae4bf48b2fdef8,constitution_of_india.pdf,73,scenario,"According to the passage, what happens if he ceases to be a member of the House of the People?","if he ceases to be a member of the House of
+      the People;
+          (b) may at any time, by writing under his hand addressed, if such
+     member is the Speaker, to the Deputy Speaker, and if such member is
+      the Deputy Speaker, to the Speaker, resign his office;","Under Article 94(a), what happens to a Speaker's or Deputy Speaker's office if the member ceases to be a member of the House of the People?",A member holding office as Speaker or Deputy Speaker shall vacate that office if the member ceases to be a member of the House of the People.,Article 93,Article 94(a),PROVISION_TEXT_ON_CITED_PAGE,SOURCE_TEXT_ALIGNED,Article 94(a) states a Speaker/Deputy Speaker of the House of the People shall vacate office if ceasing to be a member of that House.,Question/answer are supported by the clause; answer uses gender-neutral phrasing without altering the condition.,,PROPOSED_REJECT,"er.— A member holding office as Speaker or
+Deputy Speaker of the House of the People—
+          (a) shall vacate his office if he ceases to be a member of the House of
+      the People;
+          (b) may at any time, by writing under his hand addressed, if such
+     member is the Speaker, to the Deputy Speaker, and if such member is
+      the Deputy Speaker, to the Speaker, resign his office; and
+           (c) may be removed from his office by a resolution of the House of
+      the People passed by a majority of all the then members of t",,NOT_APPROVED; human review still required,NOT_ASSESSED
+c7c26340924bbb43,constitution_of_india.pdf,97,procedure_remedy,What procedure or remedy is described in the clause beginning “] (d) rules as to the entertainment of…”?,"]
+             (d) rules as to the entertainment of appeals under sub-clause (c) of
+      clause (1) of article 134;",What may rules under Article 145(1)(d) provide for?,Rules may provide for the entertainment of appeals under Article 134(1)(c).,,Article 145(1)(d),SUBCLAUSE_ON_CITED_PAGE; ARTICLE_HEADING_ON_PREVIOUS_PAGE,SOURCE_TEXT_ALIGNED,Article 145(1)(d) concerns rules for entertainment of appeals under sub-clause (c) of Article 134(1).,"Proposed answer/reference accurately restate the listed subject, using Article 134(1)(c) notation. The cited PDF page contains the provision's amendment-note context; the text was checked on the supplied version only.",,PENDING_HUMAN_REVIEW,"1[(cc) rules as to the proceedings in the Court under 2[article
+      139A];]
+             (d) rules as to the entertainment of appeals under sub-clause (c) of
+      clause (1) of article 134;
+              (e) rules as to the conditions subject to which any judgment
+      pronounced or order made by the Court may be reviewed and the
+      procedure for such review including the time within which applications
+       to the Court for such review are to be entered;
+                 (f) rules as to the costs of and incidental to any proceedings in the
+      Court and","Constitution (Forty-third
+Amendment) Act, 1977, s. 5 (w.e.f. 13-4-1978).]
+      145. Rules of Court, etc.—(1) Subject to the provisions of any law
+made by Parliament, the Supreme Court may from time to time, with the
+approval of the President, make rules for regulating generally the practice and
+procedure of the Court including—
+             (a) rules as to the persons practising before the Court",NOT_APPROVED; human review still required,NOT_ASSESSED

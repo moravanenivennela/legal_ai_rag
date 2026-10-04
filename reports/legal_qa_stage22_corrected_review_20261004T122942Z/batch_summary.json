@@ -1,0 +1,46 @@
+{
+  "report_type": "Stage 22 corrected suggestion batch; not human decisions or legal approval",
+  "created_at_utc": "2026-10-04T12:29:42.853714+00:00",
+  "branch_checked": "rag-quality-overhaul",
+  "total_suggestions": 31,
+  "ready_for_human_review": 21,
+  "needs_further_review": 10,
+  "stage21_status_counts": {
+    "SUPPORTED_SUGGESTION": 24,
+    "PARTIALLY_SUPPORTED": 7
+  },
+  "priority_group_counts": {
+    "READY_FOR_HUMAN_REVIEW": 21,
+    "NEEDS_FURTHER_REVIEW": 10
+  },
+  "changed_field_counts": {
+    "question": 31,
+    "answer": 31,
+    "reference": 29
+  },
+  "normalized_reference_ranges": 3,
+  "all_records_still_pending": true,
+  "approved_count": 0,
+  "human_decisions_entered": 0,
+  "final_dataset_created": false,
+  "train_validation_test_split_created": false,
+  "approval_boundary": "Source-text matching and AI suggestions do not prove legal correctness. Approval requires explicit human review, reason, source confirmation, and required edited-answer revalidation; none occurred here.",
+  "limitations": "Only supplied PDFs were used; no external current-law or case-law validation. Every record requires direct human review.",
+  "source_reports": {
+    "stage13": "reports/qa_candidate_generation_stage13_20261004T091039Z_seed42",
+    "stage14": "reports/legal_qa_review_workspace_20261004T092435Z",
+    "stage15": "reports/legal_qa_review_prioritization_20261004T093327Z",
+    "stage16": "reports/legal_qa_individual_review_20261004T094008Z",
+    "stage19": "reports/legal_qa_first_pass_review_20261004T100107Z",
+    "stage20": "reports/legal_qa_stage20_analysis_20261004T120600Z",
+    "stage21": "reports/legal_qa_stage21_reconciliation_20261004T122302Z"
+  },
+  "outputs": [
+    "corrected_review_batch.csv",
+    "correction_change_log.csv",
+    "batch_summary.json",
+    "review_instructions.md"
+  ],
+  "punctuation_normalized_records": 5,
+  "punctuation_artifact_records_normalized": 12
+}

@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:12:45.931824+00:00",
+  "candidate": {
+    "candidate_id": "0a9552ef52cfaff9",
+    "original_question": "How does Article 1 define paragraph?",
+    "original_answer": "\"paragraph\" means a paragraph of this Schedule.",
+    "proposed_question": "How does paragraph 1(d) of the Tenth Schedule define \"paragraph\"?",
+    "proposed_answer": "\"Paragraph\" means a paragraph of this Schedule.",
+    "original_reference": "Article 1",
+    "proposed_reference": "Tenth Schedule, paragraph 1(d)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 376,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED_WITH_EXTRACTION_CAVEAT",
+    "source_text_finding": "The proposed Tenth Schedule paragraph 1(d) question/reference fixes the original Article 1 misattribution; the source definition is on the cited Constitution PDF page. The extracted page also has a visibly damaged text fragment nearby; verify the relevant sub-item visually in the PDF.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "No material defect in the short answer identified from the printed definition. Keep the surrounding Schedule context; do not rely on damaged OCR around other sub-items.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "to which he belongs for the purposes of sub-\r\n      paragraph (1) of paragraph 2;\r\n             (d) \"paragraph\" means a paragraph of this Schedule.\r\n       2.  Disqualification on ground  of  defection.—(1)  Subject  to  the\r\nprovisions of 3[paragraphs 4 and 5], a member of a House belonging to any\r\npolitical party shall be disqualified for being a member of the House—\r\n             (a) if he has voluntarily given up his membership of such political\r\n       party; or\r\n             (b) if he votes or abstains from voting in suc",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:12:45.931785+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

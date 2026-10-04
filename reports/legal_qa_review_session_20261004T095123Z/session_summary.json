@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-10-04T09:52:23.571855+00:00",
+  "source_workspace": "reports\\legal_qa_individual_review_20261004T094008Z",
+  "start_at": 1,
+  "requested_limit": 1,
+  "saved_form_count": 1,
+  "decision_counts": {
+    "APPROVE": 0,
+    "REJECT": 0,
+    "EDIT_AND_RECHECK": 0,
+    "PENDING": 1
+  },
+  "decisions_directory": "decision_forms",
+  "import_command_example": ".\\\\venv\\\\Scripts\\\\python.exe scripts\\\\review_first_batch_legal_qa.py import --forms-dir <session-output>\\\\decision_forms --batch-csv reports\\legal_qa_review_prioritization_20261004T093327Z\\first_review_batch.csv --output-dir <new-empty-import-output>",
+  "legal_correctness_claim": "None. Reviewer decisions and importer checks do not independently establish legal correctness."
+}

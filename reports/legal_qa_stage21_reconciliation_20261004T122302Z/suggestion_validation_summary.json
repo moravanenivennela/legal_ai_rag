@@ -1,0 +1,66 @@
+{
+  "report_type": "Stage 21 count reconciliation and source-text validation; not legal review or approval",
+  "created_at_utc": "2026-10-04T12:23:08.990644+00:00",
+  "branch_checked": "rag-quality-overhaul",
+  "count_reconciliation": {
+    "raw_candidate_rows": 2424,
+    "distinct_normalized_questions_recomputed": 2119,
+    "deduplicated_pool": 2113,
+    "duplicate_rows_removed": 311,
+    "exact_question_duplicate_flags": 304,
+    "near_question_duplicate_flags": 7,
+    "selected_candidates": 1000,
+    "omitted_by_limit": 1113,
+    "stage14_review_workspace_candidates": 1000,
+    "stage15_prioritized_candidates": 1000,
+    "stage15_first_batch": 50,
+    "stage16_candidate_forms": 50,
+    "stage16_decision_states": {
+      "PENDING": 50
+    },
+    "stage17a_saved_decision_forms": 1,
+    "stage17a_decision_summary": {
+      "APPROVE": 0,
+      "REJECT": 0,
+      "EDIT_AND_RECHECK": 0,
+      "PENDING": 1
+    },
+    "stage17b_saved_decision_forms": 0,
+    "stage19_ai_recommendations": {
+      "PROPOSED_REJECT": 26,
+      "PENDING_HUMAN_REVIEW": 11,
+      "PROPOSED_APPROVE": 13
+    },
+    "stage20_suggestions": 31,
+    "human_approved_examples_found_in_review_artifacts": 0
+  },
+  "stage13_arithmetic": {
+    "raw_to_deduplicated": "2424 - 311 duplicate rows = 2113 candidates",
+    "distinct_question_arithmetic": "2424 raw rows - 305 repeated normalized question rows = 2119 distinct normalized questions; dedup removed six additional distinct strings through near-duplicate matching",
+    "deduplicated_to_selected": "2113 - 1113 omitted by candidate limit = 1000 selected",
+    "meaning": "Selected/review-eligible means placed in the review workflow, not approved or legally verified."
+  },
+  "genuine_inconsistency": "No arithmetic mismatch was found among 2424 raw, 2119 normalized-distinct, 2113 deduplicated, and 1000 selected records. The Stage 13 manifest does mix scopes: counts.retained_candidates and candidates.jsonl describe the 1000 selected records, while human_review_pending/review_status_counts and human_review_report.csv describe all 2424 raw candidates. The target_500_reached flag means selected candidate count >= 500, not 500 approved examples.",
+  "suggestion_validation_counts": {
+    "SUPPORTED_SUGGESTION": 24,
+    "PARTIALLY_SUPPORTED": 7,
+    "UNSUPPORTED_OR_UNCERTAIN": 0
+  },
+  "suggestion_citation_consistency_counts": {
+    "CONSISTENT": 28,
+    "PARTIALLY_CONSISTENT_FORMATTING": 3,
+    "INCONSISTENT": 0
+  },
+  "suggestion_text_integrity_warning_count": 12,
+  "suggestion_legal_correctness_claim": "None. A source-text match supports traceability and wording only; it does not establish current legal status or legal correctness.",
+  "source_pages_and_adjacent_pages_checked": true,
+  "human_decisions_entered_by_this_report": 0,
+  "approved_examples_created": 0,
+  "final_dataset_or_split_created": false,
+  "output_files": [
+    "count_reconciliation.md",
+    "suggestion_validation.csv",
+    "suggestion_validation_summary.json",
+    "next_action_recommendation.md"
+  ]
+}
