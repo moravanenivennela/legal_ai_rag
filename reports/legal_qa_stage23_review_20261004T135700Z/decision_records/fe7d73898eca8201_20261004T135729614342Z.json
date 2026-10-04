@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:29.614254+00:00",
+  "candidate": {
+    "candidate_id": "fe7d73898eca8201",
+    "original_question": "What right, duty, or requirement is described in the clause beginning “—In sub-clause (b) of clause (2), the reference…”?",
+    "original_answer": "—In sub-clause (b) of clause (2), the reference to Hindus\r\nshall be construed as including a reference to persons professing the Sikh, Jaina\r\nor Buddhist religion, and the reference to Hindu religious institutions shall be\r\nconstrued accordingly.",
+    "proposed_question": "What does Explanation II to Article 25(2)(b) say about the reference to Hindus and Hindu religious institutions?",
+    "proposed_answer": "It says the reference to Hindus includes persons professing the Sikh, Jaina or Buddhist religion, and the reference to Hindu religious institutions is construed accordingly.",
+    "original_reference": "Article 24",
+    "proposed_reference": "Article 25(2), Explanation II",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 45,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Article 25(2), Explanation II, on the cited Constitution page covers the interpretation of 'Hindus' and 'Hindu religious institutions.'",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The answer conveys both parts. Retain the source's interpretive formulation ('construed as including' / 'construed accordingly') if precision is required.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "in the profession of the Sikh religion.\r\n      Explanation II.—In sub-clause (b) of clause (2), the reference to Hindus\r\nshall be construed as including a reference to persons professing the Sikh, Jaina\r\nor Buddhist religion, and the reference to Hindu religious institutions shall be\r\nconstrued accordingly.\r\n      26. Freedom to manage religious affairs.—Subject to public order,\r\nmorality and health, every religious denomination or any section thereof shall\r\nhave the right—\r\n          (a) to establish and maintain institutions for r",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:29.614207+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

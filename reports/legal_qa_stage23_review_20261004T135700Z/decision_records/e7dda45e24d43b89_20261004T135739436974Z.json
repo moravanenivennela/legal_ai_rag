@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:39.436802+00:00",
+  "candidate": {
+    "candidate_id": "e7dda45e24d43b89",
+    "original_question": "What procedure or remedy is described in the clause beginning “(c) the procedure to be followed by the…”?",
+    "original_answer": "(c) the procedure to be followed by the Regional or District\r\n      Council or any court constituted by such Council in appeals and other\r\n      proceedings under sub-paragraph (2) of this paragraph;",
+    "proposed_question": "Under paragraph 14(4)(c) of the Sixth Schedule, what procedure may rules regulate?",
+    "proposed_answer": "Rules may regulate the procedure to be followed by the Regional or District Council, or a court constituted by such Council, in appeals and other proceedings under sub-paragraph (2) of paragraph 14.",
+    "original_reference": "",
+    "proposed_reference": "Sixth Schedule, paragraph 14(4)(c)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 320,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Sixth Schedule paragraph 14(4)(c) lists procedure in appeals and other proceedings under paragraph 14(2) among matters rules may regulate.",
+    "reference_page_consistency": "SUBCLAUSE_ON_CITED_PAGE; PARAGRAPH_HEADING_ON_PREVIOUS_PAGE",
+    "quality_or_scope_flags": "Question/answer are responsive. Preserve that rule-making is subject to previous approval of the Governor in the paragraph's lead-in.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PENDING_HUMAN_REVIEW",
+    "source_provision_excerpt": "the trial of suits and cases under sub-paragraph (1) of this paragraph;\r\n               (c) the procedure to be followed by the Regional or District\r\n      Council or any court constituted by such Council in appeals and other\r\n      proceedings under sub-paragraph (2) of this paragraph;\r\n             (d) the enforcement of decisions and orders of such councils\r\n     and courts;\r\n               (e)  all  other  ancillary matters  for  the  carrying out of the\r\n       provisions of sub-paragraphs (1) and (2) of this paragraph.\r\n       1[(5) On and from such date as the President may, 2",
+    "adjacent_page_excerpt_if_needed": "ith\r\nto the Governor and, until assented to by him, shall have no effect.\r\n       14.  Administration  of  justice  in  autonomous  districts  and\r\nautonomous regions.—(1) The Regional Council for an autonomous region\r\nin respect of areas within such region and the District Council for an\r\nautonomous district in respect of areas within the district other than those\r\nwhich are under the authority of the Regional Councils, if any, within the\r\nd"
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:39.436767+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

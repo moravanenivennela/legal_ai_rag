@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:25.979187+00:00",
+  "candidate": {
+    "candidate_id": "fe25da3c7158a625",
+    "original_question": "What condition or exception is described in the clause beginning “if the interest of justice so requires.”?",
+    "original_answer": "if the interest of justice so\r\n                requires.",
+    "proposed_question": "When may the State Commission transfer a complaint pending before a District Commission to another District Commission in the State?",
+    "proposed_answer": "On the complainant's application or on its own motion, the State Commission may transfer such a complaint at any stage of the proceeding if the interest of justice so requires.",
+    "original_reference": "",
+    "proposed_reference": "Section 48",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page_1_based": 24,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Section 48 on the cited Consumer Act PDF page identifies the application/own-motion route, timing, transfer destination within the State, and interests-of-justice condition.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The suggested question/answer capture the listed conditions; 'such a complaint' relies on the question for its referent.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "48. On the application of the complainant or of its own motion, the State Commission\nmay, at any stage of the proceeding, transfer any complaint pending before a District\nCommission to another District Commission within the State if the interest of justice so\nrequires.",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:25.979161+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

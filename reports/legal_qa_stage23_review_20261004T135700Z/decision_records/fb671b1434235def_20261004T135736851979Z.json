@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:36.851894+00:00",
+  "candidate": {
+    "candidate_id": "fb671b1434235def",
+    "original_question": "What right, duty, or requirement is described in the clause beginning “(2) The Governor shall cause every recommendation made…”?",
+    "original_answer": "(2) The Governor  shall cause every recommendation made by the\r\nCommission under this article together with an explanatory memorandum as to\r\nthe action taken thereon to be laid before the Legislature of the State.",
+    "proposed_question": "What must the Governor lay before the State Legislature under Article 243Y(2)?",
+    "proposed_answer": "The Governor shall cause every recommendation made by the Commission under Article 243Y, together with an explanatory memorandum as to the action taken, to be laid before the State Legislature.",
+    "original_reference": "Article 243Y",
+    "proposed_reference": "Article 243Y(2)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 163,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Article 243Y(2) requires the Governor to lay the Commission recommendations under that article and an explanatory memorandum on action taken before the State Legislature.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The proposed question/answer map to the cited clause. The source says 'under this article'; using 'under Article 243Y' is a clear reference paraphrase.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_APPROVE",
+    "source_provision_excerpt": "es and also for\r\n      the withdrawal of such moneys therefrom,\r\nas may be specified in the law.\r\n     243Y. Finance Commission.—(1) The Finance Commission constituted\r\nunder article 243I shall also review the financial position of the Municipalities\r\nand make recommendations to the Governor as to—\r\n          (a) the principles which should govern—\r\n                   (i) the distribution between the State and the Municipalities of\r\n          the net proceeds of the taxes, duties, tolls and fees leviable by",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:36.851860+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

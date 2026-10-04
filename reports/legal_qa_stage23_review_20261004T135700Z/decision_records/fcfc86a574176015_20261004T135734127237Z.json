@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:34.127151+00:00",
+  "candidate": {
+    "candidate_id": "fcfc86a574176015",
+    "original_question": "What right, duty, or requirement is described in the clause beginning “—(1) All doubts and disputes arising out of…”?",
+    "original_answer": "—(1) All doubts and disputes arising out of or in\r\nconnection with the election of a President or Vice-President shall be inquired\r\ninto and decided by the Supreme Court whose decision shall be final.",
+    "proposed_question": "Who decides doubts and disputes arising out of or connected with the election of the President or Vice-President under Article 71(1)?",
+    "proposed_answer": "The Supreme Court inquires into and decides those doubts and disputes, and its decision is final.",
+    "original_reference": "Article 70",
+    "proposed_reference": "Article 71(1)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 63,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Article 71(1) on the cited page assigns election doubts/disputes to the Supreme Court and states its decision is final.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "Question and answer are responsive and retain finality. No external or current-law check performed.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "1[71. Matters relating  to, or connected with, the  election of a\r\nPresident or Vice-President.—(1) All doubts and disputes arising out of or in\r\nconnection with the election of a President or Vice-President shall be inquired\r\ninto and decided by the Supreme Court whose decision shall be final.\r\n       (2) If the election of a person as President or Vice-President is declared\r\nvoid by the Supreme Court, acts done by him in the exercise and performance\r\nof the powers and duties of the office of President or Vice-President, as the\r\ncase may be, on or befo",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:34.127120+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

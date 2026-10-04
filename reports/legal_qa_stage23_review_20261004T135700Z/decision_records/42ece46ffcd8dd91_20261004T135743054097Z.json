@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:43.054022+00:00",
+  "candidate": {
+    "candidate_id": "42ece46ffcd8dd91",
+    "original_question": "According to the passage, what happens if this Constitution had not come into operation?",
+    "original_answer": "if\r\nthis Constitution had not come into operation, would have accrued to His Majesty\r\nor, as the case may be, to the Ruler of an Indian State by escheat or lapse, or as\r\nbona vacantia for want of a rightful owner, shall, if it is property situate in a\r\nState, vest in such State, and shall, in any other case, vest",
+    "proposed_question": "Under Article 296, where does covered property vest if it is situated in a State, and where otherwise?",
+    "proposed_answer": "If the property is situated in a State, it vests in that State; in any other case, it vests in the Union.",
+    "original_reference": "Article 296",
+    "proposed_reference": "Article 296",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 199,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED_WITH_SCOPE_NOTE",
+    "source_text_finding": "Article 296 contains the State-versus-Union vesting rule.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The answer depends on the Article 296 opening predicate: property that would have accrued by escheat/lapse/bona vacantia for want of a rightful owner, subject to the article's later qualification. 'Covered property' in the question should be read with that full predicate, not all property.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "the Ruler of an Indian State by escheat or lapse, or as\r\nbona vacantia for want of a rightful owner, shall, if it is property situate in a\r\nState, vest in such State, and shall, in any other case, vest in the Union:",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:43.053997+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

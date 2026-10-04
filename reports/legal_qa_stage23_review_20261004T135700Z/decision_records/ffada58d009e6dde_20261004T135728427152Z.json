@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:28.427025+00:00",
+  "candidate": {
+    "candidate_id": "ffada58d009e6dde",
+    "original_question": "What condition or exception is described in the clause beginning “Unless the Legislature of the State by law…”?",
+    "original_answer": "Unless the Legislature of the State by law otherwise provides, this\r\narticle  shall,  after  the  expiration of a  period of  fifteen  years from  the\r\ncommencement of this Constitution, have effect as if the words “or in English”\r\nwere omitted therefrom:\r\n      1[Provided that in relation to the 2[Legislatures of the States of Himachal\r\nPradesh, Manipur, Meghalaya and Tripura] this clause shall have effect as if for\r\nthe words “fifteen years” occurring therein, the words “twenty-five years” were\r\nsubstituted:]\r\n      3[Provided further that in relation to the 4[Legislatures of the States of\r\n5[Arunachal Pradesh, Goa and Mizoram]], this clause shall have effect as if for\r\n______________________________________________\r\n1.",
+    "proposed_question": "Under the first proviso to Article 210(2), what period replaces fifteen years for the Legislatures of Himachal Pradesh, Manipur, Meghalaya and Tripura?",
+    "proposed_answer": "For those Legislatures, \"twenty-five years\" is substituted for \"fifteen years\".",
+    "original_reference": "Article 210",
+    "proposed_reference": "Article 210(2), first proviso",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 127,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "The cited Article 210(2) proviso names Himachal Pradesh, Manipur, Meghalaya, and Tripura and substitutes twenty-five years for fifteen years.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The proposed answer is very short but directly responds to the substitution question. Preserve that it is a substitution for specified Legislatures under the proviso.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "ra] this clause shall have effect as if for\r\nthe words “fifteen years” occurring therein, the words “twenty-five years” were\r\nsubstituted:]\r\n      3[Provided further that in relation to the 4[Legislatures of the States of\r\n5[Arunachal Pradesh, Goa and Mizoram]], this clause shall have effect as if for\r\n______________________________________________\r\n1. Ins. by the State of Himachal Pradesh Act, 1970 (53 of 1970), s. 46 (w.e.f. 25-1-1971).\r\n2. Subs. by the North-Eastern Areas (Reorganisation) Act, 19",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:28.426991+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

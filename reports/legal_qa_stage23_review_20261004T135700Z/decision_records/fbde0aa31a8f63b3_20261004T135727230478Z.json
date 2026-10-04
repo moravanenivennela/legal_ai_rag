@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:27.230385+00:00",
+  "candidate": {
+    "candidate_id": "fbde0aa31a8f63b3",
+    "original_question": "How does the Act define injury?",
+    "original_answer": "(23) \"injury\" means any harm whatever illegally caused to any person, in body,\r\n                mind or property;",
+    "proposed_question": "How does Section 2(23) define \"injury\"?",
+    "proposed_answer": "\"Injury\" means any harm whatever illegally caused to any person, in body, mind or property.",
+    "original_reference": "",
+    "proposed_reference": "Section 2(23)",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page_1_based": 5,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Section 2(23) on the cited page defines injury as harm illegally caused to a person in body, mind, or property.",
+    "reference_page_consistency": "DEFINITION_ITEM_ON_CITED_PAGE; SECTION_HEADING_ON_EARLIER_PAGE",
+    "quality_or_scope_flags": "Proposed definition tracks the displayed text. This is traceability only; no legal or current-law validation.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PENDING_HUMAN_REVIEW",
+    "source_provision_excerpt": "ing any direct, incidental or consequential loss relating thereto;\r\n\r\n                          (23) \"injury\" means any harm whatever illegally caused to any person, in body,\r\n                mind or property;\r\n\r\n                          (24) \"manufacturer\" means a person who—\r\n\r\n                                          (i) makes any goods or parts thereof; or\r\n\r\n                                           (ii) assembles any goods or parts thereof made by others; or\r\n\r\n                                            (iii) puts or causes",
+    "adjacent_page_excerpt_if_needed": "THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—\r\n\r\n\r\nDefinitions.           2. In this Act, unless the context otherwise requires,—\r\n\r\n                           (1) \"advertisement\" means any audio or visual publicity, representation,\r\n                  endorsement or pronouncement made by means of light, sound, smoke, gas, print,\r\n                     electronic media, internet or website and includes any notice, circular, label"
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:27.230350+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

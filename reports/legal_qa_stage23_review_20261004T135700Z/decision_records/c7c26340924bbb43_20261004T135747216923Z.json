@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:47.216841+00:00",
+  "candidate": {
+    "candidate_id": "c7c26340924bbb43",
+    "original_question": "What procedure or remedy is described in the clause beginning “] (d) rules as to the entertainment of…”?",
+    "original_answer": "]\r\n             (d) rules as to the entertainment of appeals under sub-clause (c) of\r\n      clause (1) of article 134;",
+    "proposed_question": "What may rules under Article 145(1)(d) provide for?",
+    "proposed_answer": "Rules may provide for the entertainment of appeals under Article 134(1)(c).",
+    "original_reference": "",
+    "proposed_reference": "Article 145(1)(d)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 97,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Article 145(1)(d) concerns rules for entertainment of appeals under sub-clause (c) of Article 134(1).",
+    "reference_page_consistency": "SUBCLAUSE_ON_CITED_PAGE; ARTICLE_HEADING_ON_PREVIOUS_PAGE",
+    "quality_or_scope_flags": "Proposed answer/reference accurately restate the listed subject, using Article 134(1)(c) notation. The cited PDF page contains the provision's amendment-note context; the text was checked on the supplied version only.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PENDING_HUMAN_REVIEW",
+    "source_provision_excerpt": "1[(cc) rules as to the proceedings in the Court under 2[article\r\n      139A];]\r\n             (d) rules as to the entertainment of appeals under sub-clause (c) of\r\n      clause (1) of article 134;\r\n              (e) rules as to the conditions subject to which any judgment\r\n      pronounced or order made by the Court may be reviewed and the\r\n      procedure for such review including the time within which applications\r\n       to the Court for such review are to be entered;\r\n                 (f) rules as to the costs of and incidental to any proceedings in the\r\n      Court and",
+    "adjacent_page_excerpt_if_needed": "Constitution (Forty-third\r\nAmendment) Act, 1977, s. 5 (w.e.f. 13-4-1978).]\r\n      145. Rules of Court, etc.—(1) Subject to the provisions of any law\r\nmade by Parliament, the Supreme Court may from time to time, with the\r\napproval of the President, make rules for regulating generally the practice and\r\nprocedure of the Court including—\r\n             (a) rules as to the persons practising before the Court"
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:47.216817+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:35.680292+00:00",
+  "candidate": {
+    "candidate_id": "e7b9568884b0bbc8",
+    "original_question": "What procedure or remedy is described in the clause beginning “—(1) An appeal shall lie to the Supreme…”?",
+    "original_answer": "—(1) An appeal shall lie to the Supreme Court\r\nfrom any judgment, decree or final order of a High Court in the territory of\r\nIndia, whether in a civil, criminal or other proceeding, 3[if the High Court\r\ncertifies under article 134A] that the case involves a substantial question of law\r\nas to the interpretation of this Constitution.",
+    "proposed_question": "Under Article 132(1), when does an appeal lie to the Supreme Court from a High Court judgment, decree or final order?",
+    "proposed_answer": "An appeal lies if the High Court certifies under Article 134A that the case involves a substantial question of law as to the interpretation of the Constitution.",
+    "original_reference": "Article 131",
+    "proposed_reference": "Article 132(1)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 92,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED_DUPLICATE_FLAG",
+    "source_text_finding": "Article 132(1) on the cited page supports the High Court certificate under Article 134A and a substantial question of law about constitutional interpretation. It corrects the original Article 131 misattribution.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The 1,000 selected set flags repeated exact answer/template. The raw worksheet identifies a matching answer row b3774b7670445120, omitted by the selection cap, with the same page and old Article 131 attribution. This is an apparent duplicate variant, not independent evidence; resolve duplicate linkage before counting both.",
+    "duplicate_flags": "REPEATED_EXACT_ANSWER;REPEATED_ANSWER_TEMPLATE",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "rt in the territory of\r\nIndia, whether in a civil, criminal or other proceeding, 3[if the High Court\r\ncertifies under article 134A] that the case involves a substantial question of law\r\nas to the interpretation of this Constitution.\r\n\r\n______________________________________________\r\n1. Subs. by the Constitution (Seventh Amendment) Act, 1956, s. 5, for the proviso\r\n   (w.e.f. 1-11-1956).\r\n2. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 23 (w.e.f. 1-2-1977).\r\n3. Subs. by the Constitution (Forty-",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:35.680268+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

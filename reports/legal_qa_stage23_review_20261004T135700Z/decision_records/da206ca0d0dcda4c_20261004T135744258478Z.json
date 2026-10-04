@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:44.258392+00:00",
+  "candidate": {
+    "candidate_id": "da206ca0d0dcda4c",
+    "original_question": "What condition or exception is described in the clause beginning “Provided that the Central Authority may, for every…”?",
+    "original_answer": "Provided that the Central Authority may, for every subsequent contravention, prohibit\r\n             such endorser from making endorsement in respect of any product or service for a period\r\n             which may extend to three years.",
+    "proposed_question": "Under the proviso to Section 21(3), what may the Central Authority do for each subsequent contravention by an endorser?",
+    "proposed_answer": "It may prohibit the endorser from making endorsements for any product or service for a period that may extend to three years.",
+    "original_reference": "",
+    "proposed_reference": "Section 21(3), proviso",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page_1_based": 15,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "The proviso on the cited page permits the Central Authority, for every subsequent contravention, to prohibit the endorser from endorsement of a product/service for up to three years.",
+    "reference_page_consistency": "PROVISO_ON_CITED_PAGE; SUBSECTION_ON_PREVIOUS_PAGE",
+    "quality_or_scope_flags": "The proposed text retains 'may' and the maximum period. The reference depends on the immediately preceding Section 21(3); inspect that subsection with the proviso.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PENDING_HUMAN_REVIEW",
+    "source_provision_excerpt": "F INDIA EXTRAORDINARY              15\r\n\r\n\r\n                   Provided that the Central Authority may, for every subsequent contravention, prohibit\r\n             such endorser from making endorsement in respect of any product or service for a period\r\n             which may extend to three years.\r\n\r\n                      (4) Where the Central Authority is satisfied after investigation that any person is\r\n             found to publish, or is a party to the publication of, a misleading advertisement, it may\r\n             impose on such person a penalty whic",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:44.258361+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

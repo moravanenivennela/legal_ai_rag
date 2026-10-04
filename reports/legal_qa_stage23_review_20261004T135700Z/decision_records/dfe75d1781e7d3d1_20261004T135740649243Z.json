@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:40.649093+00:00",
+  "candidate": {
+    "candidate_id": "dfe75d1781e7d3d1",
+    "original_question": "How does Article 279 define net proceeds?",
+    "original_answer": "“net proceeds” means in relation to any tax or duty\r\nthe proceeds thereof reduced by the cost of collection, and for the purposes of\r\nthose provisions the net proceeds of any tax or duty, or of any part of any tax or\r\nduty, in or attributable to any area shall be ascertained and certified by the\r\nComptroller and Auditor-General of India, whose certificate shall be final.\r\n       (2) Subject as aforesaid, and to any other express provision of this\r\nChapter, a law made by Parliament or an order of the President may, in any\r\ncase where under this Part the proceeds of any duty or tax are, or may be,\r\nassigned to any State, provide for the manner in which the proceeds are to be\r\ncalculated, for the time from or  at which and the manner in which any\r\npayments are to be made, for the making of adjustments between one financial\r\nyear and another, and for any other incidental or ancillary matters.\r\n\r\n______________________________________________\r\n1. Subs. by the Constitution (Sixtieth Amendment) Act, 1988, s. 2, for \"two hundred and\r\n   fifty rupees\" (w.e.f. 20-12-1988).\r\n2. Proviso omitted by s.2, ibid. (w.e.f. 20-12-1988).",
+    "proposed_question": "How does Article 279(1) define \"net proceeds\"?",
+    "proposed_answer": "\"Net proceeds\" means, in relation to a tax or duty, its proceeds reduced by the cost of collection. The net proceeds attributable to an area are ascertained and certified by the Comptroller and Auditor-General of India, whose certificate is final.",
+    "original_reference": "Article 279",
+    "proposed_reference": "Article 279(1)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 190,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED_WITH_CONTEXT_NOTE",
+    "source_text_finding": "Article 279(1) defines net proceeds by reducing proceeds by collection costs and says the Comptroller and Auditor-General certifies the net proceeds attributable to an area, with certificate finality.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The proposed answer combines the definition with the subsection's certification sentence. Keep the source's context that this applies for purposes of the foregoing provisions of the Chapter.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_APPROVE",
+    "source_provision_excerpt": "279.  Calculation  of  “net  proceeds”,  etc.—(1)  In  the  foregoing\r\nprovisions of this Chapter, “net proceeds” means in relation to any tax or duty\r\nthe proceeds thereof reduced by the cost of collection, and for the purposes of\r\nthose provisions the net proceeds of any tax or duty, or of any part of any tax or\r\nduty, in or attributable to any area shall be ascertained and certified by the\r\nComptroller and Auditor-General of India, whose certificate shall be final.\r\n       (2) Subject as aforesaid, and to any other express pro",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:40.649061+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

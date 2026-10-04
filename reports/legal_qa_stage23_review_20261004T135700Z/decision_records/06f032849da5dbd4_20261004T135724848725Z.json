@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:24.848655+00:00",
+  "candidate": {
+    "candidate_id": "06f032849da5dbd4",
+    "original_question": "According to the passage, what happens if the causes of action on which such suits or proceedings are based had arisen after such establishment?",
+    "original_answer": "if  the causes  of  action on which such  suits  or\r\n      proceedings are based had arisen after such establishment;\r\n             (f) repeal or amend any order made by the President under clause (3)\r\n      of article 371D;",
+    "proposed_question": "What may a law under Article 323A(2)(e) provide for in relation to certain cases pending when an administrative tribunal is established?",
+    "proposed_answer": "It may provide for transfer to the tribunal of cases pending before a court or other authority immediately before establishment that would have fallen within the tribunal's jurisdiction if their causes of action had arisen after establishment.",
+    "original_reference": "Article 323A",
+    "proposed_reference": "Article 323A(2)(e)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 214,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Article 323A(2)(e) supports transfer of qualifying matters pending before a court/authority immediately before tribunal establishment, assessed by whether they would have been within the tribunal jurisdiction had the cause arisen after establishment.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The proposed question and answer preserve the key timing and jurisdiction condition. It is a paraphrase; check full sub-clause wording before any human decision.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "1);\r\n           (e) provide for the transfer to each such administrative tribunal of any\r\n      cases pending before any court or other authority immediately before the\r\n      establishment of such tribunal as would have been within the jurisdiction\r\n      of such  tribunal  if  the causes  of  action on which such  suits  or\r\n      proceedings are based had arisen after such establishment;\r\n             (f) repeal or amend any order made by the President under clause (3)\r\n      of article 371D;\r\n          (g)  contain  such  supplemental,  incidental  and  consequent",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:24.848628+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:30.939527+00:00",
+  "candidate": {
+    "candidate_id": "b268a450d367bf03",
+    "original_question": "According to the passage, what happens if he is so disqualified by or under any law made by Parliament. 2[Explanation.—For the purposes of this clause]?",
+    "original_answer": "if he is so disqualified by or under any law made by Parliament.\r\n      2[Explanation.—For the purposes of this clause], a person shall not be\r\ndeemed to hold an office of profit under the Government of India or the\r\nGovernment of any State specified in the First Schedule by reason only that he\r\nis a Minister either for the Union or for such State.",
+    "proposed_question": "What does the Explanation to Article 191(1) say about a person being a Minister?",
+    "proposed_answer": "A person is not deemed to hold an office of profit under the Government of India or a State specified in the First Schedule only because that person is a Minister for the Union or that State.",
+    "original_reference": "Article 191",
+    "proposed_reference": "Article 191(1), Explanation",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 117,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED_WITH_SCOPE_NOTE",
+    "source_text_finding": "The Explanation to Article 191(1) states that a person is not deemed to hold the specified office of profit merely because the person is a Minister for the Union or the relevant State.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "Answer is source-aligned, but its full limiting relationship to the clause (a) office-of-profit disqualification should remain clear. The source page includes an amendment marker; current applicability was not evaluated.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PENDING_HUMAN_REVIEW",
+    "source_provision_excerpt": "fied by or under any law made by Parliament.\r\n      2[Explanation.—For the purposes of this clause], a person shall not be\r\ndeemed to hold an office of profit under the Government of India or the\r\nGovernment of any State specified in the First Schedule by reason only that he\r\nis a Minister either for the Union or for such State.\r\n       3[(2) A person  shall be  disqualified  for  being a member  of  the\r\nLegislative Assembly or Legislative Council of a State if he is so disqualified\r\nunder the Tenth Schedule.]\r\n       4[192. Decision on",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:30.939494+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

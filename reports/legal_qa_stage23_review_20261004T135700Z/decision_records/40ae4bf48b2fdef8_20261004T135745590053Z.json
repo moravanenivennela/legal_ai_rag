@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:45.589963+00:00",
+  "candidate": {
+    "candidate_id": "40ae4bf48b2fdef8",
+    "original_question": "According to the passage, what happens if he ceases to be a member of the House of the People?",
+    "original_answer": "if he ceases to be a member of the House of\r\n      the People;\r\n          (b) may at any time, by writing under his hand addressed, if such\r\n     member is the Speaker, to the Deputy Speaker, and if such member is\r\n      the Deputy Speaker, to the Speaker, resign his office;",
+    "proposed_question": "Under Article 94(a), what happens to a Speaker's or Deputy Speaker's office if the member ceases to be a member of the House of the People?",
+    "proposed_answer": "A member holding office as Speaker or Deputy Speaker shall vacate that office if the member ceases to be a member of the House of the People.",
+    "original_reference": "Article 93",
+    "proposed_reference": "Article 94(a)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 73,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Article 94(a) states a Speaker/Deputy Speaker of the House of the People shall vacate office if ceasing to be a member of that House.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "Question/answer are supported by the clause; answer uses gender-neutral phrasing without altering the condition.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "er.— A member holding office as Speaker or\r\nDeputy Speaker of the House of the People—\r\n          (a) shall vacate his office if he ceases to be a member of the House of\r\n      the People;\r\n          (b) may at any time, by writing under his hand addressed, if such\r\n     member is the Speaker, to the Deputy Speaker, and if such member is\r\n      the Deputy Speaker, to the Speaker, resign his office; and\r\n           (c) may be removed from his office by a resolution of the House of\r\n      the People passed by a majority of all the then members of t",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:45.589930+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

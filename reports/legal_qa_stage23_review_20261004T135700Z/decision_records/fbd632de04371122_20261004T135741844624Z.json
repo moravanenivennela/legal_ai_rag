@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:41.844530+00:00",
+  "candidate": {
+    "candidate_id": "fbd632de04371122",
+    "original_question": "How does the Act define consumer dispute?",
+    "original_answer": "(8) \"consumer dispute\" means a dispute where the person against whom a\r\n     complaint has been made, denies or disputes the allegations contained in the complaint;",
+    "proposed_question": "How does Section 2(8) define \"consumer dispute\"?",
+    "proposed_answer": "A \"consumer dispute\" means a dispute where the person against whom a complaint has been made denies or disputes the allegations in the complaint.",
+    "original_reference": "",
+    "proposed_reference": "Section 2(8)",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page_1_based": 3,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Section 2(8) defines a consumer dispute where the person complained against denies or disputes allegations contained in the complaint.",
+    "reference_page_consistency": "DEFINITION_ITEM_ON_CITED_PAGE; SECTION_HEADING_ON_EARLIER_PAGE",
+    "quality_or_scope_flags": "Proposed question/reference is supported. Answer paraphrases 'allegations contained in the complaint' as 'allegations in the complaint'; no material change apparent from the excerpt.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PENDING_HUMAN_REVIEW",
+    "source_provision_excerpt": "s\r\n                 or by teleshopping or direct selling or multi-level marketing;\r\n\r\n            (8) \"consumer dispute\" means a dispute where the person against whom a\r\n     complaint has been made, denies or disputes the allegations contained in the complaint;\r\n\r\n             (9) \"consumer rights\" includes,—\r\n\r\n                       (i) the right to be protected against the marketing of goods, products or\r\n            services which are hazardous to life and property;\r\n\r\n                        (ii) the right to be informed about the quality, quantity, potency, purity,",
+    "adjacent_page_excerpt_if_needed": "THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—\r\n\r\n\r\nDefinitions.           2. In this Act, unless the context otherwise requires,—\r\n\r\n                           (1) \"advertisement\" means any audio or visual publicity, representation,\r\n                  endorsement or pronouncement made by means of light, sound, smoke, gas, print,\r\n                     electronic media, internet or website and includes any notice, circular, label"
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:41.844498+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

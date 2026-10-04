@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:21.851519+00:00",
+  "candidate": {
+    "candidate_id": "1c53f50edc89caed",
+    "original_question": "What procedure or remedy is described in the clause beginning “] (2) The Supreme Court may, if it…”?",
+    "original_answer": "]\r\n       (2) The Supreme Court may, if it deems it expedient so to do for the ends\r\nof justice, transfer any case, appeal or other proceedings pending before any\r\nHigh Court to any other High Court.",
+    "proposed_question": "What transfer power is stated in Article 139A(2)?",
+    "proposed_answer": "The Supreme Court may, if it deems it expedient so to do for the ends of justice, transfer any case, appeal or other proceeding pending before any High Court to any other High Court.",
+    "original_reference": "Article 138",
+    "proposed_reference": "Article 139A(2)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 95,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "The source page contains Article 139A(2), including the ends-of-justice condition and transfer between High Courts. The original Article 138 label was incorrect; proposed reference matches the cited page.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The proposed answer preserves the stated condition and transfer scope. Source wording uses plural 'proceedings'; singular paraphrase does not appear to change the described scope.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "ment.]\r\n       (2) The Supreme Court may, if it deems it expedient so to do for the ends\r\nof justice, transfer any case, appeal or other proceedings pending before any\r\nHigh Court to any other High Court.]\r\n      140. Ancillary powers of the Supreme Court.—Parliament may by\r\nlaw make provision for conferring upon the Supreme Court such supplemental\r\npowers not inconsistent with any of the provisions of this Constitution as may\r\nappear to be necessary or desirable for the purpose of enabling the Court more\r\neffectively to exercise the jurisdiction conferred u",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:21.851487+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

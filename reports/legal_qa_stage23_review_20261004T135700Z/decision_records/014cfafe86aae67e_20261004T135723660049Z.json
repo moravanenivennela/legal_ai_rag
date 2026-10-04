@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:23.659886+00:00",
+  "candidate": {
+    "candidate_id": "014cfafe86aae67e",
+    "original_question": "What right, duty, or requirement is described in the clause beginning “—(1) The custody of the Consolidated Fund of…”?",
+    "original_answer": "—(1)  The  custody  of  the\r\nConsolidated Fund of India and the Contingency Fund of India, the payment of\r\nmoneys into such Funds, the withdrawal of moneys therefrom, the custody of\r\npublic moneys other than those credited to such Funds received by or on behalf\r\nof the Government of India, their payment into the public account of India and\r\nthe withdrawal of moneys from such account and all other matters connected\r\nwith or ancillary to matters aforesaid shall be regulated by law made by\r\nParliament, and, until provision in that behalf is so made, shall be regulated by\r\nrules made by the President.",
+    "proposed_question": "Under Article 283(1), how are the specified Union funds and public-account matters regulated until Parliament makes provision by law?",
+    "proposed_answer": "They are regulated by rules made by the President until provision is made by a law of Parliament.",
+    "original_reference": "Article 281",
+    "proposed_reference": "Article 283(1)",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page_1_based": 194,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED_WITH_SCOPE_NOTE",
+    "source_text_finding": "Article 283(1) describes the specified Union funds/public-account matters and says they are regulated by parliamentary law, with presidential rules until that law makes provision.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "The proposed question asks specifically about the interim period, so the short answer is responsive; it omits the ongoing parliamentary-law rule. Ensure the question remains explicitly limited to the interim period.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "connected\r\nwith or ancillary to matters aforesaid shall be regulated by law made by\r\nParliament, and, until provision in that behalf is so made, shall be regulated by\r\nrules made by the President.\r\n       (2) The  custody  of  the  Consolidated Fund  of  a  State and  the\r\nContingency Fund of a State, the payment of moneys into such Funds, the\r\nwithdrawal of moneys therefrom, the custody of public moneys other than\r\nthose credited to such Funds received by or on behalf of the Government of the\r\nState, their payment into the",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:23.659849+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

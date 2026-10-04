@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:38.037245+00:00",
+  "candidate": {
+    "candidate_id": "d7ba0f6ff8b6349a",
+    "original_question": "According to the passage, what happens if the National Commission is satisfied that the case involves a substantial question of law. (3) In an appeal involving a question of law?",
+    "original_answer": "if the National Commission is satisfied that the case\r\n              involves a substantial question of law.\r\n\r\n                      (3) In an appeal involving a question of law, the memorandum of appeal shall precisely\r\n                state the substantial question of law involved in the appeal.",
+    "proposed_question": "Under Section 51(2), when does an appeal lie to the National Commission from an appellate State Commission order?",
+    "proposed_answer": "Unless otherwise expressly provided by this Act or another law in force, an appeal lies to the National Commission from an order passed in appeal by a State Commission if the National Commission is satisfied that the case involves a substantial question of law.",
+    "original_reference": "",
+    "proposed_reference": "Section 51(2)",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page_1_based": 24,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Section 51(2) states the appeal from an order passed in appeal by a State Commission to the National Commission where a substantial question of law is involved, subject to its saving clause.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "Answer captures the threshold and saving language; it paraphrases 'Save as otherwise expressly provided under this Act or by any other law for the time being in force.'",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "se expressly provided under this Act or by any other law for the\r\n              time being in force, an appeal shall lie to the National Commission from any order passed in\r\n              appeal by any State Commission, if the National Commission is satisfied that the case\r\n              involves a substantial question of law.\r\n\r\n                      (3) In an appeal involving a question of law, the memorandum of appeal shall precisely\r\n                state the substantial question of law involved in the appeal.\r\n\r\n                      (4) Where the National Commission i",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:38.037222+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}

@@ -1,0 +1,41 @@
+{
+  "record_version": "1.0",
+  "saved_at_utc": "2026-10-04T13:57:32.120684+00:00",
+  "candidate": {
+    "candidate_id": "64257f501275a7c1",
+    "original_question": "What procedure or remedy is described in the clause beginning “CHAPTER IV CONSUMER DISPUTES REDRESSAL COMMISSION Establishment 28.”?",
+    "original_answer": "CHAPTER IV\r\n\r\n                                 CONSUMER DISPUTES REDRESSAL COMMISSION\r\n\r\nEstablishment        28.",
+    "proposed_question": "What does Section 28(1) require the State Government to establish?",
+    "proposed_answer": "The State Government shall, by notification, establish a District Consumer Disputes Redressal Commission in each district of the State; it may establish more than one in a district.",
+    "original_reference": "",
+    "proposed_reference": "Section 28(1)",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page_1_based": 16,
+    "source_text_audit": "SOURCE_TEXT_ALIGNED",
+    "source_text_finding": "Section 28(1) says the State Government shall establish a District Commission in each district by notification and may establish more than one in a district.",
+    "reference_page_consistency": "PROVISION_TEXT_ON_CITED_PAGE",
+    "quality_or_scope_flags": "Proposed answer includes the main direction and proviso. It is a close paraphrase of the supplied Act text.",
+    "duplicate_flags": "",
+    "ai_recommendation": "PROPOSED_REJECT",
+    "source_provision_excerpt": "CHAPTER IV\nCONSUMER DISPUTES REDRESSAL COMMISSION\n28. (1) The State Government shall, by notification, establish a District Consumer\nDisputes Redressal Commission, to be known as the District Commission, in each district of\nthe State:\nProvided that the State Government may, if it deems fit, establish more than one\nDistrict Commission in a district.",
+    "adjacent_page_excerpt_if_needed": ""
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "decision_timestamp_utc": "2026-10-04T13:57:32.120660+00:00",
+    "source_provision_inspected_confirmation": "NO",
+    "legal_reference_inspected_confirmation": "NO",
+    "answer_supported_by_complete_provision_confirmation": "NO",
+    "reviewed_reference": "",
+    "reviewed_text_source": "",
+    "reviewed_question": "",
+    "reviewed_answer": "",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_question": "",
+    "edited_answer": "",
+    "dataset_eligibility": "INELIGIBLE"
+  },
+  "legal_correctness_notice": "Reviewer confirmations are not a guarantee of legal correctness or current-law status."
+}
