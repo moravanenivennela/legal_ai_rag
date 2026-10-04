@@ -70,7 +70,7 @@ for model_name in MODELS_TO_TEST:
         groundedness = engine.check_groundedness(full_answer, contexts)
         qa_metrics = engine.compute_qa_metrics(full_answer, ref)
 
-        accs.append(qa_metrics["accuracy"])
+        accs.append(qa_metrics["overlap_threshold_pass"])
         precs.append(qa_metrics["precision"])
         recs.append(qa_metrics["recall"])
         f1s.append(qa_metrics["f1"])
@@ -80,7 +80,7 @@ for model_name in MODELS_TO_TEST:
         print(f"  Q: {q[:50]:<50} | f1={qa_metrics['f1']:5.1f}% | grounded={groundedness:5.1f}% | t={elapsed:.2f}s")
 
     results[model_name] = {
-        "accuracy": np.mean(accs) if accs else 0,
+        "overlap_threshold_pass": np.mean(accs) if accs else 0,
         "precision": np.mean(precs) if precs else 0,
         "recall": np.mean(recs) if recs else 0,
         "f1": np.mean(f1s) if f1s else 0,
@@ -88,13 +88,13 @@ for model_name in MODELS_TO_TEST:
         "avg_time": np.mean(times) if times else 0,
     }
 
-print(f"\n{'='*70}\nSUMMARY — QA Metrics vs Reference Answers\n{'='*70}")
-print(f"{'Model':<15}{'Accuracy':<11}{'Precision':<11}{'Recall':<11}{'F1':<11}{'Groundedness':<13}{'AvgTime':<9}")
+print(f"\n{'='*70}\nSUMMARY — QA Token-Overlap Metrics vs Reference Answers\n{'='*70}")
+print(f"{'Model':<15}{'F1>=30% pass':<14}{'Precision':<11}{'Recall':<11}{'F1':<11}{'Groundedness':<13}{'AvgTime':<9}")
 for model_name, m in results.items():
-    print(f"{model_name:<15}{m['accuracy']:<10.1f}%{m['precision']:<10.1f}%{m['recall']:<10.1f}%{m['f1']:<10.1f}%{m['groundedness']:<12.1f}%{m['avg_time']:<8.2f}s")
+    print(f"{model_name:<15}{m['overlap_threshold_pass']:<10.1f}%{m['precision']:<10.1f}%{m['recall']:<10.1f}%{m['f1']:<10.1f}%{m['groundedness']:<12.1f}%{m['avg_time']:<8.2f}s")
 
-metrics_to_plot = ["accuracy", "precision", "recall", "f1", "groundedness"]
-metric_labels = ["Accuracy", "Precision", "Recall", "F1-score", "Groundedness"]
+metrics_to_plot = ["overlap_threshold_pass", "precision", "recall", "f1", "groundedness"]
+metric_labels = ["F1≥30% pass", "Token precision", "Token recall", "Token F1", "NLI groundedness"]
 x = np.arange(len(metrics_to_plot))
 width = 0.35
 
@@ -109,7 +109,7 @@ for i, model_name in enumerate(MODELS_TO_TEST):
                     xytext=(0, 3), textcoords="offset points", ha='center', fontsize=8, fontweight='bold')
 
 ax.set_ylabel("Score (%)")
-ax.set_title("RAG QA Performance vs Reference Answers\n(Token-overlap Precision/Recall/F1 against gold answers)")
+ax.set_title("RAG QA token-overlap diagnostics vs reference answers\n(F1≥30% is a threshold pass, not accuracy)")
 ax.set_xticks(x)
 ax.set_xticklabels(metric_labels)
 ax.set_ylim(0, 110)

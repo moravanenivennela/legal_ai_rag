@@ -44,7 +44,7 @@ for model_name in MODELS_TO_TEST:
         groundedness = engine.check_groundedness(full_answer, contexts)
         answer_metrics = engine.compute_answer_metrics(full_answer, contexts)
 
-        accs.append(answer_metrics["accuracy"])
+        accs.append(answer_metrics["overlap_threshold_pass"])
         precs.append(answer_metrics["precision"])
         recs.append(answer_metrics["recall"])
         f1s.append(answer_metrics["f1"])
@@ -54,7 +54,7 @@ for model_name in MODELS_TO_TEST:
         print(f"  Q: {q[:50]}... | groundedness={groundedness:.1f}% | f1={answer_metrics['f1']:.1f}% | time={elapsed:.2f}s")
 
     results[model_name] = {
-        "accuracy": np.mean(accs) if accs else 0,
+        "overlap_threshold_pass": np.mean(accs) if accs else 0,
         "precision": np.mean(precs) if precs else 0,
         "recall": np.mean(recs) if recs else 0,
         "f1": np.mean(f1s) if f1s else 0,
@@ -63,15 +63,15 @@ for model_name in MODELS_TO_TEST:
     }
 
 print(f"\n\n{'='*70}")
-print("SUMMARY — RAG Performance Across LLM Models")
+print("SUMMARY — RAG Lexical-Overlap Diagnostics Across LLM Models")
 print(f"{'='*70}")
-print(f"{'Model':<18}{'Accuracy':<12}{'Precision':<12}{'Recall':<12}{'F1':<12}{'Groundedness':<14}{'Avg Time':<10}")
+print(f"{'Model':<18}{'F1>=30% pass':<12}{'Precision':<12}{'Recall':<12}{'F1':<12}{'Groundedness':<14}{'Avg Time':<10}")
 for model_name, m in results.items():
-    print(f"{model_name:<18}{m['accuracy']:<11.1f}%{m['precision']:<11.1f}%{m['recall']:<11.1f}%{m['f1']:<11.1f}%{m['groundedness']:<13.1f}%{m['avg_time']:<9.2f}s")
+    print(f"{model_name:<18}{m['overlap_threshold_pass']:<11.1f}%{m['precision']:<11.1f}%{m['recall']:<11.1f}%{m['f1']:<11.1f}%{m['groundedness']:<13.1f}%{m['avg_time']:<9.2f}s")
 
 # --- Comparison chart, paper Fig-13 style ---
-metrics_to_plot = ["accuracy", "precision", "recall", "f1", "groundedness"]
-metric_labels = ["Accuracy", "Precision", "Recall", "F1-score", "Groundedness"]
+metrics_to_plot = ["overlap_threshold_pass", "precision", "recall", "f1", "groundedness"]
+metric_labels = ["F1≥30% pass", "Token precision", "Token recall", "Token F1", "NLI groundedness"]
 
 x = np.arange(len(metrics_to_plot))
 width = 0.35 if len(MODELS_TO_TEST) == 2 else 0.8 / len(MODELS_TO_TEST)
@@ -88,7 +88,7 @@ for i, model_name in enumerate(MODELS_TO_TEST):
                     xytext=(0, 3), textcoords="offset points", ha='center', fontsize=8, fontweight='bold')
 
 ax.set_ylabel("Score (%)", fontsize=12)
-ax.set_title("RAG Answer Quality Across Different LLM Models\n(Same retrieval pipeline, different generation models)", fontsize=13, fontweight='bold')
+ax.set_title("RAG lexical-overlap diagnostics across LLM models\n(Threshold pass is F1≥30%, not accuracy)", fontsize=13, fontweight='bold')
 ax.set_xticks(x)
 ax.set_xticklabels(metric_labels)
 ax.set_ylim(0, 110)

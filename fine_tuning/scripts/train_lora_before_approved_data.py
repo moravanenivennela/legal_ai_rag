@@ -12,7 +12,7 @@ from transformers import (
     AutoModelForCausalLM,
     TrainingArguments,
     Trainer,
-    DataCollatorForSeq2Seq,
+    DataCollatorForLanguageModeling,
 )
 from peft import LoraConfig, get_peft_model, TaskType
 
@@ -24,10 +24,10 @@ from peft import LoraConfig, get_peft_model, TaskType
 BASE_MODEL = "Qwen/Qwen2.5-0.5B-Instruct"
 
 DATA_DIR = Path("fine_tuning/dataset")
-OUTPUT_DIR = Path("models/legal_lora_approved_20261002")
+OUTPUT_DIR = Path("models/legal_lora")
 
-TRAIN_FILE = DATA_DIR / "approved_train.jsonl"
-VALIDATION_FILE = DATA_DIR / "approved_validation.jsonl"
+TRAIN_FILE = DATA_DIR / "train.jsonl"
+VALIDATION_FILE = DATA_DIR / "validation.jsonl"
 
 MAX_LENGTH = 512
 
@@ -95,79 +95,79 @@ if len(train_records) == 0:
 
 
 # ============================================================
-# TOKENIZE WITH ANSWER-ONLY LOSS
+# CONVERT DATA TO INSTRUCTION FORMAT
+# ============================================================
+
+def build_prompt(record):
+
+    instruction = record.get(
+        "instruction",
+        "Answer the legal question using only the provided legal context."
+    )
+
+    input_text = record.get("input", "")
+    output_text = record.get("output", "")
+
+    text = (
+        "<|im_start|>system\n"
+        "You are a legal question answering assistant. "
+        "Answer using only the supplied legal context.\n"
+        "<|im_end|>\n"
+        "<|im_start|>user\n"
+        f"{instruction}\n\n"
+        f"{input_text}\n"
+        "<|im_end|>\n"
+        "<|im_start|>assistant\n"
+        f"{output_text}\n"
+        "<|im_end|>"
+    )
+
+    return text
+
+
+train_texts = [
+    build_prompt(record)
+    for record in train_records
+]
+
+validation_texts = [
+    build_prompt(record)
+    for record in validation_records
+]
+
+
+train_dataset = Dataset.from_dict({
+    "text": train_texts
+})
+
+validation_dataset = Dataset.from_dict({
+    "text": validation_texts
+})
+
+
+print("\nDataset conversion complete.")
+
+
+# ============================================================
+# LOAD TOKENIZER
 # ============================================================
 
 print("\nLoading tokenizer...")
-tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
-if tokenizer.pad_token is None:
-    tokenizer.pad_token = tokenizer.eos_token
 
-SYSTEM_PROMPT = (
-    "You are a careful Indian legal assistant. Answer using only the supplied "
-    "legal evidence. Do not invent legal provisions or facts. If the evidence "
-    "does not support an answer, say so."
+tokenizer = AutoTokenizer.from_pretrained(
+    BASE_MODEL,
+    trust_remote_code=True,
 )
 
-
-def encode_records(records, split_name):
-    encoded = []
-    skipped = 0
-    for record in records:
-        instruction = str(record.get("instruction") or "Answer using the supplied legal evidence.").strip()
-        user_input = str(record.get("input") or "").strip()
-        answer = str(record.get("output") or "").strip()
-        if not user_input or not answer:
-            skipped += 1
-            continue
-
-        # Shorten evidence if the prompt plus target answer exceeds MAX_LENGTH.
-        prompt_ids = []
-        answer_ids = tokenizer(answer + tokenizer.eos_token, add_special_tokens=False)["input_ids"]
-        current_input = user_input
-        for _ in range(12):
-            messages = [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": f"{instruction}\n\n{current_input}"},
-            ]
-            prompt_text = tokenizer.apply_chat_template(
-                messages, tokenize=False, add_generation_prompt=True
-            )
-            prompt_ids = tokenizer(prompt_text, add_special_tokens=False)["input_ids"]
-            if len(prompt_ids) + len(answer_ids) <= MAX_LENGTH:
-                break
-            if len(current_input) < 100:
-                break
-            current_input = current_input[: max(100, int(len(current_input) * 0.8))]
-
-        if len(prompt_ids) + len(answer_ids) > MAX_LENGTH or not prompt_ids or not answer_ids:
-            skipped += 1
-            continue
-
-        input_ids = prompt_ids + answer_ids
-        encoded.append({
-            "input_ids": input_ids,
-            "attention_mask": [1] * len(input_ids),
-            "labels": [-100] * len(prompt_ids) + answer_ids,
-        })
-
-    print(f"{split_name}: {len(encoded)} usable examples; skipped {skipped}")
-    return Dataset.from_list(encoded)
-
-
-train_dataset = encode_records(train_records, "Training")
-validation_dataset = encode_records(validation_records, "Validation")
-if len(train_dataset) == 0 or len(validation_dataset) == 0:
-    raise ValueError("No usable training/validation examples after tokenization.")
-
-print("\nDataset tokenization complete; prompt tokens are masked from loss.")
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
 
 
 # ============================================================
 # LOAD BASE MODEL
 # ============================================================
 
-print(f"\nLoading {BASE_MODEL}...")
+print("\nLoading ${BASE_MODEL}...")
 
 model = AutoModelForCausalLM.from_pretrained(
     BASE_MODEL,
@@ -214,13 +214,43 @@ model.print_trainable_parameters()
 
 
 # ============================================================
-# DATA COLLATOR (pad labels with -100 so padding contributes no loss)
+# TOKENIZATION
 # ============================================================
 
-data_collator = DataCollatorForSeq2Seq(
+def tokenize_function(examples):
+
+    return tokenizer(
+        examples["text"],
+        truncation=True,
+        max_length=MAX_LENGTH,
+        padding="max_length",
+    )
+
+
+print("\nTokenizing training dataset...")
+
+tokenized_train = train_dataset.map(
+    tokenize_function,
+    batched=True,
+    remove_columns=["text"],
+)
+
+print("Tokenizing validation dataset...")
+
+tokenized_validation = validation_dataset.map(
+    tokenize_function,
+    batched=True,
+    remove_columns=["text"],
+)
+
+
+# ============================================================
+# DATA COLLATOR
+# ============================================================
+
+data_collator = DataCollatorForLanguageModeling(
     tokenizer=tokenizer,
-    padding=True,
-    label_pad_token_id=-100,
+    mlm=False,
 )
 
 

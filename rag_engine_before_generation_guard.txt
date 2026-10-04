@@ -109,7 +109,7 @@ class LegalRAGEngine:
                     continue
 
                 pattern = (
-                    rf"(?m)^\s*{re.escape(reference_number)}\.\s+(?:[A-Za-z]|\(\d+\))"
+                    rf"(?m)^\s*{re.escape(reference_number)}\.\s+[A-Za-z]"
                 )
 
                 if re.search(pattern, text):
@@ -117,7 +117,7 @@ class LegalRAGEngine:
                     # page/chunk so neighbouring Articles cannot confuse
                     # the generation model.
                     start_match = re.search(
-                        rf"(?m)^\s*{re.escape(reference_number)}\.\s+(?:[A-Za-z]|\(\d+\))",
+                        rf"(?m)^\s*{re.escape(reference_number)}\.\s+[A-Za-z]",
                         text
                     )
 
@@ -126,12 +126,12 @@ class LegalRAGEngine:
 
                         # Find the next numbered constitutional provision.
                         next_match = re.search(
-                            r"(?m)^\s*(?:\d+|\d+[A-Za-z])\.\s+(?:[A-Za-z]|\(\d+\))",
-                            text[start_match.end():]
+                            r"(?m)^\s*(?:\d+|\d+[A-Za-z])\.\s+[A-Za-z]",
+                            text[start + 1:]
                         )
 
                         if next_match:
-                            end = start_match.end() + next_match.start()
+                            end = start + 1 + next_match.start()
                             provision_text = text[start:end].strip()
                         else:
                             provision_text = text[start:].strip()
@@ -149,53 +149,27 @@ class LegalRAGEngine:
                 and source == "consumer_protection_act_2019.pdf"
             ):
                 pattern = (
-                    rf"(?m)^\s*{re.escape(reference_number)}\.\s+(?:[A-Za-z]|\(\d+\))"
+                    rf"(?m)^\s*{re.escape(reference_number)}\.\s+[A-Za-z]"
                 )
 
                 if re.search(pattern, text):
-                    # Skip table-of-contents and schedule/index entries, which
-                    # can contain the same section number as the real provision.
-                    first_part = text_lower[:500]
-                    excluded = any(marker in first_part for marker in (
-                        "contents", "table of contents", "seventh schedule",
-                        "eighth schedule", "ninth schedule", "tenth schedule",
-                        "eleventh schedule", "twelfth schedule", "appendix",
-                    ))
-                    if excluded:
-                        continue
-
-                    start_match = re.search(pattern, text)
-                    if not start_match:
-                        continue
-                    start = start_match.start()
-                    next_match = re.search(
-                        r"(?m)^\s*\d+\.\s+(?:[A-Za-z]|\(\d+\))",
-                        text[start_match.end():],
-                    )
-                    end = (start_match.end() + next_match.start()) if next_match else len(text)
                     exact_hits.append({
-                        "text": text[start:end].strip(),
+                        "text": text,
                         "metadata": metadata,
-                        "exact_provision_match": True,
+                        "exact_provision_match": True
                     })
 
-        # The corpus may repeat provision numbers in amendments, notes, and
-        # appendices. Keep the first non-contents match in document order.
-        return exact_hits[:1]
+        return exact_hits
 
 
     def sparse_search(self, query: str, k: int = 10) -> List[Dict[str, Any]]:
         tokenized_query = re.findall(r'\w+', query.lower())
-        if not tokenized_query or not self.bm25_docs:
-            return []
-        # Rank by index, not by `list.index(doc)`: duplicate text chunks can
-        # otherwise be assigned metadata from the wrong source/page.
-        scores = self.bm25.get_scores(tokenized_query)
-        ranked_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:k]
-        return [
-            {"text": self.bm25_docs[i], "metadata": self.bm25_metadatas[i], "bm25_score": float(scores[i])}
-            for i in ranked_indices
-        ]
+        top_docs = self.bm25.get_top_n(tokenized_query, self.bm25_docs, n=k)
+        sparse_hits = []
+        for doc in top_docs:
+            idx = self.bm25_docs.index(doc)
+            sparse_hits.append({"text": doc, "metadata": self.bm25_metadatas[idx]})
+        return sparse_hits
 
     def reciprocal_rank_fusion(self, dense_hits: List[Dict], sparse_hits: List[Dict], k: int = 60, top_n: int = 4) -> List[Dict]:
         rrf_scores = {}
@@ -443,12 +417,9 @@ class LegalRAGEngine:
             re.search(pattern, q) for pattern in consumer_patterns
         )
 
-        # Explicit provision references route to the corresponding indexed statute.
-        # External-law patterns above take precedence and are rejected first.
+        # Explicit Article queries belong to the Constitution corpus.
         if re.search(r"\barticle\s+\d+[a-z]?\b", q):
             return "constitution"
-        if re.search(r"\bsection\s+\d+[a-z]?\b", q):
-            return "consumer_protection"
 
         if constitution_hit and not consumer_hit:
             return "constitution"
@@ -485,7 +456,7 @@ class LegalRAGEngine:
         dense_hits, min_distance = self.dense_search(query, k=10)
         sparse_hits = self.sparse_search(query, k=10)
 
-        if min_distance > DISTANCE_GUARDRAIL_THRESHOLD and not exact_hits:
+        if min_distance > DISTANCE_GUARDRAIL_THRESHOLD:
             return [], False, min_distance, predicted_class
 
         fused_contexts = self.reciprocal_rank_fusion(dense_hits, sparse_hits, top_n=8)
@@ -711,11 +682,10 @@ class LegalRAGEngine:
         return round(max(0.0, min(100.0, avg_entailment * 100)), 1)
 
     def compute_answer_metrics(self, answer: str, contexts: list) -> Dict[str, float]:
-        """Token-overlap diagnostics between an answer and retrieved context.
-
-        These are lexical-overlap proxies only, not semantic precision/recall,
-        legal correctness, or classification accuracy. No gold answer is supplied.
-        """
+        """Token-overlap based Precision/Recall/F1/Accuracy for THIS answer, comparing
+        generated answer words against retrieved context words (SQuAD-style F1 metric,
+        adapted as a per-answer groundedness proxy since classification metrics don't
+        directly apply to free-text generation without a ground-truth reference)."""
         import re
         from collections import Counter
 
@@ -730,7 +700,7 @@ class LegalRAGEngine:
         context_tokens = tokenize(context_text)
 
         if not answer_tokens or not context_tokens:
-            return {"precision": 0.0, "recall": 0.0, "f1": 0.0, "overlap_threshold_pass": 0.0}
+            return {"precision": 0.0, "recall": 0.0, "f1": 0.0, "accuracy": 0.0}
 
         answer_counts = Counter(answer_tokens)
         context_counts = Counter(context_tokens)
@@ -740,22 +710,18 @@ class LegalRAGEngine:
         precision = num_common / len(answer_tokens)
         recall = num_common / len(context_tokens)
         f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0.0
-        # This is a threshold pass indicator, not an accuracy measurement.
-        threshold_pass = 1.0 if f1 >= 0.3 else 0.0
+        accuracy = 1.0 if f1 >= 0.3 else 0.0
 
         return {
             "precision": round(precision * 100, 1),
             "recall": round(recall * 100, 1),
             "f1": round(f1 * 100, 1),
-            "overlap_threshold_pass": round(threshold_pass * 100, 1),
+            "accuracy": round(accuracy * 100, 1)
         }
-
     def compute_qa_metrics(self, answer: str, reference_answer: str) -> Dict[str, float]:
-        """Token-overlap Precision/Recall/F1 against a reference answer.
-
-        These lexical-overlap scores do not independently establish legal
-        correctness; no binary accuracy score is inferred from an arbitrary F1 threshold.
-        """
+        """Standard SQuAD-style token-overlap Precision/Recall/F1, comparing the
+        generated answer against a human-written reference (gold) answer —
+        not against raw retrieved context length."""
         import re
         from collections import Counter
 
@@ -766,7 +732,7 @@ class LegalRAGEngine:
         reference_tokens = tokenize(reference_answer)
 
         if not answer_tokens or not reference_tokens:
-            return {"precision": 0.0, "recall": 0.0, "f1": 0.0, "overlap_threshold_pass": 0.0}
+            return {"precision": 0.0, "recall": 0.0, "f1": 0.0, "accuracy": 0.0}
 
         answer_counts = Counter(answer_tokens)
         reference_counts = Counter(reference_tokens)
@@ -776,11 +742,11 @@ class LegalRAGEngine:
         precision = num_common / len(answer_tokens)
         recall = num_common / len(reference_tokens)
         f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0.0
-        threshold_pass = 1.0 if f1 >= 0.3 else 0.0
+        accuracy = 1.0 if f1 >= 0.3 else 0.0
 
         return {
             "precision": round(precision * 100, 1),
             "recall": round(recall * 100, 1),
             "f1": round(f1 * 100, 1),
-            "overlap_threshold_pass": round(threshold_pass * 100, 1),
+            "accuracy": round(accuracy * 100, 1)
         }

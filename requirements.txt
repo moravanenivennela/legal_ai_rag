@@ -1,12 +1,38 @@
-torch
-transformers
-sentence-transformers
+# Core runtime
+streamlit
+numpy
+pandas
+plotly
+Pillow
+networkx
+requests
+pyngrok
+pypdf
+seaborn
+
+# RAG and embeddings
 chromadb
 rank-bm25
-PyMuPDF
+sentence-transformers
 langchain
 langchain-community
 langchain-text-splitters
+langchain-huggingface
+PyMuPDF
 ollama
-streamlit
-numpy
+
+# App features
+SpeechRecognition
+pyttsx3
+fpdf2
+streamlit-agraph
+
+# Fine-tuning / evaluation / image models
+torch
+transformers
+datasets
+peft
+scikit-learn
+matplotlib
+tqdm
+torchvision

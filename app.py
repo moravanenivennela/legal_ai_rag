@@ -92,7 +92,7 @@ st.markdown("""
         ⚖️ Nyaya AI / Legal AI
     </h1>
     <p style="color: #9CA3AF; font-size: 14px; margin-top: 4px; letter-spacing: 0.3px;">
-        Powered by Hybrid RAG + 4 Trained Deep Learning Models · Constitution of India · Consumer Protection Act, 2019
+        Hybrid Retrieval + Local LLM · Constitution of India · Consumer Protection Act, 2019
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -488,7 +488,7 @@ with tab_dashboard:
 with tab_about:
     st.subheader("ℹ️ About This Project")
     st.markdown("""
-**Nyaya AI** is a Retrieval-Augmented Generation (RAG) legal assistant built for the Constitution of India and the Consumer Protection Act, 2019 — extending the methodology of *"Legal AI for All"* (García-Montero et al., IEEE Access, 2025) with four trained deep learning components.
+**Nyaya AI** is a Retrieval-Augmented Generation (RAG) legal assistant built for the Constitution of India and the Consumer Protection Act, 2019. It combines hybrid retrieval, a local LLM, a domain-routing classifier, and evaluation/guardrail models. Treat it as a research prototype, not a substitute for official legal sources or professional legal advice.
 
 #### Pipeline
 1. **Query Domain Classifier** (self-trained Logistic Regression on bge-m3 embeddings) — rejects out-of-domain questions
@@ -500,16 +500,16 @@ with tab_about:
 
 #### Key differences from the original paper
 - Domain: Indian law instead of Ecuadorian law
-- No fine-tuning (hardware constraint) — replaced with 3 additional trained/pretrained DL models
+- An experimental LoRA fine-tuning pipeline is provided separately; the app generates answers through an Ollama-served local model
 - A full interactive application instead of an offline research evaluation
 - Bilingual (English/Hindi) answers, voice input/output, and PDF export
 
 #### Benchmark result
-Retrieval accuracy improved from **85.7% to 100%** after adding the query domain classifier as a second guardrail layer, measured on a custom difficulty-tiered benchmark.
+Historical experiment results were measured on different small and larger test sets. Retrieval hit rate, answer token-overlap, and NLI groundedness are different metrics and must not be treated as legal answer accuracy. See `AUDIT_REPORT.md` for the current evaluation limitations.
 """)
 
-    st.markdown("#### 📐 Formal Evaluation Metrics")
-    st.caption("Measured via cross-validation (classifier), held-out validation split (CNN), and a 16-question labeled test set (guardrail).")
+    st.markdown("#### 📐 Historical Experimental Metrics")
+    st.caption("These are previously recorded experiment values, not live measurements. The guardrail result comes from a small 16-example labeled test set and is not a production-performance claim.")
 
     eval_data = {
         "Model": ["Query Domain Classifier", "Document Image Classifier (CNN)", "Retrieval Guardrail"],

@@ -62,7 +62,7 @@ for model_name in MODELS_TO_TEST:
         groundedness = engine.check_groundedness(full_answer, contexts)
         answer_metrics = engine.compute_answer_metrics(full_answer, contexts)
 
-        accs.append(answer_metrics["accuracy"])
+        accs.append(answer_metrics["overlap_threshold_pass"])
         precs.append(answer_metrics["precision"])
         recs.append(answer_metrics["recall"])
         f1s.append(answer_metrics["f1"])
@@ -79,7 +79,7 @@ for model_name in MODELS_TO_TEST:
     sens = TP / (TP + FN) if (TP + FN) > 0 else 0.0
 
     results[model_name] = {
-        "accuracy": np.mean(accs) if accs else 0,
+        "overlap_threshold_pass": np.mean(accs) if accs else 0,
         "precision": np.mean(precs) if precs else 0,
         "recall": np.mean(recs) if recs else 0,
         "f1": np.mean(f1s) if f1s else 0,
@@ -90,16 +90,16 @@ for model_name in MODELS_TO_TEST:
     }
 
 print(f"\n\n{'='*70}")
-print("SUMMARY — RAG Performance Across LLM Models")
+print("SUMMARY — RAG Lexical-Overlap Diagnostics Across LLM Models")
 print(f"{'='*70}")
-header = f"{'Model':<16}{'Accuracy':<11}{'Precision':<11}{'Recall':<11}{'F1':<11}{'Groundedness':<14}{'AvgTime':<9}"
+header = f"{'Model':<16}{'F1>=30% pass':<14}{'Precision':<11}{'Recall':<11}{'F1':<11}{'Groundedness':<14}{'AvgTime':<9}"
 print(header)
 for model_name, m in results.items():
-    print(f"{model_name:<16}{m['accuracy']:<10.1f}%{m['precision']:<10.1f}%{m['recall']:<10.1f}%"
+    print(f"{model_name:<16}{m['overlap_threshold_pass']:<10.1f}%{m['precision']:<10.1f}%{m['recall']:<10.1f}%"
           f"{m['f1']:<10.1f}%{m['groundedness']:<13.1f}%{m['avg_time']:<8.2f}s")
 
-metrics_to_plot = ["accuracy", "precision", "recall", "f1", "groundedness"]
-metric_labels = ["Accuracy", "Precision", "Recall", "F1-score", "Groundedness"]
+metrics_to_plot = ["overlap_threshold_pass", "precision", "recall", "f1", "groundedness"]
+metric_labels = ["F1≥30% pass", "Token precision", "Token recall", "Token F1", "NLI groundedness"]
 
 x = np.arange(len(metrics_to_plot))
 width = 0.35 if len(MODELS_TO_TEST) == 2 else 0.8 / max(len(MODELS_TO_TEST), 1)
