@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "fb671b1434235def",
+    "question": "What right, duty, or requirement is described in the clause beginning “(2) The Governor shall cause every recommendation made…”?",
+    "proposed_answer": "(2) The Governor  shall cause every recommendation made by the\nCommission under this article together with an explanatory memorandum as to\nthe action taken thereon to be laid before the Legislature of the State.",
+    "supporting_passage": "243Y. Finance Commission.—(1) The Finance Commission constituted\nunder article 243I shall also review the financial position of the Municipalities\nand make recommendations to the Governor as to—\n          (a) the principles which should govern—\n                   (i) the distribution between the State and the Municipalities of\n          the net proceeds of the taxes, duties, tolls and fees leviable by the\n           State, which may be divided between them under this Part and the\n          allocation between the Municipalities at all levels of their respective\n         shares of such proceeds;\n                   (ii) the determination of the taxes, duties, tolls and fees which\n       may be assigned to, or appropriated by, the Municipalities;\n                    (iii)  the   grants-in-aid   to  the  Municipalities  from  the\n         Consolidated Fund of the State;\n          (b) the measures needed to improve the financial position of the\n       Municipalities;\n           (c) any other matter referred to the Finance Commission by the\n      Governor in the interests of sound finance of the Municipalities.\n       (2) The Governor  shall cause every recommendation made by the\nCommission under this article together with an explanatory memorandum as to\nthe action taken thereon to be laid before the Legislature of the State.",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "163",
+    "legal_reference": "Article 243Y",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "rights_duties",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "257",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

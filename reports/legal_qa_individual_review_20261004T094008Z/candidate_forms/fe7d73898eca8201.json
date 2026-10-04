@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "fe7d73898eca8201",
+    "question": "What right, duty, or requirement is described in the clause beginning “—In sub-clause (b) of clause (2), the reference…”?",
+    "proposed_answer": "—In sub-clause (b) of clause (2), the reference to Hindus\nshall be construed as including a reference to persons professing the Sikh, Jaina\nor Buddhist religion, and the reference to Hindu religious institutions shall be\nconstrued accordingly.",
+    "supporting_passage": "24. Prohibition of employment of children in factories, etc.—No child\nbelow the age of fourteen years shall be employed to work in any factory or\nmine or engaged in any other hazardous employment.\n                       Right to Freedom of Religion\n      25. Freedom  of  conscience and  free  profession,  practice and\npropagation of religion.—(1) Subject to public order, morality and health and\nto the other provisions of this Part, all persons are equally entitled to freedom\nof conscience and the right freely to profess, practice and propagate religion.\n       (2) Nothing in this article shall affect the operation of any existing law or\nprevent the State from making any law—\n             (a) regulating or restricting any economic, financial, political or\n      other secular activity which may be associated with religious practice;\n             (b) providing for social welfare and reform or the throwing open\n      of Hindu religious institutions of a public character to all classes and\n       sections of Hindus.\n      Explanation I.—The wearing and carrying of kirpans shall be deemed to\nbe included in the profession of the Sikh religion.\n      Explanation II.—In sub-clause (b) of clause (2), the reference to Hindus\nshall be construed as including a reference to persons professing the Sikh, Jaina\nor Buddhist religion, and the reference to Hindu religious institutions shall be\nconstrued accordingly.",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "45",
+    "legal_reference": "Article 24",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "rights_duties",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "259",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

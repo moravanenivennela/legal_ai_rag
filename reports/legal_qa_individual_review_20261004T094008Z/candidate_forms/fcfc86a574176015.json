@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "fcfc86a574176015",
+    "question": "What right, duty, or requirement is described in the clause beginning “—(1) All doubts and disputes arising out of…”?",
+    "proposed_answer": "—(1) All doubts and disputes arising out of or in\nconnection with the election of a President or Vice-President shall be inquired\ninto and decided by the Supreme Court whose decision shall be final.",
+    "supporting_passage": "70. Discharge of President's functions in other contingencies.—\nParliament may make such provision as it thinks fit for the discharge of the\nfunctions of the President in any contingency not provided for in this Chapter.\n       1[71. Matters relating  to, or connected with, the  election of a\nPresident or Vice-President.—(1) All doubts and disputes arising out of or in\nconnection with the election of a President or Vice-President shall be inquired\ninto and decided by the Supreme Court whose decision shall be final.\n       (2) If the election of a person as President or Vice-President is declared\nvoid by the Supreme Court, acts done by him in the exercise and performance\nof the powers and duties of the office of President or Vice-President, as the\ncase may be, on or before the date of the decision of the Supreme Court shall\nnot be invalidated by reason of that declaration.\n       (3) Subject to the provisions of this Constitution, Parliament may by law\nregulate any matter relating to or connected with the election of a President or\nVice-President.\n       (4) The election of a person as President or Vice-President shall not be\ncalled in question on the ground of the existence of any vacancy for whatever\nreason among the members of the electoral college electing him.]\n      72. Power of President to grant pardons, etc., and to suspend, remit\nor commute sentences in certain cases.—(1) The President shall have the\npower to grant pardons, reprieves, respites or remissions of punishment or to\nsuspend, remit or commute the sentence of any person convicted of any\noffence—\n          (a) in  all cases where the punishment or sentence is by a Court\n       Martial;\n\n______________________________________________\n1. Subs. by the Constitution (Thirty-ninth Amendment) Act, 1975, s. 2 (w.e.f 10-8-1975) and\n   further  subs.  by  the  Constitution  (Forty-fourth  Amendment)  Act,  1978,   s.  10.\n   (w.e.f. 20-6-1979).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "63",
+    "legal_reference": "Article 70",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "rights_duties",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "258",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "audit_scope": "Deterministic schema, source/page, reference-text, extractive, numeric-token, and duplicate checks. PROVENANCE_MATCH does not mean legal correctness. NEEDS_REVIEW is not automatic rejection.",
+  "candidate_input_files": {
+    "train_candidate": "fine_tuning\\dataset\\expanded\\legal_qa\\train_candidates.jsonl",
+    "validation_candidate": "fine_tuning\\dataset\\expanded\\legal_qa\\validation_candidates.jsonl"
+  },
+  "existing_records_compared": {
+    "path": "fine_tuning\\dataset\\qa_partial.jsonl",
+    "count": 246
+  },
+  "source_pdfs": {
+    "constitution": {
+      "path": "data\\constitution_of_india.pdf",
+      "page_count": 402
+    },
+    "consumer_protection": {
+      "path": "data\\consumer_protection_act_2019.pdf",
+      "page_count": 40
+    }
+  },
+  "candidate_count": 608,
+  "status_counts": {
+    "PROVENANCE_MATCH": 13,
+    "NEEDS_REVIEW": 595,
+    "INVALID_RECORD": 0
+  },
+  "candidate_split_counts": {
+    "train": 526,
+    "validation": 82
+  },
+  "source_distribution": {
+    "constitution": 485,
+    "consumer_protection": 123
+  },
+  "question_type_heuristic_distribution": {
+    "direct_or_other_candidate": 536,
+    "scenario_or_condition_candidate": 28,
+    "definition_candidate": 4,
+    "comparison_candidate": 1,
+    "procedure_or_remedy_candidate": 25,
+    "rights_or_duties_candidate": 14
+  },
+  "page_evidence_status_counts": {
+    "NO_MATCH": 461,
+    "MATCH": 147
+  },
+  "reference_status_counts": {
+    "TYPE_OR_CONTEXT_UNCONFIRMED": 52,
+    "MALFORMED_OR_AMBIGUOUS": 249,
+    "EXPLICIT_TEXT_MATCH": 128,
+    "NOT_SUPPORTED_BY_EVIDENCE": 169,
+    "MISSING": 10
+  },
+  "unsupported_or_ambiguous_reference_records": 480,
+  "duplicate_record_counts": {
+    "exact_question": 17,
+    "exact_answer": 38,
+    "near_question": 159,
+    "near_question_similarity_threshold": 0.9
+  },
+  "outputs": {
+    "candidate_audit_csv": "reports\\qa_candidate_audit_20261004_final\\pending_candidate_audit.csv",
+    "summary_json": "reports\\qa_candidate_audit_20261004_final\\candidate_audit_summary.json"
+  },
+  "candidate_files_modified": false,
+  "existing_records_modified": false
+}

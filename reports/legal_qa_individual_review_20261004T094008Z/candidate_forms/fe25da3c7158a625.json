@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "fe25da3c7158a625",
+    "question": "What condition or exception is described in the clause beginning “if the interest of justice so requires.”?",
+    "proposed_answer": "if the interest of justice so\n                requires.",
+    "supporting_passage": "24           THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—\n\n\n             be decided according to the opinion of the majority of the members who have heard the case,\n              including those who first heard it:\n\n                   Provided that the President or the other members, as the case may be, shall give\n              opinion on the point or points so referred within a period of one month from the date of such\n               reference.\n\n                      (4) A complaint shall be instituted in a State Commission within the limits of whose\n               jurisdiction,—\n\n                            (a) the opposite party or each of the opposite parties, where there are more than\n                    one, at the time of the institution of the complaint, ordinarily resides or carries on\n                    business or has a branch office or personally works for gain; or\n\n                            (b) any of the opposite parties, where there are more than one, at the time of the\n                       institution of the complaint, actually and voluntarily resides, or carries on business or\n                   has a branch office or personally works for gain, provided in such case, the permission\n                    of the State Commission is given; or\n\n                             (c) the cause of action, wholly or in part, arises; or\n\n                            (d) the complainant resides or personally works for gain.\n\nTransfer of           48. On the application of the complainant or of its own motion, the State Commission\ncases.        may, at any stage of the proceeding, transfer any complaint pending before a District\n            Commission to another District Commission within the State if the interest of justice so\n                requires.\n\nProcedure            49. (1) The provisions relating to complaints under sections 35, 36, 37, 38 and 39 shall,\napplicable to    with such modifications as may be necessary, be applicable to the disposal of complaints by\nState           the State Commission.Commission.\n                      (2) Without prejudice to the provisions of sub-section (1), the State Commission may\n               also declare any terms of contract, which is unfair to any consumer, to be null and void.\n\nReview by            50. The State Commission shall have the power to review any of the order passed by\nState               it if there is an error apparent on the face of the record, either of its own motion or on an\nCommission in  application made by any of the parties within thirty days of such order.certain cases.\n\nAppeal to            51. (1) Any person aggrieved by an order made by the State Commission in exercise of\nNational          its powers conferred by sub-clause (i) or (ii) of clause (a) of sub-section (1) of section 47\nCommission.   may prefer an appeal against such order to the National Commission within a period of thirty\n             days from the date of the order in such form and manner as may be prescribed:\n\n                   Provided that the National Commission shall not entertain the appeal after the expiry\n              of the said period of thirty days unless it is satisfied that there was sufficient cause for not\n                 filing it within that period:\n\n                   Provided further that no appeal by a person, who is required to pay any amount in\n              terms of an order of the State Commission, shall be entertained by the National Commission\n              unless the appellant has deposited fifty per cent. of that amount in the manner as may be\n               prescribed.\n\n                      (2) Save as otherwise expressly provided under this Act or by any other law for the\n              time being in force, an appeal shall lie to the National Commission from any order passed in\n              appeal by any State Commission, if the National Commission is satisfied that the case\n              involves a substantial question of law.\n\n                      (3) In an appeal involving a question of law, the memorandum of appeal shall precisely\n                state the substantial question of law involved in the appeal.\n\n                      (4) Where the National Commission is satisfied that a substantial question of law is\n              involved in any case, it shall formulate that question and hear the appeal on that question:",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page": "24",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "condition_exception",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "804",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

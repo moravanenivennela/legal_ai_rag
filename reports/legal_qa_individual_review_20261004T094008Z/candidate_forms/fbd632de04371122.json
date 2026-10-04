@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "fbd632de04371122",
+    "question": "How does the Act define consumer dispute?",
+    "proposed_answer": "(8) \"consumer dispute\" means a dispute where the person against whom a\n     complaint has been made, denies or disputes the allegations contained in the complaint;",
+    "supporting_passage": "SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY               3\n\n\n                          (b) displayed on the goods or any package containing such goods; or\n\n                          (c) displayed on the price list exhibited by him by or under any law\n                   for the time being in force; or\n\n                         (d) agreed between the parties;\n\n                    (v) the goods, which are hazardous to life and safety when used, are being\n            offered for sale to the public—\n\n                         (a) in contravention of standards relating to safety of such goods\n                 as required to be complied with, by or under any law for the time being in\n                   force;\n\n                         (b) where the trader knows that the goods so offered are unsafe to\n                  the public;\n\n                     (vi) the services which are hazardous or likely to be hazardous to life and\n            safety of the public when used, are being offered by a person who provides any\n            service and who knows it to be injurious to life and safety;\n\n                    (vii) a claim for product liability action lies against the product\n           manufacturer, product seller or product service provider, as the case may be;\n\n             (7) \"consumer\" means any person who—\n\n                       (i) buys any goods for a consideration which has been paid or promised\n            or partly paid and partly promised, or under any system of deferred payment\n          and includes any user of such goods other than the person who buys such\n          goods for consideration paid or promised or partly paid or partly promised, or\n           under any system of deferred payment, when such use is made with the approval\n           of such person, but does not include a person who obtains such goods for\n            resale or for any commercial purpose; or\n\n                        (ii) hires or avails of any service for a consideration which has been paid\n            or promised or partly paid and partly promised, or under any system of deferred\n          payment and includes any beneficiary of such service other than the person\n        who hires or avails of the services for consideration paid or promised, or partly\n           paid and partly promised, or under any system of deferred payment, when such\n            services are availed of with the approval of the first mentioned person, but does\n           not include a person who avails of such service for any commercial purpose.\n\n               Explanation.—For the purposes of this clause,—\n\n                         (a) the expression \"commercial purpose\" does not include use by a\n                person of goods bought and used by him exclusively for the purpose of\n                 earning his livelihood, by means of self-employment;\n\n                         (b) the expressions \"buys any goods\" and \"hires or avails any\n                  services\" includes offline or online transactions through electronic means\n                 or by teleshopping or direct selling or multi-level marketing;\n\n            (8) \"consumer dispute\" means a dispute where the person against whom a\n     complaint has been made, denies or disputes the allegations contained in the complaint;\n\n             (9) \"consumer rights\" includes,—\n\n                       (i) the right to be protected against the marketing of goods, products or\n            services which are hazardous to life and property;\n\n                        (ii) the right to be informed about the quality, quantity, potency, purity,\n           standard and price of goods, products or services, as the case may be, so as to\n            protect the consumer against unfair trade practices;",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page": "3",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "definition",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "811",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

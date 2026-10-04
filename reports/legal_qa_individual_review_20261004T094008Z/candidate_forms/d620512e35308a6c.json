@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "d620512e35308a6c",
+    "question": "What procedure or remedy is described in the clause beginning “(c) for clause (c), the following clause had…”?",
+    "proposed_answer": "(c)  for  clause  (c),  the  following  clause  had  been\n              substituted, namely:—\n                            “(c) the transfer of appeals and other proceedings\n                  pending before the Regional or District Council or any\n                    court constituted by such Council immediately before the\n                   date appointed by the President under sub-paragraph\n                       (5);",
+    "supporting_passage": "290         THE CONSTITUTION OF INDIA\n\n                             (Sixth Schedule)\n\n                         “(a) the constitution of village councils and courts,\n                    the powers to be exercised by them under this paragraph\n                 and the courts to which appeals from the decisions of\n                     village councils and courts shall lie;”;\n                       (c)  for  clause  (c),  the  following  clause  had  been\n              substituted, namely:—\n                            “(c) the transfer of appeals and other proceedings\n                  pending before the Regional or District Council or any\n                    court constituted by such Council immediately before the\n                   date appointed by the President under sub-paragraph\n                       (5);”; and\n                      (d) in clause (e), for the words, brackets and figures\n             “sub-paragraphs (1) and (2)”, the word, brackets and figure\n            “sub-paragraph (1)” had been substituted.]\n       5. Conferment of powers under the Code of Civil Procedure,\n1908, and the Code of Criminal Procedure, 18981, on the Regional and\nDistrict Councils and on certain courts and officers for the trial of\ncertain suits, cases and offences.—(1) The Governor may, for the trial of\nsuits or cases arising out of any law in force in any autonomous district or\nregion being a law specified in that behalf by the Governor, or for the trial\nof offences punishable with death, transportation for life, or imprisonment\nfor a term of not less than five years under the Indian Penal Code or under\nany other law for the time being applicable to such district or region, confer\non the District Council or the Regional Council having authority over such\ndistrict or region or on courts constituted by such District Council or on any\nofficer appointed in that behalf by the Governor, such powers under the\nCode of Civil Procedure, 1908, or, as the case may be, the Code of Criminal\nProcedure, 18981, as he deems appropriate, and thereupon the said Council,\ncourt or officer shall try the suits, cases or offences in exercise of the\npowers so conferred.\n       (2) The Governor may withdraw or modify any of the powers\nconferred on a District Council, Regional Council, court or officer under\nsub-paragraph (1) of this paragraph.\n       (3) Save as expressly provided in this paragraph, the Code of Civil\nProcedure, 1908, and the Code of Criminal Procedure, 18981, shall not\napply to the trial of any suits, cases or offences in an autonomous district or\nin any autonomous region to which the provisions of this paragraph apply.\n\n______________________________________________\n1. See the Code of Criminal Procedure, 1973 ( 2 of 1974).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "321",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "procedure_remedy",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "525",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source_run": "reports\\qa_candidate_generation_stage13_20261004T091039Z_seed42",
+  "selected_count": 1000,
+  "reviewed_count": 0,
+  "approved_count": 0,
+  "rejected_count": 0,
+  "edited_count": 0,
+  "still_pending_count": 1000,
+  "eligible_reviewed_dataset_count": 0,
+  "legal_correctness_claim": "None. The worksheet and automated checks do not establish legal correctness. Approval requires an explicit reviewer decision.",
+  "outputs": {
+    "worksheet": "review_worksheet.csv",
+    "instructions": "review_instructions.md"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "81ddc6564ee9b1bd",
+    "question": "What comparison does the passage explicitly make?",
+    "proposed_answer": "(2) Nothing in clause (1) shall bar the appointment of members of the\nAnglo-Indian community to posts other than, or in addition to, those reserved\nfor the community under that clause if such members are found qualified for\nappointment on merit as compared with the members of other communities.",
+    "supporting_passage": "194          THE CONSTITUTION OF INDIA\n\n               (Part XVI.—Special Provisions Relating to Certain Classes)\n\n      1[Provided that nothing in  this  article shall prevent in making of any\nprovision in favour of the members of the Scheduled Castes and the Scheduled\nTribes for relaxation in qualifying marks in any examination or lowering the\nstandards of evaluation, for reservation in matters or promotion to any class or\nclasses of services or posts in connection with the affairs of the Union or of a State.]\n      336.  Special  provision  for  Anglo-Indian community  in  certain\nservices.—(1) During the  first two years  after the commencement of  this\nConstitution, appointments of members of the Anglo-Indian community to posts\nin the railway, customs, postal and telegraph services of the Union shall be made\non the same basis as immediately before the fifteenth day of August, 1947.\n      During every succeeding period of two years, the number of posts\nreserved for the members of the said community in the said services shall, as\nnearly as possible, be less by ten per cent. than the numbers so reserved during\nthe immediately preceding period of two years:\n      Provided that at the end of ten years from the commencement of this\nConstitution all such reservations shall cease.\n       (2) Nothing in clause (1) shall bar the appointment of members of the\nAnglo-Indian community to posts other than, or in addition to, those reserved\nfor the community under that clause if such members are found qualified for\nappointment on merit as compared with the members of other communities.\n      337. Special provision with respect to educational grants for the\nbenefit of Anglo-Indian community.—During the first three financial years\nafter the commencement of this Constitution, the same grants, if any, shall be\nmade by the Union and by each State 2*** for the benefit of the Anglo-Indian\ncommunity in respect of education as were made in the financial year ending\non the thirty-first day of March, 1948.\n      During every succeeding period of three years the grants may be less by\nten per cent. than those for the immediately preceding period of three years:\n      Provided that at the end of ten years from the commencement of this\nConstitution such grants, to the extent to which they are a special concession to\nthe Anglo-Indian community, shall cease:\n      Provided  further  that no educational  institution  shall be  entitled  to\nreceive any grant under this article unless at least forty per cent. of the annual\nadmissions therein are made available to members of communities other than\nthe Anglo-Indian community.\n\n______________________________________________\n1. Ins. by the Constitution (Eighty-second Amendment) Act, 2000, s. 2 (w.e.f. 8-9-2000).\n2. The words and letters \"specified in Part A or Part B of the First Schedule\" omitted by\n  the Constitution (Seventh Amendment) Act, 1956, s. 29 and Sch. (w.e.f. 1-11-1956).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "225",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "comparison",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "REPEATED_ANSWER_TEMPLATE; REPEATED_EXACT_ANSWER",
+    "answer_template_repetition": "True",
+    "priority_rank": "926",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; REPEATED_ANSWER_TEMPLATE_REVIEW; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

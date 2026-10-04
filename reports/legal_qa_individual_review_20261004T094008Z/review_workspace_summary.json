@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-10-04T09:40:09.824073+00:00",
+  "source_batch": "reports\\legal_qa_review_prioritization_20261004T093327Z\\first_review_batch.csv",
+  "source_prioritization_report": "reports\\legal_qa_review_prioritization_20261004T093327Z\\prioritized_candidates.csv",
+  "stage14_workspace": "reports\\legal_qa_review_workspace_20261004T092435Z",
+  "form_count": 50,
+  "reviewed_count": 0,
+  "approved_count": 0,
+  "rejected_count": 0,
+  "edited_count": 0,
+  "pending_count": 50,
+  "all_decisions_pending": true,
+  "legal_correctness_claim": "None. Human confirmations are required; automated matching is not legal verification.",
+  "outputs": {
+    "forms_directory": "candidate_forms",
+    "instructions": "review_instructions.md",
+    "summary": "review_workspace_summary.json"
+  }
+}

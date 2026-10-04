@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "eab8471a2d4849b5",
+    "question": "How does Article 119 define Memorandum of Settlement?",
+    "proposed_answer": "“Memorandum of Settlement” means the Memorandum signed on the 10th day of\n   February, 2003 between Government of India, Government of Assam and Bodo\n    Liberation Tigers.’.",
+    "supporting_passage": "119. Transitional provisions.—(1) As soon as possible after the\ncommencement of this Constitution the Governor shall take steps for the\nconstitution of a District Council for each autonomous district in the State\nunder this Schedule and, until a District Council is so constituted for an\nautonomous district, the administration of such district shall be vested in the\nGovernor and the following provisions shall apply to the administration of\nthe areas within such district instead of the foregoing provisions of this\nSchedule, namely:—\n             (a) no Act of Parliament or of the Legislature of the State shall\n      apply to any such area unless the Governor by public notification so\n       directs; and the Governor in giving such a direction with respect to\n     any Act may direct that the Act shall, in its application to the area or\n       to any specified part thereof, have effect subject to such exceptions or\n      modifications as he thinks fit;\n             (b) the Governor may make regulations for the peace and good\n      government of any such area and any regulations so made may repeal\n      or amend any Act of Parliament or of the Legislature of the State or\n     any existing law which is for the time being applicable to such area.\n       (2) Any  direction given by  the Governor under  clause  (a)  of\nsub-paragraph (1) of this paragraph may be given so as to have retrospective\neffect.\n\n\n______________________________________________\n1.  Paragraph 19 has been amended in its application to the State of Assam by the\n   Sixth Sch.  to  the Constitution (Amendment) Act, 2003 (44 of 2003),  s. 2\n    (w.e.f. 7-9-2003), so as to insert the following sub-paragraph after sub-paragraph\n    (3), namely :—\n         ‘(4) As soon as possible after the commencement of this Act and Interim\n   Executive Council for Bodoland Territorial Areas District in Assam shall be\n   formed by the Governor from amongst leaders of the Bodo movement, including\n    the signatories to the Memorandum of Settlement, and shall provide adequate\n    representation to the non-tribal communities in that area:\n          Provided that Interim Council shall be for a period of six months during\n   which endeavour to hold the election to the Council shall be made.\n          Explanation.—For the purposes of this sub-paragraph, the expression\n   “Memorandum of Settlement” means the Memorandum signed on the 10th day of\n   February, 2003 between Government of India, Government of Assam and Bodo\n    Liberation Tigers.’.",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "334",
+    "legal_reference": "Article 119",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "definition",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "51",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

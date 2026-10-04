@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "c7c26340924bbb43",
+    "question": "What procedure or remedy is described in the clause beginning “] (d) rules as to the entertainment of…”?",
+    "proposed_answer": "]\n             (d) rules as to the entertainment of appeals under sub-clause (c) of\n      clause (1) of article 134;",
+    "supporting_passage": "66          THE CONSTITUTION OF INDIA\n\n                         (Part V.—The Union)\n\n             (b) rules as to the procedure for hearing appeals and other matters\n       pertaining to appeals including the time within which appeals to the\n      Court are to be entered;\n              (c) rules as to the proceedings in the Court for the enforcement of\n     any of the rights conferred by Part III;\n              1[(cc) rules as to the proceedings in the Court under 2[article\n      139A];]\n             (d) rules as to the entertainment of appeals under sub-clause (c) of\n      clause (1) of article 134;\n              (e) rules as to the conditions subject to which any judgment\n      pronounced or order made by the Court may be reviewed and the\n      procedure for such review including the time within which applications\n       to the Court for such review are to be entered;\n                 (f) rules as to the costs of and incidental to any proceedings in the\n      Court and as to the fees to be charged in respect of proceedings therein;\n             (g) rules as to the granting of bail;\n             (h) rules as to stay of proceedings;\n                 (i) rules providing for the summary determination of any appeal\n     which appears to the Court to be frivolous or vexatious or brought for\n      the purpose of delay;\n                (j) rules as  to the procedure for inquiries referred to in\n      clause (1) of article 317.\n       (2) Subject to the 3[provisions of 4*** clause (3)], rules made under this\narticle may fix the minimum number of Judges who are to sit for any purpose,\nand may provide for the powers of single Judges and Division Courts.\n       (3) 5[4***The minimum number] of Judges who are to sit for the purpose\nof deciding any case involving a  substantial  question of law as  to the\ninterpretation of this Constitution or for the purpose of hearing any reference\nunder article 143 shall be five:\n______________________________________________\n1. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 26 (w.e.f. 1-2-1977).\n2. Subs. by the Constitution (Forty-third Amendment) Act, 1977, s. 6, for \"articles 131A\n  and 139A\" (w.e.f. 13-4-1978).\n3. Subs. by the Constitution (Forty-second Amendment) Act, 1976, s. 26, for \"provisions\n  of clause (3)\" (w.e.f. 1-2-1977).\n4. Certain words omitted by the  Constitution (Forty-third Amendment) Act, 1977, s. 6\n   (w.e.f. 13-4-1978).\n5. Subs. by the  Constitution (Forty-second Amendment) Act, 1976, s. 26, for \"The\n  minimum number\" (w.e.f. 1-2-1977).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "97",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "procedure_remedy",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "524",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

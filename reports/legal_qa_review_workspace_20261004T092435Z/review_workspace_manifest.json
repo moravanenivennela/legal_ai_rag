@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-10-04T09:26:09.570043+00:00",
+  "source_run": "reports\\qa_candidate_generation_stage13_20261004T091039Z_seed42",
+  "source_manifest": "reports\\qa_candidate_generation_stage13_20261004T091039Z_seed42\\run_manifest.json",
+  "candidate_count": 1000,
+  "decision_options": [
+    "APPROVE",
+    "EDIT_AND_RECHECK",
+    "NEEDS_MORE_EVIDENCE",
+    "REJECT"
+  ],
+  "review_policy": {
+    "no_automatic_approval": true,
+    "approval_requires_reviewer_and_reason": true,
+    "edits_require_deterministic_revalidation_and_reapproval": true,
+    "only_approved_and_validated_records_enter_reviewed_dataset": true
+  },
+  "outputs": {
+    "worksheet": "review_worksheet.csv",
+    "instructions": "review_instructions.md",
+    "summary": "review_summary.json"
+  }
+}

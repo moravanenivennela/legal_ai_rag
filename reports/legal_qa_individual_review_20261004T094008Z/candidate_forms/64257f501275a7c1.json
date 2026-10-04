@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "64257f501275a7c1",
+    "question": "What procedure or remedy is described in the clause beginning “CHAPTER IV CONSUMER DISPUTES REDRESSAL COMMISSION Establishment 28.”?",
+    "proposed_answer": "CHAPTER IV\n\n                                 CONSUMER DISPUTES REDRESSAL COMMISSION\n\nEstablishment        28.",
+    "supporting_passage": "16           THE GAZETTE OF INDIA EXTRAORDINARY         [PART II—\n\n\nDesignation          23. The Central Government may, if it considers necessary, by notification, designate\nof any        any statutory authority or body to exercise the powers and perform the functions of the\nstatutory       Central Authority referred to in section 10.authority or\nbody to\nfunction as\nCentral\nAuthority.\n\nAppeal.             24. A person aggrieved by any order passed by the Central Authority under\n               sections 20 and 21 may file an appeal to the National Commission within a period of thirty\n             days from the date of receipt of such order.\n\nGrants by            25. The Central Government may, after due appropriation made by Parliament by law in\nCentral         this behalf, make to the Central Authority grants of such sums of money as that Government\nGovernment.          may think fit for being utilised for the purposes of this Act.\n\nAccounts and         26. (1) The Central Authority shall maintain proper accounts and other relevant records\naudit.         and prepare an annual statement of accounts in such form and manner as may be prescribed\n                in consultation with the Comptroller and Auditor-General of India.\n\n                      (2) The accounts of the Central Authority shall be audited by the Comptroller and\n              Auditor-General of India at such intervals as may be specified by him and any expenditure\n              incurred in connection with such audit shall be payable by the Central Authority to the\n              Comptroller and Auditor-General of India.\n\n                      (3) The Comptroller and Auditor-General of India or any other person appointed by\n            him in connection with the audit of the accounts of the Central Authority shall have the same\n                rights, privileges and authority in connection with such audit as the Comptroller and\n              Auditor-General of India generally has, in connection with the audit of the Government\n              accounts and, in particular, shall have the right to demand the production of books, accounts,\n             connected vouchers and other documents and papers and to inspect any of the offices of\n               the Central Authority.\n\n                     (4) The accounts of the Central Authority as certified by the Comptroller and\n              Auditor-General of India or any other person appointed by him in this behalf together with\n               the audit report thereon shall be forwarded annually to the Central Government which shall\n              cause the same to be laid before each House of Parliament.\n\nFurnishing of         27. (1) The Central Authority shall prepare once in every year, in such form, manner\nannual        and at such time as may be prescribed, an annual report giving full account of its activities\nreports, etc.\n              during the previous year and such other reports and returns, as may be directed, and copies\n              of such report and returns shall be forwarded to the Central Government.\n\n                      (2) A copy of the annual report received under sub-section (1) shall be laid, as soon as\n          may be after it is received, before each House of Parliament.\n\n                                   CHAPTER IV\n\n                                 CONSUMER DISPUTES REDRESSAL COMMISSION\n\nEstablishment        28. (1) The State Government shall, by notification, establish a District Consumer\nof District      Disputes Redressal Commission, to be known as the District Commission, in each district of\nConsumer\nDisputes        the State:\nRedressal                   Provided that the State Government may, if it deems fit, establish more than oneCommission.\n                District Commission in a district.\n                      (2) Each District Commission shall consist of—\n                            (a) a President; and\n                            (b) not less than two and not more than such number of members as may be\n                     prescribed, in consultation with the Central Government.",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page": "16",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "procedure_remedy",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "814",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "f1942c4c4acec9a8",
+    "question": "What right, duty, or requirement is described in the clause beginning “(3) In the performance of his duties the…”?",
+    "proposed_answer": "(3) In the performance of his duties the Attorney-General shall have\nright of audience in all courts in the territory of India.",
+    "supporting_passage": "76. Attorney-General for India.—(1) The President shall appoint a\nperson who is qualified to be appointed a Judge of the Supreme Court to be\nAttorney-General for India.\n       (2) It shall be the duty of the Attorney-General to give advice to the\nGovernment of India upon such legal matters, and to perform such other duties\nof a legal character, as may from time to time be referred or assigned to him by\nthe President, and to discharge the functions conferred on him by or under this\nConstitution or any other law for the time being in force.\n       (3) In the performance of his duties the Attorney-General shall have\nright of audience in all courts in the territory of India.\n       (4) The Attorney-General shall hold office during the pleasure of the\nPresident, and shall receive such remuneration as the President may determine.\n                   Conduct of Government Business",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "66",
+    "legal_reference": "Article 76",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "rights_duties",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "252",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

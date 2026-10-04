@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "b268a450d367bf03",
+    "question": "According to the passage, what happens if he is so disqualified by or under any law made by Parliament. 2[Explanation.—For the purposes of this clause]?",
+    "proposed_answer": "if he is so disqualified by or under any law made by Parliament.\n      2[Explanation.—For the purposes of this clause], a person shall not be\ndeemed to hold an office of profit under the Government of India or the\nGovernment of any State specified in the First Schedule by reason only that he\nis a Minister either for the Union or for such State.",
+    "supporting_passage": "191.  Disqualifications  for membership.—(1) A  person  shall  be\ndisqualified for being chosen as, and for being, a member of the Legislative\nAssembly or Legislative Council of a State—\n           1[(a) if he holds any office of profit under the Government of India or\n      the Government of any State specified in the First Schedule, other than\n      an office declared by the Legislature of the State by law not to disqualify\n        its holder;]\n          (b) if he is of unsound mind and stands so declared by a competent\n       court;\n           (c) if he is an undischarged insolvent;\n          (d) if he is not a citizen of India, or has voluntarily acquired the\n       citizenship of a foreign State, or  is under any acknowledgment of\n       allegiance or adherence to a foreign State;\n           (e) if he is so disqualified by or under any law made by Parliament.\n      2[Explanation.—For the purposes of this clause], a person shall not be\ndeemed to hold an office of profit under the Government of India or the\nGovernment of any State specified in the First Schedule by reason only that he\nis a Minister either for the Union or for such State.\n       3[(2) A person  shall be  disqualified  for  being a member  of  the\nLegislative Assembly or Legislative Council of a State if he is so disqualified\nunder the Tenth Schedule.]\n       4[192. Decision on questions as to disqualifications of members.—(1)\nIf any question arises as to whether a member of a House of the Legislature of a\nState has become subject to any of the disqualifications mentioned in clause (1)\nof article 191, the question shall be referred for the decision of the Governor\nand his decision shall be final.\n______________________________________________\n1. Subs. by the Constitution (Forty-second Amendment) Act, 1976, s. 32 to read as \"(a) if\n  he holds any such office of profit under the Government of India or the Government of\n  any State specified in the First Schedule as is declared by Parliament by law to\n   disqualify  its holder\" (date not  notified). This amendment was omitted by  the\n   Constitution (Forty-fourth Amendment) Act, 1978, s. 45 (w.e.f. 20-6-1979).\n2. Subs. by the Constitution (Fifty-second Amendment) Act, 1985, s. 5, for \"(2) For the\n  purposes of this article\" (w.e.f. 1-3-1985).\n3. Ins. by s. 5, ibid. (w.e.f. 1-3-1985).\n4. Subs. by the Constitution (Forty-second Amendment) Act, 1976, s. 33, for art. 192\n   (w.e.f. 3-1-1977) and further subs. by the Constitution (Forty-fourth Amendment)\n  Act, 1978, s. 25, for art. 192 (w.e.f. 20-6-1979).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "117",
+    "legal_reference": "Article 191",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "scenario",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "265",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

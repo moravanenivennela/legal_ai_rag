@@ -29,6 +29,254 @@ class RetrievalLogicTests(unittest.TestCase):
     def setUp(self):
         self.engine = LegalRAGEngine.__new__(LegalRAGEngine)
 
+    def test_article_14_reference_and_domain_routing_without_classifier(self):
+        query = (
+            "What does Article 14 of the Constitution of India say about "
+            "equality before the law?"
+        )
+
+        self.assertEqual(
+            self.engine.extract_legal_reference(query),
+            ("article", "14"),
+        )
+        self.assertEqual(
+            self.engine.classify_query_domain(query, [0.0]),
+            "constitution",
+        )
+
+    def test_exact_article_14_ignores_other_sources_and_contents(self):
+        self.engine.bm25_docs = [
+            "14. Equality before law. Wrong statute decoy.",
+            "CONTENTS\n14. Equality before law. Contents decoy.",
+            (
+                "14. Equality before law. The State shall not deny to any "
+                "person equality before the law or the equal protection of "
+                "the laws within the territory of India."
+            ),
+        ]
+        self.engine.bm25_metadatas = [
+            {
+                "source": "other_statute.pdf",
+                "page": 14,
+                "citation": "Article 14",
+            },
+            {
+                "source": "constitution_of_india.pdf",
+                "page": 4,
+                "citation": "Contents: Article 14",
+            },
+            {
+                "source": "constitution_of_india.pdf",
+                "page": 37,
+                "citation": "Article 14",
+            },
+        ]
+
+        hits = self.engine.exact_provision_search(
+            "article", "14", "constitution"
+        )
+
+        self.assertEqual(len(hits), 1)
+        self.assertEqual(
+            hits[0]["metadata"]["source"], "constitution_of_india.pdf"
+        )
+        self.assertEqual(hits[0]["metadata"]["page"], 37)
+        self.assertEqual(hits[0]["metadata"]["citation"], "Article 14")
+        self.assertIn(
+            "equality before the law",
+            hits[0]["text"].lower(),
+        )
+        self.assertIn(
+            "equal protection of the laws",
+            hits[0]["text"].lower(),
+        )
+
+    def test_exact_article_14_selection_does_not_depend_on_fixture_order(self):
+        valid_passage = (
+            "14.\nEquality before law - The State shall not deny to any "
+            "person equality before the law, or the equal protection of "
+            "the laws within the territory of India."
+        )
+        misleading_passage = (
+            "INDEX\n14. Equality before law. An index entry without the "
+            "operative provision."
+        )
+        valid_metadata = {
+            "source": "constitution_of_india.pdf",
+            "page": 37,
+            "citation": "Article 14",
+        }
+        misleading_metadata = {
+            "source": "constitution_of_india.pdf",
+            "page": 290,
+            "citation": "Article 14",
+        }
+
+        for documents, metadatas in (
+            (
+                [misleading_passage, valid_passage],
+                [misleading_metadata, valid_metadata],
+            ),
+            (
+                [valid_passage, misleading_passage],
+                [valid_metadata, misleading_metadata],
+            ),
+        ):
+            with self.subTest(first_passage=documents[0]):
+                self.engine.bm25_docs = documents
+                self.engine.bm25_metadatas = metadatas
+
+                hits = self.engine.exact_provision_search(
+                    "article", "14", "constitution"
+                )
+
+                self.assertEqual(len(hits), 1)
+                with self.subTest(first_passage=documents[0], field="source"):
+                    self.assertEqual(
+                        hits[0]["metadata"]["source"],
+                        "constitution_of_india.pdf",
+                    )
+                with self.subTest(first_passage=documents[0], field="passage"):
+                    self.assertEqual(hits[0]["text"], valid_passage)
+                with self.subTest(first_passage=documents[0], field="page"):
+                    self.assertEqual(hits[0]["metadata"]["page"], 37)
+                with self.subTest(first_passage=documents[0], field="citation"):
+                    self.assertEqual(
+                        hits[0]["metadata"]["citation"], "Article 14"
+                    )
+
+    def test_exact_article_14_rejects_wrong_citation(self):
+        self.engine.bm25_docs = [
+            (
+                "14. Equality before law. The State shall not deny to any "
+                "person equality before the law or the equal protection of "
+                "the laws."
+            )
+        ]
+        self.engine.bm25_metadatas = [
+            {
+                "source": "constitution_of_india.pdf",
+                "page": 37,
+                "citation": "Article 15",
+            }
+        ]
+
+        self.assertEqual(
+            self.engine.exact_provision_search(
+                "article", "14", "constitution"
+            ),
+            [],
+        )
+
+    def test_exact_article_14_accepts_page_citation_and_missing_or_blank_citation(self):
+        valid_passage = (
+            "14. Equality before law. The State shall not deny to any "
+            "person equality before the law or the equal protection of "
+            "the laws."
+        )
+
+        for metadata in (
+            {
+                "source": "constitution_of_india.pdf",
+                "page": 37,
+                "citation": "Page 37",
+            },
+            {"source": "constitution_of_india.pdf", "page": 37},
+            {
+                "source": "constitution_of_india.pdf",
+                "page": 37,
+                "citation": "   ",
+            },
+        ):
+            with self.subTest(metadata=metadata):
+                self.engine.bm25_docs = [valid_passage]
+                self.engine.bm25_metadatas = [metadata]
+
+                hits = self.engine.exact_provision_search(
+                    "article", "14", "constitution"
+                )
+
+                self.assertEqual(len(hits), 1)
+                self.assertEqual(hits[0]["metadata"], metadata)
+
+    def test_exact_article_14_accepts_explicit_matching_citation(self):
+        valid_passage = (
+            "14. Equality before law. The State shall not deny to any "
+            "person equality before the law or the equal protection of "
+            "the laws."
+        )
+        metadata = {
+            "source": "constitution_of_india.pdf",
+            "page": 37,
+            "citation": "Article 14",
+        }
+        self.engine.bm25_docs = [valid_passage]
+        self.engine.bm25_metadatas = [metadata]
+
+        hits = self.engine.exact_provision_search(
+            "article", "14", "constitution"
+        )
+
+        self.assertEqual(len(hits), 1)
+        self.assertEqual(hits[0]["metadata"], metadata)
+
+    def test_exact_article_14_rejects_wrong_heading(self):
+        self.engine.bm25_docs = [
+            (
+                "14. Index note. The State shall not deny to any person "
+                "equality before the law or the equal protection of the laws."
+            )
+        ]
+        self.engine.bm25_metadatas = [
+            {
+                "source": "constitution_of_india.pdf",
+                "page": 37,
+                "citation": "Article 14",
+            }
+        ]
+
+        self.assertEqual(
+            self.engine.exact_provision_search(
+                "article", "14", "constitution"
+            ),
+            [],
+        )
+
+    def test_exact_article_14_returns_no_hit_for_ambiguous_or_unverified_candidates(self):
+        valid_passage = (
+            "14. Equality before law. The State shall not deny to any "
+            "person equality before the law or the equal protection of "
+            "the laws."
+        )
+        valid_metadata = {
+            "source": "constitution_of_india.pdf",
+            "page": 37,
+            "citation": "Article 14",
+        }
+
+        self.engine.bm25_docs = [valid_passage, valid_passage]
+        self.engine.bm25_metadatas = [valid_metadata, dict(valid_metadata)]
+        self.assertEqual(
+            self.engine.exact_provision_search(
+                "article", "14", "constitution"
+            ),
+            [],
+        )
+
+        self.engine.bm25_docs = [
+            (
+                "14. Index note. No equality before the law entry in the "
+                "contents of the laws."
+            )
+        ]
+        self.engine.bm25_metadatas = [valid_metadata]
+        self.assertEqual(
+            self.engine.exact_provision_search(
+                "article", "14", "constitution"
+            ),
+            [],
+        )
+
     def test_exact_article_skips_contents_and_stops_at_next_article(self):
         self.engine.bm25_docs = [
             "CONTENTS\n12. Definition.\n13. Laws inconsistent with rights.\n",

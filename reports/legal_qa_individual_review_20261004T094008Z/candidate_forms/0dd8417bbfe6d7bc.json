@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "0dd8417bbfe6d7bc",
+    "question": "What condition or exception is described in the clause beginning “Provided that such readjustment shall not affect representation…”?",
+    "proposed_answer": "Provided that such readjustment shall not affect representation in the\nHouse of the People until the dissolution of the then existing House:\n      5[Provided further that such readjustment shall take effect from such date\nas the President may, by order, specify and until such readjustment takes effect,\nany  election  to  the House may be held on  the  basis  of  the  territorial\nconstituencies existing before such readjustment:\n      Provided also that until the relevant figures for the first census taken\nafter the year 6[2026] have been published,  it  shall not be necessary to\n7[readjust,—\n\n______________________________________________\n1.",
+    "supporting_passage": "82. Readjustment after each census.—Upon the completion of each\ncensus, the allocation of seats in the House of the People to the States and the\ndivision of each State into territorial constituencies shall be readjusted by such\nauthority and in such manner as Parliament may by law determine:\n      Provided that such readjustment shall not affect representation in the\nHouse of the People until the dissolution of the then existing House:\n      5[Provided further that such readjustment shall take effect from such date\nas the President may, by order, specify and until such readjustment takes effect,\nany  election  to  the House may be held on  the  basis  of  the  territorial\nconstituencies existing before such readjustment:\n      Provided also that until the relevant figures for the first census taken\nafter the year 6[2026] have been published,  it  shall not be necessary to\n7[readjust,—\n\n______________________________________________\n1. Added by the Constitution (Forty-second Amendment) Act, 1976, s. 15 (w.e.f. 3-1-1977).\n2. Subs. by the Constitution (Eighty-fourth Amendment) Act, 2001, s. 3, for \"2000\"\n   (w.e.f. 21-2-2002).\n3. Subs. by s.3, ibid, for certain words (w.e.f. 21-2-2002).\n4. Subs. by the Constitution (Eighty-seventh Amendment) Act, 2003, s. 2, for \"1991\"\n   (w.e.f. 22-6-2003).\n5. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 16 (w.e.f. 3-1-1977).\n6. Subs. by the Constitution (Eighty-fourth Amendment) Act, 2001, s. 4, for \"2000\"\n   (w.e.f. 21-2-2002).\n7. Subs. by s.4, ibid., for certain words (w.e.f. 21-2-2002).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "69",
+    "legal_reference": "Article 82",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "condition_exception",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "1",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

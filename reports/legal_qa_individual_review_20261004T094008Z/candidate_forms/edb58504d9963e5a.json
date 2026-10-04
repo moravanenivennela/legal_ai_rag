@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "edb58504d9963e5a",
+    "question": "How does Section 2(5) define complainant?",
+    "proposed_answer": "(5) \"complainant\" means—\n\n                                          (i) a consumer;",
+    "supporting_passage": "2. In this Act, unless the context otherwise requires,—\n\n                           (1) \"advertisement\" means any audio or visual publicity, representation,\n                  endorsement or pronouncement made by means of light, sound, smoke, gas, print,\n                     electronic media, internet or website and includes any notice, circular, label, wrapper,\n                    invoice or such other documents;\n\n                            (2) \"appropriate laboratory\" means a laboratory or an organisation—\n\n                                          (i) recognised by the Central Government; or\n\n                                           (ii) recognised by a State Government, subject to such guidelines as may\n                       be issued by the Central Government in this behalf; or\n\n                                            (iii) established by or under any law for the time being in force, which is\n                          maintained, financed or aided by the Central Government or a State Government\n                            for carrying out analysis or test of any goods with a view to determining whether\n                        such goods suffer from any defect;\n\n                            (3) \"branch office\" means—\n\n                                           (i) any office or place of work described as a branch by the establishment; or\n\n                                           (ii) any establishment carrying on either the same or substantially the\n                     same activity carried on by the head office of the establishment;\n\n                           (4) \"Central Authority\" means the Central Consumer Protection Authority\n                     established under section 10;\n\n                            (5) \"complainant\" means—\n\n                                          (i) a consumer; or\n\n                                           (ii) any voluntary consumer association registered under any law for the\n                        time being in force; or\n\n                                            (iii) the Central Government or any State Government; or\n\n                                      (iv) the Central Authority; or\n\n                                    (v) one or more consumers, where there are numerous consumers having\n                           the same interest; or\n\n                                      (vi) in case of death of a consumer, his legal heir or legal representative; or\n\n                                        (vii) in case of a consumer being a minor, his parent or legal guardian;\n\n                            (6) \"complaint\" means any allegation in writing, made by a complainant for\n                    obtaining any relief provided by or under this Act, that—\n\n                                          (i) an unfair contract or unfair trade practice or a restrictive trade practice\n                        has been adopted by any trader or service provider;\n\n                                           (ii) the goods bought by him or agreed to be bought by him suffer from\n                      one or more defects;\n\n                                            (iii) the services hired or availed of or agreed to be hired or availed of by\n                     him suffer from any deficiency;\n\n                                      (iv) a trader or a service provider, as the case may be, has charged for the\n                       goods or for the services mentioned in the complaint, a price in excess of the\n                      price—\n\n                                         (a) fixed by or under any law for the time being in force; or",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page": "2",
+    "legal_reference": "Section 2(5)",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "definition",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "267",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

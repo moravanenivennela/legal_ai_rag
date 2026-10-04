@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "ccf81f752f160b71",
+    "question": "What condition or exception is described in the clause beginning “If at any time it appears to the…”?",
+    "proposed_answer": "If at\nany time it appears to the President that a question of law or fact has arisen, or\nis likely to arise, which is of such a nature and of such public importance that it\nis expedient to obtain the opinion of the Supreme Court upon it, he may refer\nthe question to that Court for consideration and the Court may, after such\nhearing as it thinks fit, report to the President its opinion thereon.",
+    "supporting_passage": "143. Power of the President to consult the Supreme Court.—(1) If at\nany time it appears to the President that a question of law or fact has arisen, or\nis likely to arise, which is of such a nature and of such public importance that it\nis expedient to obtain the opinion of the Supreme Court upon it, he may refer\nthe question to that Court for consideration and the Court may, after such\nhearing as it thinks fit, report to the President its opinion thereon.\n       (2) The President may, notwithstanding anything in 2*** the proviso to\narticle 131, refer a dispute of the kind mentioned in the 3[said proviso] to the\nSupreme Court for opinion and the Supreme Court shall, after such hearing as it\nthinks fit, report to the President its opinion thereon.\n      144. Civil and judicial authorities to act in aid of the Supreme\nCourt.—All authorities, civil and judicial, in the territory of India shall act in\naid of the Supreme Court.\n      4[144A. [Special provisions as  to disposal  of questions relating to\nconstitutional  validity of laws.].—Omitted by the Constitution (Forty-third\nAmendment) Act, 1977, s. 5 (w.e.f. 13-4-1978).]",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "96",
+    "legal_reference": "Article 143",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "condition_exception",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "34",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

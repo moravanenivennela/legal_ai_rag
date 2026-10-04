@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "e7dda45e24d43b89",
+    "question": "What procedure or remedy is described in the clause beginning “(c) the procedure to be followed by the…”?",
+    "proposed_answer": "(c) the procedure to be followed by the Regional or District\n      Council or any court constituted by such Council in appeals and other\n      proceedings under sub-paragraph (2) of this paragraph;",
+    "supporting_passage": "289         THE CONSTITUTION OF INDIA\n\n                             (Sixth Schedule)\n\n       (4) A Regional Council or District Council, as the case may be, may\nwith the previous approval of the Governor make rules regulating —\n             (a) the constitution of village councils and courts and the\n      powers to be exercised by them under this paragraph;\n              (b) the procedure to be followed by village councils or courts in\n       the trial of suits and cases under sub-paragraph (1) of this paragraph;\n               (c) the procedure to be followed by the Regional or District\n      Council or any court constituted by such Council in appeals and other\n      proceedings under sub-paragraph (2) of this paragraph;\n             (d) the enforcement of decisions and orders of such councils\n     and courts;\n               (e)  all  other  ancillary matters  for  the  carrying out of the\n       provisions of sub-paragraphs (1) and (2) of this paragraph.\n       1[(5) On and from such date as the President may, 2[after consulting the\nGovernment of the State concerned], by notification appoint in this behalf, this\nparagraph shall have effect in relation to such autonomous district or region as\nmay be specified in the notification, as if—\n                 (i) in sub-paragraph (1), for the words “between the parties all of\n    whom belong to Scheduled Tribes within such areas, other than suits\n      and cases to which the provisions of sub-paragraph (1) of paragraph 5\n       of this Schedule apply,”, the words “not being suits and cases of the\n       nature  referred  to  in sub-paragraph  (1)  of paragraph  (5)  of  this\n      Schedule, which the Governor may specify in this behalf,” had been\n       substituted;\n                  (ii) sub-paragraphs (2) and (3) had been omitted;\n                  (iii) in sub-paragraph (4)—\n                     (a)  for  the words “A Regional  Council  or  District\n             Council, as the case may be, may with the previous approval of\n             the Governor make rules regulating”, the words “the Governor\n         may make rules regulating” had been substituted; and\n                      (b)  for  clause  (a),  the  following  clause had been\n              substituted, namely:—\n______________________________________________\n1. Ins. by the Assam Reorganisation (Meghalaya) Act, 1969 (55 of 1969), s. 74 and\n   Fourth Sch. (w.e.f. 2-4-1970).\n2. Subs. by the North-Eastern Areas (Reorganisation) Act, 1971 (81 of 1971), s. 71(i)\n  and Eighth Sch., for certain words (w.e.f. 21-1-1972).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "320",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "procedure_remedy",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "527",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

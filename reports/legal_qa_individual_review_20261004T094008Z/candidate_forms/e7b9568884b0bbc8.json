@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "e7b9568884b0bbc8",
+    "question": "What procedure or remedy is described in the clause beginning “—(1) An appeal shall lie to the Supreme…”?",
+    "proposed_answer": "—(1) An appeal shall lie to the Supreme Court\nfrom any judgment, decree or final order of a High Court in the territory of\nIndia, whether in a civil, criminal or other proceeding, 3[if the High Court\ncertifies under article 134A] that the case involves a substantial question of law\nas to the interpretation of this Constitution.",
+    "supporting_passage": "131. Original jurisdiction of the Supreme Court.—Subject to the\nprovisions of this Constitution, the Supreme Court shall, to the exclusion of any\nother court, have original jurisdiction in any dispute—\n          (a) between the Government of India and one or more States; or\n          (b) between the Government of India and any State or States on one\n       side and one or more other States on the other; or\n           (c) between two or more States,\nif and in so far as the dispute involves any question (whether of law or fact) on which\nthe existence or extent of a legal right depends:\n      1[Provided that the said jurisdiction shall not extend to a dispute arising\nout of any treaty, agreement, covenant, engagement, sanad or other similar\ninstrument  which,  having  been  entered  into  or  executed  before  the\ncommencement  of  this  Constitution,  continues  in  operation  after  such\ncommencement, or which provides that the said jurisdiction shall not extend to\nsuch a dispute.]\n      2[131A. Exclusive  jurisdiction  of  the Supreme  Court  in regard  to\nquestions as to constitutional  validity of Central laws.].—Omitted by the\nConstitution (Forty-third Amendment) Act, 1977, s. 4 (w.e.f. 13-4-1978).\n      132. Appellate jurisdiction of the Supreme Court in appeals from\nHigh Courts in certain cases.—(1) An appeal shall lie to the Supreme Court\nfrom any judgment, decree or final order of a High Court in the territory of\nIndia, whether in a civil, criminal or other proceeding, 3[if the High Court\ncertifies under article 134A] that the case involves a substantial question of law\nas to the interpretation of this Constitution.\n\n______________________________________________\n1. Subs. by the Constitution (Seventh Amendment) Act, 1956, s. 5, for the proviso\n   (w.e.f. 1-11-1956).\n2. Ins. by the Constitution (Forty-second Amendment) Act, 1976, s. 23 (w.e.f. 1-2-1977).\n3. Subs. by the Constitution (Forty-fourth Amendment) Act, 1978, s. 17, for \"if the High\n  Court certifies\" (w.e.f. 1-8-1979).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "92",
+    "legal_reference": "Article 131",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "procedure_remedy",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "REPEATED_ANSWER_TEMPLATE; REPEATED_EXACT_ANSWER",
+    "answer_template_repetition": "True",
+    "priority_rank": "359",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; REPEATED_ANSWER_TEMPLATE_REVIEW; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

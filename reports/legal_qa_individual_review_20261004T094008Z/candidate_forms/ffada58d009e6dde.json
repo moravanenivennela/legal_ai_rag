@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "ffada58d009e6dde",
+    "question": "What condition or exception is described in the clause beginning “Unless the Legislature of the State by law…”?",
+    "proposed_answer": "Unless the Legislature of the State by law otherwise provides, this\narticle  shall,  after  the  expiration of a  period of  fifteen  years from  the\ncommencement of this Constitution, have effect as if the words “or in English”\nwere omitted therefrom:\n      1[Provided that in relation to the 2[Legislatures of the States of Himachal\nPradesh, Manipur, Meghalaya and Tripura] this clause shall have effect as if for\nthe words “fifteen years” occurring therein, the words “twenty-five years” were\nsubstituted:]\n      3[Provided further that in relation to the 4[Legislatures of the States of\n5[Arunachal Pradesh, Goa and Mizoram]], this clause shall have effect as if for\n______________________________________________\n1.",
+    "supporting_passage": "210. Language to be used in the Legislature.—(1) Notwithstanding\nanything in Part XVII, but subject to the provisions of article 348, business in\nthe Legislature of a State shall be transacted in the  official language or\nlanguages of the State or in Hindi or in English:\n      Provided that the Speaker of the Legislative Assembly or Chairman of\nthe Legislative Council, or person acting as such, as the case may be, may\npermit any member who cannot adequately express himself in any of the\nlanguages aforesaid to address the House in his mother-tongue.\n       (2) Unless the Legislature of the State by law otherwise provides, this\narticle  shall,  after  the  expiration of a  period of  fifteen  years from  the\ncommencement of this Constitution, have effect as if the words “or in English”\nwere omitted therefrom:\n      1[Provided that in relation to the 2[Legislatures of the States of Himachal\nPradesh, Manipur, Meghalaya and Tripura] this clause shall have effect as if for\nthe words “fifteen years” occurring therein, the words “twenty-five years” were\nsubstituted:]\n      3[Provided further that in relation to the 4[Legislatures of the States of\n5[Arunachal Pradesh, Goa and Mizoram]], this clause shall have effect as if for\n______________________________________________\n1. Ins. by the State of Himachal Pradesh Act, 1970 (53 of 1970), s. 46 (w.e.f. 25-1-1971).\n2. Subs. by the North-Eastern Areas (Reorganisation) Act, 1971 (81 of 1971) s. 71, for\n   \"Legislature of the State of Himachal Pradesh\" (w.e.f. 21-1-1972).\n3. Ins. by the State of Mizoram Act, 1986 (34 of 1986), s. 39 (w.e.f. 20-2-1987).\n4. Subs. by the State of Arunachal Pradesh Act, 1986 (69 of 1986), s. 42, for \"Legislature\n  of the State of Mizoram\" (w.e.f. 20-2-1987).\n5. Subs. by the Goa, Daman and Diu Reorganisation Act, 1987 (18 of 1987), s. 63, for\n  \"Arunachal Pradesh and Mizoram\" (w.e.f. 30-5-1987).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "127",
+    "legal_reference": "Article 210",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "condition_exception",
+    "duplicate_group_id": "dup-3cdcf9c08b09",
+    "duplicate_candidate_ids": "be20a5d1acdc05b6",
+    "duplicate_flags": "NEAR_QUESTION_DUPLICATE",
+    "answer_template_repetition": "False",
+    "priority_rank": "37",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NEAR_DUPLICATE_GROUP_REVIEW_TOGETHER; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

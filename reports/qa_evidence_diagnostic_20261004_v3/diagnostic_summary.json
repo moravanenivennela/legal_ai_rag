@@ -1,0 +1,67 @@
+{
+  "scope": "Diagnostic only. Nearby-page matches do not replace declared pages. No candidate is automatically accepted as legally correct.",
+  "candidate_files": {
+    "train_candidate": "fine_tuning\\dataset\\expanded\\legal_qa\\train_candidates.jsonl",
+    "validation_candidate": "fine_tuning\\dataset\\expanded\\legal_qa\\validation_candidates.jsonl"
+  },
+  "existing_records_compared": {
+    "path": "fine_tuning\\dataset\\qa_partial.jsonl",
+    "count": 246
+  },
+  "source_pdfs": {
+    "constitution": {
+      "path": "data\\constitution_of_india.pdf",
+      "page_count": 402
+    },
+    "consumer_protection": {
+      "path": "data\\consumer_protection_act_2019.pdf",
+      "page_count": 40
+    }
+  },
+  "candidate_count": 608,
+  "review_status_counts": {
+    "NEEDS_REVIEW": 608
+  },
+  "page_match_status_counts": {
+    "DECLARED_PAGE_MATCH": 145,
+    "NEARBY_PAGE_MATCH": 0,
+    "NO_MATCH": 463,
+    "AMBIGUOUS_MATCH": 0,
+    "INVALID_DECLARED_PAGE": 0,
+    "INVALID_SOURCE": 0
+  },
+  "reference_status_counts": {
+    "AMBIGUOUS_REFERENCE": 341,
+    "REFERENCE_TEXT_MATCH_NEEDS_REVIEW": 53,
+    "REFERENCE_CONFLICT_OR_UNCONFIRMED": 190,
+    "REFERENCE_MATCH": 14,
+    "MISSING_REFERENCE": 10
+  },
+  "source_distribution": {
+    "constitution": 485,
+    "consumer_protection": 123
+  },
+  "question_type_heuristic_distribution": {
+    "direct_or_other_candidate": 535,
+    "scenario_or_condition_candidate": 29,
+    "definition_candidate": 4,
+    "comparison_candidate": 1,
+    "procedure_or_remedy_candidate": 25,
+    "rights_or_duties_candidate": 14
+  },
+  "duplicate_candidate_record_counts": {
+    "exact_question": 17,
+    "near_question": 155,
+    "exact_answer": 38,
+    "near_question_threshold": 0.9,
+    "compared_against": "both candidate files and existing qa_partial.jsonl"
+  },
+  "human_review_shortlist_count": 2,
+  "human_review_shortlist_rule": "Stage 9 status NEEDS_REVIEW plus unique declared/nearby passage match and explicit reference match. Duplicate flags remain visible; no record is accepted or citation changed.",
+  "outputs": {
+    "diagnostic": "reports\\qa_evidence_diagnostic_20261004_v3\\candidate_evidence_diagnostic.csv",
+    "shortlist": "reports\\qa_evidence_diagnostic_20261004_v3\\human_review_shortlist.csv",
+    "summary": "reports\\qa_evidence_diagnostic_20261004_v3\\diagnostic_summary.json"
+  },
+  "inputs_modified": false
+}

@@ -1,0 +1,89 @@
+{
+  "created_at_utc": "2026-10-04T09:33:50.204569+00:00",
+  "candidate_run": "reports\\qa_candidate_generation_stage13_20261004T091039Z_seed42",
+  "review_workspace": "reports\\legal_qa_review_workspace_20261004T092435Z",
+  "candidate_count": 1000,
+  "selected_batch_count": 50,
+  "batch_size_requested": 50,
+  "batch_by_source": {
+    "constitution_of_india.pdf": 41,
+    "consumer_protection_act_2019.pdf": 9
+  },
+  "batch_by_question_type": {
+    "rights_duties": 9,
+    "definition": 8,
+    "comparison": 1,
+    "condition_exception": 8,
+    "direct_factual": 8,
+    "procedure_remedy": 8,
+    "scenario": 8
+  },
+  "candidate_by_source": {
+    "constitution_of_india.pdf": 813,
+    "consumer_protection_act_2019.pdf": 187
+  },
+  "candidate_by_question_type": {
+    "condition_exception": 163,
+    "definition": 52,
+    "direct_factual": 118,
+    "procedure_remedy": 27,
+    "rights_duties": 568,
+    "scenario": 71,
+    "comparison": 1
+  },
+  "candidate_by_source_and_question_type": {
+    "constitution_of_india.pdf|condition_exception": 122,
+    "constitution_of_india.pdf|definition": 42,
+    "constitution_of_india.pdf|direct_factual": 118,
+    "constitution_of_india.pdf|procedure_remedy": 20,
+    "constitution_of_india.pdf|rights_duties": 456,
+    "constitution_of_india.pdf|scenario": 54,
+    "consumer_protection_act_2019.pdf|definition": 10,
+    "consumer_protection_act_2019.pdf|condition_exception": 41,
+    "consumer_protection_act_2019.pdf|procedure_remedy": 7,
+    "consumer_protection_act_2019.pdf|rights_duties": 112,
+    "consumer_protection_act_2019.pdf|scenario": 17,
+    "constitution_of_india.pdf|comparison": 1
+  },
+  "candidate_by_reference_status": {
+    "EXPLICIT_REFERENCE_CONSISTENT": 445,
+    "UNCONFIRMED": 555
+  },
+  "candidate_by_evidence_status": {
+    "DECLARED_PAGE_MATCH": 1000
+  },
+  "batch_by_evidence_status": {
+    "DECLARED_PAGE_MATCH": 50
+  },
+  "batch_by_reference_status": {
+    "EXPLICIT_REFERENCE_CONSISTENT": 37,
+    "UNCONFIRMED": 13
+  },
+  "candidate_by_reference_confidence": {
+    "EXPLICIT_NUMBERED_HEADING": 445,
+    "UNCONFIRMED": 555
+  },
+  "duplicate_group_count": 100,
+  "candidate_rows_with_template_repetition": 253,
+  "candidate_duplicate_flag_counts": {
+    "NEAR_QUESTION_DUPLICATE": 311,
+    "REPEATED_ANSWER_TEMPLATE": 253,
+    "REPEATED_EXACT_ANSWER": 251
+  },
+  "candidate_evidence_quality_flag_counts": {
+    "SHORT_EVIDENCE_REVIEW": 2,
+    "REFERENCE_UNCONFIRMED": 555
+  },
+  "batch_duplicate_representatives": 2,
+  "review_status_counts": {
+    "PENDING_HUMAN_REVIEW": 1000
+  },
+  "review_decision_count": 0,
+  "legal_correctness_claim": "None. Page matching, heading/reference consistency, and deterministic selection aid review but do not establish legal correctness.",
+  "selection_method": "Deterministic greedy ordering by traceability/reference score, with source and question-type balancing as tie-breakers; one representative per duplicate connected group is eligible for the first batch.",
+  "outputs": {
+    "all_candidates": "prioritized_candidates.csv",
+    "first_review_batch": "first_review_batch.csv",
+    "summary": "prioritization_summary.json"
+  }
+}

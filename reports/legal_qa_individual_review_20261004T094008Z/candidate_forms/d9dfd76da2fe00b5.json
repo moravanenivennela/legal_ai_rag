@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "d9dfd76da2fe00b5",
+    "question": "According to the passage, what happens if there is a majority?",
+    "proposed_answer": "if there is a majority, but if the members are\nequally divided, they shall state the point or points on which they differ, and make a reference\nto the President who shall either hear the point or points himself or refer the case for hearing\non such point or points by one or more of t",
+    "supporting_passage": "SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY              23\n\n\n      43. The Central Government may, by notification, make rules to provide for the   Qualifications,\nqualification for appointment, method of recruitment, procedure of appointment, term of   etc., of\n                                                                                                          President and\noffice, resignation and removal of the President and members of the State Commission.      members of\n                                                                                                           State\n                                                                                          Commission.\n      44. The State Government may, by notification, make rules to provide for salaries and   Salaries,\nallowances and other terms and conditions of service of the President and members of the  allowances and\nState Commission.                                                                                   other terms\n                                                                                             and conditions\n                                                                                                            of service of\n                                                                                                          President and\n                                                                                     members of\n                                                                                                          State\n                                                                                          Commission.\n\n      45. Any person appointed as President or, as the case may be, a member of the State   Transitional\nCommission immediately before the commencement of this Act shall hold office as such, as   provision.\nPresident or member, as the case may be, till the completion of his term.\n\n      46. (1) The State Government shall determine the nature and categories of the officers   Officers and\nand other employees required to assist the State Commission in the discharge of its functions  employees of\nand provide the Commission with such officers and other employees as it may think fit.       State                                                                                          Commission.\n      (2) The officers and other employees of the State Commission shall discharge their\nfunctions under the general superintendence of the President.\n\n      (3) The salaries and allowances payable to and the other terms and conditions of\nservice of, the officers and other employees of the State Commission shall be such as may be\nprescribed.\n\n      47. (1) Subject to the other provisions of this Act, the State Commission shall have   Jurisdiction of\njurisdiction—                                                                                           State\n                                                                                           Commission.\n             (a) to entertain—\n\n                     (i) complaints where the value of the goods or services paid as\n            consideration, exceeds rupees one crore, but does not exceed rupees ten crore:\n\n                Provided that where the Central Government deems it necessary so to do,\n                 it may prescribe such other value, as it deems fit;\n\n                       (ii) complaints against unfair contracts, where the value of goods or\n            services paid as consideration does not exceed ten crore rupees;\n\n                        (iii) appeals against the orders of any District Commission within the\n             State; and\n\n             (b) to call for the records and pass appropriate orders in any consumer dispute\n     which is pending before or has been decided by any District Commission within the\n      State, where it appears to the State Commission that such District Commission has\n      exercised a jurisdiction not vested in it by law, or has failed to exercise a jurisdiction so\n      vested or has acted in exercise of its jurisdiction illegally or with material irregularity.\n\n      (2) The jurisdiction, powers and authority of the State Commission may be exercised\nby Benches thereof, and a Bench may be constituted by the President with one or more\nmembers as the President may deem fit:\n\n     Provided that the senior-most member shall preside over the Bench.\n\n      (3) Where the members of a Bench differ in opinion on any point, the points shall be\ndecided according to the opinion of the majority, if there is a majority, but if the members are\nequally divided, they shall state the point or points on which they differ, and make a reference\nto the President who shall either hear the point or points himself or refer the case for hearing\non such point or points by one or more of the other members and such point or points shall",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page": "23",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "scenario",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "925",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

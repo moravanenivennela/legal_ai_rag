@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "f6adb89377a3f28e",
+    "question": "What right, duty, or requirement is described in the clause beginning “(2) A resolution passed under clause (1) shall…”?",
+    "proposed_answer": "(2) A resolution passed under clause (1) shall remain in force for such\nperiod not exceeding one year as may be specified therein:\n      Provided that, if and so often as a resolution approving the continuance\nin force of any such resolution is passed in the manner provided in clause (1),\nsuch resolution shall continue in force for a further period of one year from the\ndate on which under this clause it would otherwise have ceased to be in force.",
+    "supporting_passage": "248. Residuary powers of legislation.—(1) 1[Subject to article 246A,\nParliament] has exclusive power to make any law with respect to any matter\nnot enumerated in the Concurrent List or State List.\n       (2) Such power shall include the power of making any law imposing a\ntax not mentioned in either of those Lists.\n      249. Power of Parliament to legislate with respect to a matter in the\nState List in the national interest.—(1) Notwithstanding anything  in the\nforegoing provisions of this Chapter, if the Council of States has declared by\nresolution supported by not less than two-thirds of the members present and\nvoting that it is necessary or expedient in the national interest that Parliament\nshould make laws with respect to 2[goods and services tax provided under article\n246A or] any matter enumerated in the State List specified in the resolution, it\nshall be lawful for Parliament to make laws for the whole or any part of the\nterritory of India with respect to that matter while the resolution remains in force.\n       (2) A resolution passed under clause (1) shall remain in force for such\nperiod not exceeding one year as may be specified therein:\n      Provided that, if and so often as a resolution approving the continuance\nin force of any such resolution is passed in the manner provided in clause (1),\nsuch resolution shall continue in force for a further period of one year from the\ndate on which under this clause it would otherwise have ceased to be in force.\n       (3) A law made by Parliament which Parliament would not but for the\npassing of a resolution under clause (1) have been competent to make shall, to the\nextent of the incompetency, cease to have effect on the expiration of a period of\nsix months after the resolution has ceased to be in force, except as respects things\ndone or omitted to be done before the expiration of the said period.\n\n______________________________________________\n1. Subs. by the Constitution (One Hundred and First Amendment) Act, 2016, s. 3, for\n  \"Parliament\" (w.e.f. 16-9-2016).\n2. Ins. by s. 4, ibid. (w.e.f. 16-9-2016).",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "177",
+    "legal_reference": "Article 248",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "rights_duties",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "254",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

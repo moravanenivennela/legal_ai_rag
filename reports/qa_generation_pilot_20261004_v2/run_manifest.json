@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-10-04T08:21:27.993698+00:00",
+  "method": "deterministic extractive templates; no language model used",
+  "model": null,
+  "ollama_used": false,
+  "settings": {
+    "seed": 42,
+    "random_sampling": false,
+    "passages": [
+      {
+        "source_filename": "constitution_of_india.pdf",
+        "page": 37
+      },
+      {
+        "source_filename": "consumer_protection_act_2019.pdf",
+        "page": 2
+      }
+    ],
+    "max_raw_candidates": 4,
+    "near_duplicate_question_threshold": 0.9,
+    "reference_policy": "Only explicit numbered provision headings; otherwise null and UNCONFIRMED."
+  },
+  "counts": {
+    "raw_candidates": 3,
+    "retained_candidates": 2,
+    "duplicate_candidates_removed": 1,
+    "failures": 0,
+    "human_review_pending": 2
+  },
+  "duplicate_rejections": [
+    {
+      "candidate_id": "a7c48069ace312f0",
+      "duplicate_of": "e994ede68ec07e94",
+      "reason": "REPEATED_ANSWER_TEMPLATE"
+    }
+  ],
+  "failures": [],
+  "coverage": {
+    "source_document": {
+      "consumer_protection_act_2019.pdf": 1,
+      "constitution_of_india.pdf": 1
+    },
+    "legal_reference": {
+      "Section 2(1)": 1,
+      "Article 14": 1
+    },
+    "question_type": {
+      "definition": 1,
+      "direct_factual": 1
+    }
+  },
+  "outputs": {
+    "candidates": "candidates.jsonl",
+    "human_review_report": "human_review_report.csv",
+    "manifest": "run_manifest.json"
+  },
+  "legal_correctness_claim": "None. Automated provenance checks and templates do not establish legal correctness; every row requires human review."
+}

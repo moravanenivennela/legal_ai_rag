@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "da206ca0d0dcda4c",
+    "question": "What condition or exception is described in the clause beginning “Provided that the Central Authority may, for every…”?",
+    "proposed_answer": "Provided that the Central Authority may, for every subsequent contravention, prohibit\n             such endorser from making endorsement in respect of any product or service for a period\n             which may extend to three years.",
+    "supporting_passage": "SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY              15\n\n\n                   Provided that the Central Authority may, for every subsequent contravention, prohibit\n             such endorser from making endorsement in respect of any product or service for a period\n             which may extend to three years.\n\n                      (4) Where the Central Authority is satisfied after investigation that any person is\n             found to publish, or is a party to the publication of, a misleading advertisement, it may\n             impose on such person a penalty which may extend to ten lakh rupees.\n\n                      (5) No endorser shall be liable to a penalty under sub-sections (2) and (3) if he has\n               exercised due diligence to verify the veracity of the claims made in the advertisement regarding\n               the product or service being endorsed by him.\n\n                      (6) No person shall be liable to such penalty if he proves that he had published or\n              arranged for the publication of such advertisement in the ordinary course of his business:\n\n                   Provided that no such defence shall be available to such person if he had previous\n             knowledge of the order passed by the Central Authority for withdrawal or modification of\n             such advertisement.\n\n                      (7) While determining the penalty under this section, regard shall be had to the\n               following, namely:—\n\n                            (a) the population and the area impacted or affected by such offence;\n\n                            (b) the frequency and duration of such offence;\n\n                              (c) the vulnerability of the class of persons likely to be adversely affected by\n                   such offence; and\n\n                            (d) the gross revenue from the sales effected by virtue of such offence.\n\n                      (8) The Central Authority shall give the person an opportunity of being heard before\n             an order under this section is passed.\n\n                    22. (1) For the purpose of conducting an investigation after preliminary inquiry under   Search and\n               sub-section (1) of section 19, the Director-General or any other officer authorised by him in   seizure.\n                 this behalf, or the District Collector, as the case may be, may, if he has any reason to believe\n                that any person has violated any consumer rights or committed unfair trade practice or\n              causes any false or misleading advertisement to be made, shall,—\n\n                            (a) enter at any reasonable time into any such premises and search for any\n                 document or record or article or any other form of evidence and seize such document,\n                     record, article or such evidence;\n\n                            (b) make a note or an inventory of such record or article; or\n\n                              (c) require any person to produce any record, register or other document or\n                          article.\n\n2 of 1974.             (2) The provisions of the Code of Criminal Procedure, 1973, relating to search and\n               seizure shall apply, as far as may be, for search and seizure under this Act.\n\n                      (3) Every document, record or article seized under clause (a) of sub-section (1) or\n             produced under clause (c) of that sub-section shall be returned to the person, from whom\n              they were seized or who produced the same, within a period of twenty days of the date of\n             such seizure or production, as the case may be, after copies thereof or extracts therefrom\n                 certified by that person, in such manner as may be prescribed, have been taken.\n\n                      (4) Where any article seized under sub-section (1) are subject to speedy or natural\n               decay, the Director-General or such other officer may dispose of the article in such manner as\n           may be prescribed.\n\n                      (5) In the case of articles other than the articles referred to in sub-section (4), provisions\n              contained in clause (c) of sub-section (2) of section 38 shall mutatis mutandis apply in\n                relation to analysis or tests.",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page": "15",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "condition_exception",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "801",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

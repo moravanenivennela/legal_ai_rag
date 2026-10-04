@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "fbde0aa31a8f63b3",
+    "question": "How does the Act define injury?",
+    "proposed_answer": "(23) \"injury\" means any harm whatever illegally caused to any person, in body,\n                mind or property;",
+    "supporting_passage": "SEC. 1]         THE GAZETTE OF INDIA EXTRAORDINARY               5\n\n\n                  commercial activity, trade or profession, or such other class or classes of persons\n                    including public utility entities in the manner as may be prescribed;\n\n                           (20) \"express warranty\" means any material statement, affirmation of fact, promise\n                    or description relating to a product or service warranting that it conforms to such\n                    material statement, affirmation, promise or description and includes any sample or\n                 model of a product warranting that the whole of such product conforms to such\n                  sample or model;\n\n                          (21) \"goods\" means every kind of movable property and includes \"food\" as\n                    defined in clause (j) of sub-section (1) of section 3 of the Food Safety and Standards\n34 of 2006.          Act, 2006;\n\n                          (22) \"harm\", in relation to a product liability, includes—\n\n                                          (i) damage to any property, other than the product itself;\n\n                                           (ii) personal injury, illness or death;\n\n                                            (iii) mental agony or emotional distress attendant to personal injury or\n                              illness or damage to property; or\n\n                                      (iv) any loss of consortium or services or other loss resulting from a harm\n                           referred to in sub-clause (i) or sub-clause (ii) or sub-clause (iii),\n\n                    but shall not include any harm caused to a product itself or any damage to the property\n                 on account of breach of warranty conditions or any commercial or economic loss,\n                    including any direct, incidental or consequential loss relating thereto;\n\n                          (23) \"injury\" means any harm whatever illegally caused to any person, in body,\n                mind or property;\n\n                          (24) \"manufacturer\" means a person who—\n\n                                          (i) makes any goods or parts thereof; or\n\n                                           (ii) assembles any goods or parts thereof made by others; or\n\n                                            (iii) puts or causes to be put his own mark on any goods made by any\n                          other person;\n\n                          (25) \"mediation\" means the process by which a mediator mediates the consumer\n                    disputes;\n\n                          (26) \"mediator\" means a mediator referred to in section 75;\n\n                          (27) \"member\" includes the President and a member of the National Commission\n                    or a State Commission or a District Commission, as the case may be;\n\n                          (28) \"misleading advertisement\" in relation to any product or service, means an\n                    advertisement, which—\n\n                                          (i) falsely describes such product or service; or\n\n                                           (ii) gives a false guarantee to, or is likely to mislead the consumers as to\n                          the nature, substance, quantity or quality of such product or service; or\n\n                                            (iii) conveys an express or implied representation which, if made by the\n                        manufacturer or seller or service provider thereof, would constitute an unfair\n                           trade practice; or\n\n                                      (iv) deliberately conceals important information;\n\n                          (29) \"National Commission\" means the National Consumer Disputes Redressal\n                 Commission established under sub-section (1) of section 53;",
+    "source_document": "consumer_protection_act_2019.pdf",
+    "pdf_page": "5",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "definition",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "812",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

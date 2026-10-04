@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "e68a624739eb7a46",
+    "question": "What procedure or remedy is described in the clause beginning “Certificate for appeal to the Supreme Court.”?",
+    "proposed_answer": "Certificate for appeal to the Supreme Court.",
+    "supporting_passage": "(ix)                             Contents\n\nARTICLES\n\n  134A.     Certificate for appeal to the Supreme Court.\n  135.      Jurisdiction and powers of the Federal Court under existing law\n             to be exercisable by the Supreme Court.\n  136.     Special leave to appeal by the Supreme Court.\n  137.    Review of judgments or orders by the Supreme Court.\n  138.     Enlargement of the jurisdiction of the Supreme Court.\n  139.     Conferment on the Supreme Court of powers to issue certain\n             writs.\n  139A.    Transfer of certain cases.\n  140.     Ancillary powers of the Supreme Court.\n  141.    Law declared by Supreme Court to be binding on all courts.\n  142.     Enforcement of decrees and orders of the Supreme Court and\n            orders as to discovery, etc.\n  143.    Power of the President to consult the Supreme Court.\n  144.      Civil and  judicial  authorities  to  act in aid of the Supreme\n            Court.\n [144A.    Special  provisions  as  to  disposal  of  questions  relating  to\n             constitutional validity of laws.  Omitted.]\n  145.     Rules of Court, etc.\n  146.     Officers and servants and the expenses of the Supreme Court.\n  147.      Interpretation.\n           CHAPTER V.  COMPTROLLER AND AUDITOR-\n                    GENERAL OF INDIA\n  148.     Comptroller and Auditor-General of India.\n  149.     Duties and powers of the Comptroller and Auditor-General.\n  150.    Form of accounts of the Union and of the States.\n  151.     Audit reports.\n                    PART VI\n                    THE STATES\n                CHAPTER I.  GENERAL\n  152.      Definition.",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "12",
+    "legal_reference": "",
+    "reference_status": "UNCONFIRMED",
+    "reference_confidence_flags": "REFERENCE_UNCONFIRMED",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "procedure_remedy",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "526",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; REFERENCE_UNCONFIRMED; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

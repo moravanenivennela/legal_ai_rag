@@ -1,0 +1,34 @@
+{
+  "form_version": "1.0",
+  "candidate": {
+    "candidate_id": "f8d48d6abe1c9354",
+    "question": "What does Article 204 state about Appropriation Bills?",
+    "proposed_answer": "(1) As soon as may be after the grants under\narticle 203 have been made by the Assembly, there shall be introduced a Bill to\nprovide for the appropriation out of the Consolidated Fund of the State of all\nmoneys required to meet—\n          (a) the grants so made by the Assembly; and\n          (b) the expenditure charged on the Consolidated Fund of the State but\n      not exceeding in any case the amount shown in the statement previously\n       laid before the House or Houses.",
+    "supporting_passage": "204. Appropriation Bills.—(1) As soon as may be after the grants under\narticle 203 have been made by the Assembly, there shall be introduced a Bill to\nprovide for the appropriation out of the Consolidated Fund of the State of all\nmoneys required to meet—\n          (a) the grants so made by the Assembly; and\n          (b) the expenditure charged on the Consolidated Fund of the State but\n      not exceeding in any case the amount shown in the statement previously\n       laid before the House or Houses.\n       (2) No amendment shall be proposed to any such Bill in the House or\neither House of the Legislature of the State which will have the effect of\nvarying the amount or altering the destination of any grant so made or of\nvarying the amount of any expenditure charged on the Consolidated Fund of\nthe State, and the decision of the person presiding as to whether an amendment\nis inadmissible under this clause shall be final.\n       (3) Subject to the provisions of articles 205 and 206, no money shall be\nwithdrawn from the Consolidated Fund of the State except under appropriation\nmade by law passed in accordance with the provisions of this article.",
+    "source_document": "constitution_of_india.pdf",
+    "pdf_page": "124",
+    "legal_reference": "Article 204",
+    "reference_status": "EXPLICIT_NUMBERED_HEADING",
+    "reference_confidence_flags": "EXPLICIT_HEADING_MATCH_NOT_LEGAL_APPROVAL",
+    "evidence_status": "DECLARED_PAGE_MATCH",
+    "question_type": "direct_factual",
+    "duplicate_group_id": "",
+    "duplicate_candidate_ids": "",
+    "duplicate_flags": "",
+    "answer_template_repetition": "False",
+    "priority_rank": "103",
+    "priority_reasons": "DECLARED_PAGE_EVIDENCE_MATCH; EXPLICIT_REFERENCE_CONSISTENT_WITH_PASSAGE; NO_REPEATED_ANSWER_TEMPLATE_FLAG; NONTRIVIAL_EVIDENCE_LENGTH",
+    "legal_correctness_notice": "Not verified. Automated evidence/reference matching and priority scores are not proof of legal correctness."
+  },
+  "review": {
+    "decision": "PENDING",
+    "reviewer": "",
+    "reason": "",
+    "answer_supported_by_passage_confirmation": "NO",
+    "legal_reference_checked_against_original_source": "NO",
+    "edited_answer_rechecked_confirmation": "NO",
+    "edited_answer": "",
+    "reviewed_legal_reference": "",
+    "notes": ""
+  }
+}

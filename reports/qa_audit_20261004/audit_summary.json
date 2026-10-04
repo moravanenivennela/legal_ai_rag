@@ -1,0 +1,32 @@
+{
+  "audit_scope": "Deterministic schema, source/page traceability, citation-text, duplicate, and extractive-answer checks only. VERIFIED does not mean that a human has established legal correctness or that the question is correctly answered.",
+  "input_file": "fine_tuning\\dataset\\qa_partial.jsonl",
+  "split_files": {
+    "train": "fine_tuning\\dataset\\qa_train.jsonl",
+    "validation": "fine_tuning\\dataset\\qa_validation.jsonl",
+    "test": "fine_tuning\\dataset\\qa_test.jsonl"
+  },
+  "source_pdfs": {
+    "constitution": "data\\constitution_of_india.pdf",
+    "consumer_protection": "data\\consumer_protection_act_2019.pdf"
+  },
+  "records_audited": 246,
+  "status_counts": {
+    "VERIFIED": 28,
+    "NEEDS_REVIEW": 218,
+    "REJECTED": 0
+  },
+  "source_distribution": {
+    "constitution": 125,
+    "consumer_protection": 121
+  },
+  "near_duplicate_threshold": 0.9,
+  "duplicate_question_records": 0,
+  "duplicate_answer_records": 18,
+  "near_duplicate_question_records": 25,
+  "prior_review_labels_are_not_used_as_validation": true,
+  "outputs": {
+    "csv": "reports\\qa_audit_20261004\\existing_qa_audit.csv",
+    "summary": "reports\\qa_audit_20261004\\audit_summary.json"
+  }
+}
