@@ -22,3 +22,4 @@ tools/llama.cpp/.git/
 tools/llama.cpp/models/*.gguf
 
 tools/llama.cpp/
+fine_tuning/500_training/checkpoints*/checkpoint-*/optimizer.pt
