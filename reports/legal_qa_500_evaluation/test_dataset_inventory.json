@@ -1,0 +1,14 @@
+{
+  "test_examples": 50,
+  "fields": [
+    "instruction",
+    "input",
+    "output",
+    "evidence",
+    "source",
+    "page",
+    "chunk_id",
+    "question_type"
+  ],
+  "dataset": "fine_tuning\\dataset_500_20261004_214536\\test.jsonl"
+}
