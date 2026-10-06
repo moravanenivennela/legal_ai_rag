@@ -1,0 +1,52 @@
+{
+  "total_units": 582,
+  "constitution": {
+    "units": 475,
+    "usable_units(>=15 words, not omitted)": 464,
+    "omitted_or_repealed": 5,
+    "missing_numbers_vs_expected_range": [
+      238,
+      242,
+      278,
+      291,
+      306,
+      314,
+      362,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391
+    ],
+    "n_missing": 20,
+    "median_words": 124,
+    "max_words": 1272,
+    "splits": {
+      "train": 342,
+      "validation": 46,
+      "test": 87
+    }
+  },
+  "consumer_protection": {
+    "units": 107,
+    "usable_units(>=15 words, not omitted)": 107,
+    "omitted_or_repealed": 0,
+    "missing_numbers_vs_expected_range": [],
+    "n_missing": 0,
+    "median_words": 96,
+    "max_words": 3978,
+    "splits": {
+      "train": 70,
+      "validation": 12,
+      "test": 25
+    }
+  }
+}
